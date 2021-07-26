@@ -1,4 +1,6 @@
 import React from 'react';
+import Button from 'components/Button/Button';
+
 import {
     Box,
     makeStyles
@@ -54,6 +56,7 @@ const QuestionItemContainer = ({ url, hoverURL, label, onClick }) => {
                     )}
                 </Box>
             )}
+            <Button icon={url}></Button>
             <Box py={2}>
                 <Typography variant="body1" align="center">
                     <Box fontWeight={900}>{label}</Box>
