@@ -32,15 +32,33 @@ const ProductContainer = ({ asins, setDetailProduct }) => {
         }
     }, [products]);
 
+    const _getProducts = () => {
+        const newProducts = [];
+        products.forEach((_product) => {
+            if (
+                !newProducts.some(
+                    (product) =>
+                        product.data.ASIN.value === _product.data.ASIN.value
+                )
+            ) {
+                newProducts.push(_product);
+            }
+        });
+
+        return newProducts;
+    };
+
     const matches = useMediaQuery(theme.breakpoints.up('sm'));
+
+    const _products = _getProducts();
 
     // render
     return (
         <Grid container direction="row" spacing={5} justify="center">
             {matches ? (
                 <React.Fragment>
-                    {products.length > 1 &&
-                        products.map((product, index) => (
+                    {_products.length > 1 &&
+                        _products.map((product, index) => (
                             <ProductCard
                                 setDetailProduct={setDetailProduct}
                                 key={`product-item-${index}`}
@@ -54,8 +72,8 @@ const ProductContainer = ({ asins, setDetailProduct }) => {
                     animation="slide"
                     autoPlay={false}
                     indicators={false}>
-                    {products.length > 1 &&
-                        products.map((product, index) => (
+                    {_products.length > 1 &&
+                        _products.map((product, index) => (
                             <ProductCard
                                 setDetailProduct={setDetailProduct}
                                 key={`product-item-${index}`}
@@ -65,11 +83,11 @@ const ProductContainer = ({ asins, setDetailProduct }) => {
                         ))}
                 </MuiCarousel>
             )}
-            {products.length === 1 && products[0] && (
+            {_products.length === 1 && _products[0] && (
                 <ProductDetail
                     ref={productDetailRef}
-                    product={products[0]}
-                    {...products[0].data}
+                    product={_products[0]}
+                    {..._products[0].data}
                 />
             )}
         </Grid>

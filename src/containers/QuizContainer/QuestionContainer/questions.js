@@ -26,15 +26,15 @@ const questions = {
     2: [
         {
             label: 'LAPTOPS',
-            icons: `${base_url}/assets/icons/Edge_to_edge_laptop_display_RGB_Blue.svg`
+            icon: `${base_url}/assets/icons/Edge_to_edge_laptop_display_RGB_Blue.svg`
         },
         {
             label: 'DESKTOPS',
-            icons: `${base_url}/assets/icons/Desktop_tower_design_RGB_blue.svg`
+            icon: `${base_url}/assets/icons/Desktop_tower_design_RGB_blue.svg`
         },
         {
             label: 'ALL-IN-ONE',
-            icons: `${base_url}/assets/icons/Monitor_design_RGB_blue_NT.svg`
+            icon: `${base_url}/assets/icons/Monitor_design_RGB_blue_NT.svg`
         }
     ]
 };

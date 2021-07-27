@@ -82,7 +82,6 @@ function App() {
                     ref={quizRef}
                     setDetailProduct={setDetailProduct}
                 />
-                <IngrdientsContainer setIngredient={setIngredient} />
 
                 <ProductDetailDialog
                     open={open}
@@ -90,11 +89,6 @@ function App() {
                     product={product}
                 />
 
-                <IngredientDetailDialog
-                    open={ingredientOpen}
-                    setOpen={setIngredientOpen}
-                    ingredient={ingredient}
-                />
                 <Hero />
             </ThemeProvider>
         </React.Fragment>

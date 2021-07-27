@@ -1,4461 +1,3475 @@
 const products = [
     {
-        url: 'https://www.amazon.com/gp/product/B015HRFXKM?th=1&psc=1',
+        url: 'https://www.amazon.com/gp/product/B08XB1DL1W?th=1&psc=1',
         data: {
             productTitle: {
-                value:
-                    'Gold Bond Dark Spot Minimizing Cream, White, Fragrance Free, 2 Ounce',
+                value: 'HP Chromebook 14b Laptop, AMD Athlon Silver 3050C Mobile Processor, 4 GB RAM, 64 GB eMMC Storage, 14-inch Full HD IPS Touchscreen, Google Chrome OS, Audio by B&O, Privacy Camera (14b-na0010nr, 2021)',
                 error: null
             },
             ASIN: {
-                value: 'B015HRFXKM',
+                value: 'B08XB1DL1W',
                 error: null
             },
             basePrice: {
                 value: {
                     symbol: '$',
                     currency: 'USD',
-                    amount: 9.34
+                    amount: 433.83
                 },
                 error: null
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/81ZYSkU9zHL._AC_SX425_.jpg',
+                value: 'https://m.media-amazon.com/images/I/81C023QkU7L._AC_SY450_.jpg',
                 error: null
             },
             sizeName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             styleName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             productDescription: {
-                value:
-                    "Gold Bond Dark Spot Moisturizing Cream helps to exfoliate and moisturize to give you a more even-looking skin tone and minimize the appearance of dark spots from sun damage or age. Does not contain bleaching agents. Gold Bond Dark Spot Minimizing cream is a body lotion that intensely hydrates your skin, helping diminish the appearance of dark spots on your arms, chest, hands, and neck. This cream is fragrance-free and gentle enough for daily use. A good skincare routine should be simple, and include a good moisturizing lotion. Gold Bond Ultimate Men's Essentials are skin lotions for men specially formulated for rough, dry skin that can be used on your body, hands and face. While Gold Bond powder may be the best known product, Gold Bond carries medicated and non-medicated body powders, skin creams, lotions, and ointments. From first aid to foot care and face lotion, Gold Bond has you covered. Since 1908, Gold Bond powder has been providing comfort, soothing relief, and skincare to adults and children, from baby's first bath and powder, to eczema or psoriasis relief, to lotion for dry skin or men's 5-in-1 Face Lotion.",
+                value: 'Get all the apps you love with the power to keep them going thanks to the HP Chromebook 14b Laptop. Control the 1080p touchscreen with ease and enjoy theater-worthy Audio by B&O (1). The AMD Athlon™ Silver 3050C Mobile Processor has you rethinking traditional Chromebook performance while the AMD Radeon™ Graphics enables stunning and smooth gaming or streaming (2) (3). Your documents and photos stay far safer than traditional hard drive storage with an integrated 64 GB eMMC multimedia card (4), plus multitasking has never been smoother with 4 GB of RAM. Get the power you need for all-day work or play with an impressive 10 hours and 45 minutes of battery life (5). Your HP laptop is fast, secure, and easy-to-use as the Chrome OS comes equipped with everything you know and love, including access to more than 2.5 million Android apps in the Google Play Store (6). Work or learn remotely and safely with seamlessly integrated features such as the physical privacy shutter for your Wide Vision HD camera and the patented 3-D fingerprint reader (7) (8). Experience the powerful connectivity you need for today’s digital landscape with a Wi-Fi 6 (2x2) and Bluetooth® 5.0 combo (10) (11). Confidently start computing on this intelligently designed Chromebook laptop that is both energy efficient and covered by a 1-year limited hardware warranty. (1) Full High Definition (FHD) content is required to view FHD images. (2) Multi-core is designed to improve the performance of certain software products. Not all customers or software applications will necessarily benefit from the use of this technology. Performance and clock frequency will vary depending on the application workload and your hardware and software configurations. AMD’s numbering is not a measurement of clock speed. AMD and Radeon are trademarks of Advanced Micro Devices, Inc. (3) Shared video memory (UMA) uses part of the total system memory for video performance. System memory dedicated to video performance is not available for other use by other programs. (4) For storage drives, GB = 1 billion bytes. The actual formatted capacity is less. Portion of internal system storage is reserved and not user-accessible. (5) Testing conducted by HP using Google Chrome OS power LoadTest. Battery life will vary and the maximum capacity of the battery will naturally decrease with time and usage. See chromium.org/chromium-os/testing/power-testing for test details. (6) Google Play Store apps are sold separately and not included. Access to the Google Play Store and related apps will be provided as part of a regular OS update. This feature might not be available at the time of purchase; for an update on the Play Store release timing, go to Google.com. ©2020 Google Inc. All rights reserved. Android, Google, and Google Logo are registered trademarks of Google Inc. (7) Features may require software or other 3rd party applications to provide the described functionality. Internet service required and not included. (8) Wireless access point and internet service required and sold separately. Availability of public wireless access points limited. (9) Based on Wi-Fi 5 80MHz and Wi-Fi 6 160MHz minimum requirements when transferring files between two devices connected to the same router. Requires a wireless router, sold separately, that supports 802.11ax (Wi-Fi 6). Only available in countries where 802.11ax is supported. (10) Wireless access point and internet service required and sold separately. Availability of public wireless access points limited. Requires a wireless router, sold separately, that supports 80MHz channels. Wi-Fi 6 (802.11ax) is backwards compatible with prior 802.11 specs. The specifications for Wi-Fi 6 are draft and are not final. If the final specifications differ from the draft specifications, it may affect the ability of the notebook to communicate with other Wi-Fi 6 devices. Only available in countries where 802.11ax is supported. (11) Bluetooth® is a trademark owned by its proprietor and used by Hewlett-Packard Company under license. (12) ENERGY STAR and the ENERGY STAR mark are registered trademarks owned by the U.S. Environmental Protection Agency. (13) Based on U.S. EPEAT® registration according to IEEE 1680.1-2018 EPEAT®. EPEAT® status varies by country. Visit www.epeat.net for more information.',
                 error: null
             },
             productOverview: {
-                value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                value: {
+                    Series: '14b-na0010nr',
+                    Brand: 'HP',
+                    'Specific Uses For Product':
+                        'Multimedia, Personal, Business',
+                    'Screen Size': '14 Inches',
+                    'Operating System': 'Chrome OS'
+                },
+                error: null
             },
             productAbout: {
                 value: [
-                    'HEALTHIER, YOUTHFUL LOOKING SKIN: Gold Bond Dark Spot Moisturizing Cream helps to exfoliate & provide moisturize to give you a more even looking skin tone & minimize the appearance of dark spots from sun damage or age. Does not contain bleaching agents.',
-                    'INTENSIVE MOISTURIZERS: Gold Bond Dark Spot Minimizing cream is a body lotion that intensely hydrates your skin, helping minimize the appearance of dark spots on your arms, chest, hands, & neck. This cream is fragrance free & gentle enough for daily use.',
-                    'GOLD BOND SKIN CARE: Gold Bond is known not just for powder, but for a variety of medicated & non-medicated body powders, skin creams, & ointments. Since 1908, Gold Bond Powder has been providing comfort, soothing relief, & skincare to adults & children.',
-                    'A WELL ROUNDED MEDICINE CABINET: When you or a family member is in pain, sick, hurt, or just generally feeling under the weather, you don’t want to run to the pharmacy. A well stocked home medicine cabinet helps ensure relief is at hand when you need it.',
-                    'ITCHY SKIN CARE: Gold Bond offers ideal skin remedy for itchy & irritated skin. Try our body care, foot care & first aid products for dry skin, foot odor, minor cuts, sunburn, insect bites & other skin issues.'
+                    '',
+                    'EVERYTHING YOU NEED AND LOVE – Equipped with an AMD processor, 14-inch anti-glare display, stereo speakers tuned by the audio experts at B&O, and a long battery life, this HP Chromebook can get more done while having fun.',
+                    'FULL HD TOUCHSCREEN – Control your entertainment with the intuitive touchscreen technology and enjoy crystal-clear visuals thanks to vibrant Full HD and a micro-edge bezel (1).',
+                    'REIMAGINED CHROMEBOOK PERFORMANCE – The AMD Athlon Silver 3050C Mobile Processor delivers responsive and reliable performance as you browse, stream and stay connected with quicker start-up times (2).',
+                    'BORN TO BINGE – Whether it’s games or movies, experience high performance for all your entertainment with AMD Radeon Graphics (3).',
+                    'MEMORY AND STORAGE – An embedded multimedia card provides reliable flash-based, 64 GB of storage while 4 GB of RAM expands your bandwidth and boosts your performance (4).',
+                    'ALL DAY POWER – Work or play while at home or on the go with an impressive 10 hours and 45 minutes of battery life (5).',
+                    'CHROME AND WARRANTY – Keep all your tasks in sync with the easy-to-use Chrome OS, designed to be fast in every possible way, more secure on the web, and with all your favorite Android apps (6). Enjoy greater peace of mind with Google Chromebook’s 1-year limited hardware warranty coverage.',
+                    '',
+                    '',
+                    ''
                 ],
                 error: null
             },
             productDetails: {
-                value: {
-                    'Is Discontinued By Manufacturer :': 'No',
-                    'Product Dimensions :':
-                        '1.69 x 2.56 x 6.75 inches; 1.98 Ounces',
-                    'Item model number :': '41167050804',
-                    'Date First Available :': 'September 17, 2015',
-                    'Manufacturer :': 'Chattem Inc.',
-                    'ASIN :': 'B015HRFXKM',
-                    'Domestic Shipping:':
-                        'Currently, item can be shipped only within the U.S. and to APO/FPO addresses. For APO/FPO shipments, please check with the manufacturer regarding warranty and support issues.',
-                    'International Shipping:':
-                        'This item can be shipped to select countries outside of the U.S. Learn More',
-                    'Best Sellers Rank:': '#80 in Body Creams',
-                    'Customer Reviews:': ''
-                },
-                error: null
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             images: {
                 value: [
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41TIFt59AiL._AC_US40_.jpg',
+                            'https://m.media-amazon.com/images/I/41x5o8qEBgL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81ZYSkU9zHL._AC_SX425_.jpg'
+                            'https://m.media-amazon.com/images/I/81C023QkU7L._AC_SY450_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/419VMCND6RL._AC_US40_.jpg',
+                            'https://m.media-amazon.com/images/I/41P7wr1m0zL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81ZN9F9aOwL._AC_SX425_.jpg'
+                            'https://m.media-amazon.com/images/I/81YhkkS6UuL._AC_SY450_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/5139gBfksHL._AC_US40_.jpg',
+                            'https://m.media-amazon.com/images/I/411UySzARyL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81c4GSMNZ%2BL._AC_SX425_.jpg'
+                            'https://m.media-amazon.com/images/I/81-OVJ4rMmL._AC_SY450_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41rZL6vJPYL._AC_US40_.jpg',
+                            'https://m.media-amazon.com/images/I/514VNGOJ6TL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71YTzYWrSEL._AC_SX425_.jpg'
+                            'https://m.media-amazon.com/images/I/81+RDpkln8L._AC_SY450_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41SoO4Jw-fL._AC_US40_.jpg',
+                            'https://m.media-amazon.com/images/I/41tW64bPj4L._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71UgaKLKe5L._AC_SX425_.jpg'
+                            'https://m.media-amazon.com/images/I/81OOWbcf1UL._AC_SY450_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51bOXXP8IoL._AC_US40_.jpg',
+                            'https://m.media-amazon.com/images/I/41QfmuPL7cL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/91NaBXEfdiL._AC_SX425_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51kXzmS6jmL._AC_US40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81BlH0C-KdL._AC_SX425_.jpg'
+                            'https://m.media-amazon.com/images/I/81Oraqy2A4L._AC_SY450_.jpg'
                     }
                 ],
                 error: null
             },
             priceDetail: {
                 value: {
-                    priceblock_ourprice: '$9.34',
-                    ounce: '($4.67 / Ounce)',
-                    price_block_savings: '$3.55 (28%)'
-                },
-                error: null
-            },
-            ratings: {
-                value: {
-                    rateStar: 'a-icon a-icon-star a-star-4',
-                    acrCustomerReviewText: '1,603 ratings'
-                },
-                error: null
-            }
-        }
-    },
-    {
-        url: 'https://www.amazon.com/gp/product/B00TZ8TH9I?th=1&psc=1',
-        data: {
-            productTitle: {
-                value:
-                    'Gold Bond Ultimate Strength & Resilience Skin Therapy Lotion, Fresh, 13 Ounce',
-                error: null
-            },
-            ASIN: {
-                value: 'B00TZ8TH9I',
-                error: null
-            },
-            basePrice: {
-                value: {
-                    symbol: '$',
-                    currency: 'USD',
-                    amount: 9.34
-                },
-                error: null
-            },
-            mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/719XVyaKMJL._SY355_.jpg',
-                error: null
-            },
-            sizeName: {
-                value: 'Strength and Resilience 13 Ounce',
-                error: null
-            },
-            styleName: {
-                value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
-            },
-            productDescription: {
-                value:
-                    'Gold Bond Ultimate Skin Therapy Lotion, Strength and Resilience, Formulated with a blend of vital nutrients to help replenish moisture. Improves the overall appearance of aging skin. Helps the skin to look stronger, feel more resilient. Fragrance free.',
-                error: null
-            },
-            productOverview: {
-                value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
-            },
-            productAbout: {
-                value: [
-                    'STENGTH & RESILIENCE: Specially formulated for aging & mature skin, this lotion features a blend of 7 plumping moisturizers & 3 vitamins plus vital proteins & lipids to help replenish moisture.',
-                    "LONG LASTING MOISTURIZATION: This lotion offers 24-hour moisturization. It's dermatologist tested, hypoallergenic & non-comedogenic. Our quick-absorbing formula is non-greasy with fresh clean scent.",
-                    'ULTIMATE FORMULA: Our Ultimate line offers a variety of specialized lotions & creams specifically formulated for your skin care needs, with 7 moisturizers & 3 vitamins plus special ingredients.',
-                    "HEALING SINCE 1908: For over a century Gold Bond products have provided soothing relief to the whole family, from baby's first bath & powder, to eczema or psoriasis relief, to lotion for dry skin.",
-                    'GOLD BOND QUALITY: In addition to our top-selling medicated body powder, foot powder & foot cream, Gold Bond offers skin care products to moisturize, soften & protect your hands, feet, face & body.',
-                    'Skin type: Sensitive'
-                ],
-                error: null
-            },
-            productDetails: {
-                value: {
-                    'Is Discontinued By Manufacturer :': 'No',
-                    'Product Dimensions :':
-                        '3.13 x 2.13 x 8.5 inches; 14.56 Ounces',
-                    'UPC :': '041167056202 755332250219 787734684026',
-                    'Manufacturer :': 'Chattem Inc.',
-                    'ASIN :': 'B00TZ8TH9I',
-                    'Domestic Shipping:':
-                        'Currently, item can be shipped only within the U.S. and to APO/FPO addresses. For APO/FPO shipments, please check with the manufacturer regarding warranty and support issues.',
-                    'International Shipping:':
-                        'This item can be shipped to select countries outside of the U.S. Learn More',
-                    'Best Sellers Rank:': '#69 in Body Lotions',
-                    'Customer Reviews:': ''
-                },
-                error: null
-            },
-            images: {
-                value: [
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41ZyvJm7pqL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/719XVyaKMJL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51H8MUdSHfL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81LjBVnkw5L._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51kVz-ElfdL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81TU5WCKR8L._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41%2BrMDTx%2ByL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71cGji9SZKL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51bLxa6lhvL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/91EYus77jaL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41zncInoS8L._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81UkvVzD59L._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51bOXXP8IoL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/91NaBXEfdiL._SY355_.jpg'
-                    }
-                ],
-                error: null
-            },
-            priceDetail: {
-                value: {
-                    priceblock_ourprice: '$9.34',
-                    ounce: '($0.72 / Ounce)',
-                    price_block_savings: '$1.25 (12%)'
-                },
-                error: null
-            },
-            ratings: {
-                value: {
-                    rateStar: 'a-icon a-icon-star a-star-4-5',
-                    acrCustomerReviewText: '4,497 ratings'
-                },
-                error: null
-            }
-        }
-    },
-    {
-        url: 'https://www.amazon.com/gp/product/B08CJ74R3S?th=1&psc=1',
-        data: {
-            productTitle: {
-                value:
-                    'Gold Bond Ultimate Crepe Corrector 8 oz Age Defense Smoothing Concentrate Skin Therapy Lotion, 1 Count, (Pack of 24)',
-                error: null
-            },
-            ASIN: {
-                value: 'B08CJ74R3S',
-                error: null
-            },
-            basePrice: {
-                value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="priceblock_ourprice"]"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
-            },
-            mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/61MjqR0DpDL._SY606_.jpg',
-                error: null
-            },
-            sizeName: {
-                value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
-            },
-            styleName: {
-                value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
-            },
-            productDescription: {
-                value:
-                    "As we age, skin can lose its ability to retain moisture. The result is skin that looks finely wrinkled, thin and dry, like crepe paper. That's why there's Gold Bond Crepe Corrector Age Defense Smoothing Concentrate Skin Therapy Lotion. Formulated with 7 moisturizers and 3 vitamins, this lotion for crepey skin is clinically shown to improve skin firmness and elasticity in 2 weeks. In fact, 82% had visible improvement in crepey skin on back of hands and arms in just 2 days. Gold Bond Crepe Corrector lotion features a unique smoothing concentrate made with nourishing omega-fatty acids, powerful botanicals and protective anti-oxidants. It also provides lasting hydration for 24 hours to help visibly firm and plump dry, aging skin. Gold Bond Crepe Corrector Lotion is suitable for all skin types. Best of all, it's hypoallergenic, fragrance-free and dermatologist tested. Enjoy skin as young as you feel in just 2 days* with Gold Bond Age Defense Crepe Corrector lotion. *Refers to improvement in crepey skin",
-                error: null
-            },
-            productOverview: {
-                value: {
-                    Brand: 'Gold Bond',
-                    'Skin Type': 'Dry',
-                    'Item Weight': '0.56 Pounds',
-                    'Item Dimensions LxWxH': '3 x 1.88 x 7.63 inches'
-                },
-                error: null
-            },
-            productAbout: {
-                value: [
-                    'CONTAINS: One (1) 8-oz. bottle of Gold Bond Ultimate Crepe Corrector Age Defense Smoothing Concentrate',
-                    'SMOOTHES CREPEY SKIN: Gold Bond Crepe Corrector Lotion helps diminish visible signs of crepey skin, such as fine, thin wrinkles',
-                    'NOURISHING OMEGA-FATTY ACIDS: This unique smoothing concentrate features protective anti-oxidants, powerful botanicals and nourishing omega-fatty acids',
-                    '24 HOUR MOISTURE: Gold Bond Lotion for Crepey Skin moisturizes skin for 24 hours for lasting hydration',
-                    'DERMATOLOGIST TESTED: This lightweight lotion is fragrance free, fast absorbing, non-greasy and tested by dermatologists'
-                ],
-                error: null
-            },
-            productDetails: {
-                value: {
-                    'Product Dimensions :':
-                        '3 x 1.88 x 7.63 inches; 8.94 Ounces',
-                    'Manufacturer :': 'AmazonUs/NC1NB',
-                    'ASIN :': 'B08CJ74R3S',
-                    'Best Sellers Rank:':
-                        '#344 in Facial Creams & Moisturizers',
-                    'Customer Reviews:': ''
-                },
-                error: null
-            },
-            images: {
-                value: [
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/31v5yeQOadL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/61MjqR0DpDL._SY606_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/31lpTnhgJJL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/61xbgo0jqoL._SY550_.jpg'
-                    }
-                ],
-                error: null
-            },
-            priceDetail: {
-                value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="price"]"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
-            },
-            ratings: {
-                value: {
-                    rateStar: 'a-icon a-icon-star a-star-4-5',
-                    acrCustomerReviewText: '43 ratings'
-                },
-                error: null
-            }
-        }
-    },
-    {
-        url: 'https://www.amazon.com/gp/product/B07W8Z1TY7?th=1&psc=1',
-        data: {
-            productTitle: {
-                value:
-                    'Gold Bond Neck and Chest Age Defense Cream 1.7 oz, With Broad Spectrum SPF 20 Sunscreen',
-                error: null
-            },
-            ASIN: {
-                value: 'B07W8Z1TY7',
-                error: null
-            },
-            basePrice: {
-                value: {
-                    symbol: '$',
-                    currency: 'USD',
-                    amount: 9.99
-                },
-                error: null
-            },
-            mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/81rmixf%2BbwL._SY355_.jpg',
-                error: null
-            },
-            sizeName: {
-                value: '1.7 Ounce (Pack of 1)',
-                error: null
-            },
-            styleName: {
-                value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
-            },
-            productDescription: {
-                value:
-                    'The skin on your neck and chest is more delicate than other areas. Help give it the care and nourishment it needs to look its best with Gold Bond. Gold Bond Neck & Chest Age Defense Cream with Broad Spectrum SPF 20 sunscreen to help protect against visible signs of premature aging from daily sun exposure*. Made with seven moisturizers and three vitamins, plus hyaluronic acid and Broad Spectrum SPF 20, this Gold Bond Body Treatment Cream contains a high-performing firming complex and stress response proteins to support moisture retention and improve skin’s texture. 80% of users had improved appearance of lines and wrinkles on neck and chest skin. Your skin is a champion. One that never settles for silver. Gold Bond is high performance skin care for real life so you can be your best while keeping your skin at its best. *When used as directed with other sun protection measures.',
-                error: null
-            },
-            productOverview: {
-                value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
-            },
-            productAbout: {
-                value: [
-                    'INCLUDES: One (1) 2-ounce tube of Gold Bond Neck & Chest Age Defense Cream With SPF 20',
-                    'SKIN-FIRMING COMPLEX: This skin-firming cream improves the appearance of skin’s firmness, texture and elasticity',
-                    'HELPS PROTECT: Broad Spectrum SPF 20 helps defend against damaging effects of daily sun exposure* *when used as directed with other sun protection measures',
-                    'MOISTURE RETENTION INGREDIENTS: Hyaluronic Acid helps skin retain moisture while the advanced hydration blend draws in moisture',
-                    'FRAGRANCE FREE: Gold Bond Cream for Neck & Chest has no fragrance and has no sunscreen odor'
-                ],
-                error: null
-            },
-            productDetails: {
-                value: {
-                    'Product Dimensions :':
-                        '2.56 x 1.69 x 6.75 inches; 1.7 Ounces',
-                    'UPC :': '041167043509',
-                    'Manufacturer :': 'AmazonUs/CHMZ7',
-                    'ASIN :': 'B07W8Z1TY7',
-                    'Best Sellers Rank:':
-                        '#110 in Neck & Décolleté Moisturizers',
-                    'Customer Reviews:': ''
-                },
-                error: null
-            },
-            images: {
-                value: [
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41fkBaUItPL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81rmixf%2BbwL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51wMQZa7zyL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81ArUAho5JL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/5157LW5B0uL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/91oc61Enl1L._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/415yKyOmW2L._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81ZZtJB8kkL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41Qo7ftlyxL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71lUngJaYJL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51bOXXP8IoL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/91NaBXEfdiL._SY355_.jpg'
-                    }
-                ],
-                error: null
-            },
-            priceDetail: {
-                value: {
-                    priceblock_ourprice: '$9.99',
-                    ounce: '($5.88 / Ounce)'
+                    priceblock_ourprice: '$433.83',
+                    ounce: '& FREE Returns',
+                    price_block_savings: '$36.16 (8%)'
                 },
                 error: null
             },
             ratings: {
                 value: {
                     rateStar: 'a-icon a-icon-star a-star-3-5',
-                    acrCustomerReviewText: '6 ratings'
+                    acrCustomerReviewText: '3 ratings'
                 },
                 error: null
             }
         }
     },
     {
-        url: 'https://www.amazon.com/gp/product/B01B5D3VOC?th=1&psc=1',
+        url: 'https://www.amazon.com/gp/product/B08PL38TT2?th=1&psc=1',
         data: {
             productTitle: {
-                value: 'Gold Bond Ultimate Neck & Chest Firming Cream, 2 Ounce',
+                value: 'HP Desktop PC, Intel Pentium Gold G6400 Processor, 8 GB of RAM, 256 GB SSD Storage, Windows 10 Home, High-Speed Performance Computer, 8 USB Ports, Business, Study, Videos, & Gaming (M01-F1014, 2020)',
                 error: null
             },
             ASIN: {
-                value: 'B01B5D3VOC',
+                value: 'B08PL38TT2',
+                error: null
+            },
+            basePrice: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="priceblock_ourprice"]"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
+            },
+            mainImage: {
+                value: 'https://images-na.ssl-images-amazon.com/images/I/71%2BfKQAJzFL._AC_SY450_.jpg',
+                error: null
+            },
+            sizeName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
+            },
+            styleName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
+            },
+            productDescription: {
+                value: 'The HP Desktop PC makes work and study effortless. This computer’s modern design with the included black wired mouse and keyboard combo fits perfectly and stylishly into any room. Content creation flows freely with the Intel® Pentium® Gold G6400 processor (1). Watch as graphics (2) appear more vibrant than ever thanks to Intel® UHD Graphics 630, from gaming to streaming, you’ll get much more out of your entertainment. Store documents, presentations, videos, and so much more with 8 GB of RAM (3) and 256 GB PCIe® NVMe™ M.2 Solid State Drive (4). 8 Conveniently located USB ports allow you to plug in your favorite devices. Keep in touch with friends and family with Realtek Wi-Fi 5 (1x1) and Bluetooth® 4.2 Combo (5) Seamlessly navigate through tabs, programs, and documents with the phenomenal Windows 10 (6) operating system. Backed by over 230 tests, (7) this HP computer can be trusted to continuously perform at the highest level. Work and play with peace of mind knowing that your investment is protected through HP’s Hardware Limited 1-Year Warranty. (1) Multi-core is designed to improve performance of certain software products. Not all customers or software applications will necessarily benefit from the use of this technology. Performance and clock frequency will vary depending on the application workload and your hardware and software configurations. Intel’s numbering, branding, and/or naming is not a measurement of higher performance. Intel, Pentium, Intel Core, Celeron, Intel logo, and the Intel Inside logo are trademarks of Intel Corporation in the U.S. and other countries. (2) Part of the total system memory (RAM) is used for graphics/video performance. System memory dedicated to graphics/video performance is not available for other use by other programs. (3) Up to 512MB of main system memory may be allocated to support video graphics. (4) Actual formatted capacity is less. A portion of internal storage is reserved for preloaded content. Based on HP internal testing using CrystalDiskMark benchmarking software. Performance is sequentially faster (read-only) compared to traditional 7,200 rpm HDD. (5) Wireless access point and internet service required and sold separately. Availability of public wireless access points limited. Wi-Fi 5 (802.11ac) is backwards compatible with prior Wi-Fi 5 specs. Bluetooth® is a trademark owned by its proprietor and used by Hewlett-Packard Company under license. (6) Not all features are available in all editions or versions of Windows. Systems may require upgraded and/or separately purchased hardware, drivers, software, or BIOS update to take full advantage of Windows functionality. Windows 10 is automatically updated, which is always enabled. ISP fees may apply and additional requirements may apply over time for updates. See http://www.microsoft.com (7) HP Total Test Process testing is not a guarantee of future performance under these test conditions. Damage under the HP Total Test Process test conditions or any accidental damage requires an optional HP Accidental Damage Protection Care Pack.',
+                error: null
+            },
+            productOverview: {
+                value: {
+                    'Specific Uses For Product': 'Personal, Business',
+                    Series: 'M01-F1014',
+                    'Ram Memory Installed Size': '8 GB',
+                    'Operating System': 'Windows 10 Home',
+                    Processor: '4 GHz pentium'
+                },
+                error: null
+            },
+            productAbout: {
+                value: [
+                    '',
+                    'REMOTE WORK-READY - Study or work from home with an undeniably reliable and stylish PC from a brand that you can trust',
+                    'FUNCTIONAL DESIGN - Sleek construction accompanied by a USB black wired mouse and keyboard combo allow this HP to seamlessly fit into any work or living space',
+                    'LIGHTNING-FAST PROCESSOR & CRYSTAL CLEAR IMAGING - Content creation is made simple with the Intel Pentium Gold G6400 processor (1) and images are brought to life with Intel UHD Graphics 630. (2)',
+                    'KEEP THE ENTERTAINMENT GOING - Get the most from your gaming and streaming experience with stellar graphics provided by Intel UHD Graphics 630',
+                    'MEMORY AND STORAGE - This desktop’s performance gets amped up thanks to the bandwidth from 8 GB of RAM (3) and 256 GB PCIe NVMe M.2 Solid State Drive lets you store documents, videos, and so much more. (4)',
+                    'RELIABLE WIFI ACCESS - Staying in touch with colleagues and loved ones is a breeze with wifi powered by Realtek Wi-Fi 5 (1x1) and Bluetooth 4.2 Combo (5)',
+                    'STAY CONNECTED - 8 USB ports allow you to easily connect your favorite devices',
+                    '',
+                    '',
+                    ''
+                ],
+                error: null
+            },
+            productDetails: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
+            },
+            images: {
+                value: [
+                    {
+                        thumbnailSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/41bFRiEw1bL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/71%2BfKQAJzFL._AC_SY450_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/4199tQZICkL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/81mTRP4FDNL._AC_SY450_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/41u8HT3zS4L._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/81GAPoHKwkL._AC_SY450_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/41w42L55VJL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/810WA4g1yIL._AC_SY450_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/418bz1q1ejL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/81Ws-pUHgjL._AC_SY450_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/41pQ9Dhw3CL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/71oiFiR3YxL._AC_SY450_.jpg'
+                    }
+                ],
+                error: null
+            },
+            priceDetail: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#priceblock_ourprice_row"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-4',
+                    acrCustomerReviewText: '119 ratings'
+                },
+                error: null
+            }
+        }
+    },
+    {
+        url: 'https://www.amazon.com/gp/product/B0849P8D69?th=1&psc=1',
+        data: {
+            productTitle: {
+                value: 'HP 22-inch All-in-One Desktop Computer, AMD Athlon Silver 3050U Processor, 4 GB RAM, 256 GB SSD, Windows 10 Home (22-dd0010, White), Snow White',
+                error: null
+            },
+            ASIN: {
+                value: 'B0849P8D69',
                 error: null
             },
             basePrice: {
                 value: {
                     symbol: '$',
                     currency: 'USD',
-                    amount: 9.34
+                    amount: 398
                 },
                 error: null
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/815uGNK9suL._SY355_.jpg',
+                value: 'https://m.media-amazon.com/images/I/71RLwsjsGcL._AC_SY450_.jpg',
                 error: null
             },
             sizeName: {
-                value: '2 Ounce (Pack of 1)',
-                error: null
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             styleName: {
-                value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                value: '22-dd0010',
+                error: null
             },
             productDescription: {
-                value:
-                    'Gold Bond Ultimate 7 Intensive Moisturizers Firming Neck and Chest Cream, Uniquely formulated with a blend of key ingredients to deliver intense, long-lasting hydration. Improves the appearance of skins firmness, texture and elasticity for suppler, youthful-looking skin. High-Performance Firming Complex combines Salicylic Acid (BHA), Stress Response Proteins and an Advance Hydration Blend. Helps exfoliate, boost moisture retention and draw moisture to the delicate skin on the neck and chest. Provides 24 hour moisture. Visibly improves firmness and texture of the delicate skin on the neck and chest. Reveals suppler, youthful-looking skin.',
+                value: 'With an AMD processor and up to 4 GB of RAM, seamlessly go from sending work emails to uploading vacation photos. This All-in-One PC displays more with a three-sided micro-edge display and has an adjustable tilt stand, allowing you to work from multiple perspectives. This PC includes an HD camera with a slide switch for privacy, plus built-in speakers and easy Wi-Fi connectivity. Now, you can stay in touch with family and friends while maintaining peace of mind.',
                 error: null
             },
             productOverview: {
                 value: {
-                    Ingredients:
-                        'Water, Hydroxyethyl Urea, Glycerin, Dimethicone, Sodium Acryloyldimethyl Taurate Copolymer, Hydroxyethyl Acry… See more',
-                    Scent: 'Fragrance Free',
-                    'Item Form': 'Cream',
-                    Brand: 'Gold Bond',
-                    'Skin Type': 'Sensitive'
+                    'Specific Uses For Product': 'Personal, Gaming, Business',
+                    Series: '9ED50AA#ABA',
+                    'Ram Memory Installed Size': '4 GB',
+                    'Operating System': 'Windows 10 Home',
+                    'CPU Model': 'Athlon'
                 },
                 error: null
             },
             productAbout: {
                 value: [
-                    'Dermatologist tested.',
-                    'Fragrance free.',
-                    'Non-greasy formula.'
+                    '',
+                    'Windows 10 Home: Do great things confidently with the familiar feel of Windows – only better',
+                    'Fast processor: AMD Athlon Silver 3050U Processor, Dual-Core, 2.30 GHz',
+                    'Memory and internal storage: 4 GB DDR4-2400 SDRAM (upgradable to 16 GB), 256 GB PCIe NVMe M.2 Solid State Drive',
+                    'Environmentally conscious: Low halogen, mercury-free display backlights, arsenic-free display glass',
+                    'Integrated display: 21.5" diagonal widescreen FHD (1920 x 1080) VA ZBD anti-glare WLED-backlit three-sided micro-edge monitor',
+                    'Stereo speakers: Pump up the volume to your favorite music, movie or game',
+                    'HP Privacy Camera: The pop-up webcam is only enabled when in use, securing your privacy',
+                    '',
+                    '',
+                    ''
                 ],
                 error: null
             },
             productDetails: {
-                value: {
-                    'Is Discontinued By Manufacturer :': 'No',
-                    'Product Dimensions :':
-                        '4.8 x 1.9 x 8.4 inches; 3.21 Ounces',
-                    'UPC :': '041167043202 764007268022',
-                    'Manufacturer :': 'Chattem Inc.',
-                    'ASIN :': 'B01B5D3VOC',
-                    'Best Sellers Rank:': '#14 in Body Creams',
-                    'Customer Reviews:': ''
-                },
-                error: null
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             images: {
                 value: [
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41gmoC1rJgL._SS40_.jpg',
+                            'https://m.media-amazon.com/images/I/41gv72UbuYL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/815uGNK9suL._SY355_.jpg'
+                            'https://m.media-amazon.com/images/I/71RLwsjsGcL._AC_SY450_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41GVrkJWhKL._SS40_.jpg',
+                            'https://m.media-amazon.com/images/I/41FX8e6OV0L._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81-Zl%2BKGQ1L._SY355_.jpg'
+                            'https://m.media-amazon.com/images/I/81JTY+o6vdL._AC_SY450_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51rqxMp2BOL._SS40_.jpg',
+                            'https://m.media-amazon.com/images/I/51gYBhS6qdL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/91UA9GytKNL._SY355_.jpg'
+                            'https://m.media-amazon.com/images/I/81dOKM3CSSL._AC_SY450_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/415yKyOmW2L._SS40_.jpg',
+                            'https://m.media-amazon.com/images/I/417aZK9uVxL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81ZZtJB8kkL._SY355_.jpg'
+                            'https://m.media-amazon.com/images/I/81cGW+v8uEL._AC_SY450_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41Qo7ftlyxL._SS40_.jpg',
+                            'https://m.media-amazon.com/images/I/41MpH5esYFL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71lUngJaYJL._SY355_.jpg'
+                            'https://m.media-amazon.com/images/I/71wCtJkPaFL._AC_SY450_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51bOXXP8IoL._SS40_.jpg',
+                            'https://m.media-amazon.com/images/I/51pwiBFeLpL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/91NaBXEfdiL._SY355_.jpg'
+                            'https://m.media-amazon.com/images/I/81XxeIrkljL._AC_SY450_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/31-xohvXVSL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/61adsMemurL._AC_SY450_.jpg'
                     }
                 ],
                 error: null
             },
             priceDetail: {
                 value: {
-                    priceblock_ourprice: '$9.34',
-                    ounce: '($4.67 / Ounce)',
-                    price_block_savings: '$6.65 (42%)'
+                    priceblock_ourprice: '$398.00',
+                    ounce: '& FREE Returns',
+                    price_block_savings: '$61.99 (13%)'
                 },
                 error: null
             },
             ratings: {
                 value: {
                     rateStar: 'a-icon a-icon-star a-star-4-5',
-                    acrCustomerReviewText: '4,148 ratings'
+                    acrCustomerReviewText: '1,457 ratings'
                 },
                 error: null
             }
         }
     },
     {
-        url: 'https://www.amazon.com/gp/product/B07BRQ2JZF?th=1&psc=1',
+        url: 'https://www.amazon.com/gp/product/B08KGZ79N6?th=1&psc=1',
         data: {
             productTitle: {
-                value:
-                    'Gold Bond Cracked Skin Fill & Protect, 0.75 Ounce (Pack of 1)',
+                value: 'HP 15 Laptop, 11th Gen Intel Core i5-1135G7 Processor, 8 GB RAM, 256 GB SSD Storage, 15.6” Full HD IPS Display, Windows 10 Home, HP Fast Charge, Lightweight Design (15-dy2021nr, 2020)',
                 error: null
             },
             ASIN: {
-                value: 'B07BRQ2JZF',
+                value: 'B08KGZ79N6',
                 error: null
             },
             basePrice: {
                 value: {
                     symbol: '$',
                     currency: 'USD',
-                    amount: 6.96
+                    amount: 595.99
                 },
                 error: null
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/81NYXLk7r0L._AC_SX425_.jpg',
+                value: 'https://m.media-amazon.com/images/I/81skV7BufjL._AC_SY450_.jpg',
                 error: null
             },
             sizeName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             styleName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             productDescription: {
-                value:
-                    'Gold Bond Cracked Skin Fill & Protect, 0.75 oz (Pack of 1)',
-                error: null
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#productDescription > p"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             productOverview: {
-                value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                value: {
+                    Series: 'HP 15 Laptop',
+                    Brand: 'HP',
+                    'Specific Uses For Product': 'Personal, Business',
+                    'Screen Size': '15.6 Inches',
+                    'Operating System': 'Windows 10 Home'
+                },
+                error: null
             },
             productAbout: {
                 value: [
-                    'Fills cracked skin with protective cream.',
-                    'Unique precision tip applicator.',
-                    'Lasts Through Hand Washing',
-                    'Conditioning Ceramides and Moisturizing Jojoba',
-                    'Protects and Soothes'
+                    '',
+                    'TAKE IT ANYWHERE – With its thin and light design, 6.5 millimeter micro-edge bezel display, and 82% screen to body ratio, you can take this PC anywhere and see more of what you love (1).',
+                    'REVOLUTIONARY ENTERTAINMENT – Enjoy ultra-wide viewing angles and seamlessly perform multi-monitor set-ups with a 15.6-inch, Full HD, IPS, micro-edge, and anti-glare display (2).',
+                    'IMPRESSIVE GRAPHICS – The Intel Iris Xe Graphics gives you a new level of performance with crisp, stunning visuals, plus the convenience of a thin and light laptop (3).',
+                    'UNSTOPPABLE PERFORMANCE – Get things done fast with the 11th Generation Intel Core i5-1135G7 processor, which delivers instant responsiveness and best-in-class connectivity (4).',
+                    'MEMORY AND STORAGE – Get up to 15x faster performance than a traditional hard drive with 256 GB PCIe NVMe M.2 SSD storage and experience improved multitasking with higher bandwidth thanks to 8 GB of RAM (5).',
+                    'WORK ON THE GO – Get work done on the go with a long battery life of up to 7 hours and 15 minutes (6), while HP Fast Charge lets you go from 0 to 50% charge in approximately 45 minutes (7).',
+                    'OS AND WARRANTY – Do more with greater peace of mind thanks to the familiar feel of the Windows 10 Home operating system and the HP 1-year limited hardware warranty (8).',
+                    '',
+                    '',
+                    ''
                 ],
                 error: null
             },
             productDetails: {
-                value: {
-                    'Is Discontinued By Manufacturer :': 'No',
-                    'Product Dimensions :':
-                        '2.5 x 0.88 x 4.63 inches; 0.8 Ounces',
-                    'Item model number :': 'I00098775',
-                    'Date First Available :': 'March 28, 2018',
-                    'Manufacturer :': 'Chattem Inc.',
-                    'ASIN :': 'B07BRQ2JZF',
-                    'Domestic Shipping:':
-                        'Currently, item can be shipped only within the U.S. and to APO/FPO addresses. For APO/FPO shipments, please check with the manufacturer regarding warranty and support issues.',
-                    'International Shipping:':
-                        'This item can be shipped to select countries outside of the U.S. Learn More',
-                    'Best Sellers Rank:': '#299 in Foot Health Care Products',
-                    'Customer Reviews:': ''
-                },
-                error: null
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             images: {
                 value: [
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51GhhPVu0CL._AC_US40_.jpg',
+                            'https://m.media-amazon.com/images/I/41B9o0e+BFL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81NYXLk7r0L._AC_SX425_.jpg'
+                            'https://m.media-amazon.com/images/I/81skV7BufjL._AC_SY450_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41fsfJO3m7L._AC_US40_.jpg',
+                            'https://m.media-amazon.com/images/I/41MuIZnsflL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81MHW86CdwL._AC_SX425_.jpg'
+                            'https://m.media-amazon.com/images/I/81YWu8ohvbL._AC_SY450_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51XtJEpz4oL._AC_US40_.jpg',
+                            'https://m.media-amazon.com/images/I/41V+3125LWL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81GUqBjS2qL._AC_SX425_.jpg'
+                            'https://m.media-amazon.com/images/I/81xWpvGSfNL._AC_SY450_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51HnTKt2QML._AC_US40_.jpg',
+                            'https://m.media-amazon.com/images/I/41DUnmOVPZS._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/815YmB29FeL._AC_SX425_.jpg'
+                            'https://m.media-amazon.com/images/I/81ikM81zLlS._AC_SY450_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41YmVSQZ3oL._AC_US40_.jpg',
+                            'https://m.media-amazon.com/images/I/41QBtCPM9ML._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/815iEHCR0TL._AC_SX425_.jpg'
+                            'https://m.media-amazon.com/images/I/81YTj+qtptL._AC_SY450_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51MdFrX26UL._AC_US40_.jpg',
+                            'https://m.media-amazon.com/images/I/41DEVsjIF4L._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/7139bZSGOnL._AC_SX425_.jpg'
+                            'https://m.media-amazon.com/images/I/81HXtXwgrcL._AC_SY450_.jpg'
                     }
                 ],
                 error: null
             },
             priceDetail: {
                 value: {
-                    priceblock_ourprice: '$6.96',
-                    ounce: '($9.28 / Ounce)',
-                    price_block_savings: '$2.83 (29%)'
+                    priceblock_ourprice: '$595.99',
+                    ounce: '& FREE Returns',
+                    price_block_savings: '$64.00 (10%)'
                 },
                 error: null
             },
             ratings: {
                 value: {
                     rateStar: 'a-icon a-icon-star a-star-4-5',
-                    acrCustomerReviewText: '691 ratings'
+                    acrCustomerReviewText: '818 ratings'
                 },
                 error: null
             }
         }
     },
     {
-        url: 'https://www.amazon.com/gp/product/B07JBLZ62H?th=1&psc=1',
+        url: 'https://www.amazon.com/gp/product/B08VX1HLVF?th=1&psc=1',
         data: {
             productTitle: {
-                value:
-                    'Gold Bond Ultimate Cracked Skin Relief Fill & Protect Cream, Precision Tip, 0.75 Oz',
+                value: 'HP Pavilion Desktop PC, 11th Gen Intel Core i7-11700 Processor, 16 GB RAM, 256 GB SSD, 1 TB SATA Hard Drive, Windows 10 Home, Wi-Fi 6 & Bluetooth 5.0 Combo, 9 USB Ports, Sleek Tower (TP01-2070, 2021)',
                 error: null
             },
             ASIN: {
-                value: 'B07JBLZ62H',
+                value: 'B08VX1HLVF',
                 error: null
             },
             basePrice: {
-                value: {
-                    symbol: '$',
-                    currency: 'USD',
-                    amount: 5.94
-                },
-                error: null
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="priceblock_ourprice"]"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/81iRL%2BeRybL._SY355_.jpg',
+                value: 'https://m.media-amazon.com/images/I/81upCy1IE2S._AC_SY450_.jpg',
                 error: null
             },
             sizeName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             styleName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             productDescription: {
-                value:
-                    'Gold Bond Ultimate cracked skin relief fill and protect cream, precision tip, its targeted tip applicator precisely fills in dry cracks. Nourishing skin protectant cream. Help skin look and feel healthier. Protects skin to help promote skin healing. Non greasy, fast acting formula.',
+                value: 'Everything you do feels fast and easy with the HP Pavilion Desktop PC. Ditch your old PC tower in favor of the sleek and compact desktop that comfortably fits into most spaces and gives you fast access to conveniently placed ports. Upgrade your performance with the latest processing architecture courtesy of the 11th Generation Intel® Core™ i7-11700 processor (1). Enjoy movies and games at their highest quality with the Intel® UHD Graphics 750, ready for the newest 4K content (2) (3). Multitasking is made easy with 16 GB of RAM (4), while the dual storage configuration gives you an overall snappier experience plus plenty of storage for all your favorite memories (5) (6) (7). With a total of 9 USB ports, including a USB-C® (8), you can easily connect additional devices, consoles, or external storage drives. Work with confidence as your PC desktop is outfitted with Windows 10 Home (10), tested over 230 individual times (11), and backed by a 1-year limited hardware warranty. Stay effortlessly connected, even in multi-device households, with the powerful Wi-Fi 6 (2x2) and Bluetooth® 5.0 combo plus MU-MIMO support (12) (13). The included USB black wired keyboard and mouse help you start computing right as you open the box. Enjoy 5.1 surround sound output and be immersed in high-quality audio with every show you stream or game you play. (1) Multi-core is designed to improve performance of certain software products. Not all customers or software applications will necessarily benefit from the use of this technology. Performance and clock frequency will vary depending on the application workload and your hardware and software configurations. Intel’s numbering, branding, and/or naming is not a measurement of higher performance. Intel, Pentium, Intel Core, Celeron, Intel logo, and the Intel Inside logo are trademarks of Intel Corporation in the U.S. and other countries. (2) Internet service required and not included. Graphics output may be limited based on the maximum resolution of the display. (3) Part of the total system memory (RAM) is used for graphics/video performance. System memory dedicated to graphics/video performance is not available for other use by other programs. (4) Up to 512MB of main system memory may be allocated to support video graphics. (5) Actual formatted capacity is less. A portion of internal storage is reserved for preloaded content. (6) Based on HP internal testing using CrystalDiskMark benchmarking software. Performance is sequentially faster (read-only) compared to traditional 7,200 rpm HDD. (7) For storage drives, TB = 1 trillion bytes. Actual formatted capacity is less. Up to 35GB of drive is reserved for system recovery software. (8) USB Type-C® and USB-C® are trademarks of USB Implementers Forum. (9) Actual throughput may vary. (10) Not all features are available in all editions or versions of Windows. Systems may require upgraded and/or separately purchased hardware, drivers, software, or BIOS update to take full advantage of Windows functionality. Windows 10 is automatically updated, which is always enabled. ISP fees may apply and additional requirements may apply over time for updates. See microsoft.com (11) HP Total Test Process testing is not a guarantee of future performance under these test conditions. Damage under the HP Total Test Process test conditions or any accidental damage requires an optional HP Accidental Damage Protection Care Pack. (12) Wireless access point and internet service required and sold separately. Availability of public wireless access points limited. Wi-Fi 6 (802.11ax) is backwards compatible with prior 802.11 specs. The specifications for Wi-Fi 6 are draft and are not final. If the final specifications differ from the draft specifications, it may affect the ability of the notebook to communicate with other Wi-Fi 6 devices. Only available in countries where 802.11ax is supported. (13) Bluetooth® is a trademark owned by its proprietor and used by Hewlett-Packard Company under license. (14) Based on Wi-Fi 5 80MHz and Wi-Fi 6 160MHz minimum requirements when transferring files between two devices connected to the same router. Requires a wireless router, sold separately, that supports 802.11ax (Wi-Fi 6). Only available in countries where 802.11ax is supported.',
                 error: null
             },
             productOverview: {
-                value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                value: {
+                    'Specific Uses For Product': 'Personal, Business',
+                    Series: 'TP01-2070',
+                    'Ram Memory Installed Size': '16 GB',
+                    'Operating System': 'Windows 10 Home',
+                    'CPU Model': 'Core i7'
+                },
+                error: null
             },
             productAbout: {
                 value: [
-                    'Relieves cracked skin.',
-                    'Lasts through handwashing.',
-                    'Immediate, soothing relief.'
+                    '',
+                    'BUILT FOR REAL LIFE – The computing demands of today require serious performance and tested durability; get both with the reliable HP Pavilion Desktop PC.',
+                    'MADE FOR THE MODERN FAMILY – Enjoy new levels of convenience with a polished silver tower that perfectly fits into any space with easy to access ports conveniently located on the front of your modern desktop.',
+                    'REIMAGINED PERFORMANCE – The 11th Gen Intel Core i7-11700 processor features innovative new architecture that reimagines intelligent performance (AI), immersive display and graphics, and enhanced tuning and expandability to put users in control of real-world experiences that matter most to them (1).',
+                    '4K READY – Smoothly stream 4K content and play your favorite games with the Intel UHD Graphics 750 (2) (3).',
+                    'MEMORY AND DUAL STORAGE – With 16 GB of RAM, everything from multitasking to playing games gets a performance boost (4). By including both 256 GB of PCIe NVMe M.2 Solid State Drive storage and 1 TB of 7200RPM SATA hard drive you get the benefits of both worlds—fast boot up times, snappy responsiveness, and larger storage capacity (5) (6) (7).',
+                    'PORTS-APLENTY – Easily and quickly hook up your devices, consoles, or external storage drives with a total of 9 USB ports (2 SuperSpeed USB Type-A 5Gbps signaling rate, 2 SuperSpeed USB Type-A 10Gbps signaling rate, 1 SuperSpeed USB Type-C 5Gbps signaling rate (8), 4 USB 2.0 Type-A) (9).',
+                    'OS AND WARRANTY – Built with the latest technology and designed with all the familiar features, you’ll do great things on a desktop equipped with Windows 10 Home (10), tested over 230 individual times (11), and backed by a 1-year limited hardware warranty.',
+                    '',
+                    '',
+                    ''
                 ],
                 error: null
             },
             productDetails: {
-                value: {
-                    'Is Discontinued By Manufacturer :': 'No',
-                    'Product Dimensions :':
-                        '1.5 x 1.18 x 4.63 inches; 0.64 Ounces',
-                    'Item model number :': '617393',
-                    'UPC :': '041167051887',
-                    'Manufacturer :': 'Gold Bond',
-                    'ASIN :': 'B07JBLZ62H',
-                    'Domestic Shipping:':
-                        'Currently, item can be shipped only within the U.S. and to APO/FPO addresses. For APO/FPO shipments, please check with the manufacturer regarding warranty and support issues.',
-                    'International Shipping:':
-                        'This item can be shipped to select countries outside of the U.S. Learn More',
-                    'Best Sellers Rank:': '#26 in Hand Creams & Lotions',
-                    'Customer Reviews:': ''
-                },
-                error: null
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             images: {
                 value: [
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41ymTVNUx-L._SS40_.jpg',
+                            'https://m.media-amazon.com/images/I/31iNuH7g-+S._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81iRL%2BeRybL._SY355_.jpg'
+                            'https://m.media-amazon.com/images/I/81upCy1IE2S._AC_SY450_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41GF%2BhASYKL._SS40_.jpg',
+                            'https://m.media-amazon.com/images/I/41Zntj0ISwS._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81TILeMBS6L._SY355_.jpg'
+                            'https://m.media-amazon.com/images/I/71+Bpl9MFLS._AC_SY450_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41YmVSQZ3oL._SS40_.jpg',
+                            'https://m.media-amazon.com/images/I/41j+qPqPUOL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/815iEHCR0TL._SY355_.jpg'
+                            'https://m.media-amazon.com/images/I/81gMYrZeuZL._AC_SY450_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51s3tNAAqoL._SS40_.jpg',
+                            'https://m.media-amazon.com/images/I/41uSDeMA8LL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81uaAj0E2PL._SY355_.jpg'
+                            'https://m.media-amazon.com/images/I/81B0E4rGQdL._AC_SY450_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51E0jMZvRML._SS40_.jpg',
+                            'https://m.media-amazon.com/images/I/41tbuPXyCzS._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/91nYi%2BYXCcL._SY355_.jpg'
+                            'https://m.media-amazon.com/images/I/71nRZaZymLS._AC_SY450_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51qXfgOibwL._SS40_.jpg',
+                            'https://m.media-amazon.com/images/I/51adD2iIfsS._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81zKDvuZgYL._SY355_.jpg'
+                            'https://m.media-amazon.com/images/I/816bqCO368S._AC_SY450_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/51fg+wFcA3S._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/91XO-iV0iwS._AC_SY450_.jpg'
+                    }
+                ],
+                error: null
+            },
+            priceDetail: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="price"]"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
+            },
+            ratings: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="averageCustomerReviews"]"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
+            }
+        }
+    },
+    {
+        url: 'https://www.amazon.com/gp/product/B08BX9CJC2?th=1&psc=1',
+        data: {
+            productTitle: {
+                value: 'HP 27 Pavilion All-in-One PC, 10th Gen Intel i7-10700T Processor, 16 GB RAM, Dual Storage 512 GB SSD and 1TB HDD, Full HD IPS 27 Inch Touchscreen, Windows 10 Home, Keyboard and Mouse (27-d0072, 2020)',
+                error: null
+            },
+            ASIN: {
+                value: 'B08BX9CJC2',
+                error: null
+            },
+            basePrice: {
+                value: null,
+                error: "Failed to parse currency amount '$1,249.99'"
+            },
+            mainImage: {
+                value: 'https://images-na.ssl-images-amazon.com/images/I/91omRbBxtHS._AC_SY450_.jpg',
+                error: null
+            },
+            sizeName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
+            },
+            styleName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
+            },
+            productDescription: {
+                value: 'HP 27 Pavilion All-in-One PC is the perfect blend of form and function. The FHD IPS touchscreen combines with audio by B&O to deliver you action-packed entertainment. Intel’s latest processor keeps your performance reliable while IntelⓇ Ultra HD Graphics makes any 4k content as smooth as ever. Dual storage options give this HP desktop computer the capacity you crave, while the 16 GB of RAM makes multitasking a breeze. Your setup has never been more modern with a Windows 10 operating system, wireless mouse and keyboard combo, and all your needed ports conveniently placed on the side and back of the All-in-One desktop. Finally achieve the remote work office you’ve always wanted with the HP Wide Vision pop-up privacy camera integrated with the quad array digital microphone. Power up your HP pavilion desktop with confidence since this device passed over 230 individual tests. Stay environmentally conscious as strict energy-efficiency is built into every one of HP’s desktops.',
+                error: null
+            },
+            productOverview: {
+                value: {
+                    'Specific Uses For Product':
+                        'Multimedia, Personal, Business',
+                    Series: 'HP 27 Pavilion All-in-One',
+                    'Ram Memory Installed Size': '16 GB',
+                    'Operating System': 'Windows 10 Home',
+                    'CPU Model': 'Intel Core i7'
+                },
+                error: null
+            },
+            productAbout: {
+                value: [
+                    '',
+                    'POWER MEETS PERFORMANCE – Leading-edge performance and cutting-edge style give this All-in-One PC the means to tackle demanding projects and enjoy movie marathons, all while looking good anywhere you put it',
+                    'THEATER-WORTHY – Enjoy jaw-dropping detail and incredible sound with audio by B&O and Full HD resolution',
+                    'LATEST PROCESSOR – Everything you do feels fast and easy with a 10th Generation Intel Core i7-10700T processor with an Intel turbo boost of up to 4.5 GHz',
+                    'MODERN GRAPHICS – It’s smooth streaming for all your 4k content and favorite games with the IntelⓇ UHD Graphics 630 card',
+                    'DUAL STORAGE OPTIONS – Boot up in seconds and store more of what you love with HDD and SSD dual storage options with up to 512 GB SSD and 1TB HDD',
+                    'PLENTY OF RAM – Boost your efficiency as you browse, create, and multitask faster than ever with 16 GB of RAM',
+                    'WINDOWS 10 AND WARRANTY – Do great things with a desktop equipped with Windows 10, tested over 230 individual times, and backed by a 1-year limited hardware warranty',
+                    '',
+                    '',
+                    ''
+                ],
+                error: null
+            },
+            productDetails: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
+            },
+            images: {
+                value: [
+                    {
+                        thumbnailSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/41D2VuktWGS._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/91omRbBxtHS._AC_SY450_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/41zgFYK-M0L._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/81fs8PorvwL._AC_SY450_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/41ltnbCQ4BL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/81XZDh3WhrL._AC_SY450_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/41pgIE3ASsL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/81OWzSLr8VL._AC_SY450_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/41kelIFj-iL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/81cNobWpOPL._AC_SY450_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/418Ka%2BqbljL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/71KpUg8q0-L._AC_SY450_.jpg'
                     }
                 ],
                 error: null
             },
             priceDetail: {
                 value: {
-                    priceblock_ourprice: '$5.94',
-                    ounce: '($7.92 / Ounce)'
+                    priceblock_ourprice: '$1,249.99',
+                    ounce: '& FREE Returns'
                 },
                 error: null
             },
             ratings: {
                 value: {
                     rateStar: 'a-icon a-icon-star a-star-4-5',
-                    acrCustomerReviewText: '1,545 ratings'
+                    acrCustomerReviewText: '471 ratings'
                 },
                 error: null
             }
         }
     },
     {
-        url: 'https://www.amazon.com/gp/product/B08TPGYM4L?th=1&psc=1',
+        url: 'https://www.amazon.com/gp/product/B091D6F3JP?th=1&psc=1',
         data: {
             productTitle: {
-                value:
-                    'Gold Bond Medicated Cracked Foot Skin Relief Ointment, 0.75 oz, pack of 24',
+                value: 'HP Pavilion x360 14” Touchscreen Laptop, 11th Gen Intel Core i5-1135G7, 8 GB RAM, 256 GB SSD Storage, Full HD IPS Display, Windows 10 Home OS, Long Battery Life, Work & Streaming (14-dw1024nr, 2021)',
                 error: null
             },
             ASIN: {
-                value: 'B08TPGYM4L',
+                value: 'B091D6F3JP',
                 error: null
             },
             basePrice: {
                 value: {
                     symbol: '$',
                     currency: 'USD',
-                    amount: 24.95
+                    amount: 699.99
                 },
                 error: null
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/51vSYGMOZfL._AC_SY606_PIbundle-24,TopRight,0,0_SH20_.jpg',
+                value: 'https://images-na.ssl-images-amazon.com/images/I/81HbaBmmvNS._AC_SY450_.jpg',
                 error: null
             },
             sizeName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             styleName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             productDescription: {
-                value:
-                    'Help heal and soothe chapped and cracked skin on your feet with Gold Bond Medicated Cracked Foot Skin Relief Ointment. This skin protectant ointment contains 30% petrolatum to help temporarily relieve and protect dry, cracked skin on heels and toes. In fact, 94% immediately felt soothing relief of cracked skin. Gold Bond Cracked Foot Skin Relief is formulated with lipids and ceramides to help repair and restore the skin barrier, jojoba and shea to condition and soften, plus aloe and glycerin to soothe and comfort. Best of all, the precision tip helps you to fill skin cracks. Clinically tested to help restore smoother, healthier-looking skin, Gold Bond Cracked Skin Relief is a must-have for your medicine cabinet. Gold Bond. Champion your skin.',
+                value: 'The HP Pavilion x360 Convertible Laptop makes work, entertainment, and online studying a breeze; simply flip, fold, and bend this convertible laptop into the perfect position for you. The 14-inch diagonal Full HD (1920 x 1080) multitouch enabled, edge-to-edge glass display (1) allows you to see your work illuminated. Enjoy stellar performance from the 11th Generation Intel® Core™ i5-1135G7processor (2). Images will appear crisp and vibrant thanks to Intel® Iris® Xe Graphics (3). Say goodbye to long load times with the help of 12 GB of RAM and store all of your favorite music, movies, and more with the available 256 GB PCIe® NVMe™ M.2 SSD storage (4). The HP all-in-one laptop’s long-lasting battery gives your computer up to 8 hours and 15 minutes of wireless streaming capability(5) and HP Fast Charge gets your computer back up and running with 50% charge in approximately 45 minutes (6). With Windows 10 Home OS (7) and the HP Hardware 1-Year Limited Warranty, your Envy has all the outstanding performance and protection it needs. Business and school just got a whole lot more efficient using HP’s Intel® Wi-Fi 6 AX201 (2x2) (8) and Bluetooth® 5 combo (9) (Supporting Gigabit data rate) (10). The HP Envy is built responsibly, ENERGY STAR® certified (11), and EPEAT® Silver registered (12). (1)Full High Definition (FHD) content is required to view FHD images. (2) Multi-core is designed to improve performance of certain software products. Not all customers or software applications will necessarily benefit from use of this technology. Performance and clock frequency will vary depending on application workload and your hardware and software configurations. Intel’s numbering, branding and/or naming is not a measurement of higher performance. Intel, Pentium, Intel Core, Celeron, Iris Xe, Intel logo and the Intel Inside logo are trademarks of Intel Corporation in the U.S. and other countries. (3) Shared video memory (UMA) uses part of the total system memory for video performance. System memory dedicated to video performance is not available for other use by other programs. (4) Actual formatted capacity is less. Portion of internal storage is reserved for preloaded content. Based on HP internal testing using CrystalDiskMark benchmarking software. Performance is sequentially faster (read only) compared to traditional 5,400 rpm HDD. (5) Battery life tested by HP using continuous Netflix video playback, Windows 10 Netflix app, 150 nits brightness, system audio level 17%, headphone attached, played full-screen, wireless on. Actual battery life will vary depending on configuration and maximum capacity will naturally decrease with time and usage. (6) Recharges your battery up to 50% within 45 minutes when the system is off (using “shut down” command). Recommended for use with the HP adapter provided with the notebook, not recommended with a smaller capacity battery charger. After charging has reached 50% capacity, charging speed will return to normal speed. Charging time may vary +/-10% due to System tolerance. (7) Not all features are available in all editions or versions of Windows. Systems may require upgraded and/or separately purchased hardware, drivers, software or BIOS update to take full advantage of Windows functionality. Windows 10 is automatically updated, which is always enabled. ISP fees may apply and additional requirements may apply over time for updates. See microsoft.com (8) Wireless access point and internet service required and sold separately. Availability of public wireless access points limited. Requires a wireless router, sold separately, that supports 80MHz channels. Wi-Fi 6 (802.11ax) is backwards compatible with prior 802.11 specs. The specifications for Wi-Fi 6 are draft and are not final. If the final specifications differ from the draft specifications, it may affect the ability of the notebook to communicate with other Wi-Fi 6 devices. Only available in countries where 802.11ax is supported. (9)Bluetooth® is a trademark owned by its proprietor and used by Hewlett-Packard Company under license. (10)Wi-Fi 5 or 6 is designed to support Gigabit data rate when transferring files between two devices connected to the same router. Requires a wireless router, sold separately, that supports 80MHz and higher channels. (11) ENERGY STAR and the ENERGY STAR mark are registered trademarks owned by the U.S. Environmental Protection Agency. (12) Based on U.S. EPEAT® registration according to IEEE 1680.1-2018 EPEAT®. EPEAT® status varies by country. Visit www.epeat.net for more information.',
                 error: null
             },
             productOverview: {
                 value: {
-                    Ingredients: 'Petrolatum - 30 % (Skin Protectant)',
-                    'Item Form': 'Ointment',
-                    Brand: 'Gold Bond',
-                    'Item Weight': '18 Ounces',
-                    'Item Dimensions LxWxH': '2.5 x 0.88 x 4.62 inches'
+                    Series: '14-dw1024nr',
+                    Brand: 'HP',
+                    'Specific Uses For Product': 'Personal, Business',
+                    'Screen Size': '14 Inches',
+                    'Operating System': 'Windows 10 Home'
                 },
                 error: null
             },
             productAbout: {
                 value: [
-                    'Includes (24) 0.75-ounce tube of Gold Bond Medicated Cracked Foot Skin Relief Ointment with a precision tip',
-                    'Skin protectant ointment with 30% petrolatum, temporarily protects and helps relieve chapped or cracked skin',
-                    'This cracked skin relief formula is made with lipids and ceramides to help repair and restore the skin barrier',
-                    'Gold Bond Cracked Foot Skin Relief is formulated with jojoba and shea to soften and condition skin',
-                    'Targeted applicator delivers soothing relief directly to dry cracks on heels and toes'
+                    '',
+                    'POWER THAT REVOLVES AROUND YOU - Work and entertainment is more convenient than ever with a laptop that flexes and bends into the perfect position to suit your needs.',
+                    'VIBRANT DISPLAY - Your creations are brought to life with the 14-inch diagonal Full HD (1920 x 1080) multitouch enabled, edge-to-edge glass display',
+                    'STELLAR PERFORMANCE - The 11th Generation Intel Core i5-1135G7 (1) processor lets you get work done more efficiently',
+                    'EYE-CATCHING GRAPHICS - Marvel at crystal-clear imagery thanks to Intel Iris Xe Graphics (2)',
+                    'MEMORY & STORAGE - HP Envy brings you even more bandwidth with 8 GB of RAM and increased hard drive space with 256 GB PCIe NVMe M.2 SSD storage (3)',
+                    'LONG-LASTING STREAMING POWER - Your laptop has up to 8 hours and 15 minutes of wireless streaming capabilities (4). Plus, HP Fast Charge takes your laptop from 0-50% charge in approximately 45 minutes (5)',
+                    'UNMATCHED AUDIO - Music, movie, and gaming sound gets a boost thanks to built-in dual speakers and audio provided by B&O',
+                    '',
+                    '',
+                    ''
                 ],
                 error: null
             },
             productDetails: {
-                value: {
-                    'Product Dimensions :':
-                        '2.5 x 0.88 x 4.62 inches; 1.13 Pounds',
-                    'Date First Available :': 'January 15, 2021',
-                    'Manufacturer :': 'AmazonUs/CHMZ7',
-                    'ASIN :': 'B08TPGYM4L'
-                },
-                error: null
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             images: {
                 value: [
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41Ir9018a4L._AC_US40_.jpg',
+                            'https://images-na.ssl-images-amazon.com/images/I/41DHrRyOJIS._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51vSYGMOZfL._AC_SY606_PIbundle-24,TopRight,0,0_SH20_.jpg'
+                            'https://images-na.ssl-images-amazon.com/images/I/81HbaBmmvNS._AC_SY450_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/516rt47QKcL._AC_US40_.jpg',
+                            'https://images-na.ssl-images-amazon.com/images/I/51sjBB6MhlS._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/91tbtcHqtyL._AC_SX425_.jpg'
+                            'https://images-na.ssl-images-amazon.com/images/I/81faLmrFUdS._AC_SY450_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41YWABDu1mL._AC_US40_.jpg',
+                            'https://images-na.ssl-images-amazon.com/images/I/41pa1y-6iQS._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/813y6Z7xeTL._AC_SX425_.jpg'
+                            'https://images-na.ssl-images-amazon.com/images/I/817QK9GSJNS._AC_SY450_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51Wm6YZyI2L._AC_US40_.jpg',
+                            'https://images-na.ssl-images-amazon.com/images/I/41a%2BU5eBZ-S._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81DPD8rs19L._AC_SX425_.jpg'
+                            'https://images-na.ssl-images-amazon.com/images/I/81rJr-31lpS._AC_SY450_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51QxHj41W8L._AC_US40_.jpg',
+                            'https://images-na.ssl-images-amazon.com/images/I/41ML5AP01qS._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81v0M7VV9-L._AC_SX425_.jpg'
+                            'https://images-na.ssl-images-amazon.com/images/I/71tDphnmrPS._AC_SY450_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51ylTZ8H9jL._AC_US40_.jpg',
+                            'https://images-na.ssl-images-amazon.com/images/I/51oybiSZLHS._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81f2HtjvmNL._AC_SX425_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51jvImgSO%2BL._AC_US40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81xMMzbdUwL._AC_SX425_.jpg'
+                            'https://images-na.ssl-images-amazon.com/images/I/81DgHlngHyS._AC_SY450_.jpg'
                     }
                 ],
                 error: null
             },
             priceDetail: {
                 value: {
-                    priceblock_ourprice: '$24.95',
-                    ounce: '($1.39 / Ounce)'
-                },
-                error: null
-            },
-            ratings: {
-                value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="averageCustomerReviews"]"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
-            }
-        }
-    },
-    {
-        url: 'https://www.amazon.com/gp/product/B00OCN96FQ?th=1&psc=1',
-        data: {
-            productTitle: {
-                value:
-                    'Gold Bond Ultimate Diabetics Dry Skin Relief, Fragrance Free, 4.5 Ounce',
-                error: null
-            },
-            ASIN: {
-                value: 'B00OCN96FQ',
-                error: null
-            },
-            basePrice: {
-                value: {
-                    symbol: '$',
-                    currency: 'USD',
-                    amount: 4.92
-                },
-                error: null
-            },
-            mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/81bFvYH9udL._SY355_.jpg',
-                error: null
-            },
-            sizeName: {
-                value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
-            },
-            styleName: {
-                value: 'Hydrating Lotion',
-                error: null
-            },
-            productDescription: {
-                value:
-                    "When you're living with diabetes your skin can often be cracked, rough and uncomfortable. With Gold Bond Ultimate Diabetics' Dry Skin Relief Rehydrating Lotion. This stuff really works!",
-                error: null
-            },
-            productOverview: {
-                value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
-            },
-            productAbout: {
-                value: [
-                    "GOLD BOND DIABETICS' LOTION FOR DRY SKIN: Non-greasy & fragrance-free, this GOLD BOND lotion for diabetics' dry skin is formulated with 7 intensive dry skin moisturizers, including aloe, vitamin E, vitamin A, vitamin C, & is ideal for all over body use.",
-                    "DIABETIC LOTION: With diabetes, your skin can become rough, dry, & uncomfortable. Specifically formulated for diabetics' dry skin, lotion in GOLD BOND Ultimate Diabetics' line of products helps soothe skin & provide a layer of moisture for up to 24 hours.",
-                    'GOLD BOND SKIN CARE: While GOLD BOND powder may be the best known product, GOLD BOND carries medicated and non-medicated body powders, skin creams, lotions, and ointments. From first aid to foot care and face lotion, GOLD BOND has you covered.',
-                    "GOLD BOND FOR THE HOME: Since 1908, GOLD BOND Powder has been providing comfort, soothing relief, and skincare to adults and children, from baby's first bath and powder, to eczema or psoriasis relief, to lotion for dry skin or men's 5-in-1 Face Lotion.",
-                    'ITCHY SKIN CARE: Gold Bond offers ideal skin remedy for itchy & irritated skin. Try our body care, foot care & first aid products for dry skin, foot odor, minor cuts, sunburn, insect bites & other skin issues.'
-                ],
-                error: null
-            },
-            productDetails: {
-                value: {
-                    'Is Discontinued By Manufacturer :': 'No',
-                    'Product Dimensions :': '3 x 1.88 x 6.5 inches; 4.5 Ounces',
-                    'Item model number :': '041167053522',
-                    'UPC :': '041167053522',
-                    'Manufacturer :': 'Chattem Inc.',
-                    'ASIN :': 'B00OCN96FQ',
-                    'Domestic Shipping:':
-                        'Currently, item can be shipped only within the U.S. and to APO/FPO addresses. For APO/FPO shipments, please check with the manufacturer regarding warranty and support issues.',
-                    'International Shipping:':
-                        'This item can be shipped to select countries outside of the U.S. Learn More',
-                    'Best Sellers Rank:': '#18 in Hand Creams & Lotions',
-                    'Customer Reviews:': ''
-                },
-                error: null
-            },
-            images: {
-                value: [
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41rN5cgI5zL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81bFvYH9udL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51oPEMXkEPL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81roTpvWEyL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51fMjTg0ZAL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81KUzoTnD0L._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51Fx8-BCdqL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/91g6NKePneL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41QjTFTIBxL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81M0UmrouDL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41Qo7ftlyxL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71lUngJaYJL._SY355_.jpg'
-                    }
-                ],
-                error: null
-            },
-            priceDetail: {
-                value: {
-                    priceblock_ourprice: '$4.92',
-                    ounce: '($1.09 / Ounce)',
-                    price_block_savings: '$1.27 (21%)'
+                    priceblock_ourprice: '$699.99',
+                    ounce: '& FREE Returns',
+                    price_block_savings: '$110.00 (14%)'
                 },
                 error: null
             },
             ratings: {
                 value: {
                     rateStar: 'a-icon a-icon-star a-star-4-5',
-                    acrCustomerReviewText: '2,880 ratings'
+                    acrCustomerReviewText: '52 ratings'
                 },
                 error: null
             }
         }
     },
     {
-        url: 'https://www.amazon.com/gp/product/B00AHH00O2?th=1&psc=1',
+        url: 'https://www.amazon.com/gp/product/B08B7NYZCM?th=1&psc=1',
         data: {
             productTitle: {
-                value:
-                    'Gold Bond Ultimate Diabetic Skin Relief Foot Cream, Fragrance Free, 3.4 Ounce',
+                value: 'HP Envy Desktop, 10th Generation Intel Core i7-10700, 16GB RAM, 1 TB Hard Drive & 512 GB SSD, Windows 10 Home (TE01-1020, Black)',
                 error: null
             },
             ASIN: {
-                value: 'B00AHH00O2',
+                value: 'B08B7NYZCM',
                 error: null
             },
             basePrice: {
                 value: {
                     symbol: '$',
                     currency: 'USD',
-                    amount: 8.52
+                    amount: 949.99
                 },
                 error: null
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/71509HoSC5L._AC_SX425_.jpg',
+                value: 'https://m.media-amazon.com/images/I/71+j6xMcdxL._AC_SY355_.jpg',
                 error: null
             },
             sizeName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             styleName: {
-                value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                value: 'Intel UHD Graphics 630',
+                error: null
             },
             productDescription: {
-                value:
-                    'Gold Bond Ultimate diabetic skin relief foot cream, ultimate skin Therapy. Reduces skin discomfort, irritation and dryness. 7 intensive moisturizers. Non-greasy. 9 out of 10 diabetics saw significant skin improvement in 1 hour. Diabetes can affect the skin by drying it out and by making it harder for the body to heal itself. Fortunately, most skin conditions can be prevented or treated with moisturizing formulas that are designed for the skin care needs of people with diabetes. With a blend of moisturizers, vitamins and skin protectants, specially selected for diabetic skin needs, diabetic skin relief from Gold Bond Ultimate is proven safe and effective at replenishing vital moisture and soothing problem skin.',
+                value: "Render, edit, and stream better than ever before. The powerful HP ENVY Desktop TE01-1020 brings the latest technology and reliability from a trusted brand that protects what matters to you most. By including both an SSD drive for the operating system and a traditional hard drive you get the benefits of both worlds—fast boot up times, snappy responsiveness, and larger storage capacity. Don’t worry about growing your collection of digital movies, songs, and pictures. With massive storage options you can save it all, and still have plenty of room left over. Plus, you can store and synchronize your content online with Dropbox. Get 25GB of storage for one year to access, manage, and share your photos, music, and files from anywhere with Internet access. Watch and write DVDs using the integrated optical drive, and quickly and easily connect your devices, including a second monitor and a 5.1 surround sound system, with convenient ports. Because our PCs go through over 230 individual tests, you can be sure you’re getting a powerful, reliable PC that's going to last.",
                 error: null
             },
             productOverview: {
-                value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                value: {
+                    'Specific Uses For Product':
+                        'Multimedia, Personal, Business',
+                    Series: 'HP ENVY Desktop Tower',
+                    'Ram Memory Installed Size': '16 GB',
+                    'Operating System': 'Windows 10 Home',
+                    'CPU Model': 'Core i7'
+                },
+                error: null
             },
             productAbout: {
                 value: [
-                    'Helps to reduce dry cracked skin and soothes skin discomfort.',
-                    'Non-irritating.',
-                    'Intensive foot care.'
+                    '',
+                    'YOUR CREATIVE SIDEKICK: Render, edit, and stream better than ever before.',
+                    'WINDOWS 10 HOME: Do great things confidently with the familiar feel of Windows – only better',
+                    'FAST PROCESSOR: 10th Generation Intel Core i7-10700 Processor, 8-Core, 2.90 GHz',
+                    'MEMORY: 16 GB DDR4-2933 SDRAM memory (1 x 16 GB) (upgradable to 32 GB)',
+                    'INTERNAL STORAGE: 1 TB 7200RPM SATA hard drive & 512 GB PCIe NVMe M.2 Solid State Drive (HDD 3.5" expansion bay available)',
+                    'ENERGY STAR CERTIFIED: HP ENVY Desktop that meets strict energy- efficiency and helps reduce your carbon footprint',
+                    'WIRELESS: Realtek Wi-Fi 5 (1x1) and Bluetooth 4.2 Combo, MU-MIMO supported',
+                    '',
+                    '',
+                    ''
                 ],
                 error: null
             },
             productDetails: {
-                value: {
-                    'Product Dimensions :':
-                        '1.69 x 2.56 x 6.63 inches; 3.36 Ounces',
-                    'Item model number :': 'SG_B00AHH00O2_US',
-                    'Date First Available :': 'December 3, 2012',
-                    'Manufacturer :': 'Gold Bond',
-                    'ASIN :': 'B00AHH00O2',
-                    'Domestic Shipping:': 'Item can be shipped within U.S.',
-                    'International Shipping:':
-                        'This item can be shipped to select countries outside of the U.S. Learn More',
-                    'Best Sellers Rank:': '#19 in Foot Creams & Lotions',
-                    'Customer Reviews:': ''
-                },
-                error: null
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             images: {
                 value: [
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41wdJ4yD6fL._AC_US40_.jpg',
+                            'https://m.media-amazon.com/images/I/41wp65O-YwL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71509HoSC5L._AC_SX425_.jpg'
+                            'https://m.media-amazon.com/images/I/71+j6xMcdxL._AC_SY355_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51Rz35Lyw-L._AC_US40_.jpg',
+                            'https://m.media-amazon.com/images/I/412ciokaqmL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/810%2Bo1odyxL._AC_SX425_.jpg'
+                            'https://m.media-amazon.com/images/I/71qY4UNXXdL._AC_SY355_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41ntm7Zu-ZL._AC_US40_.jpg',
+                            'https://m.media-amazon.com/images/I/51PXR8+Np-L._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81ABp4kjmZL._AC_SX425_.jpg'
+                            'https://m.media-amazon.com/images/I/714k0myuTKL._AC_SY355_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/519Bsj-AH9L._AC_US40_.jpg',
+                            'https://m.media-amazon.com/images/I/31wh2opqyzL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/818jHwI2GxL._AC_SX425_.jpg'
+                            'https://m.media-amazon.com/images/I/61nvjotAYGL._AC_SY355_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41BGvMqG2TL._AC_US40_.jpg',
+                            'https://m.media-amazon.com/images/I/41K5StIjQYL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/710O1a6nGvL._AC_SX425_.jpg'
+                            'https://m.media-amazon.com/images/I/71bstoc8VmL._AC_SY355_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41BOb6bB7YL._AC_US40_.jpg',
+                            'https://m.media-amazon.com/images/I/51vE4NCiq-L._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81yl7KZE6SL._AC_SX425_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41wAeGTFHpL._AC_US40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81%2B6lWDuHcL._AC_SX425_.jpg'
+                            'https://m.media-amazon.com/images/I/81wOizJVbiL._AC_SY355_.jpg'
                     }
                 ],
                 error: null
             },
             priceDetail: {
                 value: {
-                    priceblock_ourprice: '$8.52',
-                    ounce: '($2.51 / Ounce)'
+                    priceblock_ourprice: '$949.99',
+                    ounce: '& FREE Returns'
                 },
                 error: null
             },
             ratings: {
                 value: {
                     rateStar: 'a-icon a-icon-star a-star-4-5',
-                    acrCustomerReviewText: '2,666 ratings'
+                    acrCustomerReviewText: '872 ratings'
                 },
                 error: null
             }
         }
     },
     {
-        url: 'https://www.amazon.com/gp/product/B00OCN97DW?th=1&psc=1',
+        url: 'https://www.amazon.com/gp/product/B08R1615DP?th=1&psc=1',
         data: {
             productTitle: {
-                value:
-                    "Gold Bond Ultimate Diabetics' Dry Skin Relief Hand Cream - 2.4 oz",
+                value: 'HP Envy All-in-One PC, NVIDIA GeForce GTX 1650, 10th Gen Intel Core i7-10700 Processor, 16 GB RAM, 256 GB SSD & 1 TB Hard Drive, 31.5” 4K UHD Display, Windows 10 Home, Eye-Safe (32-a1027c, 2021)',
                 error: null
             },
             ASIN: {
-                value: 'B00OCN97DW',
+                value: 'B08R1615DP',
                 error: null
             },
             basePrice: {
-                value: {
-                    symbol: '$',
-                    currency: 'USD',
-                    amount: 6.7
-                },
-                error: null
+                value: null,
+                error: "Failed to parse currency amount '$1,899.99'"
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/71BzSJElrDL._SY355_.jpg',
+                value: 'https://images-na.ssl-images-amazon.com/images/I/91zsLejPRtL._AC_SX466_.jpg',
                 error: null
             },
             sizeName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             styleName: {
-                value: 'Hand Cream',
-                error: null
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             productDescription: {
-                value:
-                    "Diabetics' skin can become dry, rough and generally uncomfortable, especially on hands. Get soothing relief for rough, dry hands with Gold Bond Ultimate Diabetics' Dry Skin Relief Hand Cream, the #1 lotion brand for diabetics dry skin*. Specially formulated for diabetics' dry skin, this hand cream goes to work quickly to moisturize and hydrate feet. It contains seven intensive moisturizers and aloe to hydrate and soothe hands. In fact, nine out of 10 people with diabetes saw noticeable skin improvement within one hour* of using Gold Bond Hand Cream for Diabetics' Skin. This hand cream not only adds a layer of moisture to skin that lasts for 24 hours, but it's also dermatologist-tested, hypoallergenic, and fragrance-free. Best of all, it doesn't contain harsh alpha hydroxy acids, which can irritate skin. Give your hands the soothing moisture they deserve. Stock up on 3.4-oz. bottles of Gold Bond Ultimate Diabetics' Dry Skin Relief Hand Cream. *Source: Nielsen xAOC L52 Hand and Body Lotion WE 7.11.2",
-                error: null
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#productDescription > p"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             productOverview: {
-                value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                value: {
+                    'Specific Uses For Product': 'Multimedia, Personal, Gaming',
+                    Series: 'HP ENVY All-in-One PC',
+                    'Ram Memory Installed Size': '16 GB',
+                    'Operating System': 'Windows 10 Home',
+                    'CPU Model': 'Intel Core i7'
+                },
+                error: null
             },
             productAbout: {
                 value: [
-                    "CONTAINS: One (1) 3.4-oz. bottle of Gold Bond Ultimate Diabetics' Dry Skin Relief Hand Cream",
-                    "FOR DIABETICS' SKIN: This cream for dry, rough hands is specially formulated for diabetics' skin",
-                    "SEVEN INTENSIVE MOISTURIZERS: Gold Bond Hand Cream for Diabetics' Skin hydrates and moisturizes dry skin",
-                    'NOTICEABLE IMPROVEMENT: Nine out of 10 people with diabetes saw noticeable skin improvement in one hour* *Data on file',
-                    '24-HOUR MOISTURE: This hypoallergenic hand cream soothes skin and provides a layer of moisture for 24 hours'
+                    '',
+                    'CREATE ON A MASSIVE SCALE – Watch your creations come to life on a stunning 31.5-inch diagonal, wide-color-gamut HDR 4K display (1). See your content in mesmerizing quality with over 8.2 million pixels and 178 degrees of wide-viewing angles. With 600 nits peak brightness (2), anti-reflective coating, and DCI-P3 color spacing (3), you’ll view and edit creative projects with high color accuracy and without the glare.',
+                    'RICH AUDIO EXPERIENCE – HP speakers custom-tuned in collaboration with experts at Bang & Olufsen bring you theater-worthy sound from the comfort of your own home. With enhanced sound and deeper bass, you’ll enjoy your favorite music, movies, or games without buying additional speakers.',
+                    'NEXT-GEN POWER – Get outstanding performance and immersive multimedia entertainment with 4K visuals thanks to the 10th Generation Intel Core i7-10700 processor (4) (5).',
+                    'ACCELERATE EVERYTHING – With the all-new NVIDIA Turing architecture, gaming, and streaming will never be the same. Get all the power you need for fast, smooth, power-efficient performance from NVIDIA GeForce GTX 1650 (6).',
+                    'MEMORY, PLUS DUAL STORAGE CONFIGURATION – Boost your efficiency as you browse, create, and multitask faster than ever with 16 GB of RAM (7). Plus, by including both an SSD drive for the operating system (256 GB) and a traditional hard drive (1 TB) you get the benefits of both worlds—fast boot up times, snappy responsiveness, and larger storage capacity (8) (9) (10).',
+                    'PORTS AND CONNECTIVITY – Power up or connect all your external devices with 5 easy to access USB ports (2 SuperSpeed USB Type-A 10Gbps signaling rate, 1 Thunderbolt 3 (11), 1 SuperSpeed USB Type-C (12) 10Gbps signaling rate, and 1 SuperSpeed USB Type-A 5Gbps signaling rate). And with a Wi-Fi 5 (2x2) WLAN adapter and Bluetooth 5.0 combo, all your connections are rock solid (13) (14).',
+                    'WINDOWS 10 AND WARRANTY – Do great things confidently with the familiar feel of Windows 10 Home and enjoy greater peace of mind with a desktop backed by a 1-year limited hardware warranty (15).',
+                    '',
+                    '',
+                    ''
                 ],
                 error: null
             },
             productDetails: {
-                value: {
-                    'Is Discontinued By Manufacturer :': 'No',
-                    'Product Dimensions :':
-                        '2.5 x 1.5 x 4.94 inches; 2.5 Ounces',
-                    'Item model number :': '5360',
-                    'UPC :': '041167053607',
-                    'Manufacturer :': 'Chattem Inc.',
-                    'ASIN :': 'B00OCN97DW',
-                    'Best Sellers Rank:': '#18 in Hand Creams & Lotions',
-                    'Customer Reviews:': ''
-                },
-                error: null
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             images: {
                 value: [
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41lsbV7EGcL._SS40_.jpg',
+                            'https://images-na.ssl-images-amazon.com/images/I/41Gqk3uA4eL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71BzSJElrDL._SY355_.jpg'
+                            'https://images-na.ssl-images-amazon.com/images/I/91zsLejPRtL._AC_SX466_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51Rz35Lyw-L._SS40_.jpg',
+                            'https://images-na.ssl-images-amazon.com/images/I/41YoNig0gpL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/810%2Bo1odyxL._SY355_.jpg'
+                            'https://images-na.ssl-images-amazon.com/images/I/912RJbLNRaL._AC_SX466_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41HB5-J2ZtL._SS40_.jpg',
+                            'https://images-na.ssl-images-amazon.com/images/I/41FJ4aSYlSL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81gJfVD-5JL._SY355_.jpg'
+                            'https://images-na.ssl-images-amazon.com/images/I/81ITkZJ-x1L._AC_SX466_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/519Bsj-AH9L._SS40_.jpg',
+                            'https://images-na.ssl-images-amazon.com/images/I/41sU3gjBWRL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/818jHwI2GxL._SY355_.jpg'
+                            'https://images-na.ssl-images-amazon.com/images/I/81xEHJYDcaL._AC_SX466_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51Fx8-BCdqL._SS40_.jpg',
+                            'https://images-na.ssl-images-amazon.com/images/I/412rPRT4KuL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/91g6NKePneL._SY355_.jpg'
+                            'https://images-na.ssl-images-amazon.com/images/I/81nLm49-lhL._AC_SX466_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41CRVtCaYCL._SS40_.jpg',
+                            'https://images-na.ssl-images-amazon.com/images/I/41pTQ%2B7oAJL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81WAcImNN9L._SY355_.jpg'
+                            'https://images-na.ssl-images-amazon.com/images/I/81h9a1z4UmL._AC_SX466_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41BOb6bB7YL._SS40_.jpg',
+                            'https://images-na.ssl-images-amazon.com/images/I/51hjmB%2Bi4yL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81yl7KZE6SL._SY355_.jpg'
+                            'https://images-na.ssl-images-amazon.com/images/I/91wNXh2azcL._AC_SX466_.jpg'
                     }
                 ],
                 error: null
             },
             priceDetail: {
                 value: {
-                    priceblock_ourprice: '$6.70',
-                    ounce: '($2.79 / Ounce)'
-                },
-                error: null
-            },
-            ratings: {
-                value: {
-                    rateStar: 'a-icon a-icon-star a-star-5',
-                    acrCustomerReviewText: '137 ratings'
-                },
-                error: null
-            }
-        }
-    },
-    {
-        url: 'https://www.amazon.com/gp/product/B00OW9OTN4?th=1&psc=1',
-        data: {
-            productTitle: {
-                value:
-                    "Gold Bond Ultimate Men's Everyday Hydrating Lotion, 21 Ounce",
-                error: null
-            },
-            ASIN: {
-                value: 'B00OW9OTN4',
-                error: null
-            },
-            basePrice: {
-                value: {
-                    symbol: '$',
-                    currency: 'USD',
-                    amount: 9.97
-                },
-                error: null
-            },
-            mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/81TttmWKtDL._SY355_.jpg',
-                error: null
-            },
-            sizeName: {
-                value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
-            },
-            styleName: {
-                value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
-            },
-            productDescription: {
-                value:
-                    "Gold Bond recognizes that men's skin has unique needs. That's why there's Gold Bond Ultimate Men's Essentials Hydrating Lotion, Everyday Moisture for Dry Skin. The seven moisturizers and skin-strengthening proteins replenish and hydrate dry skin. This everyday moisturizing formula also contains vitamin C to bring antioxidant benefits to replenish and moisturize dry skin, making it perfect for use on the body and hands. You can feel confident using this lotion on all of these areas as the lotion has a light, fresh scent.",
-                error: null
-            },
-            productOverview: {
-                value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
-            },
-            productAbout: {
-                value: [
-                    "INCLUDES: One (1) 21-oz. pump bottle of Gold Bond Ultimate Men's Essentials Hydrating Lotion, Everyday Moisture for Dry Skin",
-                    'HYDRATING FORMULA: Gold Bond Ultimate Lotion for Men moisturizes, soothes, and strengthens skin',
-                    'SEVEN INTENSIVE MOISTURIZERS: This rich, thick cream is formulated with seven moisturizers, four vitamins and skin-strengthening proteins',
-                    'FULL-BODY USE: Gold Bond for Men is ideal for dry skin on the hands and body',
-                    "DERMATOLOGIST-TESTED: Gold Bond Ultimate Men's Essentials Hydrating Lotion has been tested by dermatologists and is hypoallergenic"
-                ],
-                error: null
-            },
-            productDetails: {
-                value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
-            },
-            images: {
-                value: [
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41K8jF8fSnL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81TttmWKtDL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/417BrTz3tLL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81CDfODktkL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41N58BZs64L._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71mUT2Pb-RL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51xNM6mzPzL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/918WdqIchiL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41Qo7ftlyxL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71lUngJaYJL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51WBD5Fs6iL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/91rYeb104PL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41JDIHQzp3L._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81Ox4Zj05DL._SY355_.jpg'
-                    }
-                ],
-                error: null
-            },
-            priceDetail: {
-                value: {
-                    priceblock_ourprice: '$9.97',
-                    ounce: '($0.47 / Ounce)',
-                    price_block_savings: '$3.02 (23%)'
-                },
-                error: null
-            },
-            ratings: {
-                value: {
-                    rateStar: 'a-icon a-icon-star a-star-5',
-                    acrCustomerReviewText: '2,329 ratings'
-                },
-                error: null
-            }
-        }
-    },
-    {
-        url: 'https://www.amazon.com/gp/product/B00AHH00MO?th=1&psc=1',
-        data: {
-            productTitle: {
-                value:
-                    "Gold Bond Men's Everyday Essentials Lotion, Fresh Scent, 14.5 Ounce, (Pack of 1)",
-                error: null
-            },
-            ASIN: {
-                value: 'B00AHH00MO',
-                error: null
-            },
-            basePrice: {
-                value: {
-                    symbol: '$',
-                    currency: 'USD',
-                    amount: 7.74
-                },
-                error: null
-            },
-            mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/81XVG4Ja2xL._SY355_.jpg',
-                error: null
-            },
-            sizeName: {
-                value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
-            },
-            styleName: {
-                value: 'Lotion',
-                error: null
-            },
-            productDescription: {
-                value:
-                    'Gold Bond Ultimate Mens Essentials Everyday Hydrating Lotion. Specifically formulated for mens skin. Hydrates multiple skin types 15-second absorption. Fast acting and non-greasy. 24-hour lasting hydration apply just once a day, 7 essential moisturizers. Light fresh scent.',
-                error: null
-            },
-            productOverview: {
-                value: {
-                    Ingredients:
-                        'Water, hydroxethyl urea, dimenthicone, glycerin, petrolatum, aloe barbadensis leaf juice, stearyl alcohol, glyceryl ster… See more',
-                    Scent: 'Fresh Scent',
-                    'Item Form': 'Lotion',
-                    Brand: 'Gold Bond',
-                    'Skin Type': 'Dry'
-                },
-                error: null
-            },
-            productAbout: {
-                value: [
-                    'Multipurpose for body and hands.',
-                    'Fast acting.',
-                    'Light fresh scent.'
-                ],
-                error: null
-            },
-            productDetails: {
-                value: {
-                    'Is Discontinued By Manufacturer :': 'No',
-                    'Product Dimensions :':
-                        '2.13 x 3.13 x 8.5 inches; 14.5 Ounces',
-                    'Item model number :': 'KR-041167055335',
-                    'UPC :':
-                        '785525846714 885649881735 787734619882 811804977739 885971127822 041167055335 885129838037 885136864821 793379238531 885361809680 884800870465',
-                    'Manufacturer :': 'Gold Bond',
-                    'ASIN :': 'B00AHH00MO',
-                    'Best Sellers Rank:': '#58 in Body Lotions',
-                    'Customer Reviews:': ''
-                },
-                error: null
-            },
-            images: {
-                value: [
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41TLjyfpfWL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81XVG4Ja2xL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51xgC%2BuXzxL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/91zBc3gPXBL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41jWngM%2BRRL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71YaR7Ojk6L._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/411Olxme24L._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71-SAHn5uDL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51vvGwQCBSL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81nbEpn7LIL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41Qo7ftlyxL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71lUngJaYJL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51WBD5Fs6iL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/91rYeb104PL._SY355_.jpg'
-                    }
-                ],
-                error: null
-            },
-            priceDetail: {
-                value: {
-                    priceblock_ourprice: '$7.74',
-                    ounce: '($0.53 / Ounce)',
-                    price_block_savings: '$4.25 (35%)'
+                    priceblock_ourprice: '$1,899.99',
+                    ounce: '& FREE Returns',
+                    price_block_savings: '$100.00 (5%)'
                 },
                 error: null
             },
             ratings: {
                 value: {
                     rateStar: 'a-icon a-icon-star a-star-4-5',
-                    acrCustomerReviewText: '5,636 ratings'
+                    acrCustomerReviewText: '11 ratings'
                 },
                 error: null
             }
         }
     },
     {
-        url: 'https://www.amazon.com/gp/product/B00AHH00R4?th=1&psc=1',
+        url: 'https://www.amazon.com/gp/product/B08KGZ79N6?th=1&psc=1',
         data: {
             productTitle: {
-                value:
-                    "Gold Bond Men's Everyday Essentials, Cream, Fresh scent, 6.5 Ounce",
+                value: 'HP 15 Laptop, 11th Gen Intel Core i5-1135G7 Processor, 8 GB RAM, 256 GB SSD Storage, 15.6” Full HD IPS Display, Windows 10 Home, HP Fast Charge, Lightweight Design (15-dy2021nr, 2020)',
                 error: null
             },
             ASIN: {
-                value: 'B00AHH00R4',
+                value: 'B08KGZ79N6',
                 error: null
             },
             basePrice: {
                 value: {
                     symbol: '$',
                     currency: 'USD',
-                    amount: 4.97
+                    amount: 595.99
                 },
                 error: null
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/81OinJpp2YL._SY355_.jpg',
+                value: 'https://images-na.ssl-images-amazon.com/images/I/81skV7BufjL._AC_SY450_.jpg',
                 error: null
             },
             sizeName: {
-                value: '6.5 Ounce',
-                error: null
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             styleName: {
-                value: 'Cream',
-                error: null
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             productDescription: {
-                value:
-                    "Men's Essentials offers everyday moisturizing for Body, Hands and Face. Replenishes and hydrates dry skin for daily preventative maintenance. A formula that Men want and is appropriate for daily use - non greasy and long lasting. Men's Essentials is a multi purpose lotion with it's 3-in-1 everyday formula for Body, Face and Hands. It has a light, neutral fresh scent that.",
+                value: 'The HP 15 Laptop is designed to keep you productive and entertained from anywhere. With a micro-edge bezel and 82% screen-to-body ratio, your Windows laptop sports a revolutionary display, ideal for multi-monitor setups (1). Get the most of your entertainment wherever you are with a 15.6-inch, Full HD, IPS, micro-edge, and anti-glare display (2). Enjoy impressive graphical performance and best-in-class connectivity with Intel Iris Xe Graphics and 11th Generation Intel Core i5-1135G7 processor (3) (4). Out class traditional hard drives with 256 GB of PCIe NVMe M.2 SSD storage and experience improved multitasking with higher bandwidth thanks to 8 GB of RAM (5). This laptop computer gives you reliable power all day with 7 hours and 15 minutes of battery life (6). Plus, HP Fast Charge gets you from 0 to 50% charge in approximately 45 minutes to get you back up and running in a pinch (7). Work comfortably with the familiar feel of the Windows 10 Home operating system (8). Stay connected on the go as well with Wi-Fi 6 (2x2) and Bluetooth 5.0 combo, now supporting gigabit file transfer speeds (9) (10) (12). Bring the office home and stay as productive as before with a full-sized keyboard, MU-MIMO support, plus everything you need for web-conferencing with the HP True Vision 720p HD camera with integrated dual array digital microphones and advanced noise reduction software (13). Your laptop is built for the needs of tomorrow with its energy-efficient and sustainable design, backed by a 1-year limited hardware warranty.\n\n(1) Percent of active plus inactive viewing area to active viewing area plus border. Measure with the lid, vertical to the desk.\n(2) Full High Definition (FHD) content is required to view FHD images.\n(3) Shared video memory (UMA) uses part of the total system memory for video performance. System memory dedicated to video performance is not available for other use by other programs.\n(4) Multi-core is designed to improve performance of certain software products. Not all customers or software applications will necessarily benefit from the use of this technology. Performance and clock frequency will vary depending on the application workload and your hardware and software configurations. Intel’s numbering, branding, and/or naming is not a measurement of higher performance. Intel, Pentium, Intel Core, Celeron, Iris Xe, Intel logo, and the Intel Inside logo are trademarks of Intel Corporation in the U.S. and other countries.\n(5) Actual formatted capacity is less. A portion of internal storage is reserved for preloaded content. Based on HP internal testing using CrystalDiskMark benchmarking software. Performance is sequentially faster (read-only) compared to traditional 5,400 rpm HDD.\n(6) Windows 10 MobileMark 18 battery life will vary depending on various factors, including product model, configuration, loaded applications, features, use, wireless functionality, and power management settings. The maximum capacity of the battery will naturally decrease with time and usage.\n(7) Recharges your battery up to 50% within 45 minutes when the system is off (using the “shutdown” command). Recommended for use with the HP adapter provided with the notebook, not recommended with a smaller capacity battery charger. After charging has reached 50% capacity, charging speed will return to normal speed. Charging time may vary +/-10% due to System tolerance.\n(8) Not all features are available in all editions or versions of Windows. Systems may require upgraded and/or separately purchased hardware, drivers, software, or BIOS update to take full advantage of Windows functionality. Windows 10 is automatically updated, which is always enabled. ISP fees may apply and additional requirements may apply over time for updates. See microsoft.com\n(9) Wireless access point and internet service required and sold separately. Availability of public wireless access points limited. Wi-Fi 6 (802.11ax) is backwards compatible with prior 802.11 specs. The specifications for Wi-Fi 6 are draft and are not final. If the final specifications differ from the draft specifications, it may affect the ability of the notebook to communicate with other Wi-Fi 6 devices. Only available in countries where 802.11ax is supported.\n(10) Bluetooth is a trademark owned by its proprietor and used by Hewlett-Packard Company under license.\n(11) Based on Wi-Fi 5 80MHz and Wi-Fi 6 160MHz minimum requirements when transferring files between two devices connected to the same router. Requires a wireless router, sold separately, that supports 802.11ax (Wi-Fi 6). Only available in countries where 802.11ax is supported.\n(12) Wi-Fi supporting gigabit speeds is achievable when transferring files between two devices connected to the same router. Requires a wireless router, sold separately, that supports 160MHz channels.\n(13) Features may require software or other 3rd party applications to provide the described functionality. Internet service required and not included.\n(14) Energy Star and the Energy Star mark are registered trademarks owned by the U.S. Environmental Protection Agency.\n(15) Based on U.S. EPEAT registration according to IEEE 1680.1-2018 EPEAT. EPEAT status varies by country.\n(16) External power supplies, power cords, cables, and peripherals are not Low Halogen. Service parts obtained after purchase may not be Low Halogen.',
                 error: null
             },
             productOverview: {
-                value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                value: {
+                    Series: 'HP 15 Laptop',
+                    Brand: 'HP',
+                    'Specific Uses For Product': 'Personal, Business',
+                    'Screen Size': '15.6 Inches',
+                    'Operating System': 'Windows 10 Home'
+                },
+                error: null
             },
             productAbout: {
                 value: [
-                    'Multi-purpose for Body, Face and Hands',
-                    'Moisturizes Dry Skin and lasts up to 24 hours',
-                    '7 moisturizers',
-                    'Country of origin is United States'
+                    '',
+                    'TAKE IT ANYWHERE – With its thin and light design, 6.5 millimeter micro-edge bezel display, and 82% screen to body ratio, you can take this PC anywhere and see more of what you love (1).',
+                    'REVOLUTIONARY ENTERTAINMENT – Enjoy ultra-wide viewing angles and seamlessly perform multi-monitor set-ups with a 15.6-inch, Full HD, IPS, micro-edge, and anti-glare display (2).',
+                    'IMPRESSIVE GRAPHICS – The Intel Iris Xe Graphics gives you a new level of performance with crisp, stunning visuals, plus the convenience of a thin and light laptop (3).',
+                    'UNSTOPPABLE PERFORMANCE – Get things done fast with the 11th Generation Intel Core i5-1135G7 processor, which delivers instant responsiveness and best-in-class connectivity (4).',
+                    'MEMORY AND STORAGE – Get up to 15x faster performance than a traditional hard drive with 256 GB PCIe NVMe M.2 SSD storage and experience improved multitasking with higher bandwidth thanks to 8 GB of RAM (5).',
+                    'WORK ON THE GO – Get work done on the go with a long battery life of up to 7 hours and 15 minutes (6), while HP Fast Charge lets you go from 0 to 50% charge in approximately 45 minutes (7).',
+                    'OS AND WARRANTY – Do more with greater peace of mind thanks to the familiar feel of the Windows 10 Home operating system and the HP 1-year limited hardware warranty (8).',
+                    '',
+                    '',
+                    ''
                 ],
                 error: null
             },
             productDetails: {
-                value: {
-                    'Is Discontinued By Manufacturer :': 'No',
-                    'Product Dimensions :':
-                        '1.88 x 3 x 6.5 inches; 0.02 Ounces',
-                    'Item model number :': '136743',
-                    'UPC :': '041167055304 793379220000 785525846721',
-                    'Manufacturer :': 'Gold Bond',
-                    'ASIN :': 'B00AHH00R4',
-                    'Domestic Shipping:': 'Item can be shipped within U.S.',
-                    'International Shipping:':
-                        'This item can be shipped to select countries outside of the U.S. Learn More',
-                    'Best Sellers Rank:': '#249 in Body Lotions',
-                    'Customer Reviews:': ''
-                },
-                error: null
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             images: {
                 value: [
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41jnd7Vta%2BL._SS40_.jpg',
+                            'https://images-na.ssl-images-amazon.com/images/I/41B9o0e%2BBFL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81OinJpp2YL._SY355_.jpg'
+                            'https://images-na.ssl-images-amazon.com/images/I/81skV7BufjL._AC_SY450_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/417BrTz3tLL._SS40_.jpg',
+                            'https://images-na.ssl-images-amazon.com/images/I/41MuIZnsflL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81CDfODktkL._SY355_.jpg'
+                            'https://images-na.ssl-images-amazon.com/images/I/81YWu8ohvbL._AC_SY450_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41N58BZs64L._SS40_.jpg',
+                            'https://images-na.ssl-images-amazon.com/images/I/41V%2B3125LWL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71mUT2Pb-RL._SY355_.jpg'
+                            'https://images-na.ssl-images-amazon.com/images/I/81xWpvGSfNL._AC_SY450_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51xNM6mzPzL._SS40_.jpg',
+                            'https://images-na.ssl-images-amazon.com/images/I/41DUnmOVPZS._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/918WdqIchiL._SY355_.jpg'
+                            'https://images-na.ssl-images-amazon.com/images/I/81ikM81zLlS._AC_SY450_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41Qo7ftlyxL._SS40_.jpg',
+                            'https://images-na.ssl-images-amazon.com/images/I/41QBtCPM9ML._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71lUngJaYJL._SY355_.jpg'
+                            'https://images-na.ssl-images-amazon.com/images/I/81YTj%2BqtptL._AC_SY450_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51WBD5Fs6iL._SS40_.jpg',
+                            'https://images-na.ssl-images-amazon.com/images/I/41DEVsjIF4L._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/91rYeb104PL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41a5sn2FupL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81RGNeXaOXL._SY355_.jpg'
+                            'https://images-na.ssl-images-amazon.com/images/I/81HXtXwgrcL._AC_SY450_.jpg'
                     }
                 ],
                 error: null
             },
             priceDetail: {
                 value: {
-                    priceblock_ourprice: '$4.97',
-                    ounce: '($0.76 / Ounce)',
-                    price_block_savings: '$1.52 (23%)'
-                },
-                error: null
-            },
-            ratings: {
-                value: {
-                    rateStar: 'a-icon a-icon-star a-star-5',
-                    acrCustomerReviewText: '854 ratings'
-                },
-                error: null
-            }
-        }
-    },
-    {
-        url: 'https://www.amazon.com/gp/product/B013KPK71I?th=1&psc=1',
-        data: {
-            productTitle: {
-                value:
-                    "Gold Bond Men's Essentials Intensive Therapy Lotion Basic clean 13 Ounce",
-                error: null
-            },
-            ASIN: {
-                value: 'B013KPK71I',
-                error: null
-            },
-            basePrice: {
-                value: {
-                    symbol: '$',
-                    currency: 'USD',
-                    amount: 7.58
-                },
-                error: null
-            },
-            mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/81tjVV6O0VL._SY355_.jpg',
-                error: null
-            },
-            sizeName: {
-                value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
-            },
-            styleName: {
-                value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
-            },
-            productDescription: {
-                value:
-                    "Gold Bond Ultimate Men's Intensive Therapy is a skin lotion that's rich, thick, and nourishing for very dry, problem skin. Moisturizers, vitamins, and skin-strengthening proteins leave your skin looking smooth. Suitable for all over body use. A good skincare routine should be simple, and include a good moisturizing lotion. Gold Bond Ultimate Men's Essentials are skin lotions for men specially formulated for rough, dry skin that can be used on your body, hands and face. While Gold Bond powder may be the best known product, Gold Bond carries medicated and non-medicated body powders, skin creams, lotions, and ointments. From first aid to foot care and face lotion, Gold Bond has you covered. Since 1908, Gold Bond powder has been providing comfort, soothing relief, and skincare to adults and children, from baby's first bath and powder, to eczema or psoriasis relief, to lotion for dry skin or men's 5-in-1 Face Lotion.",
-                error: null
-            },
-            productOverview: {
-                value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
-            },
-            productAbout: {
-                value: [
-                    "MEN'S FACE LOTION, BODY LOTION & HAND LOTION: GOLD BOND Ultimate Men's Intensive Therapy is a skin lotion that's rich, thick, & nourishing for very dry, problem skin. Moisturizers, vitamins, & skin-strengthening proteins leave your skin looking smooth.",
-                    "GOLD BOND MEN'S LOTION: A good skincare routine should be simple, and include a good moisturizing lotion. Gold Bond Ultimate Men's Essentials are skin lotions for men specially formulated for rough, dry skin that can be used on your body, hands and face.",
-                    'GOLD BOND SKIN CARE: While GOLD BOND powder may be the best known product, GOLD BOND carries medicated and non-medicated body powders, skin creams, lotions, and ointments. From first aid to foot care and face lotion, GOLD BOND has you covered. Vitamin C: Provides antioxidant benefits. Vitamin E: Enhances skin’s protective function and help minimize moisture loss',
-                    "GOLD BOND FOR THE HOME: Since 1908, GOLD BOND Powder has been providing comfort, soothing relief, and skincare to adults and children, from baby's first bath and powder, to eczema or psoriasis relief, to lotion for dry skin or men's 5-in-1 Face Lotion.",
-                    'ITCHY SKIN CARE: Gold Bond offers ideal skin remedy for itchy & irritated skin. Try our body care, foot care & first aid products for dry skin, foot odor, minor cuts, sunburn, insect bites & other skin issues.'
-                ],
-                error: null
-            },
-            productDetails: {
-                value: {
-                    'Is Discontinued By Manufacturer :': 'No',
-                    'Product Dimensions :':
-                        '2.13 x 3.13 x 8.5 inches; 12.98 Ounces',
-                    'Item model number :': 'PPAX1414550',
-                    'UPC :': '041167055229 787734422611',
-                    'Manufacturer :': 'Chattem Inc.',
-                    'ASIN :': 'B013KPK71I',
-                    'Domestic Shipping:':
-                        'Currently, item can be shipped only within the U.S. and to APO/FPO addresses. For APO/FPO shipments, please check with the manufacturer regarding warranty and support issues.',
-                    'International Shipping:':
-                        'This item can be shipped to select countries outside of the U.S. Learn More',
-                    'Best Sellers Rank:': '#161 in Body Lotions',
-                    'Customer Reviews:': ''
-                },
-                error: null
-            },
-            images: {
-                value: [
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41FE8iUhU7L._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81tjVV6O0VL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/417BrTz3tLL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81CDfODktkL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41N58BZs64L._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71mUT2Pb-RL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51xNM6mzPzL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/918WdqIchiL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41Qo7ftlyxL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71lUngJaYJL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51WBD5Fs6iL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/91rYeb104PL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41S208WCPaL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81Lo3ILfhCL._SY355_.jpg'
-                    }
-                ],
-                error: null
-            },
-            priceDetail: {
-                value: {
-                    priceblock_ourprice: '$7.58',
-                    ounce: '($0.58 / Ounce)'
+                    priceblock_ourprice: '$595.99',
+                    ounce: '& FREE Returns',
+                    price_block_savings: '$64.00 (10%)'
                 },
                 error: null
             },
             ratings: {
                 value: {
                     rateStar: 'a-icon a-icon-star a-star-4-5',
-                    acrCustomerReviewText: '2,190 ratings'
+                    acrCustomerReviewText: '818 ratings'
                 },
                 error: null
             }
         }
     },
     {
-        url: 'https://www.amazon.com/gp/product/B074KM543R?th=1&psc=1',
+        url: 'https://www.amazon.com/gp/product/B08JVMGZ8Y?th=1&psc=1',
         data: {
             productTitle: {
-                value:
-                    "Gold Bond Ultimate Men's Essentials 5-in-1 Face Lotion, Fragrance free, 3.3 Ounce",
+                value: 'HP Desktop PC, AMD Ryzen 3 4300G Processor, 8 GB of RAM, 512 GB SSD Storage, Windows 10 Home, High Speed Performance, Computer, 8 USB Ports, for Business, Study, Videos, and Gaming (M01-F1120, 2021)',
                 error: null
             },
             ASIN: {
-                value: 'B074KM543R',
+                value: 'B08JVMGZ8Y',
+                error: null
+            },
+            basePrice: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="priceblock_ourprice"]"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
+            },
+            mainImage: {
+                value: 'https://images-na.ssl-images-amazon.com/images/I/719NioKt7XL._AC_SY606_.jpg',
+                error: null
+            },
+            sizeName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
+            },
+            styleName: {
+                value: '4300G Processor',
+                error: null
+            },
+            productDescription: {
+                value: 'With the HP Desktop PC, working and studying from home becomes effortless. This computer’s bold black exterior design with included mouse and keyboard combo blends perfectly into any room. Enjoy the ease of content creation with the AMD Ryzen™ 3 4300G Processor* and watch as graphics** are given new life thanks to AMD Radeon™. From gaming to streaming, you’ll marvel at high resolution imagery. Store documents, presentations, videos, and so much more with 8 GB of RAM*** and 512 GB PCIe® NVMe™ M.2 Solid State Drive.**** 8 Conveniently located USB ports***** allow you to plug in your favorite devices when you need to. Smoothly move through tabs, programs, and documents with the phenomenal Windows 10****** operating system. Backed by over 230 tests,******* this HP computer can be trusted to continuously perform at the highest level for you. Work and play with ease knowing that your investment is protected through HP’s Hardware Limited Warranty. *Multi-core is designed to improve performance of certain software products. Not all customers or software applications will necessarily benefit from use of this technology. Performance and clock frequency will vary depending on application workload and your hardware and software configurations. AMD’s numbering is not a measurement of clock speed. AMD and Radeon are trademarks of Advanced Micro Devices, Inc. **Part of the total system memory (RAM) is used for graphics/video performance. System memory dedicated to graphics/video performance is not available for other use by other programs. ***Up to 512MB of main system memory may be allocated to support video graphics. ****Actual formatted capacity is less. Portion of internal storage is reserved for preloaded content. Based on HP internal testing using CrystalDiskMark benchmarking software. Performance is sequentially faster (read only) compared to traditional 7,200 rpm HDD. *****Actual throughput may vary. ******Not all features are available in all editions or versions of Windows. Systems may require upgraded and/or separately purchased hardware, drivers, software or BIOS update to take full advantage of Windows functionality. Windows 10 is automatically updated, which is always enabled. ISP fees may apply and additional requirements may apply over time for updates. See microsoft.com *******Call 1.800.474.6836 or support.hp.com for more information on Care Packs available after 90 days. After 90 days, an incident fee may apply.',
+                error: null
+            },
+            productOverview: {
+                value: {
+                    'Specific Uses For Product':
+                        'Multimedia, Personal, Business',
+                    Series: 'M01-f1120',
+                    'Ram Memory Installed Size': '8 GB',
+                    'Operating System': 'Windows 10 Home',
+                    'CPU Model': 'Ryzen 3'
+                },
+                error: null
+            },
+            productAbout: {
+                value: [
+                    '',
+                    'REMOTE WORK READY - Study or work from home with a sleek and reliable PC from a brand that you can trust.',
+                    'MODERN DESIGN - With a bold and stylish design accompanied by a USB mouse and keyboard combo, this HP seamlessly fits into any work or living space.',
+                    'LIGHTNING-FAST PROCESSOR & VIBRANT IMAGING - Content creation is a snap with the AMD Ryzen 3 4300G Processor* and images are given new life with AMD RadeonGraphics**',
+                    'THE ENTERTAINMENT DOESN’T STOP - Get the most from you gaming and streaming experience with second-to-none graphics provided by AMD Radeon Graphics',
+                    'MEMORY AND STORAGE - This desktop’s performance gets a boost thanks to the bandwidth from 8 GB of RAM*** and 512 GB PCIe NVMe M.2 Solid State Drive****',
+                    'STAY CONNECTED - 8 USB ports***** allow you to easily connect your favorite devices.',
+                    'EASY OPERATION - The Windows 10****** operating system makes navigating through tabs and programs a breeze.',
+                    '',
+                    ''
+                ],
+                error: null
+            },
+            productDetails: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
+            },
+            images: {
+                value: [
+                    {
+                        thumbnailSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/419x6MK6GCL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/719NioKt7XL._AC_SY606_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/41EqYaGtvOL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/71LIYZMbejL._AC_SY606_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/41CttujMj6L._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/81nI3u6W2jL._AC_SY606_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/41jlXgYbPNL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/81aAVqMSrCL._AC_SY606_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/41ovSPisReL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/81cG4btMooL._AC_SY606_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/4195OQyAyGL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/71VLLuFDI1L._AC_SY606_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/414e1zStjPL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/81zboT6J8dL._AC_SY606_.jpg'
+                    }
+                ],
+                error: null
+            },
+            priceDetail: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="price"]"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-4-5',
+                    acrCustomerReviewText: '95 ratings'
+                },
+                error: null
+            }
+        }
+    },
+    {
+        url: 'https://www.amazon.com/gp/product/B08KHD3HSZ?th=1&psc=1',
+        data: {
+            productTitle: {
+                value: 'HP 21 All-in-One PC, Intel Pentium Silver J5040 Quad-Core Processor, 4 GB RAM, 128 GB SSD Storage, 20.7-inch Full HD Display, Windows 10 Home with Enhanced Security, Privacy Camera (21-b0020, 2020)',
+                error: null
+            },
+            ASIN: {
+                value: 'B08KHD3HSZ',
                 error: null
             },
             basePrice: {
                 value: {
                     symbol: '$',
                     currency: 'USD',
-                    amount: 7.97
+                    amount: 409.99
                 },
                 error: null
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/81jXb2lw%2BvL._SY355_.jpg',
+                value: 'https://images-na.ssl-images-amazon.com/images/I/819oaj2fTQL._AC_SY450_.jpg',
                 error: null
             },
             sizeName: {
-                value: '3.3 Ounce (Pack of 1)',
-                error: null
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             styleName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             productDescription: {
-                value:
-                    'Gold Bond Ulimate Essentials Mens 5 in 1 Face Lotion SPF 15, Deliver 5 essential benefits in one everyday formula: soothing, moisturizing, repairing, strengthening, and protecting, Light weight and quick-absorbing. Delivers 7 moisturizers to hydrate and replenish skin without clogging pores, Skin-strengthening proteins, vitamins, and anti-oxidants work, Non-irritating and contains calming agents, leaves skin soothed and refreshed.',
-                error: null
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#productDescription > p"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             productOverview: {
                 value: {
-                    Ingredients:
-                        'Active Ingredients: Avobenzone (3%), Octisalate (2%), Octocrylene (10%). Purpose: Sunscreen. Inactive Ingredie… See more',
-                    Scent: 'Unscented',
-                    Brand: 'Gold Bond',
-                    'Skin Type': 'All',
-                    'Item Form': 'Liquid'
+                    Series: '21-b0020',
+                    Brand: 'HP',
+                    'Specific Uses For Product': 'Personal, Business',
+                    'Screen Size': '20.7 Inches',
+                    'Operating System': 'Windows 10 Home'
                 },
                 error: null
             },
             productAbout: {
                 value: [
-                    'Help repair while SPF 15 provides protection from sun damage.',
-                    'Fragrance free.',
-                    'Non-greasy.',
-                    'item package weight: 4.0 ounces'
+                    '',
+                    'ALL-IN-ONE ELEGANCE – De-clutter your workspace and get more done with an All-in-One PC that blends the power of a desktop with the elegance of a slim, sleek display',
+                    'FULL HD DISPLAY – See more of your entertainment with an anti-glare, narrow-bezel, 20.7-inch display, boasting 2 million pixels for crystal-clear visuals and vibrant image quality (1). Watch your shows comfortably as you easily adjust the screen’s tilt 5 degrees forward and 20 degrees backward',
+                    'TRUE PROCESSING POWER – The Intel Pentium Silver J5040 processor is the perfect combination of performance, power consumption, and value; multitasking has never been smoother or more reliable with four processing cores to divide up the work (2)',
+                    'MODERN GRAPHICS – Smoothly stream 4K content and play your favorite games in 1080p, without the need for a dedicated graphics card. With excellent Intel UHD graphics performance, you’ll see the difference in everything you do (3)',
+                    'MEMORY AND STORAGE – Experience a boost in performance for improved multitasking with 4 GB of DDR4 RAM (4) and get up to 30x faster performance than a traditional hard drive with 128 GB of PCIe NVMe M.2 Solid State Drive storage (5)',
+                    'PORTS AND CONNECTIVITY – Access all the tools you need for better connectivity with 4 (2 SuperSpeed USB Type-A 5Gbps signaling rate, 2 USB 2.0 Type-A), external headphone/microphone combo port, as well as a Wi-Fi 5 (1x1) and Bluetooth 4.2 combo (6)',
+                    'OS AND WARRANTY – Windows 10 Home in S Mode is the most secure Windows ever built with fast boot times, increased responsiveness, and added protection against phishing and malware (7). Enjoy peace of mind beyond just cybersecurity with an AIO PC backed by over 230 individual quality tests and covered by a 1-year limited hardware warranty (8).',
+                    '',
+                    '',
+                    ''
                 ],
                 error: null
             },
             productDetails: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             images: {
                 value: [
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41uYa%2Bo7cjL._SS40_.jpg',
+                            'https://images-na.ssl-images-amazon.com/images/I/41NznvxbLlL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81jXb2lw%2BvL._SY355_.jpg'
+                            'https://images-na.ssl-images-amazon.com/images/I/819oaj2fTQL._AC_SY450_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41qJ-yDhJBL._SS40_.jpg',
+                            'https://images-na.ssl-images-amazon.com/images/I/41DeeU89vxL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81MQa%2BBGTWL._SY355_.jpg'
+                            'https://images-na.ssl-images-amazon.com/images/I/81LvHg8aBNL._AC_SY450_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41l6GfeJHiL._SS40_.jpg',
+                            'https://images-na.ssl-images-amazon.com/images/I/412CfXEch5L._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81FQQ%2Bgyp3L._SY355_.jpg'
+                            'https://images-na.ssl-images-amazon.com/images/I/81j5n5uYYRL._AC_SY450_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51OI8uVcSYL._SS40_.jpg',
+                            'https://images-na.ssl-images-amazon.com/images/I/415u8%2B7RvuL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/91od4dzV2SL._SY355_.jpg'
+                            'https://images-na.ssl-images-amazon.com/images/I/81c39fUpPjL._AC_SY450_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51CRNVMJhoL._SS40_.jpg',
+                            'https://images-na.ssl-images-amazon.com/images/I/41zc6vqZaSL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/91c0343LPyL._SY355_.jpg'
+                            'https://images-na.ssl-images-amazon.com/images/I/81AT1KS%2BqvL._AC_SY450_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41YNCZNcgdL._SS40_.jpg',
+                            'https://images-na.ssl-images-amazon.com/images/I/41r4FMXkQnL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71FLmhSyCoL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51WBD5Fs6iL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/91rYeb104PL._SY355_.jpg'
+                            'https://images-na.ssl-images-amazon.com/images/I/81QrbhIJ4JL._AC_SY450_.jpg'
                     }
                 ],
                 error: null
             },
             priceDetail: {
                 value: {
-                    priceblock_ourprice: '$7.97',
-                    ounce: '($2.42 / Ounce)'
+                    priceblock_ourprice: '$409.99',
+                    ounce: '& FREE Returns'
                 },
                 error: null
             },
             ratings: {
                 value: {
                     rateStar: 'a-icon a-icon-star a-star-4-5',
-                    acrCustomerReviewText: '1,682 ratings'
+                    acrCustomerReviewText: '88 ratings'
                 },
                 error: null
             }
         }
     },
     {
-        url: 'https://www.amazon.com/gp/product/B07WLNN8RQ?th=1&psc=1',
+        url: 'https://www.amazon.com/gp/product/B08KGYDR16?th=1&psc=1',
         data: {
             productTitle: {
-                value:
-                    'Gold Bond Radiance Renewal Oil-Infused Cream with Essential Oils, 10 Oz',
+                value: 'HP Pavilion 15 Laptop, 11th Gen Intel Core i7-1165G7 Processor, 16 GB RAM, 512 GB SSD Storage, Full HD IPS micro-edge Display, Windows 10 Pro, Compact Design, Long Battery Life (15-eg0021nr, 2020)',
                 error: null
             },
             ASIN: {
-                value: 'B07WLNN8RQ',
+                value: 'B08KGYDR16',
                 error: null
             },
             basePrice: {
                 value: {
                     symbol: '$',
                     currency: 'USD',
-                    amount: 9.99
+                    amount: 899.99
                 },
                 error: null
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/71tdtP9rk0L._AC_SX425_.jpg',
+                value: 'https://m.media-amazon.com/images/I/7156VgoIhdL._AC_SY450_.jpg',
                 error: null
             },
             sizeName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             styleName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             productDescription: {
-                value:
-                    'Hydrate visibly dry skin with Gold Bond Radiance Renewal Oil-Infused Cream featuring coconut oil, almond oil and mango butter. This skin-smoothing cream delivers ultra-rich moisture, and the blend of ingredients imparts an indulgent scent. It penetrates skin 10 surface layers deep. Gold Bond Radiance Renewal Oil-Infused Cream moisturizes dry skin for a full 24 hours with seven nourishing moisturizers and three vitamins. Best of all, it absorbs quickly and is non-greasy. Pamper your senses with a luxurious scent. Your skin is a champion. One that never settles for silver. Gold Bond is high performance skin care for real life so you can be your best while keeping your skin at its best.',
+                value: 'The HP Pavilion 15 Laptop has all the performance for mind-blowing entertainment you enjoy, but in a smaller, lightweight PC. The Full HD, IPS, micro-edge display combine with audio by B&O to give you robust, authentic theater-level entertainment (1). Intel Iris Xe Graphics (2) delivers the impressive performance needed for your creating, gaming, and entertainment while the 11th Generation Intel Core i7-1165G7 processor (3) gives you the instant responsiveness and best-in-class connectivity modern users crave. The HP Pavilion laptop’s 512 GB PCIe NVMe M.2 SSD storage outclasses traditional hard drives with 15 times the performance (4). Experience improved multitasking thanks to 16 GB of RAM. Work all day with up to 8 hours of battery life (5) and go from 0 to 50% charge in approximately 45 minutes with HP Fast Charge (6). Windows 10 Pro blends seamlessly and powerfully with this HP 15 Laptop for an optimized computing experience (7). Get more done with solid connections speeds from the powerful Wi-Fi 6 (2x2) (8) and Bluetooth 5.0 combo (9) and work comfortably with the familiar feel of a full-sized keyboard. Your HP laptop checks all the boxes with a 1-year limited hardware warranty, Energy Star certification (11), EPEAT Silver registered (12), and a low halogen display (13).\n\n(1) Full High Definition (FHD) content is required to view FHD images.\n(2) Shared video memory (UMA) uses part of the total system memory for video performance. System memory dedicated to video performance is not available for other use by other programs.\n(3) Multi-core is designed to improve the performance of certain software products. Not all customers or software applications will necessarily benefit from the use of this technology. Performance and clock frequency will vary depending on the application workload and your hardware and software configurations. Intel’s numbering, branding, and/or naming is not a measurement of higher performance. Intel, Pentium, Intel Core, Celeron, Iris Xe, Intel logo, and the Intel Inside logo are trademarks of Intel Corporation in the U.S. and other countries.\n(4) Based on HP internal testing using Crystal Disk Mark benchmarking software. Performance is sequentially faster (read-only) compared to traditional 5,400 rpm HDD.\n(5) Windows 10 MobileMark 18 battery life will vary depending on various factors, including product model, configuration, loaded applications, features, use, wireless functionality, and power management settings. The maximum capacity of the battery will naturally decrease with time and usage. See bapco.com/products/mobilemark-2018/ for additional details.\n(6) Recharges your battery up to 50% within 45 minutes when the system is off (using “shut down” command). Recommended for use with the HP adapter provided with the notebook, not recommended with a smaller capacity battery charger. After charging has reached 50% capacity, charging speed will return to normal speed. Charging time may vary +/-10% due to System tolerance.\n(7) Not all features are available in all editions or versions of Windows. Systems may require upgraded and/or separately purchased hardware, drivers, software, or BIOS update to take full advantage of Windows functionality. Windows 10 is automatically updated, which is always enabled. ISP fees may apply and additional requirements may apply over time for updates. See microsoft.com\n(8) Wireless access point and internet service required and sold separately. Availability of public wireless access points limited. Wi-Fi 6 (802.11ax) is backwards compatible with prior 802.11 specs. The specifications for Wi-Fi 6 are draft and are not final. If the final specifications differ from the draft specifications, it may affect the ability of the notebook to communicate with other Wi-Fi 6 devices. Only available in countries where 802.11ax is supported.\n(9) Bluetooth is a trademark owned by its proprietor and used by Hewlett-Packard Company under license.\n(10) Based on Wi-Fi 5 80MHz and Wi-Fi 6 160MHz minimum requirements when transferring files between two devices connected to the same router. Requires a wireless router, sold separately, that supports 802.11ax (Wi-Fi 6). Only available in countries where 802.11ax is supported.\n(11) Energy star and the Energy star mark are registered trademarks owned by the U.S. Environmental Protection Agency.\n(12) Based on U.S. EPEAT registration according to IEEE 1680.1-2018 EPEAT. EPEAT status varies by country.\n(13) External power supplies, power cords, cables, and peripherals are not Low Halogen. Service parts obtained after purchase may not be Low Halogen.',
                 error: null
             },
             productOverview: {
                 value: {
-                    Ingredients: 'See package for ingredients',
-                    'Item Form': 'Cream',
-                    Brand: 'Gold Bond',
-                    'Skin Type': 'Dry',
-                    'Item Weight': '0.63 Pounds'
+                    Series: 'HP Pavilion 15 Laptop',
+                    Brand: 'HP',
+                    'Specific Uses For Product': 'Personal, Business',
+                    'Screen Size': '15.6 Inches',
+                    'Operating System': 'Windows 10 Pro'
                 },
                 error: null
             },
             productAbout: {
                 value: [
-                    'INCLUDES: One (1) 10-ounce bottle of Gold Bond Radiance Renewal Oil-Infused Cream With Essential Oils',
-                    'OIL-INFUSED CREAM: This oil-infused cream includes coconut oil, almond oil and mango butter',
-                    'ULTRA-RICH MOISTURE: Gold Bond Radiance Renewal nourishes skin with seven moisturizers and three vitamins',
-                    'TRIPLE ACTION FORMULA: Immediate hydration lasts for 24 hours',
-                    'RADIANT-LOOKING SKIN: The formula provides a radiant glow on visibly dry skin'
+                    '',
+                    'INSTANT GRATIFICATION – Experience a laptop with premium performance, so you can spend less time getting more done; it’s like a small PC that’s compact enough to go where you go with a long-lasting battery to power you through your day',
+                    'EPIC ENTERTAINMENT – With audio by B&O, a larger screen-to-body ratio, and a 15.6-inch Full HD micro-edged screen to maximize your view, entertainment on your laptop feels like bringing the theater home (1)',
+                    'IMPRESSIVE GRAPHICS – The Intel Iris Xe Graphics gives you a new level of graphics performance with crisp, stunning visuals, plus the convenience of a thin and light laptop (2)',
+                    'UNSTOPPABLE PERFORMANCE – Get things done fast with the 11th Generation Intel Core i7-1165G7 processor, which delivers instant responsiveness and best-in-class connectivity (3)',
+                    'MEMORY AND STORAGE – Enjoy up to 15x faster performance than a traditional hard drive with 512 GB PCIe NVMe M.2 SSD storage (4) and experience improved multitasking with higher bandwidth thanks to 16 GB of RAM',
+                    'WORK ON THE GO – Get work done on the go with a long battery life of up to 8 hours (5) while HP Fast Charge lets you go from 0 to 50% charge in approximately 45 minutes (6)',
+                    'OS AND WARRANTY – Do more with better peace of mind thanks to the HP 1-year limited hardware warranty and the seamlessly integrated Windows 10 Pro operating system (7)',
+                    '',
+                    '',
+                    ''
                 ],
                 error: null
             },
             productDetails: {
-                value: {
-                    'Product Dimensions :': '2 x 2 x 8 inches; 10 Ounces',
-                    'Date First Available :': 'August 1, 2019',
-                    'Manufacturer :': 'AmazonUs/CHMZ7',
-                    'ASIN :': 'B07WLNN8RQ',
-                    'Best Sellers Rank:': '#5,139 in Skin Care Products',
-                    'Customer Reviews:': ''
-                },
-                error: null
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             images: {
                 value: [
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/31GT3VkIdEL._AC_US40_.jpg',
+                            'https://m.media-amazon.com/images/I/31V2NN-y7BL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71tdtP9rk0L._AC_SX425_.jpg'
+                            'https://m.media-amazon.com/images/I/7156VgoIhdL._AC_SY450_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/517TtepgPLL._AC_US40_.jpg',
+                            'https://m.media-amazon.com/images/I/41cCZJTjF6L._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/91u8wenXGNL._AC_SX425_.jpg'
+                            'https://m.media-amazon.com/images/I/91IWZam+uML._AC_SY450_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41OqRDxAxfL._AC_US40_.jpg',
+                            'https://m.media-amazon.com/images/I/41DtDTlWHOL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71ABHHapZXL._AC_SX425_.jpg'
+                            'https://m.media-amazon.com/images/I/81dE-flaJ4L._AC_SY450_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/411Olxme24L._AC_US40_.jpg',
+                            'https://m.media-amazon.com/images/I/41tiX1sT-CL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71-SAHn5uDL._AC_SX425_.jpg'
+                            'https://m.media-amazon.com/images/I/81+vAAd8ERL._AC_SY450_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41%2BW37APypL._AC_US40_.jpg',
+                            'https://m.media-amazon.com/images/I/51KkSm-myIL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/813GxTJYhkL._AC_SX425_.jpg'
+                            'https://m.media-amazon.com/images/I/81cp2p8BCVL._AC_SY450_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51H4QIfY1VL._AC_US40_.jpg',
+                            'https://m.media-amazon.com/images/I/418BmMhNnPL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81AW8FgR3DL._AC_SX425_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41Zpp6-CpOL._AC_US40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81QS3B0oy-L._AC_SX425_.jpg'
+                            'https://m.media-amazon.com/images/I/81fiNf7ILdL._AC_SY450_.jpg'
                     }
                 ],
                 error: null
             },
             priceDetail: {
                 value: {
-                    priceblock_ourprice: '$9.99',
-                    ounce: '($1.00 / Ounce)'
-                },
-                error: null
-            },
-            ratings: {
-                value: {
-                    rateStar: 'a-icon a-icon-star a-star-5',
-                    acrCustomerReviewText: '825 ratings'
-                },
-                error: null
-            }
-        }
-    },
-    {
-        url: 'https://www.amazon.com/gp/product/B07L9RTWRS?th=1&psc=1',
-        data: {
-            productTitle: {
-                value:
-                    'Gold Bond Radiance Renewal Hydrating Lotion, for Visibly Dry Skin, Family Size, 20 oz',
-                error: null
-            },
-            ASIN: {
-                value: 'B07L9RTWRS',
-                error: null
-            },
-            basePrice: {
-                value: {
-                    symbol: '$',
-                    currency: 'USD',
-                    amount: 9.74
-                },
-                error: null
-            },
-            mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/81zrUD974TL._AC_SX425_.jpg',
-                error: null
-            },
-            sizeName: {
-                value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
-            },
-            styleName: {
-                value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
-            },
-            productDescription: {
-                value:
-                    "Get healthy-looking, radiant skin with Gold Bond Radiance Renewal Hydrating Lotion for visibly dry skin. This pack of Gold Bond lotion comes conveniently bundled in a set of three 5.5-ounce tubes. Put one in the car, one in the bathroom, and one in the living room to always have moisturizing care at hand. Its triple action formula gently exfoliates, hydrates, and locks in moisture for 24 hours. You won't even know it's there while it nurtures your skin with seven nourishing moisturizers and three vitamins. Containing coconut oil, cocoa butter and African shea butter, this moisturizing lotion nourishes visibly dry skin for a healthy-looking glow. Your skin is a champion. One that never settles for silver. Gold Bond is high performance skin care for real life so you can be your best while keeping your skin at its best.",
-                error: null
-            },
-            productOverview: {
-                value: {
-                    Ingredients:
-                        'Triple-blend of Coconut Oil, Cocoa Butter & African Shea Butter: De… See more',
-                    Scent: 'Shea Butter, Almond, Coconut, Cocoa Butter',
-                    'Item Form': 'Lotion',
-                    Brand: 'Gold Bond',
-                    'Skin Type': 'Sensitive'
-                },
-                error: null
-            },
-            productAbout: {
-                value: [
-                    'INCLUDES: One (1) 20-oz. pump bottle of Gold Bond Radiance Renewal Hydrating Lotion for Visibly Dry Skin',
-                    'TRIPLE INGREDIENT BLEND: African shea butter, coconut oil, and cocoa butter nourish skin',
-                    'TRIPLE ACTION FORMULA: This body lotion gently exfoliates, immediately hydrates and locks in moisture',
-                    'DEEP HYDRATION: This hydrating lotion penetrates skin 10 surface layers deep and helps prevent visibly dry skin from coming back',
-                    'DERMATOLOGIST-TESTED: Formula tested for fast absorption and 24-hour non-greasy moisturization'
-                ],
-                error: null
-            },
-            productDetails: {
-                value: {
-                    'Product Dimensions :':
-                        '3.38 x 2.25 x 10 inches; 1.37 Pounds',
-                    'Date First Available :': 'December 11, 2018',
-                    'Manufacturer :': 'Chattem Inc.',
-                    'ASIN :': 'B07L9RTWRS',
-                    'Domestic Shipping:':
-                        'Currently, item can be shipped only within the U.S. and to APO/FPO addresses. For APO/FPO shipments, please check with the manufacturer regarding warranty and support issues.',
-                    'International Shipping:':
-                        'This item can be shipped to select countries outside of the U.S. Learn More',
-                    'Best Sellers Rank:': '#48 in Body Lotions',
-                    'Customer Reviews:': ''
-                },
-                error: null
-            },
-            images: {
-                value: [
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/414CMvoePqL._AC_US40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81zrUD974TL._AC_SX425_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41jUEiRx17L._AC_US40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/817VmwUgWJL._AC_SX425_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41uEmzyKDFL._AC_US40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71d5BuWGclL._AC_SX425_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41lS1fu96sL._AC_US40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71TL03rp5BL._AC_SX425_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/411Olxme24L._AC_US40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71-SAHn5uDL._AC_SX425_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51H4QIfY1VL._AC_US40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81AW8FgR3DL._AC_SX425_.jpg'
-                    }
-                ],
-                error: null
-            },
-            priceDetail: {
-                value: {
-                    priceblock_ourprice: '$9.74',
-                    ounce: '($0.49 / Ounce)'
+                    priceblock_ourprice: '$899.99',
+                    ounce: '& FREE Returns',
+                    price_block_savings: '$45.00 (5%)'
                 },
                 error: null
             },
             ratings: {
                 value: {
                     rateStar: 'a-icon a-icon-star a-star-4-5',
-                    acrCustomerReviewText: '8,714 ratings'
+                    acrCustomerReviewText: '1,270 ratings'
                 },
                 error: null
             }
         }
     },
     {
-        url: 'https://www.amazon.com/gp/product/B074MFDJRG?th=1&psc=1',
+        url: 'https://www.amazon.com/gp/product/B08C9P9VF5?th=1&psc=1',
         data: {
             productTitle: {
-                value:
-                    'Gold Bond Ultimate 1 Count Radiance Renewal, COCONUT OIL, SHEA BUTTER & COCOA BUTTER, 14 Oz',
+                value: 'HP Pavilion Desktop, 10th Gen Intel Core i5-10400 Processor, 8 GB RAM, 512 GB SSD, Windows 10 Home (TP01-1050, Silver)',
                 error: null
             },
             ASIN: {
-                value: 'B074MFDJRG',
+                value: 'B08C9P9VF5',
                 error: null
             },
             basePrice: {
                 value: {
                     symbol: '$',
                     currency: 'USD',
-                    amount: 7.58
+                    amount: 579.99
                 },
                 error: null
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/81lWkhHqzQL._SY355_.jpg',
+                value: 'https://m.media-amazon.com/images/I/71bgCZm+1eS._AC_SY450_.jpg',
                 error: null
             },
             sizeName: {
-                value: '1 Count',
+                value: '8 GB RAM, 512 GB SSD',
                 error: null
             },
             styleName: {
-                value: 'Radiance Renewal',
-                error: null
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             productDescription: {
-                value:
-                    'New Gold Bond Ultimate Radiance Renewal. A rich, hydrating cream-oil that helps prevent visibly dry, ashy skin from coming back for healthy-looking, radiant skin.',
+                value: 'The HP Pavilion Desktop PC brings the latest technology and reliability from a trusted brand that protects what matters to you most. Because our PCs go through over 230 individual tests, you can be sure you’re getting a powerful, reliable PC that’s going to last. Ditch the dull black box with a polished silver brushed finish that perfectly fits in any space. Quickly and easily connect a second monitor or get truly immersive sound quality with 5.1 surround sound output. Everything you do feels easier and faster than ever before with a 10th Generation Intel(R) Core(TM) i5-10400 processor and integrated Bluetooth(R) 4.2 technology. Enjoy all of your DVDs with easy navigation and enhanced video quality on a high performance DVD player optimized for Windows 10. Get 25 GB of Dropbox storage for one year to access, manage, and share your photos, music, and files from anywhere with Internet access. Model: TP01-1050',
                 error: null
             },
             productOverview: {
-                value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                value: {
+                    'Specific Uses For Product': 'Personal, Gaming, Business',
+                    Series: 'HP Pavilion Desktop',
+                    'Ram Memory Installed Size': '8 GB',
+                    'Operating System': 'Windows 10 Home',
+                    'CPU Model': 'Core i5'
+                },
+                error: null
             },
             productAbout: {
                 value: [
-                    'COCONUT OIL, SHEA BUTTER & COCOA BUTTER: GOLD BOND Ultimate Radiance Renewal lotion is a hydration-rich cream made from a blend of moisturizing oils, including coconut oil, shea butter, and cocoa butter to help prevent visibly flaky, dry, or ashy skin.',
-                    'GOLD BOND ULTIMATE: GOLD BOND Ultimate lotions and creams help provide long lasting moisture and hydration to your skin. With lotions for hands, feet, face and body GOLD BOND Ultimate provide benefits from hydration to helping prevent premature aging.',
-                    'GOLD BOND SKIN CARE: While GOLD BOND powder may be the best known product, GOLD BOND carries medicated and non-medicated body powders, skin creams, lotions, and ointments. From first aid to foot care and face lotion, GOLD BOND has you covered.',
-                    "GOLD BOND FOR THE HOME: Since 1908, GOLD BOND Powder has been providing comfort, soothing relief, and skincare to adults and children, from baby's first bath and powder, to eczema or psoriasis relief, to lotion for dry skin or men's 5-in-1 Face Lotion.",
-                    'ITCHY SKIN CARE: Gold Bond offers ideal skin remedy for itchy & irritated skin. Try our body care, foot care & first aid products for dry skin, foot odor, minor cuts, sunburn, insect bites & other skin issues.'
+                    '',
+                    'BUILT RELIABLY FOR REAL-LIFE: Real-life action demands serious performance and tested durability. The HP Pavilion Desktop PC brings the latest technology and reliability from a trusted brand that protects what matters to you most.',
+                    'MADE FOR THE MODERN FAMILY: Ditch the dull black box with a polished silver brushed finish that perfectly fits in any space.',
+                    'ENTERTAINMENT AMPLIFIED: Enjoy listening to the music on your smartphone through your PC’s speakers. Stream music from your smartphone to your PC using Bluetooth(R) technology with HP Audio Stream.',
+                    'PROCESSOR AND GRAPHICS: Enjoy a fast performance and immersive multimedia entertainment with 4K visuals with a 10th Generation Intel(R) Core(TM) i5-10400 Processor. You’ll see the difference in everything you do with excellent Intel(R) UHD Graphics 630 performance.',
+                    'MEMORY: Enjoy high performance with 8 GB DDR4-2666 SDRAM memory. This desktop is designed for whatever your family throws at it.',
+                    'INTERNAL STORAGE: Boot up in seconds with lightning fast speed and get up to 10x faster performance than a traditional hard drive with 512 GB PCIe NVMe M.2 Solid State Drive.',
+                    'WIRELESS: Watching videos, working on projects, and keeping in touch with family and friends feels easier than ever when connected with Wi-Fi 5 (1x1) and Bluetooth 4.2 Combo.',
+                    '',
+                    '',
+                    ''
                 ],
                 error: null
             },
             productDetails: {
-                value: {
-                    'Is Discontinued By Manufacturer :': 'No',
-                    'Product Dimensions :':
-                        '2.13 x 3.13 x 8.5 inches; 15.52 Ounces',
-                    'Item model number :': '05224',
-                    'UPC :': '041167052242',
-                    'Manufacturer :': 'Chattem Inc.',
-                    'ASIN :': 'B074MFDJRG',
-                    'Domestic Shipping:':
-                        'Currently, item can be shipped only within the U.S. and to APO/FPO addresses. For APO/FPO shipments, please check with the manufacturer regarding warranty and support issues.',
-                    'International Shipping:':
-                        'This item can be shipped to select countries outside of the U.S. Learn More',
-                    'Best Sellers Rank:': '#109 in Body Lotions',
-                    'Customer Reviews:': ''
-                },
-                error: null
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             images: {
                 value: [
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/417UpPwYNxL._SS40_.jpg',
+                            'https://m.media-amazon.com/images/I/21cFFV9kLNS._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81lWkhHqzQL._SY355_.jpg'
+                            'https://m.media-amazon.com/images/I/71bgCZm+1eS._AC_SY450_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41uEmzyKDFL._SS40_.jpg',
+                            'https://m.media-amazon.com/images/I/41EKLGNKMgL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71d5BuWGclL._SY355_.jpg'
+                            'https://m.media-amazon.com/images/I/71HS1Cf1JvL._AC_SY355_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41lS1fu96sL._SS40_.jpg',
+                            'https://m.media-amazon.com/images/I/415OamG3giL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71TL03rp5BL._SY355_.jpg'
+                            'https://m.media-amazon.com/images/I/81xnDaOi2dL._AC_SY355_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/411Olxme24L._SS40_.jpg',
+                            'https://m.media-amazon.com/images/I/31jFBvPaPrL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71-SAHn5uDL._SY355_.jpg'
+                            'https://m.media-amazon.com/images/I/71u7AcjtPuL._AC_SY355_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51H4QIfY1VL._SS40_.jpg',
+                            'https://m.media-amazon.com/images/I/41sQnNcz8gL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81AW8FgR3DL._SY355_.jpg'
+                            'https://m.media-amazon.com/images/I/71QqZ48d3ML._AC_SY355_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41CDMXnW%2BiL._SS40_.jpg',
+                            'https://m.media-amazon.com/images/I/51w6T2RteYL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81yJuGjpSKL._SY355_.jpg'
+                            'https://m.media-amazon.com/images/I/816JzO+3bYL._AC_SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41xTGDGC81L._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/818xH3Bj-UL._AC_SY355_.jpg'
                     }
                 ],
                 error: null
             },
             priceDetail: {
                 value: {
-                    priceblock_ourprice: '$7.58',
-                    ounce: '($0.54 / Ounce)',
-                    price_block_savings: '$2.41 (24%)'
+                    priceblock_ourprice: '$579.99',
+                    ounce: '& FREE Returns',
+                    price_block_savings: '$70.00 (11%)'
                 },
                 error: null
             },
             ratings: {
                 value: {
                     rateStar: 'a-icon a-icon-star a-star-4-5',
-                    acrCustomerReviewText: '5,578 ratings'
+                    acrCustomerReviewText: '131 ratings'
                 },
                 error: null
             }
         }
     },
     {
-        url: 'https://www.amazon.com/gp/product/B00H35BV2G?th=1&psc=1',
+        url: 'https://www.amazon.com/gp/product/B08JVMT8Y9?th=1&psc=1',
         data: {
             productTitle: {
-                value:
-                    'Gold Bond Ultimate Healing Skin Therapy Lotion with Aloe, Fragrance Free 14 Ounce',
+                value: 'HP All-in-One Desktop PC, 11th Gen Intel Core i5-1135G7 Processor, 8 GB RAM, 512 GB SSD Storage, Full HD 23.8” Touchscreen, Windows 10 Home, Remote Work Ready, Mouse and Keyboard (24-df1270, 2021)',
                 error: null
             },
             ASIN: {
-                value: 'B00H35BV2G',
+                value: 'B08JVMT8Y9',
                 error: null
             },
             basePrice: {
                 value: {
                     symbol: '$',
                     currency: 'USD',
-                    amount: 7.58
+                    amount: 849.99
                 },
                 error: null
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/71SQJ4wlOjL._SY355_.jpg',
+                value: 'https://m.media-amazon.com/images/I/81rHaRJOZHL._AC_SX466_.jpg',
                 error: null
             },
             sizeName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             styleName: {
-                value: 'Fragrance Free - 14 Ounce',
+                value: '11th gen i5',
                 error: null
             },
             productDescription: {
-                value:
-                    'Gold Bond Ultimate Healing Skin Therapy Lotion, Ultimate healing lotion is clinically tested to moisturize for up to 24 hours, Reveal nourished, healed and healthy-looking skin, Keep moisture attached to skin allowing it to work even after wash hands With 7 moisturizers and 3 vitamins. Dermatologist tested.',
+                value: "The HP All-in-One Desktop PC blends the power of a desktop with the beauty of a modern display. This HP computer’s power grows with you because the panel and hardware are easy to remove and upgrade (1). Control your entertainment with a touch and see every detail on a three-sided, micro-edge, full HD display (2). Both processing power and visuals get an upgrade with the power of the 11th Generation Intel® Core™ i5-1135G7 processor and Intel® Iris® Xe Graphics (3) (4). 512 GB PCIe® NVMe™ SSD storage gives this HP desktop computer the storage capacity you crave, while the 8 GB of RAM makes multitasking a breeze (5) (6) (7). Connectivity is made easy with a Wi-Fi 5 (2x2) WLAN adapter and Bluetooth® 5.0 combo (9) (10). Your setup has never been more modern than with a Windows 10 operating system (11), wired mouse and keyboard combo, and all the connection ports you need conveniently located on the back of the All-in-One desktop. Stay connected with friends and family with the HP True Vision 720p HD privacy camera that works even in low light and tucks away when not in use (13). Having passed over 230 individual tests and built to be environmentally responsible, this AIO PC is made for the modern world (12). (1) This device has been engineered for optimal performance. Upgrading the PC may affect warranty coverage. (2) All performance specifications represent the typical specifications provided by HP's component manufacturers; actual performance may vary either higher or lower. Full High Definition (FHD) content is required to view FHD images. (3) Multi-core is designed to improve performance of certain software products. Not all customers or software applications will necessarily benefit from the use of this technology. Performance and clock frequency will vary depending on the application workload and your hardware and software configurations. Intel’s numbering, branding, and/or naming is not a measurement of higher performance. Intel, Pentium, Intel Core, Celeron, Intel logo, and the Intel Inside logo are trademarks of Intel Corporation in the U.S. and other countries. (4) Part of the total system memory (RAM) is used for graphics/video performance. System memory dedicated to graphics/video performance is not available for other use by other programs. (5) Up to 512MB of main system memory may be allocated to support video graphics. (6) Actual formatted capacity is less. A portion of internal storage is reserved for preloaded content. (7) Based on HP internal testing using CrystalDiskMark benchmarking software. Performance is sequentially faster (read-only) compared to traditional 5,400 rpm HDD. (8) Actual throughput may vary. (9) Wireless access point and internet service required and sold separately. Availability of public wireless access points limited. Wi-Fi 5 (802.11ac) is backward compatible with prior Wi-Fi 5 specs. (10) Bluetooth® is a trademark owned by its proprietor and used by Hewlett-Packard Company under license. (11) Not all features are available in all editions or versions of Windows. Systems may require upgraded and/or separately purchased hardware, drivers, software, or BIOS update to take full advantage of Windows functionality. Windows 10 is automatically updated, which is always enabled. ISP fees may apply and additional requirements may apply over time for updates. See microsoft.com (12) HP Total Test Process testing is not a guarantee of future performance under these test conditions. Damage under the HP Total Test Process test conditions or any accidental damage requires an optional HP Accidental Damage Protection Care Pack. (13) Features may require software or other 3rd party applications to provide the described functionality. Internet service required and not included. (14) External power supplies, power cords, cables, and peripherals are not Low Halogen. Service parts obtained after purchase may not be Low Halogen.",
                 error: null
             },
             productOverview: {
                 value: {
-                    Ingredients:
-                        'Water, Glycerin, Dimethicone, Petrolatum, Jojoba Esters, Cetyl Alcohol, Aloe Barbadensis Leaf Juice, Stearyl… See more',
-                    Scent: 'Fragrance Free',
-                    'Item Form': 'Lotion',
-                    Brand: 'Gold Bond',
-                    'Skin Type': 'Sensitive'
+                    'Specific Uses For Product':
+                        'Multimedia, Personal, Business',
+                    Series: '24-df1270',
+                    'Ram Memory Installed Size': '8 GB',
+                    'Operating System': 'Windows 10 Home',
+                    'CPU Model': 'Core i5'
                 },
                 error: null
             },
             productAbout: {
                 value: [
-                    'FRAGRANCE FREE BODY LOTION: Rough & extra dry skin calls for a rich lotion packed with 7 intensive moisturizers & vitamins A, C & E plus soothing aloe, to nourish & soften dry skin, now fragrance free!',
-                    "LONG LASTING MOISTURIZATION: This lotion offers 24-hour moisturization. It's dermatologist tested, hypoallergenic & non-comedogenic. Our quick-absorbing formula is non-greasy with fresh clean scent.",
-                    'ULTIMATE FORMULA: Our Ultimate line offers a variety of specialized lotions & creams specifically formulated for your skin care needs, with 7 moisturizers & 3 vitamins plus special ingredients.',
-                    "HEALING SINCE 1908: For over a century Gold Bond products have provided soothing relief to the whole family, from baby's first bath & powder, to eczema or psoriasis relief, to lotion for dry skin.",
-                    'GOLD BOND QUALITY: In addition to our top-selling medicated body powder, foot powder & foot cream, Gold Bond offers skin care products to moisturize, soften & protect your hands, feet, face & body.'
+                    '',
+                    'BUILT FOR TOMORROW – Designed to grow with you, this AIO’s panel and hardware are easy to remove and upgrade (1).',
+                    'FULL HD TOUCHSCREEN – Control your entertainment right from the screen and get crystal-clear, 1080p resolution on a three-sided micro-edge display with 178-degree wide-viewing angles (2).',
+                    'UNSTOPPABLE PROCESSING POWER – Get things done fast with the 11th Generation Intel Core i5-1135G7 processor and enjoy high performance, instant responsiveness, and best-in-class connectivity (3).',
+                    'STUNNING VISUALS – Experience a new level of graphics with Intel Iris Xe Graphics, designed to bring an impressive performance to your creating, gaming, and entertainment needs (4).',
+                    'MEMORY AND STORAGE – Boost your efficiency as you browse, create, and multitask faster than ever with 8 GB of RAM (5). Get up to 15x faster performance than a traditional hard drive with 512 GB PCIe NVMe M.2 Solid State Drive (6) (7).',
+                    'PORTS AND CONNECTIVITY – Break out all the tools you need for better connectivity with 4 USB ports (2 SuperSpeed USB Type-A 5Gbps signaling rate (8), 2 USB 2.0 Type-A), HDMI Out, as well as a Wi-Fi 5 (2x2) WLAN adapter and Bluetooth 5.0 combo (9) (10).',
+                    'WINDOWS 10 AND WARRANTY – Do great things with a desktop equipped with Windows 10 Home (11). Quality tested over 230 times (12), your computer is backed by a 1-year limited hardware warranty.',
+                    '',
+                    '',
+                    ''
                 ],
                 error: null
             },
             productDetails: {
-                value: {
-                    'Is Discontinued By Manufacturer :': 'No',
-                    'Product Dimensions :':
-                        '3.13 x 2.13 x 8.5 inches; 0.49 Ounces',
-                    'Item model number :': '6608',
-                    'UPC :': '794437304793 041167066089',
-                    'Manufacturer :': 'Karewell Brands, Inc -- Dropship',
-                    'ASIN :': 'B00H35BV2G',
-                    'Best Sellers Rank:': '#117 in Body Lotions',
-                    'Customer Reviews:': ''
-                },
-                error: null
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             images: {
                 value: [
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41R7Sqj1xlL._SS40_.jpg',
+                            'https://m.media-amazon.com/images/I/41xA+LimA7L._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71SQJ4wlOjL._SY355_.jpg'
+                            'https://m.media-amazon.com/images/I/81rHaRJOZHL._AC_SX466_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/511fQBJt2OL._SS40_.jpg',
+                            'https://m.media-amazon.com/images/I/4114HXHeJPL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/818LhIU86YL._SY355_.jpg'
+                            'https://m.media-amazon.com/images/I/81eLMZWI-DL._AC_SX466_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41htbZ8atnL._SS40_.jpg',
+                            'https://m.media-amazon.com/images/I/41n+58jXFaL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/8106YYyO1PL._SY355_.jpg'
+                            'https://m.media-amazon.com/images/I/81GKrUp1DxL._AC_SX466_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41lS1fu96sL._SS40_.jpg',
+                            'https://m.media-amazon.com/images/I/41WsAewUPbL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71TL03rp5BL._SY355_.jpg'
+                            'https://m.media-amazon.com/images/I/81RIt+Wyn1L._AC_SX466_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51f-Uef6rPL._SS40_.jpg',
+                            'https://m.media-amazon.com/images/I/4155bszHPlL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81CXOaVkHlL._SY355_.jpg'
+                            'https://m.media-amazon.com/images/I/81dlvkSO39L._AC_SX466_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41wci21IO8L._SS40_.jpg',
+                            'https://m.media-amazon.com/images/I/41pIdpGQflL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71WBeSQXsEL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41BtD575DAL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81aMzI6C2sL._SY355_.jpg'
+                            'https://m.media-amazon.com/images/I/81QSSDfHEnL._AC_SX466_.jpg'
                     }
                 ],
                 error: null
             },
             priceDetail: {
                 value: {
-                    priceblock_ourprice: '$7.58',
-                    ounce: '($0.54 / Ounce)'
-                },
-                error: null
-            },
-            ratings: {
-                value: {
-                    rateStar: 'a-icon a-icon-star a-star-5',
-                    acrCustomerReviewText: '2,831 ratings'
-                },
-                error: null
-            }
-        }
-    },
-    {
-        url: 'https://www.amazon.com/gp/product/B008B9L6WS?th=1&psc=1',
-        data: {
-            productTitle: {
-                value:
-                    'Gold Bond Ultimate Healing Skin Therapy Lotion with Aloe, Family Size, Gold Fresh, 20 Ounce',
-                error: null
-            },
-            ASIN: {
-                value: 'B008B9L6WS',
-                error: null
-            },
-            basePrice: {
-                value: {
-                    symbol: '$',
-                    currency: 'USD',
-                    amount: 9.97
-                },
-                error: null
-            },
-            mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/718iQOcozlL._SY355_.jpg',
-                error: null
-            },
-            sizeName: {
-                value: '20 Ounce (Pack of 1)',
-                error: null
-            },
-            styleName: {
-                value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
-            },
-            productDescription: {
-                value:
-                    'Gold Bond Ultimate Skin Therapy Lotion Healing with Aloe, Gold bond ultimate healing lotion is specially formulated to help heal extremely dry, rough and problem skin. With seven intensive moisturizers and three essential skin-nurturing vitamins, plus the natural healing power of aloe, gold bond ultimate healing lotion is clinically tested to moisturize for up to 24 hours. Dermatologist tested and hypoallergenic, gold bond ultimate healing lotion has the power to get skin back to healthy, yet is still gentle enough to use on face. It absorbs quickly and is non-greasy, yet can actually feel it working even after wash hands.',
-                error: null
-            },
-            productOverview: {
-                value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
-            },
-            productAbout: {
-                value: [
-                    'BODY LOTION WITH ALOE: Rough & extra dry skin calls for a rich lotion packed with 7 intensive moisturizers & vitamins A, C & E plus soothing aloe, to nourish & soften dry skin all over your body.',
-                    "LONG LASTING MOISTURIZATION: This lotion offers 24-hour moisturization. It's dermatologist tested, hypoallergenic & non-comedogenic. Our quick-absorbing formula is non-greasy with fresh clean scent.",
-                    'ULTIMATE FORMULA: Our Ultimate line offers a variety of specialized lotions & creams specifically formulated for your skin care needs, with 7 moisturizers & 3 vitamins plus special ingredients.',
-                    "HEALING SINCE 1908: For over a century Gold Bond products have provided soothing relief to the whole family, from baby's first bath & powder, to eczema or psoriasis relief, to lotion for dry skin.",
-                    'GOLD BOND QUALITY: In addition to our top-selling medicated body powder, foot powder & foot cream, Gold Bond offers skin care products to moisturize, soften & protect your hands, feet, face & body.'
-                ],
-                error: null
-            },
-            productDetails: {
-                value: {
-                    'Is Discontinued By Manufacturer :': 'No',
-                    'Product Dimensions :':
-                        '2.25 x 3.38 x 10 inches; 1.25 Pounds',
-                    'Item model number :': 'Gol-3636',
-                    'UPC :':
-                        '885230063632 531479364961 607169089985 885716026373 885865277046 607169089978 885594914793 885277560675 885286800151 793379258973 885161300578 885591042819 787734713894 041167066560',
-                    'Manufacturer :': 'Gold Bond',
-                    'ASIN :': 'B008B9L6WS',
-                    'Domestic Shipping:': 'Item can be shipped within U.S.',
-                    'International Shipping:':
-                        'This item can be shipped to select countries outside of the U.S. Learn More',
-                    'Best Sellers Rank:': '#13 in Body Lotions',
-                    'Customer Reviews:': ''
-                },
-                error: null
-            },
-            images: {
-                value: [
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41%2B7a4Ia76L._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/718iQOcozlL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/511fQBJt2OL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/818LhIU86YL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41htbZ8atnL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/8106YYyO1PL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41lS1fu96sL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71TL03rp5BL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51f-Uef6rPL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81CXOaVkHlL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41wci21IO8L._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71WBeSQXsEL._SY355_.jpg'
-                    }
-                ],
-                error: null
-            },
-            priceDetail: {
-                value: {
-                    priceblock_ourprice: '$9.97',
-                    ounce: '($0.50 / Ounce)',
-                    price_block_savings: '$2.02 (17%)'
-                },
-                error: null
-            },
-            ratings: {
-                value: {
-                    rateStar: 'a-icon a-icon-star a-star-5',
-                    acrCustomerReviewText: '11,362 ratings'
-                },
-                error: null
-            }
-        }
-    },
-    {
-        url: 'https://www.amazon.com/gp/product/B001QFDTWO?th=1&psc=1',
-        data: {
-            productTitle: {
-                value:
-                    'Gold Bond Ultimate Lotion oz, Healing Skin Therapy, Aloe Vera, 14 Ounce',
-                error: null
-            },
-            ASIN: {
-                value: 'B001QFDTWO',
-                error: null
-            },
-            basePrice: {
-                value: {
-                    symbol: '$',
-                    currency: 'USD',
-                    amount: 7.58
-                },
-                error: null
-            },
-            mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/71tXZ7%2BceaL._SY355_.jpg',
-                error: null
-            },
-            sizeName: {
-                value: '14 Ounce (Pack of 1)',
-                error: null
-            },
-            styleName: {
-                value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
-            },
-            productDescription: {
-                value:
-                    'As the lotion is applied to dry, problem skin it adds a protective layer of moisture. Positive ions keep moisture attached to the skin, so you can feel it working even after you wash your hands. Unique blend of HYRDALAST(TM) emollients and humectants draw moisture throughout the day, for 24 hour moisturization.',
-                error: null
-            },
-            productOverview: {
-                value: {
-                    Ingredients:
-                        'Water, Glycerin, Dimethicone, Petrolatum, Jojoba Esters, Cetyl Alcohol, Aloe Barbadensis Leaf Juice, Stearyl… See more',
-                    Scent: 'Aloe Vera',
-                    'Item Form': 'Cream',
-                    Brand: 'Gold Bond',
-                    'Skin Type': 'Sensitive'
-                },
-                error: null
-            },
-            productAbout: {
-                value: [
-                    'BODY LOTION WITH ALOE: Rough & extra dry skin calls for a rich lotion packed with 7 intensive moisturizers & vitamins A, C & E plus soothing aloe, to nourish & soften dry skin all over your body.',
-                    "LONG LASTING MOISTURIZATION: This lotion offers 24-hour moisturization. It's dermatologist tested, hypoallergenic & non-comedogenic. Our quick-absorbing formula is non-greasy with fresh clean scent.",
-                    'ULTIMATE FORMULA: Our Ultimate line offers a variety of specialized lotions & creams specifically formulated for your skin care needs, with 7 moisturizers & 3 vitamins plus special ingredients.',
-                    "HEALING SINCE 1908: For over a century Gold Bond products have provided soothing relief to the whole family, from baby's first bath & powder, to eczema or psoriasis relief, to lotion for dry skin.",
-                    'GOLD BOND QUALITY: In addition to our top-selling medicated body powder, foot powder & foot cream, Gold Bond offers skin care products to moisturize, soften & protect your hands, feet, face & body.',
-                    'directions: Apply liberally to skin as often as needed. Reapply to extremely dry, rough, ashy or problem skin areas to promote speed of healing and increase level of moisturization.',
-                    'safety warning: Keep out of reach of children. For external use only. Avoid contact with eyes. If swallowed, get medical help or contact a Poison Control Center immediately.'
-                ],
-                error: null
-            },
-            productDetails: {
-                value: {
-                    'Is Discontinued By Manufacturer :': 'No',
-                    'Product Dimensions :':
-                        '7.85 x 3.1 x 2 inches; 14.08 Ounces',
-                    'Manufacturer recommended age :': '6 months - 3 years',
-                    'Item model number :': 'CT06651',
-                    'UPC :': '041167066515',
-                    'Manufacturer :': 'Chattem Inc.',
-                    'ASIN :': 'B001QFDTWO',
-                    'Domestic Shipping:':
-                        'Currently, item can be shipped only within the U.S. and to APO/FPO addresses. For APO/FPO shipments, please check with the manufacturer regarding warranty and support issues.',
-                    'International Shipping:':
-                        'This item can be shipped to select countries outside of the U.S. Learn More',
-                    'Best Sellers Rank:': '#13 in Body Lotions',
-                    'Customer Reviews:': ''
-                },
-                error: null
-            },
-            images: {
-                value: [
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41Cub5bNMfL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71tXZ7%2BceaL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/511fQBJt2OL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/818LhIU86YL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41htbZ8atnL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/8106YYyO1PL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41lS1fu96sL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71TL03rp5BL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51f-Uef6rPL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81CXOaVkHlL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41Qo7ftlyxL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71lUngJaYJL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41BtD575DAL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81aMzI6C2sL._SY355_.jpg'
-                    }
-                ],
-                error: null
-            },
-            priceDetail: {
-                value: {
-                    priceblock_ourprice: '$7.58',
-                    ounce: '($0.54 / Ounce)',
-                    price_block_savings: '$5.19 (41%)'
-                },
-                error: null
-            },
-            ratings: {
-                value: {
-                    rateStar: 'a-icon a-icon-star a-star-5',
-                    acrCustomerReviewText: '3,206 ratings'
-                },
-                error: null
-            }
-        }
-    },
-    {
-        url: 'https://www.amazon.com/gp/product/B006TCTAEA?th=1&psc=1',
-        data: {
-            productTitle: {
-                value:
-                    'Gold Bond Ultimate Daily Moisturizing Skin Therapy Lotion Vitamin E, Hydrates & Nourishes, 14.5 oz',
-                error: null
-            },
-            ASIN: {
-                value: 'B006TCTAEA',
-                error: null
-            },
-            basePrice: {
-                value: {
-                    symbol: '$',
-                    currency: 'USD',
-                    amount: 9.26
-                },
-                error: null
-            },
-            mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/71x%2Bm4k3bxL._AC_SX425_.jpg',
-                error: null
-            },
-            sizeName: {
-                value: '14.5 Ounce (Pack of 1)',
-                error: null
-            },
-            styleName: {
-                value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
-            },
-            productDescription: {
-                value:
-                    'This Gold Bond Ultimate Daily Moisturizing Lotion With Vitamin E is a hydrating formula that nourishes the skin to help repair, replenish, and fortify the dermis by creating a protective layer of moisture on your skin. The trademarked Hydralast emollients and humectants draw moisture throughout the day, for 24-hour moisturization to nourish and hydrate when used as part of a daily skin care regimen. This product has a fresh clean scent and is hypoallergenic and safe for every day use.',
-                error: null
-            },
-            productOverview: {
-                value: {
-                    Ingredients: '7 moisturizers',
-                    'Item Form': 'Moisturizing Lotion',
-                    Brand: 'Gold Bond',
-                    'Skin Type': 'Sensitive',
-                    'Age Range (Description)': 'Adults'
-                },
-                error: null
-            },
-            productAbout: {
-                value: [
-                    'INCLUDES: One (1) 14.5-oz. pump bottle of Gold Bond Ultimate Daily Moisturizing Lotion With Vitamin E',
-                    'HYDRATES & NOURISHES: This Gold Bond Daily Skin Therapy Lotion moisturizes skin and nourishes with vitamin E',
-                    '24-HOUR MOISTURE: Gold Bond Lotion for daily use creates a protective layer of moisture that lasts all day',
-                    'FAST-ABSORBING: This Gold Bond Ultimate Body Lotion absorbs quickly into the skin without feeling greasy',
-                    'DERMATOLOGIST-TESTED: This skin-hydrating lotion has been tested by dermatologists and has a fresh, clean scent'
-                ],
-                error: null
-            },
-            productDetails: {
-                value: {
-                    'Is Discontinued By Manufacturer :': 'No',
-                    'Product Dimensions :':
-                        '2.13 x 3.13 x 8.5 inches; 1 Pounds',
-                    'Item model number :': '04527',
-                    'Date First Available :': 'January 4, 2012',
-                    'Manufacturer :': 'Gold Bond',
-                    'ASIN :': 'B006TCTAEA',
-                    'Domestic Shipping:':
-                        'Currently, item can be shipped only within the U.S. and to APO/FPO addresses. For APO/FPO shipments, please check with the manufacturer regarding warranty and support issues.',
-                    'International Shipping:':
-                        'This item can be shipped to select countries outside of the U.S. Learn More',
-                    'Best Sellers Rank:': '#230 in Body Lotions',
-                    'Customer Reviews:': ''
-                },
-                error: null
-            },
-            images: {
-                value: [
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41cxJYDz16L._AC_US40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71x%2Bm4k3bxL._AC_SX425_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41lS1fu96sL._AC_US40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71TL03rp5BL._AC_SX425_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41185-0nUjL._AC_US40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71eJK9mqhnL._AC_SX425_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41R9fj4fU1L._AC_US40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71qOY6Btj1L._AC_SX425_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41Qo7ftlyxL._AC_US40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71lUngJaYJL._AC_SX425_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41C43k8FY7L._AC_US40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71LxSJvE6ML._AC_SX425_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41LW74gYmxL._AC_US40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81DRDChucqL._AC_SX425_.jpg'
-                    }
-                ],
-                error: null
-            },
-            priceDetail: {
-                value: {
-                    priceblock_ourprice: '$9.26',
-                    ounce: '($0.64 / Ounce)'
+                    priceblock_ourprice: '$849.99',
+                    ounce: '& FREE Returns',
+                    price_block_savings: '$50.00 (6%)'
                 },
                 error: null
             },
             ratings: {
                 value: {
                     rateStar: 'a-icon a-icon-star a-star-4-5',
-                    acrCustomerReviewText: '770 ratings'
+                    acrCustomerReviewText: '289 ratings'
                 },
                 error: null
             }
         }
     },
     {
-        url: 'https://www.amazon.com/gp/product/B07GVPCGJK?th=1&psc=1',
+        url: 'https://www.amazon.com/gp/product/B091DBY1JT?th=1&psc=1',
         data: {
             productTitle: {
-                value:
-                    'Gold Bond Ultimate Overnight Deep Moisturizing Lotion, 8 Oz Tube',
+                value: 'HP Envy 17 Laptop, 11th Gen Intel Core i7-1165G7, 12 GB RAM, 1 TB SATA Hard Drive & 256 GB SSD Storage, 17.3-inch Full HD IPS Touchscreen, Windows 10 Home, HD Webcam, Audio by B&O (17-cg1010nr, 2021)',
                 error: null
             },
             ASIN: {
-                value: 'B07GVPCGJK',
+                value: 'B091DBY1JT',
+                error: null
+            },
+            basePrice: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="priceblock_ourprice"]"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
+            },
+            mainImage: {
+                value: 'https://m.media-amazon.com/images/I/91uj92+DajL._AC_SY450_.jpg',
+                error: null
+            },
+            sizeName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
+            },
+            styleName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
+            },
+            productDescription: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#productDescription > p"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
+            },
+            productOverview: {
+                value: {
+                    Series: '17-cg1010nr',
+                    Brand: 'HP',
+                    'Specific Uses For Product':
+                        'Multimedia, Personal, Business',
+                    'Screen Size': '17.3 Inches',
+                    'Operating System': 'Windows 10 Home'
+                },
+                error: null
+            },
+            productAbout: {
+                value: [
+                    '',
+                    'AS BIG AS YOUR IMAGINATION – The powerful combination of an Intel Core processor, ample memory, and plenty of storage lets your creative vision come to life faster than ever before.',
+                    'FULL HD TOUCHSCREEN – Control your entertainment right from the screen and get crystal-clear quality with 178° wide-viewing angles (1).',
+                    'THE PERFECT PERFORMANCE COMBO – Experience new levels of power and the most stunning visuals thanks to the 11th Generation Intel Core i7-1165G7 processor and Intel Iris Xe graphics (2) (3).',
+                    'AMPLE MEMORY – Multitasking is a breeze as 12 GB of RAM gives your touchscreen laptop higher bandwidth and greater efficiency.',
+                    '● DUAL STORAGE CONFIGURATION – By including both 256 GB PCIe NVMe M.2 of SSD storage and 1 TB 7200 rpm SATA Hard Drive you get the benefits of both worlds—fast boot-up times and snappy responsiveness, as well as larger storage capacity (4) (5) (6).',
+                    '● ALL DAY CREATIVITY – Enjoy a long battery life to match your creativity with up to 7 hours depending on usage (7); plus, you’ll never be without power for long as HP Fast Charge lets you go from 0 to 50% charge in approximately 45 minutes (8).',
+                    '● OS AND WARRANTY – Do great things confidently with the familiar feel of Windows 10 Home and enjoy greater peace of mind with a laptop backed by a 1-year limited hardware warranty (9).',
+                    '',
+                    '',
+                    ''
+                ],
+                error: null
+            },
+            productDetails: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
+            },
+            images: {
+                value: [
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41T-5QtCIwL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/91uj92+DajL._AC_SY450_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41Uj8mVaaPS._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/81rrSkh79OS._AC_SY450_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41XsUtWRWkS._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/8120cbdxTcS._AC_SY450_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/511uYTUAM-S._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/81PRy4c30RS._AC_SY450_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/315zjsVIdyS._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/71q2hrmGLzS._AC_SY450_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41FP5zD9kGS._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/81KXgG7k-3S._AC_SY450_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41OcKPi8vPS._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/81+DyGda7nS._AC_SY450_.jpg'
+                    }
+                ],
+                error: null
+            },
+            priceDetail: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="price"]"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
+            },
+            ratings: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="averageCustomerReviews"]"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
+            }
+        }
+    },
+    {
+        url: 'https://www.amazon.com/gp/product/B089K5J3PT?th=1&psc=1',
+        data: {
+            productTitle: {
+                value: 'HP ENVY Desktop Computer, Intel Core i7-10700, 16 GB RAM, 1 TB Hard Drive & 512 GB SSD Storage, Windows 10 Pro (TE01-1022, 2020 Model)',
+                error: null
+            },
+            ASIN: {
+                value: 'B089K5J3PT',
                 error: null
             },
             basePrice: {
                 value: {
                     symbol: '$',
                     currency: 'USD',
-                    amount: 7.64
+                    amount: 859.99
                 },
                 error: null
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/81UawAiqmdL._SY355_.jpg',
+                value: 'https://images-na.ssl-images-amazon.com/images/I/71eG5pWqiPS._AC_SY450_.jpg',
                 error: null
             },
             sizeName: {
-                value: '8 Ounce (Pack of 1)',
-                error: null
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             styleName: {
-                value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                value: '1 TB HDD & 512 GB SSD',
+                error: null
             },
             productDescription: {
-                value: 'Directions: apply liberally before going to bed.',
-                error: null
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#productDescription > p"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             productOverview: {
                 value: {
-                    Ingredients:
-                        'Water; Glycerin; Hydroxyethyl Urea; Butyrospermum Parkii (Shea) Butter Extract; Dimethicone; Cocos Nucifera… See more',
-                    Scent: 'Calming',
-                    'Item Form': 'Lotion',
-                    Brand: 'Gold Bond',
-                    'Skin Type': 'Dry'
+                    'Specific Uses For Product':
+                        'Multimedia, Personal, Business',
+                    Series: 'HP Envy Desktop',
+                    'Ram Memory Installed Size': '16 GB',
+                    'Operating System': 'Windows 10 Pro',
+                    'CPU Model': 'Core i7'
                 },
                 error: null
             },
             productAbout: {
                 value: [
-                    'OVERNIGHT DEEP MOISTURIZING: Ultimate Overnight Deep Moisturizing Lotion has 7 intensive moisturizers plus Hyaluronic Acid to lock in moisture while you sleep. Its calming scent is ideal for bedtime.',
-                    'REVITALIZE SKIN: This thick, ultra-rich lotion is packed with essential antioxidants & melatonin. Works through the night so you wake up to softer, healthier-looking skin.',
-                    'THERAPUETIC SKIN CARE: Gold Bond products feature a unique triple action formula of ingredients proven to help relieve itching, absorb moisture, & control odor for fast-acting, long lasting comfort.',
-                    "GOLD BOND : In addition to Gold Bond Ultimate Lotions, Gold Bond also makes medicated & non-medicated body powders, skin creams, lotions & ointments. From first aid to foot care, we've got you covered.",
-                    'ITCHY SKIN CARE: Gold Bond offers ideal skin remedy for itchy & irritated skin. Try our body care, foot care & first aid products for dry skin, foot odor, minor cuts, sunburn, insect bites & other skin issues.'
+                    '',
+                    'YOUR CREATIVE SIDEKICK: Render, edit, game and stream better than ever before',
+                    'FAST PROCESSOR: 10th Generation Intel Core i7-10700 Processor, 8-Core, 2.90 GHz base frequency, up to 4.8 GHz with Intel Turbo Boost Technology',
+                    'MEMORY: 16 GB DDR4-2933 SDRAM memory (2 x 8 GB) (upgradable to 32 GB)',
+                    'INTERNAL STORAGE: 1 TB 7200RPM SATA hard drive & 512 GB PCIe NVMe M.2 Solid State Drive (HDD 3.5" expansion bay available)',
+                    'CONNECTIVITY: Realtek Wi-Fi 5 (1x1) and Bluetooth 4.2 Combo, MU-MIMO supported, 0/100/1000 Base-T Network, 3.5mm Headphone/Microphone combo, 4 SuperSpeed USB Type-A (front), 1 SuperSpeed USB Type-C(R) (front), 4 USB 2.0 Type-A (rear), HDMI Out (rear), VGA (rear)',
+                    'MOUSE AND KEYBOARD: USB black wired keyboard and mouse combo',
+                    'OPERATING SYSTEM AND WARRANTY: Windows 10 Pro 64 bit and one-year limited warranty with 24-hour, 7 days a week web support when shipped from and sold by Amazon.com',
+                    '',
+                    '',
+                    ''
                 ],
                 error: null
             },
             productDetails: {
-                value: {
-                    'Is Discontinued By Manufacturer :': 'No',
-                    'Product Dimensions :': '6 x 4 x 4 inches; 8 Ounces',
-                    'Item model number :': 'I00109879',
-                    'UPC :': '041167042359',
-                    'Manufacturer :': 'Chattem Inc.',
-                    'ASIN :': 'B07GVPCGJK',
-                    'Domestic Shipping:':
-                        'Currently, item can be shipped only within the U.S. and to APO/FPO addresses. For APO/FPO shipments, please check with the manufacturer regarding warranty and support issues.',
-                    'International Shipping:':
-                        'This item can be shipped to select countries outside of the U.S. Learn More',
-                    'Best Sellers Rank:': '#27 in Body Lotions',
-                    'Customer Reviews:': ''
-                },
-                error: null
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             images: {
                 value: [
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/410u0u1GCIL._SS40_.jpg',
+                            'https://images-na.ssl-images-amazon.com/images/I/319PdUvN4wS._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81UawAiqmdL._SY355_.jpg'
+                            'https://images-na.ssl-images-amazon.com/images/I/71eG5pWqiPS._AC_SY450_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41chOAFp%2BXL._SS40_.jpg',
+                            'https://images-na.ssl-images-amazon.com/images/I/41ybSG5%2BwaL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81QvYcDQJoL._SY355_.jpg'
+                            'https://images-na.ssl-images-amazon.com/images/I/71nUloa8NgL._AC_SY355_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41msrIRmRwL._SS40_.jpg',
+                            'https://images-na.ssl-images-amazon.com/images/I/51P25GEq30L._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81bG-Br9HmL._SY355_.jpg'
+                            'https://images-na.ssl-images-amazon.com/images/I/81UhgHhAi%2BL._AC_SY355_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/410v-AGVPgL._SS40_.jpg',
+                            'https://images-na.ssl-images-amazon.com/images/I/41qs46VR4kL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81W3QPrMVwL._SY355_.jpg'
+                            'https://images-na.ssl-images-amazon.com/images/I/71reu7heGKL._AC_SY355_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/413JjmrS02L._SS40_.jpg',
+                            'https://images-na.ssl-images-amazon.com/images/I/41nG42haWUL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81g6kOM2RTL._SY355_.jpg'
+                            'https://images-na.ssl-images-amazon.com/images/I/71VeXiC4NwL._AC_SY355_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41rhOB38f8L._SS40_.jpg',
+                            'https://images-na.ssl-images-amazon.com/images/I/51HtBkzK4EL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81uo8TucolL._SY355_.jpg'
+                            'https://images-na.ssl-images-amazon.com/images/I/81XJ%2BY9hksL._AC_SY355_.jpg'
                     }
                 ],
                 error: null
             },
             priceDetail: {
                 value: {
-                    priceblock_ourprice: '$7.64',
-                    ounce: '($0.96 / Ounce)'
+                    priceblock_ourprice: '$859.99',
+                    ounce: '& FREE Returns'
                 },
                 error: null
             },
             ratings: {
                 value: {
                     rateStar: 'a-icon a-icon-star a-star-4-5',
-                    acrCustomerReviewText: '8,426 ratings'
+                    acrCustomerReviewText: '872 ratings'
                 },
                 error: null
             }
         }
     },
     {
-        url: 'https://www.amazon.com/gp/product/B00182ERTO?th=1&psc=1',
+        url: 'https://www.amazon.com/gp/product/B08R1615DP?th=1&psc=1',
         data: {
             productTitle: {
-                value:
-                    'Gold Bond Ultimate Restoring & Vitamin C, Green Tea 13 Ounce',
+                value: 'HP Envy All-in-One PC, NVIDIA GeForce GTX 1650, 10th Gen Intel Core i7-10700 Processor, 16 GB RAM, 256 GB SSD & 1 TB Hard Drive, 31.5” 4K UHD Display, Windows 10 Home, Eye-Safe (32-a1027c, 2021)',
                 error: null
             },
             ASIN: {
-                value: 'B00182ERTO',
+                value: 'B08R1615DP',
                 error: null
             },
             basePrice: {
-                value: {
-                    symbol: '$',
-                    currency: 'USD',
-                    amount: 7.58
-                },
-                error: null
+                value: null,
+                error: "Failed to parse currency amount '$1,899.99'"
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/81dbgMlcyZL._SY355_.jpg',
+                value: 'https://images-na.ssl-images-amazon.com/images/I/91zsLejPRtL._AC_SX466_.jpg',
                 error: null
             },
             sizeName: {
-                value: '13 Ounce (Pack of 1)',
-                error: null
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             styleName: {
-                value: '13 Oz (Pack of 1)',
-                error: null
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             productDescription: {
-                value:
-                    "With green tea and vitamins A, C, and E, Gold Bond Ultimate Restoring Green Tea and Vitamin C Lotion helps visibly improve five signs of healthy skin with nourishing moisturizers, restoring vitamins, and soothing green tea extract. Gold Bond Ultimate lotions and creams help provide long-lasting moisture and hydration to your skin. With lotions for hands, feet, face and body Gold Bond Ultimate provides benefits from hydration while helping prevent premature aging. A good skincare routine should be simple, and include a good moisturizing lotion. Gold Bond Ultimate Men's Essentials are skin lotions for men specially formulated for rough, dry skin that can be used on your body, hands and face. While Gold Bond powder may be the best known product, Gold Bond carries medicated and non-medicated body powders, skin creams, lotions, and ointments. From first aid to foot care and face lotion, Gold Bond has you covered. Since 1908, Gold Bond powder has been providing comfort, soothing relief, and skincare to adults and children, from baby's first bath and powder, to eczema or psoriasis relief, to lotion for dry skin or men's 5-in-1 Face Lotion.",
-                error: null
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#productDescription > p"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             productOverview: {
                 value: {
-                    Ingredients:
-                        'Water, Hydroxyethyl Urea, Glycerin, Dimethicone, Jojoba Esters, Petrolatum, Glyceryl Stearate, Distearyldimonium… See more',
-                    Scent: 'Green Tea',
-                    'Item Form': 'Lotion',
-                    Brand: 'Gold Bond',
-                    'Skin Type': 'Dry'
+                    'Specific Uses For Product': 'Multimedia, Personal, Gaming',
+                    Series: 'HP ENVY All-in-One PC',
+                    'Ram Memory Installed Size': '16 GB',
+                    'Operating System': 'Windows 10 Home',
+                    'CPU Model': 'Intel Core i7'
                 },
                 error: null
             },
             productAbout: {
                 value: [
-                    'GREEN TEA AND VITAMIN C SKIN LOTION: With green tea and vitamins A, C and E, Gold Bond Ultimate Restoring Green Tea and Vitamin C helps visibly improve five signs of healthy skin with nourishing moisturizers, restoring vitamins, and soothing green tea.',
-                    'GOLD BOND ULTIMATE: GOLD BOND Ultimate lotions and creams help provide long lasting moisture and hydration to your skin. With lotions for hands, feet, face and body GOLD BOND Ultimate provide benefits from hydration to helping prevent premature aging.',
-                    'GOLD BOND SKIN CARE: While GOLD BOND powder may be the best known product, GOLD BOND carries medicated and non-medicated body powders, skin creams, lotions, and ointments. From first aid to foot care and face lotion, GOLD BOND has you covered.',
-                    "GOLD BOND FOR THE HOME: Since 1908, GOLD BOND Powder has been providing comfort, soothing relief, and skincare to adults and children, from baby's first bath and powder, to eczema or psoriasis relief, to lotion for dry skin or men's 5-in-1 Face Lotion.",
-                    'ITCHY SKIN CARE: Gold Bond offers ideal skin remedy for itchy & irritated skin. Try our body care, foot care & first aid products for dry skin, foot odor, minor cuts, sunburn, insect bites & other skin issues.'
+                    '',
+                    'CREATE ON A MASSIVE SCALE – Watch your creations come to life on a stunning 31.5-inch diagonal, wide-color-gamut HDR 4K display (1). See your content in mesmerizing quality with over 8.2 million pixels and 178 degrees of wide-viewing angles. With 600 nits peak brightness (2), anti-reflective coating, and DCI-P3 color spacing (3), you’ll view and edit creative projects with high color accuracy and without the glare.',
+                    'RICH AUDIO EXPERIENCE – HP speakers custom-tuned in collaboration with experts at Bang & Olufsen bring you theater-worthy sound from the comfort of your own home. With enhanced sound and deeper bass, you’ll enjoy your favorite music, movies, or games without buying additional speakers.',
+                    'NEXT-GEN POWER – Get outstanding performance and immersive multimedia entertainment with 4K visuals thanks to the 10th Generation Intel Core i7-10700 processor (4) (5).',
+                    'ACCELERATE EVERYTHING – With the all-new NVIDIA Turing architecture, gaming, and streaming will never be the same. Get all the power you need for fast, smooth, power-efficient performance from NVIDIA GeForce GTX 1650 (6).',
+                    'MEMORY, PLUS DUAL STORAGE CONFIGURATION – Boost your efficiency as you browse, create, and multitask faster than ever with 16 GB of RAM (7). Plus, by including both an SSD drive for the operating system (256 GB) and a traditional hard drive (1 TB) you get the benefits of both worlds—fast boot up times, snappy responsiveness, and larger storage capacity (8) (9) (10).',
+                    'PORTS AND CONNECTIVITY – Power up or connect all your external devices with 5 easy to access USB ports (2 SuperSpeed USB Type-A 10Gbps signaling rate, 1 Thunderbolt 3 (11), 1 SuperSpeed USB Type-C (12) 10Gbps signaling rate, and 1 SuperSpeed USB Type-A 5Gbps signaling rate). And with a Wi-Fi 5 (2x2) WLAN adapter and Bluetooth 5.0 combo, all your connections are rock solid (13) (14).',
+                    'WINDOWS 10 AND WARRANTY – Do great things confidently with the familiar feel of Windows 10 Home and enjoy greater peace of mind with a desktop backed by a 1-year limited hardware warranty (15).',
+                    '',
+                    '',
+                    ''
                 ],
                 error: null
             },
             productDetails: {
-                value: {
-                    'Is Discontinued By Manufacturer :': 'No',
-                    'Product Dimensions :':
-                        '3.1 x 1.95 x 8.1 inches; 14.39 Ounces',
-                    'Manufacturer recommended age :': '6 months - 3 years',
-                    'Item model number :': 'B00182ERTO',
-                    'UPC :':
-                        '041167066447 885454500708 793379211817 811807821367 885720717496 787734699716 891772548896 885164454599 885579039534',
-                    'Manufacturer :': 'Gold Bond',
-                    'ASIN :': 'B00182ERTO',
-                    'Domestic Shipping:': 'Item can be shipped within U.S.',
-                    'International Shipping:':
-                        'This item can be shipped to select countries outside of the U.S. Learn More',
-                    'Best Sellers Rank:': '#38 in Body Lotions',
-                    'Customer Reviews:': ''
-                },
-                error: null
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             images: {
                 value: [
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41YwSZFtV5L._SS40_.jpg',
+                            'https://images-na.ssl-images-amazon.com/images/I/41Gqk3uA4eL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81dbgMlcyZL._SY355_.jpg'
+                            'https://images-na.ssl-images-amazon.com/images/I/91zsLejPRtL._AC_SX466_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41uBhA4omnL._SS40_.jpg',
+                            'https://images-na.ssl-images-amazon.com/images/I/41YoNig0gpL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71bYJTjAftL._SY355_.jpg'
+                            'https://images-na.ssl-images-amazon.com/images/I/912RJbLNRaL._AC_SX466_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51hd5Lw6uvL._SS40_.jpg',
+                            'https://images-na.ssl-images-amazon.com/images/I/41FJ4aSYlSL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/818paaPwpiL._SY355_.jpg'
+                            'https://images-na.ssl-images-amazon.com/images/I/81ITkZJ-x1L._AC_SX466_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51BgMHJG56L._SS40_.jpg',
+                            'https://images-na.ssl-images-amazon.com/images/I/41sU3gjBWRL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81RdY8id8vL._SY355_.jpg'
+                            'https://images-na.ssl-images-amazon.com/images/I/81xEHJYDcaL._AC_SX466_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/411Olxme24L._SS40_.jpg',
+                            'https://images-na.ssl-images-amazon.com/images/I/412rPRT4KuL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71-SAHn5uDL._SY355_.jpg'
+                            'https://images-na.ssl-images-amazon.com/images/I/81nLm49-lhL._AC_SX466_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41LQsrwwYUL._SS40_.jpg',
+                            'https://images-na.ssl-images-amazon.com/images/I/41pTQ%2B7oAJL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81zTru4pPpL._SY355_.jpg'
+                            'https://images-na.ssl-images-amazon.com/images/I/81h9a1z4UmL._AC_SX466_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41GoH8qJXnL._SS40_.jpg',
+                            'https://images-na.ssl-images-amazon.com/images/I/51hjmB%2Bi4yL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71OWfot4AyL._SY355_.jpg'
+                            'https://images-na.ssl-images-amazon.com/images/I/91wNXh2azcL._AC_SX466_.jpg'
                     }
                 ],
                 error: null
             },
             priceDetail: {
                 value: {
-                    priceblock_ourprice: '$7.58',
-                    ounce: '($0.58 / Ounce)',
-                    price_block_savings: '$1.18 (13%)'
-                },
-                error: null
-            },
-            ratings: {
-                value: {
-                    rateStar: 'a-icon a-icon-star a-star-5',
-                    acrCustomerReviewText: '6,301 ratings'
-                },
-                error: null
-            }
-        }
-    },
-    {
-        url: 'https://www.amazon.com/gp/product/B00NNIOU48?th=1&psc=1',
-        data: {
-            productTitle: {
-                value:
-                    'Gold Bond Ultimate Skin Therapy LotionWith Shea Butter, Softening, 42 Ounce, (Pack of 3)',
-                error: null
-            },
-            ASIN: {
-                value: 'B00NNIOU48',
-                error: null
-            },
-            basePrice: {
-                value: {
-                    symbol: '$',
-                    currency: 'USD',
-                    amount: 23.07
-                },
-                error: null
-            },
-            mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/81d4Yk2c6tL._SY355_.jpg',
-                error: null
-            },
-            sizeName: {
-                value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
-            },
-            styleName: {
-                value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
-            },
-            productDescription: {
-                value:
-                    "Gold Bond Ultimate Softening Lotion is a non-greasy, rich lotion with essential moisturizers, vitamins, shea butter, plus coconut butter and cocoa butter, that will help even the roughest, driest skin feel soft and smooth. Gold Bond Ultimate lotions and creams help provide long-lasting moisture and hydration to your skin. With lotions for hands, feet, face and body Gold Bond Ultimate provides benefits from hydration to helping prevent premature aging. A good skincare routine should be simple, and include a good moisturizing lotion. Gold Bond Ultimate Men's Essentials are skin lotions for men specially formulated for rough, dry skin that can be used on your body, hands and face. While Gold Bond powder may be the best known product, Gold Bond carries medicated and non-medicated body powders, skin creams, lotions, and ointments. From first aid to foot care and face lotion, Gold Bond has you covered. Since 1908, Gold Bond powder has been providing comfort, soothing relief, and skincare to adults and children, from baby's first bath and powder, to eczema or psoriasis relief, to lotion for dry skin or men's 5-in-1 Face Lotion.",
-                error: null
-            },
-            productOverview: {
-                value: {
-                    Ingredients:
-                        'Water, Glycerin, Hydroxyethyl Urea, Dimethicone, Jojoba Esters, Petrolatum, Cetyl Alcohol, Distearyldimonium Chlo… See more',
-                    'Item Form': 'Lotion',
-                    Brand: 'Gold Bond',
-                    'Skin Type': 'Dry',
-                    'Age Range (Description)': 'Adult'
-                },
-                error: null
-            },
-            productAbout: {
-                value: [
-                    'FROM ROUGH SKIN TO SILKY SMOOTH: GOLD BOND Ultimate Softening Lotion is a non-greasy, rich lotion with essential moisturizers, vitamins, shea butter, plus coconut butter and cocoa butter, that will help even the roughest, driest skin feel soft and smooth.',
-                    'GOLD BOND ULTIMATE: GOLD BOND Ultimate lotions and creams help provide long lasting moisture and hydration to your skin. With lotions for hands, feet, face and body GOLD BOND Ultimate provide benefits from hydration to helping prevent premature aging.',
-                    "GOLD BOND SKIN CARE: GOLD BOND isn't just for powder - our Ultimate line of lotions and creams use moisture & hydration rich ingredients such as shea butter, aloe, CoQ10, salicylic acids, & hydroxy acids.",
-                    'A WELL ROUNDED MEDICINE CABINET: When you or a family member is in pain, sick, hurt, or just generally feeling under the weather, you don’t want to run to the pharmacy. A well stocked home medicine cabinet helps ensure relief is at hand when you need it.',
-                    'ITCHY SKIN CARE: Gold Bond offers ideal skin remedy for itchy & irritated skin. Try our body care, foot care & first aid products for dry skin, foot odor, minor cuts, sunburn, insect bites & other skin issues.'
-                ],
-                error: null
-            },
-            productDetails: {
-                value: {
-                    'Product Dimensions :': '6 x 6 x 10 inches; 3.03 Pounds',
-                    'Item model number :': 'SG_B00NNIOU48_US',
-                    'UPC :': '041167066546',
-                    'Manufacturer :': 'Gold Bond',
-                    'ASIN :': 'B00NNIOU48',
-                    'Best Sellers Rank:': '#389 in Body Lotions',
-                    'Customer Reviews:': ''
-                },
-                error: null
-            },
-            images: {
-                value: [
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41Yjg6JlvOL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81d4Yk2c6tL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41sXp2lopCL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/718zbTtH4wL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41d5FNKbMLL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81QP7SRu0lL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/410db2TcrBL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71CS8n2WNvL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51vLJ6GlTHL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/91DCG88X9uL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41Qo7ftlyxL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71lUngJaYJL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51bhGtZeWsL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/816JqY6wmUL._SY355_.jpg'
-                    }
-                ],
-                error: null
-            },
-            priceDetail: {
-                value: {
-                    priceblock_ourprice: '$23.07',
-                    ounce: '($0.55 / Ounce)'
-                },
-                error: null
-            },
-            ratings: {
-                value: {
-                    rateStar: 'a-icon a-icon-star a-star-5',
-                    acrCustomerReviewText: '331 ratings'
-                },
-                error: null
-            }
-        }
-    },
-    {
-        url: 'https://www.amazon.com/gp/product/B00OW9OU2O?th=1&psc=1',
-        data: {
-            productTitle: {
-                value:
-                    'Gold Bond Ultimate Softening Skin Therapy Lotion With Shea Butter for Rough & Dry Skin, 20 oz.',
-                error: null
-            },
-            ASIN: {
-                value: 'B00OW9OU2O',
-                error: null
-            },
-            basePrice: {
-                value: {
-                    symbol: '$',
-                    currency: 'USD',
-                    amount: 9.97
-                },
-                error: null
-            },
-            mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/71qwfilejBL._SY355_.jpg',
-                error: null
-            },
-            sizeName: {
-                value: '20 Ounce (Pack of 1)',
-                error: null
-            },
-            styleName: {
-                value: '20 Oz (Pack of 1)',
-                error: null
-            },
-            productDescription: {
-                value:
-                    'This Gold Bond Softening Skin Therapy Lotion comes in a family-size bottle with 20 ounces of soft shea butter comfort. The seven essential moisturizers plus vitamins A, C, and E combine to increase and maintain moisture in your skin with a non-greasy formula for dry skin relief. Shea butter comes from the seeds of the fruit of the shea (karite) tree, provides skin with essential fatty acids, and it’s naturally rich in vitamins A, K, E, and F. All that shea butter softness with a fresh scent makes this a great option for dry skin relief that leaves you feeling soft and comfortable.',
-                error: null
-            },
-            productOverview: {
-                value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
-            },
-            productAbout: {
-                value: [
-                    'INCLUDES: ONE (1) 20-oz. bottle of Gold Bond Ultimate Softening Skin Therapy Lotion With Shea Butter',
-                    'SHEA BUTTER SOFTNESS: The soft, shea butter formula softens rough, dry skin',
-                    'SEVEN ESSENTIAL MOISTURIZERS: Essential moisturizers plus vitamins A, C, and E combine to increase and maintain moisture in your skin',
-                    'ENHANCES ELASTICITY: Enhances the elasticity of even the roughest, driest skin',
-                    'DERMATOLOGIST-TESTED: This Gold Bond Ultimate Softening Skin Therapy has been tested by dermatologists and is hypoallergenic'
-                ],
-                error: null
-            },
-            productDetails: {
-                value: {
-                    'Is Discontinued By Manufacturer :': 'No',
-                    'Product Dimensions :':
-                        '3.38 x 2.25 x 10 inches; 1.25 Pounds',
-                    'Item model number :': '6659',
-                    'UPC :': '041167066591',
-                    'Manufacturer :': 'Gold Bond',
-                    'ASIN :': 'B00OW9OU2O',
-                    'Domestic Shipping:':
-                        'Currently, item can be shipped only within the U.S. and to APO/FPO addresses. For APO/FPO shipments, please check with the manufacturer regarding warranty and support issues.',
-                    'International Shipping:':
-                        'This item can be shipped to select countries outside of the U.S. Learn More',
-                    'Best Sellers Rank:': '#38 in Body Lotions',
-                    'Customer Reviews:': ''
-                },
-                error: null
-            },
-            images: {
-                value: [
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/31hw6Oz1wDL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71qwfilejBL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41d5FNKbMLL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81QP7SRu0lL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/410db2TcrBL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71CS8n2WNvL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51vLJ6GlTHL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/91DCG88X9uL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41Qo7ftlyxL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71lUngJaYJL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51bhGtZeWsL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/816JqY6wmUL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/411WlXpZ%2BnL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81PoE%2BzqOEL._SY355_.jpg'
-                    }
-                ],
-                error: null
-            },
-            priceDetail: {
-                value: {
-                    priceblock_ourprice: '$9.97',
-                    ounce: '($0.50 / Ounce)',
-                    price_block_savings: '$3.02 (23%)'
-                },
-                error: null
-            },
-            ratings: {
-                value: {
-                    rateStar: 'a-icon a-icon-star a-star-5',
-                    acrCustomerReviewText: '6,301 ratings'
-                },
-                error: null
-            }
-        }
-    },
-    {
-        url: 'https://www.amazon.com/gp/product/B001G8Y9VG?th=1&psc=1',
-        data: {
-            productTitle: {
-                value:
-                    'Gold Bond Ultimate Softening Lotion, 5.5 OZ (Pack of 4)',
-                error: null
-            },
-            ASIN: {
-                value: 'B001G8Y9VG',
-                error: null
-            },
-            basePrice: {
-                value: {
-                    symbol: '$',
-                    currency: 'USD',
-                    amount: 19.88
-                },
-                error: null
-            },
-            mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/815KEGMNnVL._SY355_.jpg',
-                error: null
-            },
-            sizeName: {
-                value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
-            },
-            styleName: {
-                value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
-            },
-            productDescription: {
-                value:
-                    "Gold Bond Ultimate Softening Lotion is a non-greasy, rich lotion with essential moisturizers, vitamins, shea butter, plus coconut butter and cocoa butter, that will help even the roughest, driest skin feel soft and smooth. Gold Bond Ultimate lotions and creams help provide long-lasting moisture and hydration to your skin. With lotions for hands, feet, face and body Gold Bond Ultimate provides benefits from hydration to helping prevent premature aging. A good skincare routine should be simple, and include a good moisturizing lotion. Gold Bond Ultimate Men's Essentials are skin lotions for men specially formulated for rough, dry skin that can be used on your body, hands and face. While Gold Bond powder may be the best known product, Gold Bond carries medicated and non-medicated body powders, skin creams, lotions, and ointments. From first aid to foot care and face lotion, Gold Bond has you covered. Since 1908, Gold Bond powder has been providing comfort, soothing relief, and skincare to adults and children, from baby's first bath and powder, to eczema or psoriasis relief, to lotion for dry skin or men's 5-in-1 Face Lotion.",
-                error: null
-            },
-            productOverview: {
-                value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
-            },
-            productAbout: {
-                value: [
-                    'FROM ROUGH SKIN TO SILKY SMOOTH: GOLD BOND Ultimate Softening Lotion is a non-greasy, rich lotion with essential moisturizers, vitamins, shea butter, plus coconut butter and cocoa butter, that will help even the roughest, driest skin feel soft and smooth.',
-                    'GOLD BOND ULTIMATE: GOLD BOND Ultimate lotions and creams help provide long lasting moisture and hydration to your skin. With lotions for hands, feet, face and body GOLD BOND Ultimate provide benefits from hydration to helping prevent premature aging.',
-                    "GOLD BOND SKIN CARE: GOLD BOND isn't just for powder -- our Ultimate line of lotions and creams use moisture & hydration rich ingredients such as shea butter, aloe, CoQ10, salicylic acids, & hydroxy acids.",
-                    'A WELL ROUNDED MEDICINE CABINET: When you or a family member is in pain, sick, hurt, or just generally feeling under the weather, you don’t want to run to the pharmacy. A well stocked home medicine cabinet helps ensure relief is at hand when you need it.',
-                    'ITCHY SKIN CARE: Gold Bond offers ideal skin remedy for itchy & irritated skin. Try our body care, foot care & first aid products for dry skin, foot odor, minor cuts, sunburn, insect bites & other skin issues.'
-                ],
-                error: null
-            },
-            productDetails: {
-                value: {
-                    'Is Discontinued By Manufacturer :': 'No',
-                    'Product Dimensions :':
-                        '6.1 x 5.9 x 1.4 inches; 1.2 Pounds',
-                    'Item model number :': 'SG_B001G8Y9VG_US',
-                    'UPC :':
-                        '885288939347 794437479057 885803517012 041167066232',
-                    'Manufacturer :': 'Gold Bond',
-                    'ASIN :': 'B001G8Y9VG',
-                    'Best Sellers Rank:': '#416 in Body Lotions',
-                    'Customer Reviews:': ''
-                },
-                error: null
-            },
-            images: {
-                value: [
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51RyPUGJ4gL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/815KEGMNnVL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41RzKNd75zL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71SQ-2NcZZL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41d5FNKbMLL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81QP7SRu0lL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/410db2TcrBL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71CS8n2WNvL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51vLJ6GlTHL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/91DCG88X9uL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41Qo7ftlyxL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71lUngJaYJL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51bhGtZeWsL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/816JqY6wmUL._SY355_.jpg'
-                    }
-                ],
-                error: null
-            },
-            priceDetail: {
-                value: {
-                    priceblock_ourprice: '$19.88',
-                    ounce: '($0.90 / Ounce)',
-                    price_block_savings: '$4.42 (18%)'
+                    priceblock_ourprice: '$1,899.99',
+                    ounce: '& FREE Returns',
+                    price_block_savings: '$100.00 (5%)'
                 },
                 error: null
             },
             ratings: {
                 value: {
                     rateStar: 'a-icon a-icon-star a-star-4-5',
-                    acrCustomerReviewText: '356 ratings'
+                    acrCustomerReviewText: '11 ratings'
                 },
                 error: null
             }
         }
     },
     {
-        url: 'https://www.amazon.com/gp/product/B074KM543R?th=1&psc=1',
+        url: 'https://www.amazon.com/gp/product/B08NCFRFFD?th=1&psc=1',
         data: {
             productTitle: {
-                value:
-                    "Gold Bond Ultimate Men's Essentials 5-in-1 Face Lotion, Fragrance free, 3.3 Ounce",
+                value: 'HP Pavilion Gaming Desktop, NVIDIA GeForce GTX 1650 Super, Intel Core i3-10100, 8 GB DDR4 RAM, 256 GB PCIe NVMe SSD, Windows 10 Home, USB Mouse and Keyboard, Compact Tower Design (TG01-1022, 2020)',
                 error: null
             },
             ASIN: {
-                value: 'B074KM543R',
+                value: 'B08NCFRFFD',
                 error: null
             },
             basePrice: {
                 value: {
                     symbol: '$',
                     currency: 'USD',
-                    amount: 7.97
+                    amount: 713
                 },
                 error: null
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/81jXb2lw%2BvL._SY355_.jpg',
+                value: 'https://images-na.ssl-images-amazon.com/images/I/81liWNg7JzL._AC_SY606_.jpg',
                 error: null
             },
             sizeName: {
-                value: '3.3 Ounce (Pack of 1)',
-                error: null
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             styleName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             productDescription: {
-                value:
-                    'Gold Bond Ulimate Essentials Mens 5 in 1 Face Lotion SPF 15, Deliver 5 essential benefits in one everyday formula: soothing, moisturizing, repairing, strengthening, and protecting, Light weight and quick-absorbing. Delivers 7 moisturizers to hydrate and replenish skin without clogging pores, Skin-strengthening proteins, vitamins, and anti-oxidants work, Non-irritating and contains calming agents, leaves skin soothed and refreshed.',
+                value: 'Game on your own terms with the HP Pavilion Gaming Desktop. This gaming tower has all the space you need to easily expand or upgrade, letting you keep up with the games of tomorrow. Personalize your gaming pc in the OMEN Command Center as you manage your machine’s key metrics and customize the chassis lighting. Intel’s powerful 10th Generation processor with a Max Turbo Frequency of 4.30 GHz delivers smooth and outstanding 4k visuals. Your gaming and streaming will never be the same because your HP desktop boasts an NVIDIAⓇ GeForceⓇ GTX 1650 SUPER™ graphics card and 4 GB GDDR6 dedicated memory. PCIe® NVMe™ SSD Storage makes your gaming pc desktop 10x faster than a traditional hard drive while 8 GB DDR4 memory gives a boost to your browsing and multitasking. Your setup has never been more modern with the Windows 10 operating system, USB wired mouse and keyboard combo, and smoother wireless experience with both Wi-Fi 5 and Bluetooth® 4.2. Easily pair your HP Pavilion Gaming Desktop with a MU-MIMO router for a smoother online experience in multi-device homes. Play care-free with a 1-year limited hardware warranty.',
                 error: null
             },
             productOverview: {
                 value: {
-                    Ingredients:
-                        'Active Ingredients: Avobenzone (3%), Octisalate (2%), Octocrylene (10%). Purpose: Sunscreen. Inactive Ingredie… See more',
-                    Scent: 'Unscented',
-                    Brand: 'Gold Bond',
-                    'Skin Type': 'All',
-                    'Item Form': 'Liquid'
+                    'Specific Uses For Product': 'Personal, Gaming, Business',
+                    Series: 'HP Pavilion Gaming Desktop',
+                    'Ram Memory Installed Size': '8 GB',
+                    'Operating System': 'Windows 10 Home',
+                    'CPU Model': 'Core i3'
                 },
                 error: null
             },
             productAbout: {
                 value: [
-                    'Help repair while SPF 15 provides protection from sun damage.',
-                    'Fragrance free.',
-                    'Non-greasy.',
-                    'item package weight: 4.0 ounces'
+                    '',
+                    'POWER FOR THE FUTURE – Get ready to game on your terms with seamless expansions and easy upgrades. This potent PC will keep up with your skills and the games of tomorrowR FOR THE FUTURE – Get ready to game on your terms with seamless expansions and easy upgrades. This potent PC will keep up with your skills and the games of tomorrow',
+                    'CUSTOMIZABLE AND COMPACT – This sleek, space-saving tower allows you to expand and upgrade with customizable LED lights and system optimization in the OMEN Command Center',
+                    '4K READY – Outstanding performance and immersive multimedia entertainment with 4K visuals courtesy of the 10th Generation IntelⓇ Core i3-10100 processor',
+                    'STUNNING GRAPHICS – With the all-new NVIDIA Turing architecture and 4 GB GDDR6 dedicated memory, you’ll boost your creative and gaming experience with real-time ray tracing and fast performance from the NVIDIAⓇ GeForceⓇ GTX 1650 SUPER graphics card',
+                    'DDR4 MEMORY – With 8 GB of RAM, everything from browsing multiple web pages to playing games gets a performance boost',
+                    'PLENTY OF STORAGE – Get up to 10x faster performance than a traditional hard drive with 256 GB of PCIe NVMe M.2 Solid State Drive storage',
+                    'PC GAMING CONNECTIVITY – Enjoy rock-solid connections with the latest Wi-Fi 5 (1x1) WLAN adapter and Bluetooth 4.2 as well as reliable external ports in the Headphone/Microphone combo, 5.1 surround sound, and SuperSpeed USB Type-A and Type-CⓇ ports; this pc is perfect for dual display support',
+                    '',
+                    '',
+                    ''
                 ],
                 error: null
             },
             productDetails: {
-                value: {
-                    'Is Discontinued By Manufacturer :': 'No',
-                    'Product Dimensions :':
-                        '1.5 x 2.38 x 5.88 inches; 3.99 Ounces',
-                    'Item model number :': 'SG_B074KM543R_US',
-                    'UPC :': '041167055618',
-                    'Manufacturer :': 'Karewell Brands, Inc -- Dropship',
-                    'ASIN :': 'B074KM543R',
-                    'Best Sellers Rank:': '#109 in Face Moisturizers',
-                    'Customer Reviews:': ''
-                },
-                error: null
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             images: {
                 value: [
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41uYa%2Bo7cjL._SS40_.jpg',
+                            'https://images-na.ssl-images-amazon.com/images/I/41Kb0QXThkL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81jXb2lw%2BvL._SY355_.jpg'
+                            'https://images-na.ssl-images-amazon.com/images/I/81liWNg7JzL._AC_SY606_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41qJ-yDhJBL._SS40_.jpg',
+                            'https://images-na.ssl-images-amazon.com/images/I/41ooOarBTnL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81MQa%2BBGTWL._SY355_.jpg'
+                            'https://images-na.ssl-images-amazon.com/images/I/81QbodKufGL._AC_SY606_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41l6GfeJHiL._SS40_.jpg',
+                            'https://images-na.ssl-images-amazon.com/images/I/41kzeD7MGyL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81FQQ%2Bgyp3L._SY355_.jpg'
+                            'https://images-na.ssl-images-amazon.com/images/I/81edZDe22KL._AC_SY606_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51OI8uVcSYL._SS40_.jpg',
+                            'https://images-na.ssl-images-amazon.com/images/I/41na3GV91IL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/91od4dzV2SL._SY355_.jpg'
+                            'https://images-na.ssl-images-amazon.com/images/I/81kCd%2Bb9XaL._AC_SY606_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51CRNVMJhoL._SS40_.jpg',
+                            'https://images-na.ssl-images-amazon.com/images/I/41NabVwPF7L._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/91c0343LPyL._SY355_.jpg'
+                            'https://images-na.ssl-images-amazon.com/images/I/81ymBxnjshL._AC_SY606_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41YNCZNcgdL._SS40_.jpg',
+                            'https://images-na.ssl-images-amazon.com/images/I/41%2BYRvtLhmL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71FLmhSyCoL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51WBD5Fs6iL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/91rYeb104PL._SY355_.jpg'
+                            'https://images-na.ssl-images-amazon.com/images/I/81bvQ3IfDzL._AC_SY606_.jpg'
                     }
                 ],
                 error: null
             },
             priceDetail: {
                 value: {
-                    priceblock_ourprice: '$7.97',
-                    ounce: '($2.42 / Ounce)'
+                    priceblock_ourprice: '$713.00',
+                    ounce: '& FREE Returns'
                 },
                 error: null
             },
             ratings: {
                 value: {
                     rateStar: 'a-icon a-icon-star a-star-4-5',
-                    acrCustomerReviewText: '1,682 ratings'
+                    acrCustomerReviewText: '700 ratings'
                 },
                 error: null
             }
         }
     },
     {
-        url: 'https://www.amazon.com/gp/product/B06VVP4CLP?th=1&psc=1',
+        url: 'https://www.amazon.com/gp/product/B096L4MCFK?th=1&psc=1',
         data: {
             productTitle: {
-                value: 'Gold Bond Ultimate Pedi Smooth Foot Cream, 3.5 Ounce',
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="productTitle"]"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
+            },
+            ASIN: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="ASIN"]"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
+            },
+            basePrice: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="priceblock_ourprice"]"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
+            },
+            mainImage: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#main-image-container img"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
+            },
+            sizeName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
+            },
+            styleName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
+            },
+            productDescription: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#productDescription > p"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
+            },
+            productOverview: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
+            },
+            productAbout: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#featurebullets_feature_div"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
+            },
+            productDetails: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
+            },
+            images: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="imageBlock"]"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
+            },
+            priceDetail: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="price"]"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
+            },
+            ratings: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="averageCustomerReviews"]"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
+            }
+        },
+        error: 'Reference.child failed: First argument was an invalid path = "null". Paths must be non-empty strings and can\'t contain ".", "#", "$", "[", or "]"'
+    },
+    {
+        url: 'https://www.amazon.com/gp/product/B097F6FZTS?th=1&psc=1',
+        data: {
+            productTitle: {
+                value: 'Omen 17 Gaming Laptop, NVIDIA GeForce RTX 3070, Intel Core i7-11800H, 16 GB RAM, 512 GB SSD, 17.3” Quad HD 165 Hz Display, Windows 10 Home, RGB Keyboard, Long Battery Life (17-ck0020nr, 2021)',
                 error: null
             },
             ASIN: {
-                value: 'B06VVP4CLP',
+                value: 'B097F6FZTS',
+                error: null
+            },
+            basePrice: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="priceblock_ourprice"]"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
+            },
+            mainImage: {
+                value: 'https://m.media-amazon.com/images/I/71Fb+M8-SvS._AC_SY450_.jpg',
+                error: null
+            },
+            sizeName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
+            },
+            styleName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
+            },
+            productDescription: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#productDescription > p"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
+            },
+            productOverview: {
+                value: {
+                    Series: '17-ck0020nr',
+                    Brand: 'HP',
+                    'Specific Uses For Product': 'Personal, Gaming',
+                    'Screen Size': '17.3 Inches',
+                    'Operating System': 'Windows 10 Home'
+                },
+                error: null
+            },
+            productAbout: {
+                value: [
+                    '',
+                    'POWERFUL GAMING ANYWHERE - Your favorite games are brought to life thanks to the brilliant combination of NVIDIA GeForce RTX graphics and 11th generation Intel Core processor supercooled by the OMEN Tempest Cooling system.',
+                    'VIBRANT DISPLAY - Experience more immersive gaming with a 17.3-inch diagonal, QHD (2560 x 1440), 165 Hz, 3 ms response time, IPS, micro-edge, anti-glare, display and graphics powered by NVIDIA GeForce RTX 3070',
+                    'SPEEDY PROCESSING POWER - With the 11th Generation Intel Core i7-11800H Processor (3), you’ll revel in your OMEN laptop’s quick response time and stellar performance.',
+                    'SECURE STORAGE - Utilizing 512 GB PCIe NVMe M.2 SSD storage (4), OMEN gives you all the room you need to download your favorite games.',
+                    "HIGH-POWERED BATTERY LIFE - The OMEN laptop gives you up to 5 hours and 45 minutes of wireless streaming time so you can play to your heart's content (5).",
+                    'WINDOWS 10 HOME OPERATING SYSTEM - Feel confident in your day-to-day gaming with an operating system (6) you can count on.',
+                    'CRYSTAL-CLEAR VIDEO - Chat with your team or group of friends with an 88-degree, wide-angle webcam with dual microphones for a glitch-free gaming experience (7).',
+                    '',
+                    '',
+                    ''
+                ],
+                error: null
+            },
+            productDetails: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
+            },
+            images: {
+                value: [
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41leu04HKxS._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/71Fb+M8-SvS._AC_SY450_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41aaKJ8iuiS._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/81-lLTBssQS._AC_SY450_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41e01sPXGhS._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/81P8e5xKt1S._AC_SY450_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/5115GCUg8BS._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/81U9JtqSU3S._AC_SY450_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/51EcWGVcYbS._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/819tmLeU12S._AC_SY450_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/51MZM0i4LAS._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/817oOgVEq7S._AC_SY450_.jpg'
+                    }
+                ],
+                error: null
+            },
+            priceDetail: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="price"]"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
+            },
+            ratings: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="averageCustomerReviews"]"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
+            }
+        }
+    },
+    {
+        url: 'https://www.amazon.com/gp/product/B08KHD3Q5Z?th=1&psc=1',
+        data: {
+            productTitle: {
+                value: 'OMEN 30L Gaming Desktop PC, NVIDIA GeForce RTX 3080 Graphics Card, 10th Generation Intel Core i9-10850K Processor, 32 GB RAM, 1 TB SSD and 2 TB Hard Drive, Windows 10 Home (GT13-0092, 2020)',
+                error: null
+            },
+            ASIN: {
+                value: 'B08KHD3Q5Z',
+                error: null
+            },
+            basePrice: {
+                value: null,
+                error: "Failed to parse currency amount '$3,347.00'"
+            },
+            mainImage: {
+                value: 'https://images-na.ssl-images-amazon.com/images/I/810naSDT%2B2L._AC_SY606_.jpg',
+                error: null
+            },
+            sizeName: {
+                value: 'Omen 30L',
+                error: null
+            },
+            styleName: {
+                value: 'Intel i9-10850K',
+                error: null
+            },
+            productDescription: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#productDescription > p"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
+            },
+            productOverview: {
+                value: {
+                    'Specific Uses For Product': 'Personal, Gaming',
+                    Series: 'Omen 30L Gaming Desktop',
+                    'Ram Memory Installed Size': '32 GB',
+                    'Operating System': 'Windows 10 Home',
+                    'CPU Model': 'Core i9'
+                },
+                error: null
+            },
+            productAbout: {
+                value: [
+                    '',
+                    'READY TO PLAY – Sure, skills are important, but with the OMEN 30L Desktop PC’s powerful processor, stunning graphics, and a large front fan you really can’t make any more excuses for losing',
+                    'ULTIMATE GAMING – The GeForce RTX 3080 delivers the ultra-performance that gamers crave, powered by Ampere—NVIDIA’s 2nd gen RTX architecture; with 10 GB GDDR6X dedicated memory, your 4k gaming experience will never look smoother',
+                    'MAKE IT YOURS – Let your desktop reflect your style with easy to upgrade hardware and OMEN Command Center’s growing list of customization and optimization features',
+                    'POWERFUL PROCESSOR – Game, stream, create, and edit multimedia content faster than ever with 10th Generation Intel Core i9-10850K processor with liquid cooling',
+                    'DUAL STORAGE OPTIONS – By including both 1 TB PCIe NVMe M.2 Solid State Drive for the operating system and 2 TB 7200RPM SATA hard drive, you get the benefits of both worlds—fast boot-up times, snappy responsiveness, and larger storage capacity',
+                    'HYPERX DDR4 MEMORY – With 32 GB of RAM, everything from browsing multiple web pages to playing games gets a boost',
+                    'VR READY – Enjoy optimal VR performance as your desktop is VR ready right out of the box',
+                    '',
+                    '',
+                    ''
+                ],
+                error: null
+            },
+            productDetails: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
+            },
+            images: {
+                value: [
+                    {
+                        thumbnailSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/41TvbZcMeQL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/810naSDT%2B2L._AC_SY606_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/41%2BLVUzvevL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/81SRxd50WTL._AC_SY606_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/41HQoSbN2tL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/81ZVvH5FJBL._AC_SY606_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/51BXX7qmqrL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/81B57njDdnL._AC_SY606_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/41v%2BH1%2BVtbL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/81yfHVH-IpL._AC_SX466_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/41OoPtS0gdL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/81EbJcGqUfL._AC_SY606_.jpg'
+                    }
+                ],
+                error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$3,347.00',
+                    ounce: ''
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-4-5',
+                    acrCustomerReviewText: '650 ratings'
+                },
+                error: null
+            }
+        }
+    },
+    {
+        url: 'https://www.amazon.com/gp/product/B08HJTN8PH?th=1&psc=1',
+        data: {
+            productTitle: {
+                value: 'HP Chromebook 11-inch Laptop - MediaTek - MT8183 - 4 GB RAM - 32 GB eMMC Storage - 11.6-inch HD IPS Touchscreen - with Chrome OS - (11a-na0050nr, 2020 Model, Snow White)',
+                error: null
+            },
+            ASIN: {
+                value: 'B08HJTN8PH',
                 error: null
             },
             basePrice: {
                 value: {
                     symbol: '$',
                     currency: 'USD',
-                    amount: 7.99
+                    amount: 251.29
                 },
                 error: null
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/71NVGIvwyNL._SY355_.jpg',
+                value: 'https://m.media-amazon.com/images/I/812RQd3U1dL._AC_SY450_.jpg',
                 error: null
             },
             sizeName: {
-                value: 'Pack of 1',
+                value: 'HD Touchscreen',
                 error: null
             },
             styleName: {
-                value: 'Smooth',
-                error: null
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             productDescription: {
-                value:
-                    'GOLD BOND Ultimate Pedi smooth foot cream, Formulated with 7 moisturizers and 4 exfoliators. Exfoliates and smoothes feet. Maintains that soft, smooth pedicure feeling. Spa fresh scent. Keeps that soft, smooth pedicure feeling lasting up to 2 weeks longer. 2-In-1 formula combines an exfoliating complex with 7 intensive moisturizers to prevent build up of rough dead skin and recondition feet.',
+                value: 'This Snow White HP Chromebook 11a Laptop is light and durable, so you can work or play on the go. It travels well and has a long battery life, letting you stay connected without having to search for an outlet. Switch between using this laptop for gaming, connecting with friends, and getting your schoolwork done with the powerful MediaTek mobile processor, full-size keyboard, and 11-inch display. Also, Google Chrome and Android apps are all seamlessly integrated on Google’s easy-to-use OS. And once you’ve gotten into your workflow, enjoy the anti-glare, 11-inch laptop touchscreen with 178 degrees of wide-viewing angles. This beautiful display is paired up with the MediaTek Integrated Graphics card, which has Octa-core CPU and GPU graphics processors and a multimedia engine, so you can watch movies, shows, or seminars without draining the battery. This portable, powerful HP Chromebook has all the efficiency and technology you need.',
                 error: null
             },
             productOverview: {
                 value: {
-                    'Item Form': 'Cream',
-                    Brand: 'Gold Bond',
-                    'Skin Type': 'All',
-                    'Age Range (Description)': 'Adult',
-                    'Item Weight': '1 Ounces'
+                    Series: 'HP 11a Chrombook Touchscreen',
+                    Brand: 'HP',
+                    'Specific Uses For Product':
+                        'Multimedia, Personal, Business',
+                    'Screen Size': '11.6 Inches',
+                    'Operating System': 'Chrome OS'
                 },
                 error: null
             },
             productAbout: {
                 value: [
-                    'Exfoliates and smoothens feet.',
-                    'Spa fresh scent.',
-                    'Maintains that soft, smooth pedicure feeling.'
+                    '',
+                    'ALWAYS ON THE GO - Take this light and durable HP Chromebook with you anywhere. It travels well and has a long battery life, so you can stay connected without having to search for an outlet',
+                    'MADE FOR WHAT YOU DO - Switch between gaming, connecting with friends, and getting your schoolwork done. The powerful MediaTek mobile processor, full-size keyboard, and 11.6-inch touchscreen can handle it all',
+                    'THE GOOGLE EXPERIENCE - Enjoy the seamless simplicity that comes with Google Chrome and Android apps, all integrated into one laptop. It’s fast, simple, and secure',
+                    'EFFICIENT OPTICS - Never sacrifice graphics for battery life again. The MediaTek Integrated Graphics card has Octa-core CPU and GPU graphics processors and a multimedia engine, so it’s built to perform without draining your battery',
+                    'HIGH DEFINITION, HIGH QUALITY - With an anti-glare, high-definition, 11.6-inch touch display, you can stream movies and shows beautifully, with added control over 178 degrees of wide-viewing angles',
+                    'REMOTE WORK READY – Connect with work colleagues or friends and family from home and in high quality with an HP True Vision camera, integrated dual array digital microphones, and custom-tuned dual speakers',
+                    'PORTS and CONNECTIVITY - Enjoy rock-solid connections with the latest Wi-Fi 5 WLAN adapter and Bluetooth 4.2 as well as reliable external ports in the Headphone/Microphone combo and USB 2.0 Type-A and Type-C ports',
+                    '',
+                    '',
+                    ''
                 ],
                 error: null
             },
             productDetails: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             images: {
                 value: [
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41Ey2%2BUu3zL._SS40_.jpg',
+                            'https://m.media-amazon.com/images/I/411eHzgwuZL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71NVGIvwyNL._SY355_.jpg'
+                            'https://m.media-amazon.com/images/I/812RQd3U1dL._AC_SY450_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41RyHC1PlgL._SS40_.jpg',
+                            'https://m.media-amazon.com/images/I/419N0sRR+-L._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81NTHFEFlkL._SY355_.jpg'
+                            'https://m.media-amazon.com/images/I/71WvQAXi7UL._AC_SY450_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51YfDwqryCL._SS40_.jpg',
+                            'https://m.media-amazon.com/images/I/41tJ9flhFtL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/91%2B9IRv6PrL._SY355_.jpg'
+                            'https://m.media-amazon.com/images/I/81pZnFsJTsL._AC_SY450_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41GXaBgx%2BwL._SS40_.jpg',
+                            'https://m.media-amazon.com/images/I/4117e6IWxcL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71tEg279gDL._SY355_.jpg'
+                            'https://m.media-amazon.com/images/I/81KmlTeTeiL._AC_SY450_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/516y5TZjX5L._SS40_.jpg',
+                            'https://m.media-amazon.com/images/I/41xGfrfhDIL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/91z2XpGsYXL._SY355_.jpg'
+                            'https://m.media-amazon.com/images/I/81UWUfAXH5L._AC_SY450_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51X1QvIfOyL._SS40_.jpg',
+                            'https://m.media-amazon.com/images/I/41VClrKgeaL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81ji%2BuedjGL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41AiFYjPrQL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81MEb9HZEuL._SY355_.jpg'
+                            'https://m.media-amazon.com/images/I/81XZEbsl+6L._AC_SY450_.jpg'
                     }
                 ],
                 error: null
             },
             priceDetail: {
                 value: {
-                    priceblock_ourprice: '$7.99',
-                    ounce: '($2.28 / Ounce)'
+                    priceblock_ourprice: '$251.29',
+                    ounce: '& FREE Returns',
+                    price_block_savings: '$48.70 (16%)'
                 },
                 error: null
             },
             ratings: {
                 value: {
                     rateStar: 'a-icon a-icon-star a-star-4-5',
-                    acrCustomerReviewText: '2,351 ratings'
+                    acrCustomerReviewText: '803 ratings'
                 },
                 error: null
             }
         }
     },
     {
-        url: 'https://www.amazon.com/gp/product/B001MIZMIE?th=1&psc=1',
+        url: 'https://www.amazon.com/gp/product/B088MGQFS7?th=1&psc=1',
         data: {
             productTitle: {
-                value:
-                    'Gold Bond Ultimate Healing Foot Cream with Aloe 4 oz. (Pack of 4), Heals Dry, Rough Heels',
+                value: 'HP - S01-aF0011 Slim Desktop, AMD Athlon Silver 3050U, 4GB RAM, 256 GB SSD, Windows 10 Home (S01-aF0011, Black) Jet Black',
                 error: null
             },
             ASIN: {
-                value: 'B001MIZMIE',
-                error: null
-            },
-            basePrice: {
-                value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="priceblock_ourprice"]"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
-            },
-            mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/71RHDjRkclL._SY355_.jpg',
-                error: null
-            },
-            sizeName: {
-                value: 'Pack of 4',
-                error: null
-            },
-            styleName: {
-                value: 'Healing',
-                error: null
-            },
-            productDescription: {
-                value:
-                    "Rough, dry or cracked feet and heels? You need Gold Bond Ultimate Healing Foot Cream with aloe. Formulated with seven intensive moisturizers and three vitamins, this foot cream is designed to hydrate and nourish rough skin. In fact, it's been clinically tested to give you much-needed moisture for 24 hours. Gold Bond Ultimate Healing Foot Cream also contains aloe to soothe rough, dry skin, and it even helps stop dry skin before it starts. The result is noticeably healthier looking skin. Best of all, Gold Bond Ultimate Healing Foot Cream is hypoallergenic, comes in a fresh, clean scent, and is a non-greasy formula. Treat your feet to soothing relief. Stock up on 4-oz. bottles of Gold Bond Healing Foot Cream with Aloe so you always have soothing relief for dry, rough or cracked feet and heels. DIRECTIONS FOR USE: Apply liberally as often as needed. Reapply to rough, dry heels to increase level of moisturization.",
-                error: null
-            },
-            productOverview: {
-                value: {
-                    Ingredients:
-                        'Water, Urea, Dimethicone, Petrolatum, Glycerin, Cetyl Alcohol, Jojoba Esters, Cetyl Esters, Stearyl Alcohol, Lactic A… See more',
-                    Scent: 'Aloe Vera',
-                    'Item Form': 'Cream',
-                    Brand: 'Gold Bond',
-                    'Skin Type': 'Sensitive'
-                },
-                error: null
-            },
-            productAbout: {
-                value: [
-                    'CONTAINS: Four (4) 4-oz. bottles of Gold Bond Ultimate Healing Foot Cream with Aloe',
-                    'ALOE: This foot cream for dry, rough skin and heels is formulated with aloe to soothe skin',
-                    'SEVEN MOISTURIZERS + THREE VITAMINS: Gold Bond Healing Foot Cream contains seven moisturizers and three vitamins to hydrate tough skin',
-                    '24-HOUR MOISTURE: Gold Bond Aloe Foot Cream is clinically shown to moisturize rough, dry feet for 24 hours',
-                    'NOTICEABLY HEALTHIER LOOKING SKIN: The hypoallergenic cream stops dry skin before it starts for skin that looks and feels noticeably healthier'
-                ],
-                error: null
-            },
-            productDetails: {
-                value: {
-                    'Is Discontinued By Manufacturer :': 'No',
-                    'Product Dimensions :': '6 x 5 x 4 inches; 4.55 Ounces',
-                    'Item model number :': '07800B-B',
-                    'UPC :': '041167078006',
-                    'Manufacturer :': 'Gold Bond',
-                    'ASIN :': 'B001MIZMIE',
-                    'Best Sellers Rank:': '#4 in Foot Creams & Lotions',
-                    'Customer Reviews:': ''
-                },
-                error: null
-            },
-            images: {
-                value: [
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41y7E5ks9DL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71RHDjRkclL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41zcnPDRVoL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81o67u4jH5L._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51nDzMhXo7L._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/813TevcmEJL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41SIPcs7ZFL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/7176HwV3cYL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51UYtCyG%2BWL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/91hdaa7iC2L._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51fVT-cSyeL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81QOI1MA5KL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41BtD575DAL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81aMzI6C2sL._SY355_.jpg'
-                    }
-                ],
-                error: null
-            },
-            priceDetail: {
-                value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="price"]"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
-            },
-            ratings: {
-                value: {
-                    rateStar: 'a-icon a-icon-star a-star-4-5',
-                    acrCustomerReviewText: '2,351 ratings'
-                },
-                error: null
-            }
-        }
-    },
-    {
-        url: 'https://www.amazon.com/gp/product/B0073E7JFK?th=1&psc=1',
-        data: {
-            productTitle: {
-                value:
-                    'Gold Bond Ultimate Softening Foot Cream With Shea Butter to Soften Rough & Calloused Feet, 4 oz.',
-                error: null
-            },
-            ASIN: {
-                value: 'B0073E7JFK',
+                value: 'B088MGQFS7',
                 error: null
             },
             basePrice: {
                 value: {
                     symbol: '$',
                     currency: 'USD',
-                    amount: 5.98
+                    amount: 309.99
                 },
                 error: null
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/81xOpoeqjgL._SY355_.jpg',
+                value: 'https://images-na.ssl-images-amazon.com/images/I/71EMMInequL._AC_SY355_.jpg',
                 error: null
             },
             sizeName: {
-                value: '4 Ounce (Pack of 1)',
-                error: null
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             styleName: {
-                value: 'Softening',
-                error: null
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             productDescription: {
-                value:
-                    "Treat your feet to the Gold Bond Ultimate Softening Foot Cream With Shea Butter to soften calloused feet. Restore and maintain your skin's youthful appearance with the unique silk peptide matrix, formulated with vitamins and shea butter to soften and revitalize your feet when life leaves them rough and dry. The combination of vitamins A, C, and E nourish the skin and soften callouses with the softness of shea butter, leaving a fresh scent on your revitalized skin. The rich cream moisturizes skin quickly for soft, velvety-feeling feet.",
-                error: null
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#productDescription > p"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             productOverview: {
-                value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                value: {
+                    'Specific Uses For Product': 'Personal, Business',
+                    Series: '9EE57AA#ABA',
+                    'Ram Memory Installed Size': '4 GB',
+                    'Operating System': 'Windows 10 Home',
+                    Processor: '2.3 GHz athlon'
+                },
+                error: null
             },
             productAbout: {
                 value: [
-                    'INCLUDES: One (1) 4-oz. tube of Gold Bond Ultimate Softening Foot Cream With Shea Butter to Soften Rough Calloused Feet',
-                    "RESTORE AND MAINTAIN SKIN'S YOUTHFUL APPEARANCE: The unique silk peptide matrix is formulated with vitamins and shea butter to soften and revitalize your skin",
-                    'SOFTENING FOOT CREAM: Formula moisturizes rough dry skin to reveal soft skin',
-                    'FRESH SOFT SCENT: Soft shea butter formula with a fresh soft scent',
-                    'DERMATOLOGIST-TESTED: This Gold Bond Ultimate Softening Foot Cream with Shea Butter has been tested by dermatologists and is hypoallergenic'
+                    '',
+                    'A RELIABLE HOME COMPUTER: This attractive, powerful desktop can handle whatever your family throws at it',
+                    'WINDOWS 10 HOME: Do great things confidently with the familiar feel of Windows – only better',
+                    'FAST PROCESSOR: AMD Athlon Silver 3050U Processor, Dual-Core, 2.30 GHz',
+                    'MEMORY: 4 GB DDR4-2400 SDRAM (1 x 4 GB) (upgradable to 16 GB)',
+                    'INTERNAL STORAGE: 256 GB PCIe NVMe M.2 Solid State Drive (HDD 3.5" expansion bay available)',
+                    'ENERGY STAR CERTIFIED: HP Slim Desktop that meets strict energy- efficiency and helps reduce your carbon footprint',
+                    'WIRELESS: Realtek Wi-Fi 5 (1x1) and Bluetooth 4.2 Combo, MU-MIMO supported',
+                    '',
+                    '',
+                    ''
                 ],
                 error: null
             },
             productDetails: {
-                value: {
-                    'Is Discontinued By Manufacturer :': 'No',
-                    'Product Dimensions :': '1.88 x 3 x 5.5 inches; 4.7 Pounds',
-                    'Item model number :': '876068',
-                    'UPC :': '787734736589 041167016503 885176051496',
-                    'Manufacturer :': 'Gold Bond',
-                    'ASIN :': 'B0073E7JFK',
-                    'Domestic Shipping:': 'Item can be shipped within U.S.',
-                    'International Shipping:':
-                        'This item can be shipped to select countries outside of the U.S. Learn More',
-                    'Best Sellers Rank:': '#4 in Foot Creams & Lotions',
-                    'Customer Reviews:': ''
-                },
-                error: null
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             images: {
                 value: [
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41FsDDgR49L._SS40_.jpg',
+                            'https://images-na.ssl-images-amazon.com/images/I/31yLfCGwLIL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81xOpoeqjgL._SY355_.jpg'
+                            'https://images-na.ssl-images-amazon.com/images/I/71EMMInequL._AC_SY355_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51mwedigLwL._SS40_.jpg',
+                            'https://images-na.ssl-images-amazon.com/images/I/51KlPyl-9OL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81hwGPLfK9L._SY355_.jpg'
+                            'https://images-na.ssl-images-amazon.com/images/I/71bGDWTiZML._AC_SY355_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41IOba99xpL._SS40_.jpg',
+                            'https://images-na.ssl-images-amazon.com/images/I/41472Ez0QyL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/817weHpfsOL._SY355_.jpg'
+                            'https://images-na.ssl-images-amazon.com/images/I/714g3RNV77L._AC_SY355_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41TGPirUIqL._SS40_.jpg',
+                            'https://images-na.ssl-images-amazon.com/images/I/31wh2opqyzL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71nXuIy3SaL._SY355_.jpg'
+                            'https://images-na.ssl-images-amazon.com/images/I/61nvjotAYGL._AC_SY355_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41Qo7ftlyxL._SS40_.jpg',
+                            'https://images-na.ssl-images-amazon.com/images/I/417MrYqhM7L._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71lUngJaYJL._SY355_.jpg'
+                            'https://images-na.ssl-images-amazon.com/images/I/71wh6Cv%2BwwL._AC_SY355_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41jMguhRsIL._SS40_.jpg',
+                            'https://images-na.ssl-images-amazon.com/images/I/51iiR0XkI4L._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/91e8IOSyxZL._SY355_.jpg'
+                            'https://images-na.ssl-images-amazon.com/images/I/81EjFvaj%2BCL._AC_SY355_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/411UYRRCIFL._SS40_.jpg',
+                            'https://images-na.ssl-images-amazon.com/images/I/510ARIg3d5L._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81H13rBvUcL._SY355_.jpg'
+                            'https://images-na.ssl-images-amazon.com/images/I/814msO5DyQL._AC_SY355_.jpg'
                     }
                 ],
                 error: null
             },
             priceDetail: {
                 value: {
-                    priceblock_ourprice: '$5.98',
-                    ounce: '($1.50 / Ounce)'
+                    priceblock_ourprice: '$309.99',
+                    ounce: '& FREE Returns'
                 },
                 error: null
             },
             ratings: {
                 value: {
                     rateStar: 'a-icon a-icon-star a-star-4-5',
-                    acrCustomerReviewText: '13,867 ratings'
+                    acrCustomerReviewText: '80 ratings'
                 },
                 error: null
             }
         }
     },
     {
-        url: 'https://www.amazon.com/gp/product/B001ET78HY?th=1&psc=1',
+        url: 'https://www.amazon.com/gp/product/B08KHD3HSZ?th=1&psc=1',
         data: {
             productTitle: {
-                value: 'Gold Bond Foot Cream Triple Action 4 Oz (3 Pack)',
+                value: 'HP 21 All-in-One PC, Intel Pentium Silver J5040 Quad-Core Processor, 4 GB RAM, 128 GB SSD Storage, 20.7-inch Full HD Display, Windows 10 Home with Enhanced Security, Privacy Camera (21-b0020, 2020)',
                 error: null
             },
             ASIN: {
-                value: 'B001ET78HY',
+                value: 'B08KHD3HSZ',
                 error: null
             },
             basePrice: {
-                value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="priceblock_ourprice"]"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                value: {
+                    symbol: '$',
+                    currency: 'USD',
+                    amount: 409.99
+                },
+                error: null
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/81QhbVpH9ML._AC_SX425_PIbundle-3,TopRight,0,0_SH20_.jpg',
+                value: 'https://m.media-amazon.com/images/I/819oaj2fTQL._AC_SY450_.jpg',
                 error: null
             },
             sizeName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             styleName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             productDescription: {
-                value:
-                    'For dry, rough and cracked heels. Therapeutic. Healing since 1908. Relieves dry, irritated skin. Soothes & softens. Cools & revitalizes. Helps heal dry, rough and cracked feet and heels. The unique formula delivers 7 intensive moisturizers plus the healing power of essential skin nurturing Vitamins A, C and E. Used daily, it works to condition and repair even the toughest skin to keep feet from becoming dry, rough and cracked. Lightly scented, penetrates fast, non-greasy. Heals. Moisturizes. Softens. Refreshes. Deodorizes.',
+                value: 'The HP 21 All-in-One PC blends the power of a desktop with the elegance of a display into one dependable device. See more of your screen on an FHD display, equipped with an adjustable tilt for more comfortable viewing (1). Get high-quality performance on your All-in-One desktop computer with the Intel® Pentium® Silver J5040 quad-core processor (2) with Intel® UHD graphics (3). Your HP desktop delivers a boost to your productivity with 4 GB of DDR4 RAM (4) and 128 GB of PCIe® NVMe™ M.2 Solid State Drive storage (5). Connectivity is made easy with four USB ports as well as Wi-Fi 5 (1x1) and Bluetooth® 4.2 wireless technology (6). Enjoy better peace of mind with a desktop backed by over 230 individual tests (8), equipped with Windows 10 Home in S Mode (7), and covered by a 1-year limited hardware warranty. Jump into remote work with confidence as your desktop PC sports such integrated features as a privacy camera, integrated dual-array microphones, and MU-MIMO router support (9). A USB white wired keyboard and mouse combo complete your desktop. Built to be both energy-efficient and eco-friendly, this AIO PC is made for the modern world. (1) Full High Definition (FHD) content is required to view FHD images. (2) Multi-core is designed to improve performance of certain software products. Not all customers or software applications will necessarily benefit from use of this technology. Performance and clock frequency will vary depending on application workload and your hardware and software configurations. Intel’s numbering, branding and/or naming is not a measurement of higher performance. Intel, Pentium, Intel Core, Celeron, Intel logo and the Intel Inside logo are trademarks of Intel Corporation in the U.S. and other countries. (3) Internet service required and not included. Graphics output may be limited based on the maximum resolution of the display. Part of the total system memory (RAM) is used for graphics/video performance. System memory dedicated to graphics/video performance is not available for other use by other programs. (4) Up to 512MB of main system memory may be allocated to support video graphics. (5) Actual formatted capacity is less. Portion of internal storage is reserved for preloaded content. Based on HP internal testing using CrystalDiskMark benchmarking software. Performance is sequentially faster (read-only) compared to traditional 5,400 rpm HDD. (6) Wireless access point and internet service required and sold separately. Availability of public wireless access points limited. Wi-Fi 5 (802.11ac) is backward compatible with prior Wi-Fi 5 specs. Bluetooth® is a trademark owned by its proprietor and used by Hewlett- Packard Company under license. (7) Not all features are available in all editions or versions of Windows. Systems may require upgraded and/or separately purchased hardware, drivers, software, or BIOS update to take full advantage of Windows functionality. Windows 10 is automatically updated, which is always enabled. ISP fees may apply and additional requirements may apply over time for updates. See microsoft.com. Windows 10 Home in S mode works exclusively with apps from the Microsoft Store within Windows. Certain default settings, features, and apps cannot be changed. Some accessories and apps compatible with Windows 10 may not work (including some antivirus, PDF Writers, driver utilities, and accessibility apps) and performance may vary, even if you switch to Windows 10 Home configuration (fee may apply). You can’t switch back to Windows 10 Home in S mode. Learn more at Windows.com/Windows10SFAQ. (8) HP Total Test Process testing is not a guarantee of future performance under these test conditions. Damage under the HP Total Test Process test conditions or any accidental damage requires an optional HP Accidental Damage Protection Care Pack. (9) Features may require software or other 3rd party applications to provide the described functionality. Internet service required and not included. (10) ENERGY STAR and the ENERGY STAR mark are registered trademarks owned by the U.S. Environmental Protection Agency. (11) Based on U.S. EPEAT® registration according to IEEE 1680.1-2018 EPEAT®. EPEAT® status varies by country. Visit www.epeat.net for more information. (12) External power supplies, power cords, cables, and peripherals are not Low Halogen. Service parts obtained after purchase may not be Low Halogen.',
                 error: null
             },
             productOverview: {
-                value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                value: {
+                    Series: '21-b0020',
+                    Brand: 'HP',
+                    'Specific Uses For Product': 'Personal, Business',
+                    'Display Size': '20.7 inches 4K UHD',
+                    'Operating System': 'Windows 10 Home'
+                },
+                error: null
             },
             productAbout: {
                 value: [
-                    'CONTAINS: Three (3) 4-oz. bottles of Gold Bond Therapeutic Foot Cream',
-                    'TRIPLE ACTION RELIEF: Gold Bond Foot Cream smoothes, softens and cools dry skin',
-                    'SEVEN INTENSIVE MOISTURIZERS: This foot cream intensely moisturizes and softens feet',
-                    'VITAMINS A, C & E: Gold Bond Therapeutic Foot Cream soothes and nourishes skin with three vitamins',
-                    'LIGHTLY SCENTED: Gold Bond Cream for dry feet is lightly scented and non-greasy'
+                    '',
+                    'ALL-IN-ONE ELEGANCE – De-clutter your workspace and get more done with an All-in-One PC that blends the power of a desktop with the elegance of a slim, sleek display',
+                    'FULL HD DISPLAY – See more of your entertainment with an anti-glare, narrow-bezel, 20.7-inch display, boasting 2 million pixels for crystal-clear visuals and vibrant image quality (1). Watch your shows comfortably as you easily adjust the screen’s tilt 5 degrees forward and 20 degrees backward',
+                    'TRUE PROCESSING POWER – The Intel Pentium Silver J5040 processor is the perfect combination of performance, power consumption, and value; multitasking has never been smoother or more reliable with four processing cores to divide up the work (2)',
+                    'MODERN GRAPHICS – Smoothly stream 4K content and play your favorite games in 1080p, without the need for a dedicated graphics card. With excellent Intel UHD graphics performance, you’ll see the difference in everything you do (3)',
+                    'MEMORY AND STORAGE – Experience a boost in performance for improved multitasking with 4 GB of DDR4 RAM (4) and get up to 30x faster performance than a traditional hard drive with 128 GB of PCIe NVMe M.2 Solid State Drive storage (5)',
+                    'PORTS AND CONNECTIVITY – Access all the tools you need for better connectivity with 4 (2 SuperSpeed USB Type-A 5Gbps signaling rate, 2 USB 2.0 Type-A), external headphone/microphone combo port, as well as a Wi-Fi 5 (1x1) and Bluetooth 4.2 combo (6)',
+                    'OS AND WARRANTY – Windows 10 Home in S Mode is the most secure Windows ever built with fast boot times, increased responsiveness, and added protection against phishing and malware (7). Enjoy peace of mind beyond just cybersecurity with an AIO PC backed by over 230 individual quality tests and covered by a 1-year limited hardware warranty (8).',
+                    '',
+                    '',
+                    ''
                 ],
                 error: null
             },
             productDetails: {
-                value: {
-                    'Is Discontinued By Manufacturer :': 'No',
-                    'Product Dimensions :': '1.6 x 1.1 x 6.8 inches; 12 Ounces',
-                    'Item model number :': 'SG_B001ET78HY_US',
-                    'Date First Available :': 'September 26, 2008',
-                    'Manufacturer :': 'Gold Bond',
-                    'ASIN :': 'B001ET78HY',
-                    'Best Sellers Rank:': '#18 in Foot Creams & Lotions',
-                    'Customer Reviews:': ''
-                },
-                error: null
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             images: {
                 value: [
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41914aqpgbL._AC_US40_.jpg',
+                            'https://m.media-amazon.com/images/I/41NznvxbLlL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81QhbVpH9ML._AC_SX425_PIbundle-3,TopRight,0,0_SH20_.jpg'
+                            'https://m.media-amazon.com/images/I/819oaj2fTQL._AC_SY450_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51ERP-X3UxL._AC_US40_.jpg',
+                            'https://m.media-amazon.com/images/I/41DeeU89vxL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81QsZr6Z9pL._AC_SX425_.jpg'
+                            'https://m.media-amazon.com/images/I/81LvHg8aBNL._AC_SY450_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51A%2BHW--mRL._AC_US40_.jpg',
+                            'https://m.media-amazon.com/images/I/412CfXEch5L._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/91juhjgD2QL._AC_SX425_.jpg'
+                            'https://m.media-amazon.com/images/I/81j5n5uYYRL._AC_SY450_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41MRgfGqqwL._AC_US40_.jpg',
+                            'https://m.media-amazon.com/images/I/415u8+7RvuL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71SjklIrL1L._AC_SX425_.jpg'
+                            'https://m.media-amazon.com/images/I/81c39fUpPjL._AC_SY450_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41nw3mYyprL._AC_US40_.jpg',
+                            'https://m.media-amazon.com/images/I/41zc6vqZaSL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71RYBAtaVlL._AC_SX425_.jpg'
+                            'https://m.media-amazon.com/images/I/81AT1KS+qvL._AC_SY450_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41FlVmALvhL._AC_US40_.jpg',
+                            'https://m.media-amazon.com/images/I/41r4FMXkQnL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71Bx6OqtNGL._AC_SX425_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41eOWnwfRSL._AC_US40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/815Mp4DyatL._AC_SX425_.jpg'
+                            'https://m.media-amazon.com/images/I/81QrbhIJ4JL._AC_SY450_.jpg'
                     }
                 ],
                 error: null
             },
             priceDetail: {
-                value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="price"]"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                value: {
+                    priceblock_ourprice: '$409.99',
+                    ounce: '& FREE Returns'
+                },
+                error: null
             },
             ratings: {
                 value: {
-                    rateStar: 'a-icon a-icon-star a-star-5',
-                    acrCustomerReviewText: '2,538 ratings'
+                    rateStar: 'a-icon a-icon-star a-star-4-5',
+                    acrCustomerReviewText: '88 ratings'
                 },
                 error: null
             }
         }
     },
     {
-        url: 'https://www.amazon.com/gp/product/B08CJ2S9HJ?th=1&psc=1',
+        url: 'https://www.amazon.com/gp/product/B091D6F3JP?th=1&psc=1',
         data: {
             productTitle: {
-                value:
-                    'Gold Bond Ultimate Hand Cream 3 oz. with Broad Spectrum SPF 20 Sunscreen, Age Defense (Pack of 24)',
+                value: 'HP Pavilion x360 14” Touchscreen Laptop, 11th Gen Intel Core i5-1135G7, 8 GB RAM, 256 GB SSD Storage, Full HD IPS Display, Windows 10 Home OS, Long Battery Life, Work & Streaming (14-dw1024nr, 2021)',
                 error: null
             },
             ASIN: {
-                value: 'B08CJ2S9HJ',
+                value: 'B091D6F3JP',
                 error: null
             },
             basePrice: {
-                value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="priceblock_ourprice"]"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                value: {
+                    symbol: '$',
+                    currency: 'USD',
+                    amount: 699.99
+                },
+                error: null
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/7181yOKCT4L._SY355_.jpg',
+                value: 'https://m.media-amazon.com/images/I/81HbaBmmvNS._AC_SY450_.jpg',
                 error: null
             },
             sizeName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             styleName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             productDescription: {
-                value:
-                    "Your hands deserve a round of applause. They work hard every day. But, over time the skin on your hands can lose its ability to retain moisture. Replenish vital hydration to your hands with Gold Bond Ultimate Age Defense Hand Cream with Broad Spectrum SPF 20 Sunscreen. Formulated with seven moisturizers and three vitamins, this hand cream nourishes and revitalizes to reveal noticeably healthier-looking skin. It replenishes and protects immediately*. Gold Bond Age Defense Hand Cream is also formulated with broad spectrum SPF 20 sunscreen to help protect against damaging effects of daily sun exposure†. Best of all, Gold Bond Ultimate Age Defense Hand Cream is hypoallergenic, non-greasy, and doesn't leave a white sunscreen residue. Stock up on 3-oz. bottles of Gold Bond Ultimate Age Defense Hand Cream with Broad Spectrum SPF 20 Sunscreen to keep nourishing moisture on hand for whenever your hands need it. *refers to 15 minutes after application † if used as directed with other sun protection measures (use another symbol)",
+                value: 'The HP Pavilion x360 Convertible Laptop makes work, entertainment, and online studying a breeze; simply flip, fold, and bend this convertible laptop into the perfect position for you. The 14-inch diagonal Full HD (1920 x 1080) multitouch enabled, edge-to-edge glass display (1) allows you to see your work illuminated. Enjoy stellar performance from the 11th Generation Intel® Core™ i5-1135G7processor (2). Images will appear crisp and vibrant thanks to Intel® Iris® Xe Graphics (3). Say goodbye to long load times with the help of 12 GB of RAM and store all of your favorite music, movies, and more with the available 256 GB PCIe® NVMe™ M.2 SSD storage (4). The HP all-in-one laptop’s long-lasting battery gives your computer up to 8 hours and 15 minutes of wireless streaming capability(5) and HP Fast Charge gets your computer back up and running with 50% charge in approximately 45 minutes (6). With Windows 10 Home OS (7) and the HP Hardware 1-Year Limited Warranty, your Envy has all the outstanding performance and protection it needs. Business and school just got a whole lot more efficient using HP’s Intel® Wi-Fi 6 AX201 (2x2) (8) and Bluetooth® 5 combo (9) (Supporting Gigabit data rate) (10). The HP Envy is built responsibly, ENERGY STAR® certified (11), and EPEAT® Silver registered (12). (1)Full High Definition (FHD) content is required to view FHD images. (2) Multi-core is designed to improve performance of certain software products. Not all customers or software applications will necessarily benefit from use of this technology. Performance and clock frequency will vary depending on application workload and your hardware and software configurations. Intel’s numbering, branding and/or naming is not a measurement of higher performance. Intel, Pentium, Intel Core, Celeron, Iris Xe, Intel logo and the Intel Inside logo are trademarks of Intel Corporation in the U.S. and other countries. (3) Shared video memory (UMA) uses part of the total system memory for video performance. System memory dedicated to video performance is not available for other use by other programs. (4) Actual formatted capacity is less. Portion of internal storage is reserved for preloaded content. Based on HP internal testing using CrystalDiskMark benchmarking software. Performance is sequentially faster (read only) compared to traditional 5,400 rpm HDD. (5) Battery life tested by HP using continuous Netflix video playback, Windows 10 Netflix app, 150 nits brightness, system audio level 17%, headphone attached, played full-screen, wireless on. Actual battery life will vary depending on configuration and maximum capacity will naturally decrease with time and usage. (6) Recharges your battery up to 50% within 45 minutes when the system is off (using “shut down” command). Recommended for use with the HP adapter provided with the notebook, not recommended with a smaller capacity battery charger. After charging has reached 50% capacity, charging speed will return to normal speed. Charging time may vary +/-10% due to System tolerance. (7) Not all features are available in all editions or versions of Windows. Systems may require upgraded and/or separately purchased hardware, drivers, software or BIOS update to take full advantage of Windows functionality. Windows 10 is automatically updated, which is always enabled. ISP fees may apply and additional requirements may apply over time for updates. See microsoft.com (8) Wireless access point and internet service required and sold separately. Availability of public wireless access points limited. Requires a wireless router, sold separately, that supports 80MHz channels. Wi-Fi 6 (802.11ax) is backwards compatible with prior 802.11 specs. The specifications for Wi-Fi 6 are draft and are not final. If the final specifications differ from the draft specifications, it may affect the ability of the notebook to communicate with other Wi-Fi 6 devices. Only available in countries where 802.11ax is supported. (9)Bluetooth® is a trademark owned by its proprietor and used by Hewlett-Packard Company under license. (10)Wi-Fi 5 or 6 is designed to support Gigabit data rate when transferring files between two devices connected to the same router. Requires a wireless router, sold separately, that supports 80MHz and higher channels. (11) ENERGY STAR and the ENERGY STAR mark are registered trademarks owned by the U.S. Environmental Protection Agency. (12) Based on U.S. EPEAT® registration according to IEEE 1680.1-2018 EPEAT®. EPEAT® status varies by country. Visit www.epeat.net for more information.',
                 error: null
             },
             productOverview: {
                 value: {
-                    Scent: 'Age Defense',
-                    'Item Form': 'Cream',
-                    Brand: 'Gold Bond',
-                    'Age Range (Description)': 'Adult',
-                    'Item Weight': '0.23 Pounds'
+                    Series: '14-dw1024nr',
+                    Brand: 'HP',
+                    'Specific Uses For Product': 'Personal, Business',
+                    'Display Size': '14 inches IPS',
+                    'Operating System': 'Windows 10 Home'
                 },
                 error: null
             },
             productAbout: {
                 value: [
-                    'CONTAINS: One (1) 3-oz. bottle of Gold Bond Ultimate Age Defense Hand Cream with Broad Spectrum SPF 20 Sunscreen',
-                    'REPLENISHES MOISTURE: Made with seven moisturizers and three nourishing vitamins to reveal noticeably healthier-looking skin',
-                    'PROTECTS WITH SPF 20: Contains broad spectrum SPF 20 to protect against visible effects of sun damage',
-                    'MINIMIZES VISIBLE SIGNS OF AGING: Protects against premature aging',
-                    "FRESH CLEAN SCENT: This hypoallergenic hand cream is non-greasy and comes in a fresh clean scent and doesn't leave white sunscreen residue"
+                    '',
+                    'POWER THAT REVOLVES AROUND YOU - Work and entertainment is more convenient than ever with a laptop that flexes and bends into the perfect position to suit your needs.',
+                    'VIBRANT DISPLAY - Your creations are brought to life with the 14-inch diagonal Full HD (1920 x 1080) multitouch enabled, edge-to-edge glass display',
+                    'STELLAR PERFORMANCE - The 11th Generation Intel Core i5-1135G7 (1) processor lets you get work done more efficiently',
+                    'EYE-CATCHING GRAPHICS - Marvel at crystal-clear imagery thanks to Intel Iris Xe Graphics (2)',
+                    'MEMORY & STORAGE - HP Envy brings you even more bandwidth with 8 GB of RAM and increased hard drive space with 256 GB PCIe NVMe M.2 SSD storage (3)',
+                    'LONG-LASTING STREAMING POWER - Your laptop has up to 8 hours and 15 minutes of wireless streaming capabilities (4). Plus, HP Fast Charge takes your laptop from 0-50% charge in approximately 45 minutes (5)',
+                    'UNMATCHED AUDIO - Music, movie, and gaming sound gets a boost thanks to built-in dual speakers and audio provided by B&O',
+                    '',
+                    '',
+                    ''
                 ],
                 error: null
             },
             productDetails: {
-                value: {
-                    'Product Dimensions :':
-                        '2.38 x 1.44 x 5.13 inches; 3.6 Ounces',
-                    'Manufacturer :': 'AmazonUs/NC1NB',
-                    'ASIN :': 'B08CJ2S9HJ',
-                    'Best Sellers Rank:': '#2,638 in Hand Creams & Lotions',
-                    'Customer Reviews:': ''
-                },
-                error: null
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             images: {
                 value: [
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41f36K4H9PL._SS40_.jpg',
+                            'https://m.media-amazon.com/images/I/41DHrRyOJIS._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/7181yOKCT4L._SY355_.jpg'
+                            'https://m.media-amazon.com/images/I/81HbaBmmvNS._AC_SY450_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41Kzw97eY%2BL._SS40_.jpg',
+                            'https://m.media-amazon.com/images/I/51sjBB6MhlS._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71lkn-Mm9vL._SY355_.jpg'
+                            'https://m.media-amazon.com/images/I/81faLmrFUdS._AC_SY450_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/512zpU2ntCL._SS40_.jpg',
+                            'https://m.media-amazon.com/images/I/41pa1y-6iQS._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/817QUYcw8EL._SY355_.jpg'
+                            'https://m.media-amazon.com/images/I/817QK9GSJNS._AC_SY450_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51STsXioorL._SS40_.jpg',
+                            'https://m.media-amazon.com/images/I/41a+U5eBZ-S._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/91zYtWn0OEL._SY355_.jpg'
+                            'https://m.media-amazon.com/images/I/81rJr-31lpS._AC_SY450_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51b3wibxn0L._SS40_.jpg',
+                            'https://m.media-amazon.com/images/I/41ML5AP01qS._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/811XUxGq0BL._SY355_.jpg'
+                            'https://m.media-amazon.com/images/I/71tDphnmrPS._AC_SY450_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51bOXXP8IoL._SS40_.jpg',
+                            'https://m.media-amazon.com/images/I/51oybiSZLHS._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/91NaBXEfdiL._SY355_.jpg'
+                            'https://m.media-amazon.com/images/I/81DgHlngHyS._AC_SY450_.jpg'
+                    }
+                ],
+                error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$699.99',
+                    ounce: '& FREE Returns',
+                    price_block_savings: '$110.00 (14%)'
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-4-5',
+                    acrCustomerReviewText: '52 ratings'
+                },
+                error: null
+            }
+        }
+    },
+    {
+        url: 'https://www.amazon.com/gp/product/B095PXZXHG?th=1&psc=1',
+        data: {
+            productTitle: {
+                value: 'HP Pavilion Gaming PC, AMD Ryzen 5 5600G Processor, 8 GB RAM, 512 GB SSD, Windows 10 Home, Wi-Fi 5 & Bluetooth 4.2 Combo, 9 USB Ports, Pre-Built Gaming PC Tower, Mouse and Keyboard (TG01-2030, 2021)',
+                error: null
+            },
+            ASIN: {
+                value: 'B095PXZXHG',
+                error: null
+            },
+            basePrice: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="priceblock_ourprice"]"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
+            },
+            mainImage: {
+                value: 'https://images-na.ssl-images-amazon.com/images/I/81u0yC9%2BUIS._AC_SY450_.jpg',
+                error: null
+            },
+            sizeName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
+            },
+            styleName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
+            },
+            productDescription: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#productDescription > p"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
+            },
+            productOverview: {
+                value: {
+                    'Specific Uses For Product': 'Gaming',
+                    Series: 'TG01-2030',
+                    'Ram Memory Installed Size': '8 GB',
+                    'Operating System': 'Windows 10 Home',
+                    'CPU Model': 'Ryzen 5'
+                },
+                error: null
+            },
+            productAbout: {
+                value: [
+                    '',
+                    'MORE POWER FROM THE JUMP – This potent PC keeps up with the demanding games of tomorrow thanks to its easy upgrades, responsive visuals, powerful processor, and enhanced cooling system.',
+                    'CUSTOMIZABLE AND COMPACT DESIGN – This sleek, space-saving PC tower allows you to expand and upgrade with customizable LED lights.',
+                    'HIGH-SPEED PERFORMANCE – Setting the bar for gamers and artists alike, the powerful AMD Ryzen 5 5600G desktop processor can handle it all from gaming, designing, or crunching data (1).',
+                    'POWERFUL GRAPHICS – Designed with exceptional power efficiency and equipped with 4 GB of GDDR5 high-speed dedicated memory, the AMD Radeon RX 5500 graphics card delivers high-fidelity gaming.',
+                    'MEMORY AND STORAGE – With 8 GB of RAM, everything from multitasking to playing games gets a performance boost (2); plus, with 512 GB of PCIe NVMe M.2 Solid State Drive storage, you’ll get up to 10x faster performance than a traditional hard drive (3) (4).',
+                    'USB PORTS – Easily and quickly hook up your devices, consoles, or external storage drives with a total of 9 USB ports (4 SuperSpeed USB Type-A 5Gbps signaling rate, 1 SuperSpeed USB Type-C 5Gbps signaling rate (5), 4 USB 2.0 Type-A) (6).',
+                    'WINDOWS 10 HOME AND WARRANTY – Built to be modern, durable, and still feel familiar, you’ll do great things on a gaming desktop equipped with Windows 10 Home (7), tested over 230 individual times (8), and backed by a 1-year limited hardware warranty.',
+                    '',
+                    '',
+                    ''
+                ],
+                error: null
+            },
+            productDetails: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
+            },
+            images: {
+                value: [
+                    {
+                        thumbnailSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/41-Dkp42oiS._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/81u0yC9%2BUIS._AC_SY450_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41B7Eo2BxWL._SS40_.jpg',
+                            'https://images-na.ssl-images-amazon.com/images/I/4129pG%2BwtSS._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71AnFtY%2BK2L._SY355_.jpg'
+                            'https://images-na.ssl-images-amazon.com/images/I/81uFMo5pw5S._AC_SY450_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/41TYZydxWOS._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/81no04uFsKS._AC_SY450_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/41Cy0GyVaKS._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/81sFvJVJRVS._AC_SY450_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/414EOx25W-S._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/813HSvp16IS._AC_SY450_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/51bLD7BfjvS._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/81OxbAQBQ4S._AC_SY450_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/51s-yTsgqVS._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/91%2BziJGZSkS._AC_SY450_.jpg'
                     }
                 ],
                 error: null
             },
             priceDetail: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="price"]"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="price"]"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
+            },
+            ratings: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="averageCustomerReviews"]"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
+            }
+        }
+    },
+    {
+        url: 'https://www.amazon.com/gp/product/B08P2DDD55?th=1&psc=1',
+        data: {
+            productTitle: {
+                value: 'HP All-in-One Desktop PC, 11th Gen Intel Core i3-1115G4 Processor, 8 GB RAM, 512 GB SSD Storage, Full HD 23.8” Display, Windows 10 Home, Remote Work Ready, Mouse and Keyboard (24-dp1250, 2021)',
+                error: null
+            },
+            ASIN: {
+                value: 'B08P2DDD55',
+                error: null
+            },
+            basePrice: {
+                value: {
+                    symbol: '$',
+                    currency: 'USD',
+                    amount: 681.2
+                },
+                error: null
+            },
+            mainImage: {
+                value: 'https://m.media-amazon.com/images/I/818TYE5ibTL._AC_SY450_.jpg',
+                error: null
+            },
+            sizeName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
+            },
+            styleName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
+            },
+            productDescription: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#productDescription > p"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
+            },
+            productOverview: {
+                value: {
+                    'Specific Uses For Product':
+                        'Personal, Remote Learning, Home Office',
+                    Series: '24-df1250',
+                    'Ram Memory Installed Size': '8 GB',
+                    'Operating System': 'Windows 10 Home',
+                    'CPU Model': 'Core i3'
+                },
+                error: null
+            },
+            productAbout: {
+                value: [
+                    '',
+                    'BUILT FOR TOMORROW – Designed to grow with you, this AIO’s panel and hardware are easy to remove and upgrade (1).',
+                    'FULL HD DISPLAY – Enjoy vibrant and crystal-clear images on a 1080p, three-sided micro-edge display with 178-degree wide-viewing angles (2).',
+                    'UNSTOPPABLE PROCESSING POWER – Get things done fast with the 11th Generation Intel Core i3-1115G4 processor and enjoy high performance, instant responsiveness, and best-in-class connectivity (3).',
+                    '4K READY – Smoothly stream 4K content and play your favorite games with Intel UHD Graphics (4).',
+                    'MEMORY AND STORAGE – Boost your efficiency as you browse, create, and multitask faster than ever with 8 GB of RAM (5). Get up to 15x faster performance than a traditional hard drive with 512 GB PCIe NVMe M.2 Solid State Drive (6) (7).',
+                    'PORTS AND CONNECTIVITY – Break out all the tools you need for better connectivity with 4 USB ports (2 SuperSpeed USB Type-A 5Gbps signaling rate (8), 2 USB 2.0 Type-A), HDMI Out, as well as a Wi-Fi 5 (2x2) WLAN adapter and Bluetooth 5.0 combo (9) (10).',
+                    'WINDOWS 10 AND WARRANTY – Do great things with a desktop equipped with Windows 10 Home (11). Quality tested over 230 times (12), your computer is backed by a 1-year limited hardware warranty.',
+                    '',
+                    '',
+                    ''
+                ],
+                error: null
+            },
+            productDetails: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
+            },
+            images: {
+                value: [
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41hfoHkYWNL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/818TYE5ibTL._AC_SY450_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41cv0kaXy6L._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/81kIjOh6wAL._AC_SY450_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41xZdWvrXfL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/81PAb72JbuL._AC_SY450_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41wq9slywvL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/81yx5c3bzlL._AC_SY450_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41r-8XGAd4L._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/81wp+BwDA8L._AC_SY450_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41pIdpGQflL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/81QSSDfHEnL._AC_SY450_.jpg'
+                    }
+                ],
+                error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$681.20',
+                    ounce: '& FREE Returns'
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-4-5',
+                    acrCustomerReviewText: '50 ratings'
+                },
+                error: null
+            }
+        }
+    },
+    {
+        url: 'https://www.amazon.com/gp/product/B091D5QNTT?th=1&psc=1',
+        data: {
+            productTitle: {
+                value: 'HP Envy x360 15 Convertible, 11th Gen Intel Core i7-1165G7, 8 GB RAM, 512 GB SSD Storage, 15.6-inch Full HD Display, Windows 10 Home, Long Battery Life, Business & Entertainment (15-ed1010nr, 2021)',
+                error: null
+            },
+            ASIN: {
+                value: 'B091D5QNTT',
+                error: null
+            },
+            basePrice: {
+                value: null,
+                error: "Failed to parse currency amount '$1,088.24'"
+            },
+            mainImage: {
+                value: 'https://m.media-amazon.com/images/I/71e5vuepRYS._AC_SY450_.jpg',
+                error: null
+            },
+            sizeName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
+            },
+            styleName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
+            },
+            productDescription: {
+                value: 'The HP Envy x360 Convertible Laptop takes your creations to the next level. Its 15.6-inch diagonal FHD (1980 x 1080) multi-touch enabled, edge-to-edge display allows you to see your work in vibrant color. Get unmatched performance from the 11th Generation Intel® Core™ i7-1165G7 processor (1). Images will stand out like never before thanks to Intel® Iris® Xe Graphics (2). Enjoy lightning-fast speed with 8 GB of RAM and store all of your favorite music and movies using the available 512 GB PCIe® NVMe™ M.2 SSD storage (3). The HP laptop’s long-lasting battery gives your computer up to 9 hours and 45 minutes of wireless streaming power (4). Windows 10 Home (5) and the HP Hardware 1-Year Limited Warranty provide your laptop with all the outstanding performance and protection it needs. Internet connectivity and video chats are uninterrupted with Intel® Wi-Fi 6 AX201 (2x2) (6) and Bluetooth® 5 combo (7) (Supporting Gigabit data rate) (8). Work where and how you want with 4 available modes and control your privacy with just the touch of a button using the all-in-one keyboard. Plus, securely log into your accounts using the patented 3-D fingerprint technology (9). The HP Envy is environmentally responsible, ENERGY STAR® certified (10), and EPEAT® Silver registered (11). (1) Multi-core is designed to improve performance of certain software products. Not all customers or software applications will necessarily benefit from use of this technology. Performance and clock frequency will vary depending on application workload and your hardware and software configurations. Intel’s numbering, branding and/or naming is not a measurement of higher performance. Intel, Pentium, Intel Core, Celeron, Iris Xe, Intel logo and the Intel Inside logo are trademarks of Intel Corporation in the U.S. and other countries. (2) Shared video memory (UMA) uses part of the total system memory for video performance. System memory dedicated to video performance is not available for other use by other programs. (3) Actual formatted capacity is less. Portion of internal storage is reserved for preloaded content. Based on HP internal testing using CrystalDiskMark benchmarking software. Performance is sequentially faster (read only) compared to traditional 5,400 rpm HDD. (4) Battery life tested by HP using continuous Netflix video playback, Windows 10 Netflix app, 150 nits brightness, system audio level 17%, headphone attached, played full-screen, wireless on. Actual battery life will vary depending on configuration and maximum capacity will naturally decrease with time and usage. (5) Not all features are available in all editions or versions of Windows. Systems may require upgraded and/or separately purchased hardware, drivers, software or BIOS update to take full advantage of Windows functionality. Windows 10 is automatically updated, which is always enabled. ISP fees may apply and additional requirements may apply over time for updates. See microsoft.com (6) Wireless access point and internet service required and sold separately. Availability of public wireless access points limited. Requires a wireless router, sold separately, that supports 80MHz channels. Wi-Fi 6 (802.11ax) is backwards compatible with prior 802.11 specs. The specifications for Wi-Fi 6 are draft and are not final. If the final specifications differ from the draft specifications, it may affect the ability of the notebook to communicate with other Wi-Fi 6 devices. Only available in countries where 802.11ax is supported. (7) Bluetooth® is a trademark owned by its proprietor and used by Hewlett-Packard Company under license. (8) Wi-Fi 5 or 6 is designed to support Gigabit data rate when transferring files between two devices connected to the same router. Requires a wireless router, sold separately, that supports 80MHz and higher channels. (9) Wireless access point and internet service required and sold separately. Availability of public wireless access points limited. (10) ENERGY STAR and the ENERGY STAR mark are registered trademarks owned by the U.S. Environmental Protection Agency. (11) Based on U.S. EPEAT® registration according to IEEE 1680.1-2018 EPEAT®. EPEAT® status varies by country. Visit www.epeat.net for more information.',
+                error: null
+            },
+            productOverview: {
+                value: {
+                    Series: '15-ed1010nr',
+                    Brand: 'HP',
+                    'Specific Uses For Product':
+                        'Multimedia, Personal, Business',
+                    'Screen Size': '15.6 Inches',
+                    'Operating System': 'Windows 10 Home'
+                },
+                error: null
+            },
+            productAbout: {
+                value: [
+                    '',
+                    'ADAPTS TO YOUR WAY OF CREATING - Your creations are brought to life with the 360 convertible hinge design of the HP Envy Laptop.',
+                    'VIBRANT DISPLAY - Seeing is believing with the 15.6-inch diagonal FHD (1980 x 1080 )multi-touch enabled, edge-to-edge display.',
+                    'UNPARALLELED PERFORMANCE - The 11th Generation Intel Core i7-1165G7 (1) processor lets you get work done quickly and efficiently.',
+                    'BOLD & BRILLIANT GRAPHICS - Intel Iris Xe Graphics (2) lets you marvel at crystal-clear imagery.',
+                    'MEMORY & STORAGE - Rejoice in more bandwidth with 8 GB of RAM and increased hard drive space thanks to 512 GB PCIe NVMe M.2 SSD storage (3).',
+                    'LONG-LASTING POWER - The HP Envy laptop battery gives you up to 9 hours and 45 minutes of wireless streaming power (4).',
+                    'WINDOWS 10 & WARRANTY - Have peace of mind with Windows 10 Home (5), an operating system you can trust, and the HP Hardware 1-Year Limited Warranty.',
+                    '',
+                    '',
+                    ''
+                ],
+                error: null
+            },
+            productDetails: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
+            },
+            images: {
+                value: [
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/31Zn-8XcvCS._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/71e5vuepRYS._AC_SY450_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/51zd4GVYO8L._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/81yD59lR3eL._AC_SY450_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41YBxJFN3iS._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/81CcMeWf8gS._AC_SY450_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/512ZX9Jd4+L._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/81UWjDRySiL._AC_SY450_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41ZYNZYY6lL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/813EExhoS9L._AC_SY450_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41ahgMzm1rL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/81KQf21dwrL._AC_SY450_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41wksSEVWVL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/81CWql4ZfrL._AC_SY450_.jpg'
+                    }
+                ],
+                error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$1,088.24',
+                    ounce: ''
+                },
+                error: null
             },
             ratings: {
                 value: {
@@ -4467,328 +3481,137 @@ const products = [
         }
     },
     {
-        url: 'https://www.amazon.com/gp/product/B00A8S6HM4?th=1&psc=1',
+        url: 'https://www.amazon.com/gp/product/B0961H4GH7?th=1&psc=1',
         data: {
             productTitle: {
-                value: 'Gold Bond Ultimate Intensive Healing Hand Cream 3 oz',
+                value: 'OMEN 30L Gaming Desktop, Intel Core i7-11700KF, NVIDIA GeForce RTX 3070, HyperX 32 GB DDR4-3200 SDRAM Memory, 1 TB SSD, Windows 10 Pro (GT13-1070, 2021 Model)',
                 error: null
             },
             ASIN: {
-                value: 'B00A8S6HM4',
+                value: 'B0961H4GH7',
                 error: null
             },
             basePrice: {
-                value: {
-                    symbol: '$',
-                    currency: 'USD',
-                    amount: 3.76
-                },
-                error: null
+                value: null,
+                error: "Failed to parse currency amount '$1,899.99'"
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/81RcD6Ate7L._SY355_.jpg',
+                value: 'https://images-na.ssl-images-amazon.com/images/I/01RmK%2BJ4pJL._AC_.gif',
                 error: null
             },
             sizeName: {
-                value: '3 Ounce',
-                error: null
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             styleName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             productDescription: {
-                value:
-                    'Skin on the hands is exposed to the relentless wear and tear of sun, cold, heat, and abrasion. GOLD BOND Ultimate Healing Hand Cream nourishes and repairs dry, problem hands by adding a protective layer of moisture to restore smooth, healthy-looking skin. Positive ions in the formula keep moisture attached to skin, so you can feel it working even after hand washing.',
+                value: "Plug & OutplayBehold your new best friend, your partner in play, yourcompadre in competition, the OMEN 30L GamingDesktop PC packs an 11th Gen Intel® Core™ processorwith a dazzling NVIDIA® graphics card, so you can playon your level and look good while you're doing it.",
                 error: null
             },
             productOverview: {
                 value: {
-                    Ingredients:
-                        'Water, Glycerin, Dimethicone, Petrolatum, Jojoba Esters, Cetyl Alcohol, Aloe Barbadensis Leaf Juice, Stearyl… See more',
-                    Scent: 'Light Fresh',
-                    'Item Form': 'Cream',
-                    Brand: 'Gold Bond',
-                    'Skin Type': 'Sensitive'
+                    'Specific Uses For Product': 'Gaming',
+                    Series: 'GT13-1070',
+                    'Ram Memory Installed Size': '32 GB',
+                    'Operating System': 'Windows 10 Pro',
+                    'CPU Model': 'Intel Core i7'
                 },
                 error: null
             },
             productAbout: {
                 value: [
-                    'Lasts through Hand Washing',
-                    'Dermatologist Tested',
-                    'Hypoallergenic',
-                    'Absorbs Quickly,Non-Greasy',
-                    'Light Fresh Scent'
+                    '',
+                    '11th Generation Intel Core desktop processor: Features innovative new architecture that reimaginesintelligent performance (AI), immersive display and graphics, and enhanced tuning and expandability to putusers in control of real-world experiences that matter most to them.',
+                    'NVIDIA GeForce RTX 3070 Graphics - The Ultimate Play: The GeForce RTX 3070 is powered byAmpere—NVIDIA’s 2nd gen RTX architecture for power you need to rip through the most demandinggames.',
+                    'Wi-Fi 6 (2x2) & Bluetooth 5: Stay connected to Wi-Fi and toBluetooth accessories with wireless technology',
+                    'Memory and Storage: HyperX 32 GB DDR4-3200 XMP SDRAM memory; 1 TB PCIe NVMe M.2 Solid State Drive',
+                    'Warranty and Support: HP standard 1-year limited hardware warranty; Complimentary limited technical support including initial setup support, is available from HP via multiple contact methods for 90 (ninety) days from date of purchase'
                 ],
                 error: null
             },
             productDetails: {
-                value: {
-                    'Is Discontinued By Manufacturer :': 'No',
-                    'Product Dimensions :':
-                        '1.44 x 1.44 x 5.13 inches; 1.76 Ounces',
-                    'Item model number :': 'CHA05510',
-                    'UPC :':
-                        '640206336925 041167055106 759894525754 804993373529',
-                    'Manufacturer :': 'Everready First Aid',
-                    'ASIN :': 'B00A8S6HM4',
-                    'Domestic Shipping:': 'Item can be shipped within U.S.',
-                    'International Shipping:':
-                        'This item can be shipped to select countries outside of the U.S. Learn More',
-                    'Best Sellers Rank:': '#3 in Hand Creams & Lotions',
-                    'Customer Reviews:': ''
-                },
-                error: null
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             images: {
                 value: [
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41WWbxiHJDL._SS40_.jpg',
+                            'https://images-na.ssl-images-amazon.com/images/I/01RmK%2BJ4pJL._AC_US40_.gif',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81RcD6Ate7L._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/410JrgmD6BL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81rxvVKriFL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41Yp2uQRjhL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71CyllT-gKL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41YmVSQZ3oL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/815iEHCR0TL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51-R-DIsvdL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/91ioPDUanML._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41htbZ8atnL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/8106YYyO1PL._SY355_.jpg'
+                            'https://images-na.ssl-images-amazon.com/images/I/01RmK%2BJ4pJL._AC_.gif'
                     }
                 ],
                 error: null
             },
             priceDetail: {
                 value: {
-                    priceblock_ourprice: '$3.76',
-                    ounce: '($1.25 / Ounce)',
-                    price_block_savings: '$3.49 (48%)'
+                    priceblock_ourprice: '$1,899.99',
+                    ounce: '& FREE Returns'
                 },
                 error: null
             },
             ratings: {
-                value: {
-                    rateStar: 'a-icon a-icon-star a-star-5',
-                    acrCustomerReviewText: '7,940 ratings'
-                },
-                error: null
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="averageCustomerReviews"]"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             }
         }
     },
     {
-        url: 'https://www.amazon.com/gp/product/B08NQH1Z66?th=1&psc=1',
+        url: 'https://www.amazon.com/gp/product/B08BX9CJC2?th=1&psc=1',
         data: {
             productTitle: {
-                value:
-                    'Gold Bond Hydrating Hand Sanitizer Gel - Kills 99.99% of Germs, White, 75% Alcohol, 5 Fl Oz – Rosemary Mint Scent (Pack of 4)',
+                value: 'HP 27 Pavilion All-in-One PC, 10th Gen Intel i7-10700T Processor, 16 GB RAM, Dual Storage 512 GB SSD and 1TB HDD, Full HD IPS 27 Inch Touchscreen, Windows 10 Home, Keyboard and Mouse (27-d0072, 2020)',
                 error: null
             },
             ASIN: {
-                value: 'B08NQH1Z66',
+                value: 'B08BX9CJC2',
                 error: null
             },
             basePrice: {
-                value: {
-                    symbol: '$',
-                    currency: 'USD',
-                    amount: 16.16
-                },
-                error: null
+                value: null,
+                error: "Failed to parse currency amount '$1,249.99'"
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/81z3eejoMBL._AC_SX425_PIbundle-4,TopRight,0,0_SH20_.jpg',
+                value: 'https://m.media-amazon.com/images/I/91omRbBxtHS._AC_SY450_.jpg',
                 error: null
             },
             sizeName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             styleName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             productDescription: {
-                value:
-                    "Challenge everything you know about hand sanitizing gels. Gold Bond Hydrating hand Sanitizer gel starts working on contact to kill germs. In fact, in laboratory testing, this hand Sanitizer is shown to kill 99.99% of germs. Best of all, it's formulated to help your hands feel hydarted while protecting hands from germs. That's because Gold Bond Hand Sanitizer gel is infused with moisture-rich essential oils, which help skin better retain moisture. It's also formulated with hydrating ingredients, such as glycerin and vitamin E, to help keep hands soft. But we think you'll like the refreshing rosemary Mint scent best. Say goodbye to the harsh smell of Alcohol. Gold Bond Hydrating hand Sanitizer is also designed to dry quickly and won't leave a sticky residue. Stock up on 5 fl. Oz. Bottles of Gold Bond Hand Sanitizer so you always have hydrating germ-killing power at your fingertips. Pack one in your backpack or purse, and keep a second bottle in your desktop. Based on lab testing\"",
-                error: null
-            },
-            productOverview: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
-            },
-            productAbout: {
-                value: [
-                    'Contains: four (4) 5 fl. Oz. Bottles of Gold Bond Hydrating hand Sanitizer gel rosemary Mint scent',
-                    'Kills 99.99% of germs: this hydrating 75% alcohol hand Sanitizer starts working on contact to kill germs',
-                    'Formulated to dry quickly: Gold Bond Hand Sanitizer gel is designed to dry quickly without a sticky residue',
-                    'Infused with essential oils: Made with moisture-rich essential oils and other moisturizing ingredients to help keep hands soft',
-                    'Rosemary Mint scent: enjoy the refreshing scent of rosemary mint in this hydrating hand Sanitizer gel'
-                ],
-                error: null
-            },
-            productDetails: {
-                value: {
-                    'Product Dimensions :':
-                        '2.4 x 1.3 x 5.8 inches; 4.96 Ounces',
-                    'Date First Available :': 'December 1, 2020',
-                    'Manufacturer :': 'AmazonUs/CHMZ7',
-                    'ASIN :': 'B08NQH1Z66',
-                    'Best Sellers Rank:': '#33 in Hand Sanitizers',
-                    'Customer Reviews:': ''
-                },
-                error: null
-            },
-            images: {
-                value: [
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51xqL9xN9xL._AC_US40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81z3eejoMBL._AC_SX425_PIbundle-4,TopRight,0,0_SH20_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/61rqLTR%2BpIL._AC_US40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/91NMW-AuWGL._AC_SX425_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51IWKdlgU1L._AC_US40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/910uBikR2rL._AC_SX425_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51drbhHtY5L._AC_US40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81SefrUddGL._AC_SX425_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/518xHxtj2vL._AC_US40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81M%2BT%2BaBIwL._AC_SX425_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51EGo8vn59L._AC_US40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81Y8ki0CK8L._AC_SX425_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51RL4kgaLML._AC_US40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81pYe16AW2L._AC_SX425_.jpg'
-                    }
-                ],
-                error: null
-            },
-            priceDetail: {
-                value: {
-                    priceblock_ourprice: '$16.16',
-                    ounce: '($4.04 / Count)'
-                },
-                error: null
-            },
-            ratings: {
-                value: {
-                    rateStar: 'a-icon a-icon-star a-star-4-5',
-                    acrCustomerReviewText: '425 ratings'
-                },
-                error: null
-            }
-        }
-    },
-    {
-        url: 'https://www.amazon.com/gp/product/B007VC9DKI?th=1&psc=1',
-        data: {
-            productTitle: {
-                value:
-                    'Gold Bond Friction Defense Stick, Unscented, 1.75 Ounces',
-                error: null
-            },
-            ASIN: {
-                value: 'B007VC9DKI',
-                error: null
-            },
-            basePrice: {
-                value: {
-                    symbol: '$',
-                    currency: 'USD',
-                    amount: 5.23
-                },
-                error: null
-            },
-            mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/71%2BtX8hYLGL._SY355_.jpg',
-                error: null
-            },
-            sizeName: {
-                value: '1.75 Ounce (Pack of 1)',
-                error: null
-            },
-            styleName: {
-                value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
-            },
-            productDescription: {
-                value:
-                    'Gold Bond Friction Defense has a soothing formula that is perfect for daily use. It reduces friction while it soothes and moisturizes your skin. Plus, Gold Bond Friction Defense is non-irritating and gentle enough for even sensitive skin. Designed to provide comfort and relief to skin that is irritated by friction, Gold Bond Friction Defense is long lasting, non-greasy, and unscented. So donât let the discomfort of friction keep you down. Count on Gold Bond Friction Defense. 1.75 oz.',
-                error: null
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#productDescription > p"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             productOverview: {
                 value: {
-                    Scent: 'Unscented',
-                    Ingredients:
-                        'Caprylic/Capric Triglyceride, Tribehenin, Cetyl Esters, Stearyl Alcohol, Polyethylene, Zinc Oxide, Silica, Ethyl… See more',
-                    Brand: 'Gold Bond',
-                    'Item Form': 'Defense Stick'
+                    'Specific Uses For Product':
+                        'Multimedia, Personal, Business',
+                    Series: 'HP 27 Pavilion All-in-One',
+                    'Ram Memory Installed Size': '16 GB',
+                    'Operating System': 'Windows 10 Home',
+                    'CPU Model': 'Intel Core i7'
                 },
                 error: null
             },
             productAbout: {
                 value: [
-                    'FRICTION DEFENSE: When skin rubs on skin or against clothing, irritation & burning are the result. This easy application stick reduces friction while soothing & moisturizing your roughed up skin.',
-                    'PROTECT & PREVENT SKIN IRRITATION: Friction Defense is long lasting, non-greasy, unscented, & perfect for daily friction prevention—even for the most sensitive skin.',
-                    'MEDICATED HEALING: We offer a variety of highly effective personal skin care & pain relief products including body powders & lotions, foot sprays, powders & creams, & anti-itch treatments.',
-                    "HEALING SINCE 1908: For over a century Gold Bond products have provided soothing relief to the whole family, from baby's first bath & powder, to eczema or psoriasis relief, to lotion for dry skin.",
-                    'GOLD BOND QUALITY: In addition to our top-selling medicated body powder, foot powder & foot cream, Gold Bond offers skin care products to moisturize, soften & protect your hands, feet, face & body.',
-                    'Reduces Friction',
-                    'Soothes and Moisturizes Skin',
+                    '',
+                    'POWER MEETS PERFORMANCE – Leading-edge performance and cutting-edge style give this All-in-One PC the means to tackle demanding projects and enjoy movie marathons, all while looking good anywhere you put it',
+                    'THEATER-WORTHY – Enjoy jaw-dropping detail and incredible sound with audio by B&O and Full HD resolution',
+                    'LATEST PROCESSOR – Everything you do feels fast and easy with a 10th Generation Intel Core i7-10700T processor with an Intel turbo boost of up to 4.5 GHz',
+                    'MODERN GRAPHICS – It’s smooth streaming for all your 4k content and favorite games with the IntelⓇ UHD Graphics 630 card',
+                    'DUAL STORAGE OPTIONS – Boot up in seconds and store more of what you love with HDD and SSD dual storage options with up to 512 GB SSD and 1TB HDD',
+                    'PLENTY OF RAM – Boost your efficiency as you browse, create, and multitask faster than ever with 16 GB of RAM',
+                    'WINDOWS 10 AND WARRANTY – Do great things with a desktop equipped with Windows 10, tested over 230 individual times, and backed by a 1-year limited hardware warranty',
                     '',
                     '',
                     ''
@@ -4796,2747 +3619,1165 @@ const products = [
                 error: null
             },
             productDetails: {
-                value: {
-                    'Is Discontinued By Manufacturer :': 'No',
-                    'Product Dimensions :':
-                        '2.25 x 1.25 x 4.5 inches; 3.6 Pounds',
-                    'Item model number :': '775387',
-                    'UPC :':
-                        '787461235140 885219362008 784922574220 799457509142 041167074701 755332141081 787734774581 797978569096',
-                    'Manufacturer :': 'Gold Bond',
-                    'ASIN :': 'B007VC9DKI',
-                    'Domestic Shipping:':
-                        'Currently, item can be shipped only within the U.S. and to APO/FPO addresses. For APO/FPO shipments, please check with the manufacturer regarding warranty and support issues.',
-                    'International Shipping:':
-                        'This item can be shipped to select countries outside of the U.S. Learn More',
-                    'Best Sellers Rank:': '#3 in Antiperspirant Deodorants',
-                    'Customer Reviews:': ''
-                },
-                error: null
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             images: {
                 value: [
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41FfBKVOL6L._SS40_.jpg',
+                            'https://m.media-amazon.com/images/I/41D2VuktWGS._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71%2BtX8hYLGL._SY355_.jpg'
+                            'https://m.media-amazon.com/images/I/91omRbBxtHS._AC_SY450_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51qPmlEiiuL._SS40_.jpg',
+                            'https://m.media-amazon.com/images/I/41zgFYK-M0L._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/91bR4FdP2PL._SY355_.jpg'
+                            'https://m.media-amazon.com/images/I/81fs8PorvwL._AC_SY450_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51EC5VeI7dL._SS40_.jpg',
+                            'https://m.media-amazon.com/images/I/41ltnbCQ4BL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81a7n3Z6oZL._SY355_.jpg'
+                            'https://m.media-amazon.com/images/I/81XZDh3WhrL._AC_SY450_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41vGg%2BTmT9L._SS40_.jpg',
+                            'https://m.media-amazon.com/images/I/41pgIE3ASsL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71pRSJe0aJL._SY355_.jpg'
+                            'https://m.media-amazon.com/images/I/81OWzSLr8VL._AC_SY450_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51Q08ZOMrpL._SS40_.jpg',
+                            'https://m.media-amazon.com/images/I/41kelIFj-iL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81VicZUCgUL._SY355_.jpg'
+                            'https://m.media-amazon.com/images/I/81cNobWpOPL._AC_SY450_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/417tIy92yVL._SS40_.jpg',
+                            'https://m.media-amazon.com/images/I/418Ka+qbljL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81r9qKsh5sL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41FdARuYrcL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/615nLy3VnbL._SX355_.jpg'
+                            'https://m.media-amazon.com/images/I/71KpUg8q0-L._AC_SY450_.jpg'
                     }
                 ],
                 error: null
             },
             priceDetail: {
                 value: {
-                    priceblock_ourprice: '$5.23',
-                    ounce: '($2.99 / Ounce)'
+                    priceblock_ourprice: '$1,249.99',
+                    ounce: '& FREE Returns'
                 },
                 error: null
             },
             ratings: {
                 value: {
                     rateStar: 'a-icon a-icon-star a-star-4-5',
-                    acrCustomerReviewText: '12,822 ratings'
+                    acrCustomerReviewText: '471 ratings'
                 },
                 error: null
             }
         }
     },
     {
-        url: 'https://www.amazon.com/gp/product/B00WVHRE7W?th=1&psc=1',
+        url: 'https://www.amazon.com/gp/product/B08YKBYP62?th=1&psc=1',
         data: {
             productTitle: {
-                value: 'Gold Bond Eczema Relief Cream, 5.5 Ounce',
+                value: 'HP Chromebook x360 14a 2-in-1 Laptop, Intel Pentium Silver N5000 Processor, 4 GB RAM, 64 GB eMMC, 14" HD Display, Chrome OS with Webcam & Dual Mics, Work, Play, Long Battery Life (14a-ca0022nr, 2021)',
                 error: null
             },
             ASIN: {
-                value: 'B00WVHRE7W',
+                value: 'B08YKBYP62',
                 error: null
             },
             basePrice: {
                 value: {
                     symbol: '$',
                     currency: 'USD',
-                    amount: 8.12
+                    amount: 359.99
                 },
                 error: null
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/71d68ydv8AL._SY355_.jpg',
+                value: 'https://m.media-amazon.com/images/I/81cqPpX6wVL._AC_SY450_.jpg',
                 error: null
             },
             sizeName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             styleName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             productDescription: {
-                value:
-                    'GOLD BOND Medicated Eczema Relief Cream helps protect and relieve minor skin irritation and itching due to eczema and rashes. Backed by the National Eczema Association, it provides fast, effective relief from 5 miserable symptoms of eczema flare-ups. Plus it’s steroid free, fragrance-free and gentle enough to use daily.',
-                error: null
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#productDescription > p"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             productOverview: {
-                value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                value: {
+                    Series: '14a-ca0022nr',
+                    Brand: 'HP',
+                    'Specific Uses For Product': 'Personal',
+                    'Screen Size': '14 Inches',
+                    'Operating System': 'Chrome OS'
+                },
+                error: null
             },
             productAbout: {
                 value: [
-                    'ECZEMA RELIEF: Gold Bond Eczema Relief goes beyond other leading eczema products with 2% colloidal oatmeal to help break the itch-scratch cycle. Accepted by the National Eczema Association.',
-                    'STEROID FREE: Our steroid-free, patented formula blends colloidal oatmeal, 7 moisturizers, & 3 vitamins to relieve itch, dryness, scaling/peeling, roughness, & redness/irritation associated with eczema.',
-                    'THERAPUETIC SKIN CARE: Gold Bond products feature a unique triple action formula of ingredients proven to help relieve itching, absorb moisture, & control odor for fast-acting, long lasting comfort.',
-                    "GOLD BOND: In addition to our Ultimate Healing Cream, Gold Bond makes medicated & non-medicated body powders, skin creams, lotions, & ointments. From first aid to foot care, we've got you covered.",
-                    'ITCHY SKIN CARE: Gold Bond offers ideal skin remedy for itchy & irritated skin. Try our body care, foot care & first aid products for dry skin, foot odor, minor cuts, sunburn, insect bites & other skin issues.'
+                    '',
+                    'REMOTE WORK READY - Work efficiently from the comfort of your own home office using the HP 14" Chromebook.',
+                    'CLEAR IMAGING - Images appear crisp with the 14" HD (1366 x 768), micro-edge, BrightView (1) display.',
+                    'LIGHTNING FAST PROCESSING - Games, music, and streaming are taken to new heights with Intel Pentium Silver N5000 (2) processing power and Intel UHD Graphics 605 (3).',
+                    'SECURE YOUR WORK - With 64 GB eMMC storage (4), saving important documents is made simple. Plus, quickly access your documents with 4 GB of RAM.',
+                    'LONG-LASTING BATTERY LIFE - Enjoy Up to 12 hours and 15 minutes (5) depending on usage.',
+                    'MODERNIZE YOUR WORLD - Navigate seamlessly through tabs and programs with the Chrome operating system. Also, rest easy knowing your investment is protected with HP’s 1-Year Limited Hardware Warranty.',
+                    'BE SEEN & HEARD - HP’s Wide Vision HD camera (6) with integrated dual array digital microphones lets you video chat with vibrant clarity.',
+                    '',
+                    '',
+                    ''
                 ],
                 error: null
             },
             productDetails: {
-                value: {
-                    'Is Discontinued By Manufacturer :': 'No',
-                    'Product Dimensions :': '3 x 2 x 5.5 inches; 5.44 Ounces',
-                    'UPC :': '787734574631',
-                    'Manufacturer :': 'Gold Bond',
-                    'ASIN :': 'B00WVHRE7W',
-                    'Best Sellers Rank:':
-                        '#72 in Eczema, Psoriasis & Rosacea Care',
-                    'Customer Reviews:': ''
-                },
-                error: null
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             images: {
                 value: [
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41GqQWd4nrL._SS40_.jpg',
+                            'https://m.media-amazon.com/images/I/41GmM8jHrdL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71d68ydv8AL._SY355_.jpg'
+                            'https://m.media-amazon.com/images/I/81cqPpX6wVL._AC_SY450_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41LyjaT8SlL._SS40_.jpg',
+                            'https://m.media-amazon.com/images/I/413TBDUZCtS._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71xiteU5d7L._SY355_.jpg'
+                            'https://m.media-amazon.com/images/I/71dhFnG3VNS._AC_SY450_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/517CZv-UVkL._SS40_.jpg',
+                            'https://m.media-amazon.com/images/I/41FL5uoUKzS._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/91oEco42P3L._SY355_.jpg'
+                            'https://m.media-amazon.com/images/I/71JWLCp-FqS._AC_SY450_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41HwPOmalML._SS40_.jpg',
+                            'https://m.media-amazon.com/images/I/51kLoZuzTsL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/713XZ5lgGnL._SY355_.jpg'
+                            'https://m.media-amazon.com/images/I/81435Iumx9L._AC_SY450_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51UgSS1bNKL._SS40_.jpg',
+                            'https://m.media-amazon.com/images/I/41WJAQ9aA4S._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81Tut73zPsL._SY355_.jpg'
+                            'https://m.media-amazon.com/images/I/81EfAs8A+kS._AC_SY450_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51MSK6xbPcL._SS40_.jpg',
+                            'https://m.media-amazon.com/images/I/41xpeg21CyS._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/91IgGDlbA3L._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41OrfNvoFJL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81W7rjLy1eL._SY355_.jpg'
+                            'https://m.media-amazon.com/images/I/813aSopZZCS._AC_SY450_.jpg'
                     }
                 ],
                 error: null
             },
             priceDetail: {
                 value: {
-                    priceblock_ourprice: '$8.12',
-                    ounce: '($1.48 / Ounce)'
+                    priceblock_ourprice: '$359.99',
+                    ounce: '& FREE Returns'
                 },
                 error: null
             },
             ratings: {
                 value: {
                     rateStar: 'a-icon a-icon-star a-star-4-5',
-                    acrCustomerReviewText: '1,011 ratings'
+                    acrCustomerReviewText: '129 ratings'
                 },
                 error: null
             }
         }
     },
     {
-        url: 'https://www.amazon.com/gp/product/B00OW9OTMK?th=1&psc=1',
+        url: 'https://www.amazon.com/gp/product/B08JVMGZ8Y?th=1&psc=1',
         data: {
             productTitle: {
-                value: 'Gold Bond Eczema Relief, Fragrance Free, 14 Ounce',
+                value: 'HP Desktop PC, AMD Ryzen 3 4300G Processor, 8 GB of RAM, 512 GB SSD Storage, Windows 10 Home, High Speed Performance, Computer, 8 USB Ports, for Business, Study, Videos, and Gaming (M01-F1120, 2021)',
                 error: null
             },
             ASIN: {
-                value: 'B00OW9OTMK',
+                value: 'B08JVMGZ8Y',
+                error: null
+            },
+            basePrice: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="priceblock_ourprice"]"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
+            },
+            mainImage: {
+                value: 'https://images-na.ssl-images-amazon.com/images/I/719NioKt7XL._AC_SY606_.jpg',
+                error: null
+            },
+            sizeName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
+            },
+            styleName: {
+                value: '4300G Processor',
+                error: null
+            },
+            productDescription: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#productDescription > p"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
+            },
+            productOverview: {
+                value: {
+                    'Specific Uses For Product':
+                        'Multimedia, Personal, Business',
+                    Series: 'M01-f1120',
+                    'Ram Memory Installed Size': '8 GB',
+                    'Operating System': 'Windows 10 Home',
+                    'CPU Model': 'Ryzen 3'
+                },
+                error: null
+            },
+            productAbout: {
+                value: [
+                    '',
+                    'REMOTE WORK READY - Study or work from home with a sleek and reliable PC from a brand that you can trust.',
+                    'MODERN DESIGN - With a bold and stylish design accompanied by a USB mouse and keyboard combo, this HP seamlessly fits into any work or living space.',
+                    'LIGHTNING-FAST PROCESSOR & VIBRANT IMAGING - Content creation is a snap with the AMD Ryzen 3 4300G Processor* and images are given new life with AMD RadeonGraphics**',
+                    'THE ENTERTAINMENT DOESN’T STOP - Get the most from you gaming and streaming experience with second-to-none graphics provided by AMD Radeon Graphics',
+                    'MEMORY AND STORAGE - This desktop’s performance gets a boost thanks to the bandwidth from 8 GB of RAM*** and 512 GB PCIe NVMe M.2 Solid State Drive****',
+                    'STAY CONNECTED - 8 USB ports***** allow you to easily connect your favorite devices.',
+                    'EASY OPERATION - The Windows 10****** operating system makes navigating through tabs and programs a breeze.',
+                    '',
+                    ''
+                ],
+                error: null
+            },
+            productDetails: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
+            },
+            images: {
+                value: [
+                    {
+                        thumbnailSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/419x6MK6GCL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/719NioKt7XL._AC_SY606_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/41EqYaGtvOL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/71LIYZMbejL._AC_SY606_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/41CttujMj6L._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/81nI3u6W2jL._AC_SY606_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/41jlXgYbPNL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/81aAVqMSrCL._AC_SY606_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/41ovSPisReL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/81cG4btMooL._AC_SY606_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/4195OQyAyGL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/71VLLuFDI1L._AC_SY606_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/414e1zStjPL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/81zboT6J8dL._AC_SY606_.jpg'
+                    }
+                ],
+                error: null
+            },
+            priceDetail: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="price"]"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-4-5',
+                    acrCustomerReviewText: '95 ratings'
+                },
+                error: null
+            }
+        }
+    },
+    {
+        url: 'https://www.amazon.com/gp/product/B08JVMT8Y9?th=1&psc=1',
+        data: {
+            productTitle: {
+                value: 'HP All-in-One Desktop PC, 11th Gen Intel Core i5-1135G7 Processor, 8 GB RAM, 512 GB SSD Storage, Full HD 23.8” Touchscreen, Windows 10 Home, Remote Work Ready, Mouse and Keyboard (24-df1270, 2021)',
+                error: null
+            },
+            ASIN: {
+                value: 'B08JVMT8Y9',
                 error: null
             },
             basePrice: {
                 value: {
                     symbol: '$',
                     currency: 'USD',
-                    amount: 14.28
+                    amount: 849.99
                 },
                 error: null
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/71r8NZ1toGL._SY355_.jpg',
+                value: 'https://m.media-amazon.com/images/I/81rHaRJOZHL._AC_SX466_.jpg',
                 error: null
             },
             sizeName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             styleName: {
-                value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                value: '11th gen i5',
+                error: null
             },
             productDescription: {
-                value:
-                    "Gold Bond Eczema Relief is formulated specifically to help break the itch-scratch cycle of eczema. Gold Bond lotion and creams have colloidal oatmeal, moisturizers, and vitamins to help relieve the itch, dryness, scaling, roughness, and redness of eczema. Not all eczema creams and lotions are equal and Gold Bond Eczema Relief goes beyond other leading eczema products with 2% colloidal oatmeal. Made with colloidal oatmeal, 7 moisturizers & 3 vitamins, Gold Bond Eczema Relief is also steroid-free. A good skincare routine should be simple, and include a good moisturizing lotion. Gold Bond Ultimate Men's Essentials are skin lotions for men specially formulated for rough, dry skin that can be used on your body, hands and face. While Gold Bond powder may be the best known product, Gold Bond carries medicated and non-medicated body powders, skin creams, lotions, and ointments. From first aid to foot care and face lotion, Gold Bond has you covered. Since 1908, Gold Bond powder has been providing comfort, soothing relief, and skincare to adults and children, from baby's first bath and powder, to eczema or psoriasis relief, to lotion for dry skin or men's 5-in-1 Face Lotion.",
+                value: "The HP All-in-One Desktop PC blends the power of a desktop with the beauty of a modern display. This HP computer’s power grows with you because the panel and hardware are easy to remove and upgrade (1). Control your entertainment with a touch and see every detail on a three-sided, micro-edge, full HD display (2). Both processing power and visuals get an upgrade with the power of the 11th Generation Intel® Core™ i5-1135G7 processor and Intel® Iris® Xe Graphics (3) (4). 512 GB PCIe® NVMe™ SSD storage gives this HP desktop computer the storage capacity you crave, while the 8 GB of RAM makes multitasking a breeze (5) (6) (7). Connectivity is made easy with a Wi-Fi 5 (2x2) WLAN adapter and Bluetooth® 5.0 combo (9) (10). Your setup has never been more modern than with a Windows 10 operating system (11), wired mouse and keyboard combo, and all the connection ports you need conveniently located on the back of the All-in-One desktop. Stay connected with friends and family with the HP True Vision 720p HD privacy camera that works even in low light and tucks away when not in use (13). Having passed over 230 individual tests and built to be environmentally responsible, this AIO PC is made for the modern world (12). (1) This device has been engineered for optimal performance. Upgrading the PC may affect warranty coverage. (2) All performance specifications represent the typical specifications provided by HP's component manufacturers; actual performance may vary either higher or lower. Full High Definition (FHD) content is required to view FHD images. (3) Multi-core is designed to improve performance of certain software products. Not all customers or software applications will necessarily benefit from the use of this technology. Performance and clock frequency will vary depending on the application workload and your hardware and software configurations. Intel’s numbering, branding, and/or naming is not a measurement of higher performance. Intel, Pentium, Intel Core, Celeron, Intel logo, and the Intel Inside logo are trademarks of Intel Corporation in the U.S. and other countries. (4) Part of the total system memory (RAM) is used for graphics/video performance. System memory dedicated to graphics/video performance is not available for other use by other programs. (5) Up to 512MB of main system memory may be allocated to support video graphics. (6) Actual formatted capacity is less. A portion of internal storage is reserved for preloaded content. (7) Based on HP internal testing using CrystalDiskMark benchmarking software. Performance is sequentially faster (read-only) compared to traditional 5,400 rpm HDD. (8) Actual throughput may vary. (9) Wireless access point and internet service required and sold separately. Availability of public wireless access points limited. Wi-Fi 5 (802.11ac) is backward compatible with prior Wi-Fi 5 specs. (10) Bluetooth® is a trademark owned by its proprietor and used by Hewlett-Packard Company under license. (11) Not all features are available in all editions or versions of Windows. Systems may require upgraded and/or separately purchased hardware, drivers, software, or BIOS update to take full advantage of Windows functionality. Windows 10 is automatically updated, which is always enabled. ISP fees may apply and additional requirements may apply over time for updates. See microsoft.com (12) HP Total Test Process testing is not a guarantee of future performance under these test conditions. Damage under the HP Total Test Process test conditions or any accidental damage requires an optional HP Accidental Damage Protection Care Pack. (13) Features may require software or other 3rd party applications to provide the described functionality. Internet service required and not included. (14) External power supplies, power cords, cables, and peripherals are not Low Halogen. Service parts obtained after purchase may not be Low Halogen.",
                 error: null
             },
             productOverview: {
                 value: {
-                    Brand: 'Gold Bond',
-                    Ingredients: '2% Colloidal Oatmeal',
-                    'Item Form': 'Lotion',
-                    'Item Weight': '0.97 Pounds',
-                    'Package Type': 'Bottle'
+                    'Specific Uses For Product':
+                        'Multimedia, Personal, Business',
+                    Series: '24-df1270',
+                    'Ram Memory Installed Size': '8 GB',
+                    'Operating System': 'Windows 10 Home',
+                    'CPU Model': 'Core i5'
                 },
                 error: null
             },
             productAbout: {
                 value: [
-                    'GOLD BOND ECZEMA RELIEF: Formulated specifically to help break the itch-scratch cycle of eczema, GOLD BOND lotion & creams have 2% colloidal oatmeal, moisturizers & vitamins to help relieve the itch, dryness, scaling, roughness, & redness of eczema.',
-                    'ECZEMA LOTION: Not all eczema creams & lotions are equal, & GOLD BOND Eczema Relief goes beyond other leading eczema products with 2% colloidal oatmeal. GOLD BOND Eczema cream & lotion is steroid-free, with colloidal oatmeal, 7 moisturizers & 3 vitamins.',
-                    'GOLD BOND SKIN CARE: While GOLD BOND powder may be the best known product, GOLD BOND carries medicated and non-medicated body powders, skin creams, lotions, and ointments. From first aid to foot care and face lotion, GOLD BOND has you covered.',
-                    "GOLD BOND FOR THE HOME: Since 1908, GOLD BOND Powder has been providing comfort, soothing relief, and skincare to adults and children, from baby's first bath and powder, to eczema or psoriasis relief, to lotion for dry skin or men's 5-in-1 Face Lotion.",
-                    'ITCHY SKIN CARE: Gold Bond offers ideal skin remedy for itchy & irritated skin. Try our body care, foot care & first aid products for dry skin, foot odor, minor cuts, sunburn, insect bites & other skin issues.'
+                    '',
+                    'BUILT FOR TOMORROW – Designed to grow with you, this AIO’s panel and hardware are easy to remove and upgrade (1).',
+                    'FULL HD TOUCHSCREEN – Control your entertainment right from the screen and get crystal-clear, 1080p resolution on a three-sided micro-edge display with 178-degree wide-viewing angles (2).',
+                    'UNSTOPPABLE PROCESSING POWER – Get things done fast with the 11th Generation Intel Core i5-1135G7 processor and enjoy high performance, instant responsiveness, and best-in-class connectivity (3).',
+                    'STUNNING VISUALS – Experience a new level of graphics with Intel Iris Xe Graphics, designed to bring an impressive performance to your creating, gaming, and entertainment needs (4).',
+                    'MEMORY AND STORAGE – Boost your efficiency as you browse, create, and multitask faster than ever with 8 GB of RAM (5). Get up to 15x faster performance than a traditional hard drive with 512 GB PCIe NVMe M.2 Solid State Drive (6) (7).',
+                    'PORTS AND CONNECTIVITY – Break out all the tools you need for better connectivity with 4 USB ports (2 SuperSpeed USB Type-A 5Gbps signaling rate (8), 2 USB 2.0 Type-A), HDMI Out, as well as a Wi-Fi 5 (2x2) WLAN adapter and Bluetooth 5.0 combo (9) (10).',
+                    'WINDOWS 10 AND WARRANTY – Do great things with a desktop equipped with Windows 10 Home (11). Quality tested over 230 times (12), your computer is backed by a 1-year limited hardware warranty.',
+                    '',
+                    '',
+                    ''
                 ],
                 error: null
             },
             productDetails: {
-                value: {
-                    'Is Discontinued By Manufacturer :': 'No',
-                    'Product Dimensions :':
-                        '3.13 x 2.13 x 8.5 inches; 15.49 Ounces',
-                    'UPC :':
-                        '794866359326 787734739450 041167066386 885618376132',
-                    'Manufacturer :': 'Gold Bond',
-                    'ASIN :': 'B00OW9OTMK',
-                    'Domestic Shipping:': 'Item can be shipped within U.S.',
-                    'International Shipping:':
-                        'This item can be shipped to select countries outside of the U.S. Learn More',
-                    'Best Sellers Rank:':
-                        '#13 in Eczema, Psoriasis & Rosacea Care',
-                    'Customer Reviews:': ''
-                },
-                error: null
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             images: {
                 value: [
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41fo%2BABICKL._SS40_.jpg',
+                            'https://m.media-amazon.com/images/I/41xA+LimA7L._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71r8NZ1toGL._SY355_.jpg'
+                            'https://m.media-amazon.com/images/I/81rHaRJOZHL._AC_SX466_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/513f7BxUA6L._SS40_.jpg',
+                            'https://m.media-amazon.com/images/I/4114HXHeJPL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81F%2BF6IwEPL._SY355_.jpg'
+                            'https://m.media-amazon.com/images/I/81eLMZWI-DL._AC_SX466_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51j5xlZZ-nL._SS40_.jpg',
+                            'https://m.media-amazon.com/images/I/41n+58jXFaL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/91BLEgI9wqL._SY355_.jpg'
+                            'https://m.media-amazon.com/images/I/81GKrUp1DxL._AC_SX466_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41pVo%2BHqQ9L._SS40_.jpg',
+                            'https://m.media-amazon.com/images/I/41WsAewUPbL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71enTJ95w6L._SY355_.jpg'
+                            'https://m.media-amazon.com/images/I/81RIt+Wyn1L._AC_SX466_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51Hsp5PBO3L._SS40_.jpg',
+                            'https://m.media-amazon.com/images/I/4155bszHPlL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81MT8EJl26L._SY355_.jpg'
+                            'https://m.media-amazon.com/images/I/81dlvkSO39L._AC_SX466_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41COcQmXMTL._SS40_.jpg',
+                            'https://m.media-amazon.com/images/I/41pIdpGQflL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71Ozto-qssL._SY355_.jpg'
+                            'https://m.media-amazon.com/images/I/81QSSDfHEnL._AC_SX466_.jpg'
                     }
                 ],
                 error: null
             },
             priceDetail: {
                 value: {
-                    priceblock_ourprice: '$14.28',
-                    ounce: '($1.02 / Ounce)',
-                    price_block_savings: '$3.01 (17%)'
+                    priceblock_ourprice: '$849.99',
+                    ounce: '& FREE Returns',
+                    price_block_savings: '$50.00 (6%)'
                 },
                 error: null
             },
             ratings: {
                 value: {
                     rateStar: 'a-icon a-icon-star a-star-4-5',
-                    acrCustomerReviewText: '4,567 ratings'
+                    acrCustomerReviewText: '289 ratings'
                 },
                 error: null
             }
         }
     },
     {
-        url: 'https://www.amazon.com/gp/product/B00GIHMOGW?th=1&psc=1',
+        url: 'https://www.amazon.com/gp/product/B08Y581ZCN?th=1&psc=1',
         data: {
             productTitle: {
-                value:
-                    'Gold Bond Ultimate Eczema Relief Skin Protectant Cream, 8 Ounce',
+                value: 'HP Pavilion x360 15.6 inch 2-in-1 Laptop PC, 11th Gen Intel Core i5-1135G7, 12 GB RAM, 256 GB SSD Storage, Full HD IPS Micro-Edge Display, Windows 10 Home, HD Webcam, Audio by B&O (15-er0010nr, 2021)',
                 error: null
             },
             ASIN: {
-                value: 'B00GIHMOGW',
+                value: 'B08Y581ZCN',
                 error: null
             },
             basePrice: {
                 value: {
                     symbol: '$',
                     currency: 'USD',
-                    amount: 9.34
+                    amount: 829
                 },
                 error: null
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/71yXPQ9uP5L._SY355_.jpg',
+                value: 'https://m.media-amazon.com/images/I/81GjskXLvMS._AC_SY450_.jpg',
                 error: null
             },
             sizeName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             styleName: {
-                value: 'Skin Protectant Cream',
-                error: null
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             productDescription: {
-                value:
-                    'Gold Bond Ultimate Skin Therapy Cream Eczema Relief, Soothing relief for the symptoms of eczema: Itch, Dryness, Scaling or Peeling, Roughness and Redness or IrritationGives fast itch relief, while Vitamin E, aloe and a combination of 7 moisturizers and 3 vitamins, soothe eczema discomfort. Steroid free, dye free and fragrance free cream fights back against the five symptoms of eczema.',
+                value: "The HP Pavilion x360 15.6 inch 2-in-1 Laptop PC is compact, built for streaming, and ready to get more done wherever you go. The 360-degree hinge has four modes to help you get in the perfect position for either working, writing, watching, or playing. After you’ve found the right position, be amazed by stunning visuals on a Full HD, micro-edge touchscreen, with 178-degree wide-viewing angles (1). Power through your binge sessions and enjoy the latest graphical performance with the 11th Generation Intel® Core™ i5-1135G7 and Intel® Iris® Xe Graphics (2) (3). This touchscreen laptop has plenty of storage and impressive bandwidth due to its 256 GB PCIe® NVMe™ M.2 SSD storage and 12 GB of RAM (4) (5). Anywhere is fair game as you comfortably compute or stream on this laptop computer. With 7 hours and 15 minutes of battery life combined with HP Fast Charge technology, your laptop will never be without power (6) (7). Beyond reliable power, this laptop’s look and feel are familiar with the Windows 10 Home operating system (8). Create with confidence knowing your device is covered by HP's 1-year limited hardware warranty. Enjoy high-speed connectivity at home or on the go with the Wi-Fi 6 (2x2) and Bluetooth® 5.0 combo (9) (10) (11). Turn up the fun or the productivity with your HP 2-in-1 touchscreen laptop’s many integrated features. Take your streaming to the next level with authentic audio delivered through HP Dual Speakers, amplified by HP Audio Boost, and tuned by B&O. Look like a pro during your video conferences with the HP Wide Vision HD camera (12). Prepare for remote work or learning with confidence as the patented fingerprint reader and backlit keyboard ensure a secure and comfortable experience. Built with the environment in mind, your HP Pavilion laptop is designed using sustainable materials like ocean-bound plastic in the speaker enclosure and post-consumer recycled plastic in the keycaps (13) (14). The outer boxes and fiber cushions used in the packaging are 100% sustainably sourced and recyclable (15). Not only is your device eco-conscious but also energy efficient, being both ENERGY STAR® certified and EPEAT® Silver registered (16) (17). (1) Full High Definition (FHD) content is required to view FHD images. (2) Multi-core is designed to improve the performance of certain software products. Not all customers or software applications will necessarily benefit from the use of this technology. Performance and clock frequency will vary depending on the application workload and your hardware and software configurations. Intel’s numbering, branding, and/or naming is not a measurement of higher performance. Intel, Pentium, Intel Core, Celeron, Iris Xe, Intel logo, and the Intel Inside logo are trademarks of Intel Corporation in the U.S. and other countries. (3) Shared video memory (UMA) uses part of the total system memory for video performance. System memory dedicated to video performance is not available for other use by other programs. (4) Actual formatted capacity is less. A portion of internal storage is reserved for preloaded content. (5) Based on HP internal testing using CrystalDiskMark benchmarking software. Performance is sequentially faster (read-only) compared to traditional 5,400 rpm HDD. (6) Windows 10 MobileMark 18 battery life will vary depending on various factors including product model, configuration, loaded applications, features, use, wireless functionality, and power management settings. The maximum capacity of the battery will naturally decrease with time and usage. See bapco.com/products/mobilemark-2018/ for additional details. (7) Recharges your battery up to 50% within 45 minutes when the system is off (using the “shut down” command). Recommended for use with the HP adapter provided with the notebook, not recommended with a smaller capacity battery charger. After charging has reached 50% capacity, charging speed will return to normal speed. Charging time may vary +/-10% due to System tolerance. (8) Not all features are available in all editions or versions of Windows. Systems may require upgraded and/or separately purchased hardware, drivers, software, or BIOS update to take full advantage of Windows functionality. Windows 10 is automatically updated, which is always enabled. ISP fees may apply and additional requirements may apply over time for updates. See microsoft.com (9) Based on Wi-Fi 5 80MHz and Wi-Fi 6 160MHz minimum requirements when transferring files between two devices connected to the same router. Requires a wireless router, sold separately, that supports 802.11ax (Wi-Fi 6). Only available in countries where 802.11ax is supported. (10) Wireless access point and internet service required and sold separately. Availability of public wireless access points limited. Requires a wireless router, sold separately, that supports 80MHz channels. Wi-Fi 6 (802.11ax) is backwards compatible with prior 802.11 specs. The specifications for Wi-Fi 6 are draft and are not final. If the final specifications differ from the draft specifications, it may affect the ability of the notebook to communicate with other Wi-Fi 6 devices. Only available in countries where 802.11ax is supported. (11) Bluetooth® is a trademark owned by its proprietor and used by Hewlett-Packard Company under license. (12) Features may require software or other 3rd party applications to provide the described functionality. Internet service required and not included. (13) Percentage of ocean-bound plastic contained in each component varies by product. (14) Keyboard keycaps contain post-consumer recycled plastic. The percentage contained in each component varies by product. (15) 100% outer box/corrugated cushion packaging made from sustainably sourced certified and recycled fibers. Fiber cushions are made from 100% recycled wood fiber and organic material. Excludes plastic bags and plastic foam sheeting. (16) ENERGY STAR and the ENERGY STAR mark are registered trademarks owned by the U.S. Environmental Protection Agency. (17) Based on U.S. EPEAT® registration according to IEEE 1680.1-2018 EPEAT®. EPEAT® status varies by country. Visit www.epeat.net for more information.",
                 error: null
             },
             productOverview: {
                 value: {
-                    Brand: 'Gold Bond',
-                    Ingredients:
-                        'Active Ingredient - Purpose:\nColloidal Oatmeal 2% - Skin Protectant.\nInactive Ingredients Water, Glycerin, D… See more',
-                    'Item Form': 'Cream',
-                    'Item Weight': '0.2 Pounds',
-                    'Package Type': 'Tube'
+                    Series: '15-er0010nr',
+                    Brand: 'HP',
+                    'Specific Uses For Product':
+                        'Multimedia, Personal, Business',
+                    'Screen Size': '15.6 Inches',
+                    'Operating System': 'Windows 10 Home'
                 },
                 error: null
             },
             productAbout: {
                 value: [
-                    'Gives fast itch relief and soothe eczema discomfort.',
-                    'Soothing relief.',
-                    'Steroid Free and Fragrance.'
+                    '',
+                    'ADAPTS TO YOUR VIEW – The extremely flexible HP Pavilion x360 has four modes to help you find just the right viewing angle. Stay productive in laptop mode, stream using reverse or tent mode, and stay connected wherever you go with tablet mode.',
+                    'FHD IPS TOUCHSCREEN – Always see your content at its best with 178-degree wide-viewing angles, Full HD (1920 x 1080), and a four-sided micro-edge display (1). And with touchscreen technology, you can control your PC right from the screen.',
+                    'THE PERFECT PERFORMANCE COMBO – Experience new levels of power and the most stunning visuals thanks to 11th Generation Intel Core i5-1135G7 and Intel Iris Xe Graphics (2) (3).',
+                    'MEMORY AND STORAGE – Enjoy up to 15x faster performance than a traditional hard drive with 256 GB PCIe NVMe M.2 SSD storage and experience improved multitasking with higher bandwidth thanks to 12 GB of RAM (4) (5).',
+                    'ON-THE-GO POWER – Take this HP laptop on the road with up to 7 hours and 15 minutes of battery life while HP Fast Charge lets you go from 0 to 50% charge in approximately 45 minutes (6) (7).',
+                    'WINDOWS 10 AND WARRANTY – Work confidently with both the familiar feel of the Windows 10 Home operating system and the guaranteed coverage of an HP 1-year limited hardware warranty (8).',
+                    'STAY CONNECTED – Get a smoother wireless experience with up to 3x faster file transfer speeds than Wi-Fi 5, thanks to the Wi-Fi 6 (2x2) and Bluetooth 5.0 combo (9) (10) (11).',
+                    '',
+                    '',
+                    ''
                 ],
                 error: null
             },
             productDetails: {
-                value: {
-                    'Is Discontinued By Manufacturer :': 'No',
-                    'Product Dimensions :': '6 x 1 x 1 inches; 3.2 Ounces',
-                    'Item model number :': 'CHA006621',
-                    'UPC :':
-                        '811955412288 785923015088 795186341152 784190288461 041167066218 041167061862 885489356875 798813101709',
-                    'Manufacturer :': 'Everready First Aid',
-                    'ASIN :': 'B00GIHMOGW',
-                    'Best Sellers Rank:':
-                        '#17 in Eczema, Psoriasis & Rosacea Care',
-                    'Customer Reviews:': ''
-                },
-                error: null
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             images: {
                 value: [
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/412SnOAofaL._SS40_.jpg',
+                            'https://m.media-amazon.com/images/I/41IlVK8NuiS._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71yXPQ9uP5L._SY355_.jpg'
+                            'https://m.media-amazon.com/images/I/81GjskXLvMS._AC_SY450_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/511JucR6GsL._SS40_.jpg',
+                            'https://m.media-amazon.com/images/I/518DmbkG+BS._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81H5ucNZ4BL._SY355_.jpg'
+                            'https://m.media-amazon.com/images/I/81oZRwNQlXS._AC_SY450_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41pERfWQv6L._SS40_.jpg',
+                            'https://m.media-amazon.com/images/I/41ka1T6-HJL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/811g44AiAAL._SY355_.jpg'
+                            'https://m.media-amazon.com/images/I/81DpWj68hhL._AC_SY450_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51-GswSjHPL._SS40_.jpg',
+                            'https://m.media-amazon.com/images/I/51X-QpNPpEL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/819Rh2CV8CL._SY355_.jpg'
+                            'https://m.media-amazon.com/images/I/81gTPFz8Z3L._AC_SY450_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41d41nMRxQL._SS40_.jpg',
+                            'https://m.media-amazon.com/images/I/31oMhmxKc+S._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/811YRhNWYrL._SY355_.jpg'
+                            'https://m.media-amazon.com/images/I/71WBf9P22iS._AC_SY450_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/418hsXVgvFL._SS40_.jpg',
+                            'https://m.media-amazon.com/images/I/41d9nKauU9S._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71rxZKqWr2L._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41r06-vxVUL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81yT%2BoKo5eL._SY355_.jpg'
+                            'https://m.media-amazon.com/images/I/810WsqKa-kS._AC_SY450_.jpg'
                     }
                 ],
                 error: null
             },
             priceDetail: {
                 value: {
-                    priceblock_ourprice: '$9.34',
-                    ounce: '($1.17 / Ounce)'
+                    priceblock_ourprice: '$829.00',
+                    ounce: '& FREE Returns'
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-3',
+                    acrCustomerReviewText: '1 rating'
+                },
+                error: null
+            }
+        }
+    },
+    {
+        url: 'https://www.amazon.com/gp/product/B08NCFRFFD?th=1&psc=1',
+        data: {
+            productTitle: {
+                value: 'HP Pavilion Gaming Desktop, NVIDIA GeForce GTX 1650 Super, Intel Core i3-10100, 8 GB DDR4 RAM, 256 GB PCIe NVMe SSD, Windows 10 Home, USB Mouse and Keyboard, Compact Tower Design (TG01-1022, 2020)',
+                error: null
+            },
+            ASIN: {
+                value: 'B08NCFRFFD',
+                error: null
+            },
+            basePrice: {
+                value: {
+                    symbol: '$',
+                    currency: 'USD',
+                    amount: 713
+                },
+                error: null
+            },
+            mainImage: {
+                value: 'https://images-na.ssl-images-amazon.com/images/I/81liWNg7JzL._AC_SY606_.jpg',
+                error: null
+            },
+            sizeName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
+            },
+            styleName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
+            },
+            productDescription: {
+                value: 'Game on your own terms with the HP Pavilion Gaming Desktop. This gaming tower has all the space you need to easily expand or upgrade, letting you keep up with the games of tomorrow. Personalize your gaming pc in the OMEN Command Center as you manage your machine’s key metrics and customize the chassis lighting. Intel’s powerful 10th Generation processor with a Max Turbo Frequency of 4.30 GHz delivers smooth and outstanding 4k visuals. Your gaming and streaming will never be the same because your HP desktop boasts an NVIDIAⓇ GeForceⓇ GTX 1650 SUPER™ graphics card and 4 GB GDDR6 dedicated memory. PCIe® NVMe™ SSD Storage makes your gaming pc desktop 10x faster than a traditional hard drive while 8 GB DDR4 memory gives a boost to your browsing and multitasking. Your setup has never been more modern with the Windows 10 operating system, USB wired mouse and keyboard combo, and smoother wireless experience with both Wi-Fi 5 and Bluetooth® 4.2. Easily pair your HP Pavilion Gaming Desktop with a MU-MIMO router for a smoother online experience in multi-device homes. Play care-free with a 1-year limited hardware warranty.',
+                error: null
+            },
+            productOverview: {
+                value: {
+                    'Specific Uses For Product': 'Personal, Gaming, Business',
+                    Series: 'HP Pavilion Gaming Desktop',
+                    'Ram Memory Installed Size': '8 GB',
+                    'Operating System': 'Windows 10 Home',
+                    'CPU Model': 'Core i3'
+                },
+                error: null
+            },
+            productAbout: {
+                value: [
+                    '',
+                    'POWER FOR THE FUTURE – Get ready to game on your terms with seamless expansions and easy upgrades. This potent PC will keep up with your skills and the games of tomorrowR FOR THE FUTURE – Get ready to game on your terms with seamless expansions and easy upgrades. This potent PC will keep up with your skills and the games of tomorrow',
+                    'CUSTOMIZABLE AND COMPACT – This sleek, space-saving tower allows you to expand and upgrade with customizable LED lights and system optimization in the OMEN Command Center',
+                    '4K READY – Outstanding performance and immersive multimedia entertainment with 4K visuals courtesy of the 10th Generation IntelⓇ Core i3-10100 processor',
+                    'STUNNING GRAPHICS – With the all-new NVIDIA Turing architecture and 4 GB GDDR6 dedicated memory, you’ll boost your creative and gaming experience with real-time ray tracing and fast performance from the NVIDIAⓇ GeForceⓇ GTX 1650 SUPER graphics card',
+                    'DDR4 MEMORY – With 8 GB of RAM, everything from browsing multiple web pages to playing games gets a performance boost',
+                    'PLENTY OF STORAGE – Get up to 10x faster performance than a traditional hard drive with 256 GB of PCIe NVMe M.2 Solid State Drive storage',
+                    'PC GAMING CONNECTIVITY – Enjoy rock-solid connections with the latest Wi-Fi 5 (1x1) WLAN adapter and Bluetooth 4.2 as well as reliable external ports in the Headphone/Microphone combo, 5.1 surround sound, and SuperSpeed USB Type-A and Type-CⓇ ports; this pc is perfect for dual display support',
+                    '',
+                    '',
+                    ''
+                ],
+                error: null
+            },
+            productDetails: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
+            },
+            images: {
+                value: [
+                    {
+                        thumbnailSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/41Kb0QXThkL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/81liWNg7JzL._AC_SY606_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/41ooOarBTnL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/81QbodKufGL._AC_SY606_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/41kzeD7MGyL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/81edZDe22KL._AC_SY606_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/41na3GV91IL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/81kCd%2Bb9XaL._AC_SY606_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/41NabVwPF7L._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/81ymBxnjshL._AC_SY606_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/41%2BYRvtLhmL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/81bvQ3IfDzL._AC_SY606_.jpg'
+                    }
+                ],
+                error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$713.00',
+                    ounce: '& FREE Returns'
                 },
                 error: null
             },
             ratings: {
                 value: {
                     rateStar: 'a-icon a-icon-star a-star-4-5',
-                    acrCustomerReviewText: '2,091 ratings'
+                    acrCustomerReviewText: '700 ratings'
                 },
                 error: null
             }
         }
     },
     {
-        url: 'https://www.amazon.com/gp/product/B015SCP3A6?th=1&psc=1',
+        url: 'https://www.amazon.com/gp/product/B08JVMT8Y9?th=1&psc=1',
         data: {
             productTitle: {
-                value: 'Gold Bond Eczema Relief Hand Cream, 3 Ounce',
+                value: 'HP All-in-One Desktop PC, 11th Gen Intel Core i5-1135G7 Processor, 8 GB RAM, 512 GB SSD Storage, Full HD 23.8” Touchscreen, Windows 10 Home, Remote Work Ready, Mouse and Keyboard (24-df1270, 2021)',
                 error: null
             },
             ASIN: {
-                value: 'B015SCP3A6',
+                value: 'B08JVMT8Y9',
                 error: null
             },
             basePrice: {
                 value: {
                     symbol: '$',
                     currency: 'USD',
-                    amount: 3.99
+                    amount: 849.99
                 },
                 error: null
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/71JM8yKkCpL._SY355_.jpg',
+                value: 'https://m.media-amazon.com/images/I/81rHaRJOZHL._AC_SX466_.jpg',
                 error: null
             },
             sizeName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             styleName: {
-                value: 'Hand Cream',
+                value: '11th gen i5',
                 error: null
             },
             productDescription: {
-                value:
-                    'INDICATIONS: Gold Bond Ultimate Eczema Relief Hand Cream gives you fast itch relief, while Vitamin E, aloe and a combination of 7 moisturizers and 3 vitamins, soothe your eczema discomfort. Formulated for daily use, steroid-free, dye-free and fragrance-free Gold Bond Eczema Relief Hand Cream fights back against the five symptoms of eczema. Formulated for daily use, our steroid-free, dye-free and fragrance-free cream fights back against the five symptoms of eczema.',
+                value: "The HP All-in-One Desktop PC blends the power of a desktop with the beauty of a modern display. This HP computer’s power grows with you because the panel and hardware are easy to remove and upgrade (1). Control your entertainment with a touch and see every detail on a three-sided, micro-edge, full HD display (2). Both processing power and visuals get an upgrade with the power of the 11th Generation Intel® Core™ i5-1135G7 processor and Intel® Iris® Xe Graphics (3) (4). 512 GB PCIe® NVMe™ SSD storage gives this HP desktop computer the storage capacity you crave, while the 8 GB of RAM makes multitasking a breeze (5) (6) (7). Connectivity is made easy with a Wi-Fi 5 (2x2) WLAN adapter and Bluetooth® 5.0 combo (9) (10). Your setup has never been more modern than with a Windows 10 operating system (11), wired mouse and keyboard combo, and all the connection ports you need conveniently located on the back of the All-in-One desktop. Stay connected with friends and family with the HP True Vision 720p HD privacy camera that works even in low light and tucks away when not in use (13). Having passed over 230 individual tests and built to be environmentally responsible, this AIO PC is made for the modern world (12). (1) This device has been engineered for optimal performance. Upgrading the PC may affect warranty coverage. (2) All performance specifications represent the typical specifications provided by HP's component manufacturers; actual performance may vary either higher or lower. Full High Definition (FHD) content is required to view FHD images. (3) Multi-core is designed to improve performance of certain software products. Not all customers or software applications will necessarily benefit from the use of this technology. Performance and clock frequency will vary depending on the application workload and your hardware and software configurations. Intel’s numbering, branding, and/or naming is not a measurement of higher performance. Intel, Pentium, Intel Core, Celeron, Intel logo, and the Intel Inside logo are trademarks of Intel Corporation in the U.S. and other countries. (4) Part of the total system memory (RAM) is used for graphics/video performance. System memory dedicated to graphics/video performance is not available for other use by other programs. (5) Up to 512MB of main system memory may be allocated to support video graphics. (6) Actual formatted capacity is less. A portion of internal storage is reserved for preloaded content. (7) Based on HP internal testing using CrystalDiskMark benchmarking software. Performance is sequentially faster (read-only) compared to traditional 5,400 rpm HDD. (8) Actual throughput may vary. (9) Wireless access point and internet service required and sold separately. Availability of public wireless access points limited. Wi-Fi 5 (802.11ac) is backward compatible with prior Wi-Fi 5 specs. (10) Bluetooth® is a trademark owned by its proprietor and used by Hewlett-Packard Company under license. (11) Not all features are available in all editions or versions of Windows. Systems may require upgraded and/or separately purchased hardware, drivers, software, or BIOS update to take full advantage of Windows functionality. Windows 10 is automatically updated, which is always enabled. ISP fees may apply and additional requirements may apply over time for updates. See microsoft.com (12) HP Total Test Process testing is not a guarantee of future performance under these test conditions. Damage under the HP Total Test Process test conditions or any accidental damage requires an optional HP Accidental Damage Protection Care Pack. (13) Features may require software or other 3rd party applications to provide the described functionality. Internet service required and not included. (14) External power supplies, power cords, cables, and peripherals are not Low Halogen. Service parts obtained after purchase may not be Low Halogen.",
                 error: null
             },
             productOverview: {
                 value: {
-                    Brand: 'Gold Bond',
-                    Ingredients:
-                        '2% Colloidal Oatmeal: Protects and helps relieve minor skin irritation and itch due to eczema, rashes, insect bites an… See more',
-                    'Item Form': 'Cream',
-                    'Item Weight': '85 Grams',
-                    'Age Range (Description)': 'Adult'
+                    'Specific Uses For Product':
+                        'Multimedia, Personal, Business',
+                    Series: '24-df1270',
+                    'Ram Memory Installed Size': '8 GB',
+                    'Operating System': 'Windows 10 Home',
+                    'CPU Model': 'Core i5'
                 },
                 error: null
             },
             productAbout: {
                 value: [
-                    'GOLD BOND ECZEMA RELIEF: Formulated specifically to help break the itch-scratch cycle of eczema, GOLD BOND lotion & creams have 2% colloidal oatmeal, moisturizers & vitamins to help relieve the itch, dryness, scaling, roughness, & redness of eczema.',
-                    'ECZEMA HAND CREAM: Not all eczema products are equal, & GOLD BOND Eczema Relief goes beyond other leading eczema products with 2% colloidal oatmeal. GOLD BOND Eczema cream & lotion is steroid-free, with colloidal oatmeal, 7 moisturizers & 3 vitamins.',
-                    'GOLD BOND SKIN CARE: While GOLD BOND powder may be the best known product, GOLD BOND carries medicated and non-medicated body powders, skin creams, lotions, and ointments. From first aid to foot care and face lotion, GOLD BOND has you covered.',
-                    "GOLD BOND FOR THE HOME: Since 1908, GOLD BOND Powder has been providing comfort, soothing relief, and skincare to adults and children, from baby's first bath and powder, to eczema or psoriasis relief, to lotion for dry skin or men's 5-in-1 Face Lotion.",
-                    'ITCHY SKIN CARE: Gold Bond offers ideal skin remedy for itchy & irritated skin. Try our body care, foot care & first aid products for dry skin, foot odor, minor cuts, sunburn, insect bites & other skin issues.'
+                    '',
+                    'BUILT FOR TOMORROW – Designed to grow with you, this AIO’s panel and hardware are easy to remove and upgrade (1).',
+                    'FULL HD TOUCHSCREEN – Control your entertainment right from the screen and get crystal-clear, 1080p resolution on a three-sided micro-edge display with 178-degree wide-viewing angles (2).',
+                    'UNSTOPPABLE PROCESSING POWER – Get things done fast with the 11th Generation Intel Core i5-1135G7 processor and enjoy high performance, instant responsiveness, and best-in-class connectivity (3).',
+                    'STUNNING VISUALS – Experience a new level of graphics with Intel Iris Xe Graphics, designed to bring an impressive performance to your creating, gaming, and entertainment needs (4).',
+                    'MEMORY AND STORAGE – Boost your efficiency as you browse, create, and multitask faster than ever with 8 GB of RAM (5). Get up to 15x faster performance than a traditional hard drive with 512 GB PCIe NVMe M.2 Solid State Drive (6) (7).',
+                    'PORTS AND CONNECTIVITY – Break out all the tools you need for better connectivity with 4 USB ports (2 SuperSpeed USB Type-A 5Gbps signaling rate (8), 2 USB 2.0 Type-A), HDMI Out, as well as a Wi-Fi 5 (2x2) WLAN adapter and Bluetooth 5.0 combo (9) (10).',
+                    'WINDOWS 10 AND WARRANTY – Do great things with a desktop equipped with Windows 10 Home (11). Quality tested over 230 times (12), your computer is backed by a 1-year limited hardware warranty.',
+                    '',
+                    '',
+                    ''
                 ],
                 error: null
             },
             productDetails: {
-                value: {
-                    'Is Discontinued By Manufacturer :': 'No',
-                    'Product Dimensions :':
-                        '1.44 x 2.38 x 5.13 inches; 3 Ounces',
-                    'UPC :': '041167066393 794438256657',
-                    'Manufacturer :': 'Chattem Inc.',
-                    'ASIN :': 'B015SCP3A6',
-                    'Domestic Shipping:':
-                        'Currently, item can be shipped only within the U.S. and to APO/FPO addresses. For APO/FPO shipments, please check with the manufacturer regarding warranty and support issues.',
-                    'International Shipping:':
-                        'This item is not eligible for international shipping. Learn More',
-                    'Best Sellers Rank:':
-                        '#17 in Eczema, Psoriasis & Rosacea Care',
-                    'Customer Reviews:': ''
-                },
-                error: null
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             images: {
                 value: [
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/417glz45s1L._SS40_.jpg',
+                            'https://m.media-amazon.com/images/I/41xA+LimA7L._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71JM8yKkCpL._SY355_.jpg'
+                            'https://m.media-amazon.com/images/I/81rHaRJOZHL._AC_SX466_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/513f7BxUA6L._SS40_.jpg',
+                            'https://m.media-amazon.com/images/I/4114HXHeJPL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81F%2BF6IwEPL._SY355_.jpg'
+                            'https://m.media-amazon.com/images/I/81eLMZWI-DL._AC_SX466_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51j5xlZZ-nL._SS40_.jpg',
+                            'https://m.media-amazon.com/images/I/41n+58jXFaL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/91BLEgI9wqL._SY355_.jpg'
+                            'https://m.media-amazon.com/images/I/81GKrUp1DxL._AC_SX466_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41pVo%2BHqQ9L._SS40_.jpg',
+                            'https://m.media-amazon.com/images/I/41WsAewUPbL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71enTJ95w6L._SY355_.jpg'
+                            'https://m.media-amazon.com/images/I/81RIt+Wyn1L._AC_SX466_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51Hsp5PBO3L._SS40_.jpg',
+                            'https://m.media-amazon.com/images/I/4155bszHPlL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81MT8EJl26L._SY355_.jpg'
+                            'https://m.media-amazon.com/images/I/81dlvkSO39L._AC_SX466_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41elXkwZepL._SS40_.jpg',
+                            'https://m.media-amazon.com/images/I/41pIdpGQflL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81jOTKEQHJL._SY355_.jpg'
+                            'https://m.media-amazon.com/images/I/81QSSDfHEnL._AC_SX466_.jpg'
                     }
                 ],
                 error: null
             },
             priceDetail: {
                 value: {
-                    priceblock_ourprice: '$3.99',
-                    ounce: '($1.33 / Ounce)'
+                    priceblock_ourprice: '$849.99',
+                    ounce: '& FREE Returns',
+                    price_block_savings: '$50.00 (6%)'
                 },
                 error: null
             },
             ratings: {
                 value: {
                     rateStar: 'a-icon a-icon-star a-star-4-5',
-                    acrCustomerReviewText: '1,292 ratings'
+                    acrCustomerReviewText: '289 ratings'
                 },
                 error: null
             }
         }
     },
     {
-        url: 'https://www.amazon.com/gp/product/B00P2V1CDG?th=1&psc=1',
+        url: 'https://www.amazon.com/gp/product/B0888SQHS6?th=1&psc=1',
         data: {
             productTitle: {
-                value:
-                    'Gold Bond Pain & Itch Relief Cream with Lidocaine, gold, 1.75 Ounce',
+                value: 'HP Envy 15 Laptop, Intel Core i7-10750H, NVIDIA GeForce GTX 1650 Ti Graphics, 16 GB RAM, 512 GB SSD Storage,15.6” Full HD Touchscreen, Windows 10 Home, Fingerprint Reader (15-ep0010nr, 2020 Model)',
                 error: null
             },
             ASIN: {
-                value: 'B00P2V1CDG',
+                value: 'B0888SQHS6',
                 error: null
             },
             basePrice: {
-                value: {
-                    symbol: '$',
-                    currency: 'USD',
-                    amount: 6.74
-                },
-                error: null
+                value: null,
+                error: "Failed to parse currency amount '$1,469.99'"
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/81Ey0YvXCyL._AC_SX425_.jpg',
+                value: 'https://m.media-amazon.com/images/I/81Uy1seHCQS._AC_SY450_.jpg',
                 error: null
             },
             sizeName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             styleName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             productDescription: {
-                value: 'Health and Personal Care',
+                value: 'Advanced design, precision craftsmanship, latest technologies, exclusive HP convenience features and privileged access to HP ENVY laptop concierge service and support.\n\n- Create fast and at peak performance with an Intel® Core™ processor, NVIDIA® GeForce® graphics, plenty of storage, plus an IR sensor and hidden vents that keep your PC running cool.\n- When your laptop is low on power, no one has time to wait hours to recharge. Power down your device and go from 0 to 50% charge in approximately 45 minutes.\n- The bright, high definition 15" diagonal, micro-edge display gives you more screen to showcase and share your creations with true-to-life color and precise detail.\n- With HP Dual Speakers, HP Audio Boost, and custom tuning by the experts at Bang & Olufsen, entertainment comes to life with sound you can feel. Awaken your senses with PC audio perfection.\n- Keep your creations under wraps until you’re ready to share with peace of mind features like an unhackable camera shutter, dedicated microphone mute button and fingerprint reader.\n- Control your privacy, security and multimedia with the touch of a button. With all your hotkeys in one area, seamlessly navigate with no distractions.\n- Seamlessly log in into your device in any mode with the touch of your finger. Patented 3-D fingerprint technology ensures secure access and online payments.\n- No more unsightly tape and tacky gum to hide your private moments. Ensure your privacy and security with a visible, physical shutter that turns off your PC\'s camera when not in use.\n- See and feel a heightened sense of craftsmanship. This notebook computer is built with an all-metal angular chassis design, polished accents, and high-quality materials built to last.\n- The full-sized island-style keyboard allows you to work anywhere, with 1.5mm key travel for typing comfort and total productivity.\n- Easily take this thin and light laptop computer from room to room or on the road. When your PC goes wherever you go, staying productive and entertained has never been easier.\n- Enjoy a smoother wireless experience with Wi-Fi 6 (2x2) and Bluetooth® 5.0 combo, all your connections are solid and up to 3x faster file transfer speeds than Wi-Fi 5, making PC gaming a smooth experience.\n- HP Command Center puts you in control, allowing you to optimize and customize performance, fan speed and noise, and external temperature—all to meet the needs of a college, light gaming or work laptop\nModel: 15-ep0010nr',
                 error: null
             },
             productOverview: {
-                value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                value: {
+                    Series: 'Envy 15 Laptop',
+                    Brand: 'HP',
+                    'Specific Uses For Product': 'Personal, Gaming',
+                    'Screen Size': '15.6 Inches',
+                    'Operating System': 'Windows 10 Home'
+                },
+                error: null
             },
             productAbout: {
                 value: [
-                    'PAIN & ITCH RELIEF CREAM WITH LIDOCAINE: Our Pain & Itch Relief Cream soothes the pain of insect bites, minor burns & scrapes with the maximum strength Lidocaine you can get without a prescription.',
-                    'ALL-PURPOSE RELIEF: This easy-to-apply cream is effective for temporary relief of pain & itch associated with: minor burns, sunburn, minor cuts, scrapes, insect bites & minor skin irritations',
-                    'MEDICATED HEALING: We offer a variety of highly effective personal skin care & pain relief products including body powders & lotions, foot sprays, powders & creams, & anti-itch treatments.',
-                    "HEALING SINCE 1908: For over a century Gold Bond products have provided soothing relief to the whole family, from baby's first bath & powder, to eczema or psoriasis relief, to lotion for dry skin.",
-                    'GOLD BOND QUALITY: In addition to our top-selling medicated body powder, foot powder & foot cream, Gold Bond offers skin care products to moisturize, soften & protect your hands, feet, face & body.'
+                    '',
+                    'A LIMITLESS POWERHOUSE: Breeze through long college classes on a single charge, work on creative projects with plenty of memory, take care of business with the multi-core processor, and end the day with beautiful graphics for some light gaming',
+                    'DISPLAY WITH DEDICATED GRAPHICS: 15.6-inch diagonal FHD, IPS, micro-edge WLED-backlit, multitouch-enabled, edge-to-edge glass, 400 nits, 100% sRGB (1920 x 1080); 82% screen to body ratio; NVIDIA GeForce GTX 1650 Ti (4 GB GDDR6 dedicated) graphics let you game and stream at ultra-speed with fast technology and breakthrough graphics',
+                    'SUPER FAST PROCESSOR: 10th Generation Intel Core i7-10750H Processor, 6-Core, 2.6 GHz base frequency, up to 5 GHz with Intel Turbo Boost Technology',
+                    'FAST BOOTUP WITH SOLID-STATE DRIVE & HIGHER BANDWIDTH MEMORY: Boot up in seconds, transfer files without waiting hours, and enjoy a speedier experience with the internal 512 GB PCIe NVMeM.2 SSD, and higher bandwidth, speed and efficiency with 16 GB DDR4-2933 SDRAM (upgradable with 2 accessible slots, 2 x 8 GB)',
+                    'ALL-DAY BATTERY LIFE: Up to 18 hours and 15 minutes (mixed usage), up to 15 hours and 45 minutes (video playback), up to 8 hours and 15 minutes (wireless streaming); 0 to 50% charge in 45 minutes with HP Fast Charge',
+                    'THIN, LIGHT AND PORTABLE (unpackaged): 14.09 inches (W) x 9.32 inches (D) x 0.73 inches (H); 4.74 pounds',
+                    'OPERATING SYSTEM AND WARRANTY: Windows 10 Home and 1-year limited hardware warranty with 24-hour, 7 days a week web support when shipped from and sold by Amazon.com',
+                    '',
+                    '',
+                    ''
                 ],
                 error: null
             },
             productDetails: {
-                value: {
-                    'Is Discontinued By Manufacturer :': 'No',
-                    'Product Dimensions :':
-                        '1.13 x 4.75 x 3.38 inches; 2.57 Ounces',
-                    'Date First Available :': 'October 31, 2014',
-                    'Manufacturer :': 'Karewell Brands, Inc -- Dropship',
-                    'ASIN :': 'B00P2V1CDG',
-                    'Best Sellers Rank:':
-                        '#30 in Pain Relief Homeopathic Remedies',
-                    'Customer Reviews:': ''
-                },
-                error: null
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             images: {
                 value: [
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51v7LMrW8FL._AC_US40_.jpg',
+                            'https://m.media-amazon.com/images/I/41z6K47UADS._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81Ey0YvXCyL._AC_SX425_.jpg'
+                            'https://m.media-amazon.com/images/I/81Uy1seHCQS._AC_SY450_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41SfLiOcUlL._AC_US40_.jpg',
+                            'https://m.media-amazon.com/images/I/51wnVIhlvAL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81QklY8eRVL._AC_SX425_.jpg'
+                            'https://m.media-amazon.com/images/I/91zhxNQo+RL._AC_SY355_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41CbJsagXkL._AC_US40_.jpg',
+                            'https://m.media-amazon.com/images/I/51oj1Y5VuJL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81J%2B3Ld76tL._AC_SX425_.jpg'
+                            'https://m.media-amazon.com/images/I/71UWKSlUbrL._AC_SY355_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51NItRixyJL._AC_US40_.jpg',
+                            'https://m.media-amazon.com/images/I/51-WmgChnRL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81fjJK800lL._AC_SX425_.jpg'
+                            'https://m.media-amazon.com/images/I/81f1qCjw-9L._AC_SY355_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51wz0H-fOTL._AC_US40_.jpg',
+                            'https://m.media-amazon.com/images/I/51Qw5Swg6DL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/814-gmNpj%2BL._AC_SX425_.jpg'
+                            'https://m.media-amazon.com/images/I/814U-kQUVjL._AC_SY355_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/31rVfoVFaHL._AC_US40_.jpg',
+                            'https://m.media-amazon.com/images/I/51sd+DkrmGL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/713xr-lMRcL._AC_SX425_.jpg'
+                            'https://m.media-amazon.com/images/I/71DwHLMRffL._AC_SY355_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51SY%2BMxR2XL._AC_US40_.jpg',
+                            'https://m.media-amazon.com/images/I/51qXwi0ewHL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/91iGlMy3QQL._AC_SX425_.jpg'
+                            'https://m.media-amazon.com/images/I/81aYTqIxPrL._AC_SY355_.jpg'
                     }
                 ],
                 error: null
             },
             priceDetail: {
                 value: {
-                    priceblock_ourprice: '$6.74',
-                    ounce: '($3.85 / Ounce)'
+                    priceblock_ourprice: '$1,469.99',
+                    ounce: '& FREE Returns'
                 },
                 error: null
             },
             ratings: {
                 value: {
                     rateStar: 'a-icon a-icon-star a-star-4-5',
-                    acrCustomerReviewText: '3,522 ratings'
+                    acrCustomerReviewText: '53 ratings'
                 },
                 error: null
             }
         }
     },
     {
-        url: 'https://www.amazon.com/gp/product/B003QB26MA?th=1&psc=1',
+        url: 'https://www.amazon.com/gp/product/B08CZX93CJ?th=1&psc=1',
         data: {
             productTitle: {
-                value:
-                    'Gold Bond Medicated Body Lotion Extra Strength, Aloe Vera, 14 Ounce',
+                value: 'HP Envy Desktop Computer, NVIDIA GeForce RTX 2060, Intel Core i7-10700, 16 GB RAM, 1 TB SSD Storage, Windows 10 Home (TE01-1050, 2020 Model)',
                 error: null
             },
             ASIN: {
-                value: 'B003QB26MA',
+                value: 'B08CZX93CJ',
                 error: null
             },
             basePrice: {
-                value: {
-                    symbol: '$',
-                    currency: 'USD',
-                    amount: 7.58
-                },
-                error: null
+                value: null,
+                error: "Failed to parse currency amount '$1,339.99'"
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/71lndvAeeyL._AC_SY879_.jpg',
+                value: 'https://images-na.ssl-images-amazon.com/images/I/71ZJTb6NAQL._AC_SY355_.jpg',
                 error: null
             },
             sizeName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             styleName: {
-                value: 'Extra Strength',
+                value: 'NVIDIA GeForce RTX 2060',
                 error: null
             },
             productDescription: {
-                value:
-                    'Gold Bond Extra Strength Medicated Moisturizing Body Lotion, A unique blend of emollients, lipids, aloe and Vitamin E clinically proven to moisturize, soothe and protect for hours. Plus, unlike ordinary moisturizers, Triple Action Extra Strength Gold Bond Lotion is medicated to provide prompt, effective itch relief. For the temporary relief of itching associated with dry skin.',
+                value: "Render, edit, game, and stream better than ever before. The powerful HP ENVY Desktop Computer brings the latest technology and reliability from a trusted brand that protects what matters to you most. Get up to 10x faster performance than a traditional hard drive. Don’t worry about growing your collection of digital movies, songs, and pictures. With massive storage options you can save it all, and still have plenty of room left over. Plus, you can store and synchronize your content online with Dropbox. Get 25 GB of storage for one year to access, manage, and share your photos, music, and files from anywhere with Internet access. Watch and write DVDs using the integrated optical drive, and quickly and easily connect your devices, including a second monitor and a 5.1 surround sound system, with convenient ports. Because our PCs go through over 230 individual tests, you can be sure you’re getting a powerful, reliable desktop PC that's going to last. Model: TE01-1050",
                 error: null
             },
             productOverview: {
                 value: {
-                    Ingredients:
-                        'Active Ingredients - Purpose.\nDimethicone 5% - Skin… See more',
-                    Scent: 'Aloe Vera',
-                    'Item Form': 'Lotion',
-                    Brand: 'Gold Bond',
-                    'Skin Type': 'Dry'
+                    'Specific Uses For Product':
+                        'Multimedia, Personal, Business',
+                    Series: 'TE01-1050',
+                    'Ram Memory Installed Size': '16 GB',
+                    'Operating System': 'Windows 10 Home',
+                    'CPU Model': 'Core i7'
                 },
                 error: null
             },
             productAbout: {
                 value: [
-                    'Provide triple action relief from dry skin moisturizing.',
-                    'Itch relief and soothing.',
-                    'Triple Action Extra Strength Gold Bond Lotion.',
-                    '1 pack'
+                    '',
+                    'YOUR CREATIVE SIDEKICK: Render, edit, game, and stream better than ever before',
+                    'HYPER-REALISTIC GRAPHICS:NVIDIA GeForce RTX 2060 graphics (6 GB GDDR6 dedicated memory). Enjoy incredible power to create and game atultra-fast speeds with the all-new NVIDIA Turing architecture, including ray tracingtechnology for unbelievable visuals ( 1 HDMI, 1 DisplayPort, 1 DVI-D)',
+                    'FAST PROCESSOR: 10th Generation Intel Core i7-10700 Processor, 8-Core, 2.90 GHz base frequency, up to 4.8 GHz with Intel Turbo Boost Technology',
+                    'MEMORY: 16 GB DDR4-2933 SDRAM memory (2 x 8 GB) (upgradable to 32 GB)',
+                    'INTERNAL STORAGE: 1 TB PCIe NVMe M.2 Solid State Drive ( 2 HDD 3.5" expansion bays available)',
+                    'CONNECTIVITY: Realtek Wi-Fi 5 (1x1) and Bluetooth 4.2 Combo, MU-MIMO supported, 3.5mm Headphone/Microphone combo, 4 SuperSpeed USB Type-A (front), 1 SuperSpeed USB Type-C (front), 4 USB 2.0 Type-A (rear)',
+                    'OPERATING SYSTEM AND WARRANTY: Windows 10 Home 64 bit and one-year limited warranty with 24-hour, 7 days a week web support when shipped from and sold by Amazon.com.',
+                    '',
+                    '',
+                    ''
                 ],
                 error: null
             },
             productDetails: {
-                value: {
-                    'Is Discontinued By Manufacturer :': 'No',
-                    'Product Dimensions :': '8 x 2 x 3 inches; 14 Ounces',
-                    'Item model number :': '06412',
-                    'Date First Available :': 'June 7, 2010',
-                    'Manufacturer :': 'Everready First Aid',
-                    'ASIN :': 'B003QB26MA',
-                    'Best Sellers Rank:': '#94 in Body Lotions',
-                    'Customer Reviews:': ''
-                },
-                error: null
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             images: {
                 value: [
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/319qDDD3eUL._AC_US40_.jpg',
+                            'https://images-na.ssl-images-amazon.com/images/I/41ote5QYc3L._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71lndvAeeyL._AC_SY879_.jpg'
+                            'https://images-na.ssl-images-amazon.com/images/I/71ZJTb6NAQL._AC_SY355_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41JHs7iHObL._AC_US40_.jpg',
+                            'https://images-na.ssl-images-amazon.com/images/I/41EOrOjEwzL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81JbxTe1MmL._AC_SY879_.jpg'
+                            'https://images-na.ssl-images-amazon.com/images/I/711vOIKRyIL._AC_SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/51L0kAoAD6L._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/815rjAzIUkL._AC_SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/41qs46VR4kL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/71reu7heGKL._AC_SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/41hJWZAcvyL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/71-HetadalL._AC_SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/51cuYiLqmTL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://images-na.ssl-images-amazon.com/images/I/81ZEWdM4HCL._AC_SY355_.jpg'
                     }
                 ],
                 error: null
             },
             priceDetail: {
                 value: {
-                    priceblock_ourprice: '$7.58',
-                    ounce: '($0.54 / Ounce)',
-                    price_block_savings: '$3.41 (31%)'
+                    priceblock_ourprice: '$1,339.99',
+                    ounce: '& FREE Returns'
                 },
                 error: null
             },
             ratings: {
                 value: {
                     rateStar: 'a-icon a-icon-star a-star-4-5',
-                    acrCustomerReviewText: '4,089 ratings'
+                    acrCustomerReviewText: '872 ratings'
                 },
                 error: null
             }
         }
     },
     {
-        url: 'https://www.amazon.com/gp/product/B01KVU94VY?th=1&psc=1',
+        url: 'https://www.amazon.com/gp/product/B08JVLYJKY?th=1&psc=1',
         data: {
             productTitle: {
-                value: 'Gold Bond Ultimate Psoriasis Relief Cream, 4 Ounce',
+                value: 'HP Envy All-in-One PC, NVIDIA GeForce RTX 2070, 10th Gen Intel Core i7-10700 Processor, 32 GB RAM, 1 TB SSD Storage, 31.5” 4K UHD Display, Wide-Color-Gamut & 600 nits Peak Brightness (32-a1050, 2021)',
                 error: null
             },
             ASIN: {
-                value: 'B01KVU94VY',
+                value: 'B08JVLYJKY',
                 error: null
             },
             basePrice: {
-                value: {
-                    symbol: '$',
-                    currency: 'USD',
-                    amount: 9.33
-                },
-                error: null
+                value: null,
+                error: "Failed to parse currency amount '$2,649.99'"
             },
             mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/81cSxO2zkzL._AC_SX425_.jpg',
+                value: 'https://m.media-amazon.com/images/I/81KZIzIZedL._AC_SX466_.jpg',
                 error: null
             },
             sizeName: {
                 value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             styleName: {
-                value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
+                value: '32 GB RAM',
+                error: null
             },
             productDescription: {
-                value:
-                    "Psoriasis symptoms such as skin that is itching, irritated, or scaling can be uncomfortable. Gold Bond Multi-Symptom Psoriasis Relief provides soothing, temporary relief from skin irritation due to psoriasis and seborrheic dermatitis. Our Multi-Symptom Psoriasis Relief helps hydrate and soothe skin to provide relief from itching, irritation, and scaling associated with psoriasis, while salicylic acid helps prevent the recurrence of psoriasis symptoms. A good skincare routine should be simple, and include a good moisturizing lotion. Gold Bond Ultimate Men's Essentials are skin lotions for men specially formulated for rough, dry skin that can be used on your body, hands and face. While Gold Bond powder may be the best known product, Gold Bond carries medicated and non-medicated body powders, skin creams, lotions, and ointments. From first aid to foot care and face lotion, Gold Bond has you covered. Since 1908, Gold Bond powder has been providing comfort, soothing relief, and skincare to adults and children, from baby's first bath and powder, to eczema or psoriasis relief, to lotion for dry skin or men's 5-in-1 Face Lotion.",
-                error: null
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#productDescription > p"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             productOverview: {
                 value: {
-                    Brand: 'Gold Bond',
-                    Ingredients: 'Salicylic Acid 3%',
-                    'Item Form': 'Cream',
-                    'Item Weight': '0.15 Pounds',
-                    'Package Type': 'R'
+                    'Specific Uses For Product':
+                        'Multimedia, Personal, Business',
+                    Series: 'HP ENVY All-in-One PC',
+                    'Ram Memory Installed Size': '32 GB',
+                    'Operating System': 'Windows 10 Home',
+                    'CPU Model': 'Core i7'
                 },
                 error: null
             },
             productAbout: {
                 value: [
-                    'PSORIASIS RELIEF: Psoriasis symptoms such as skin that is itching, irritated or scaling can be uncomfortable. Gold Bond Multi-Symptom Psoriasis Relief provides soothing, temporary relief from skin irritation due to psoriasis and seborrheic dermatitis.',
-                    'MAXIMUM STRENGTH 3% SALICYLIC ACID: This Multi-Symptom Psoriasis Relief helps hydrate & soothe skin to provide relief from itching, irritation, and scaling associated with psoriasis, while Salicylic Acid helps prevent the recurrence of psoriasis symptoms.',
-                    'GOLD BOND SKIN CARE: Gold Bond is known not just for powder, but for a variety of medicated & non-medicated body powders, skin creams, & ointments. Since 1908, Gold Bond Powder has been providing comfort, soothing relief, & skincare to adults & children.',
-                    'A WELL ROUNDED MEDICINE CABINET: When you or a family member is in pain, sick, hurt, or just generally feeling under the weather, you don’t want to run to the pharmacy. A well stocked home medicine cabinet helps ensure relief is at hand when you need it.',
-                    'ITCHY SKIN CARE: Gold Bond offers ideal skin remedy for itchy & irritated skin. Try our body care, foot care & first aid products for dry skin, foot odor, minor cuts, sunburn, insect bites & other skin issues.'
+                    '',
+                    'CREATE ON A MASSIVE SCALE – Watch your creations come to life on a stunning 31.5-inch diagonal, wide-color-gamut HDR 4K display (1). See your content in mesmerizing quality with over 8.2 million pixels and 178 degrees of wide-viewing angles. With 600 nits peak brightness (2), anti-reflective coating, and DCI-P3 color spacing (3), you’ll view and edit creative projects with high color accuracy and without the glare.',
+                    'RICH AUDIO EXPERIENCE – HP speakers custom-tuned in collaboration with experts at Bang & Olufsen bring you theater-worthy sound from the comfort of your own home. With enhanced sound and deeper bass, you’ll enjoy your favorite music, movies, or games without buying additional speakers.',
+                    'THE FUTURE OF POWER – Get outstanding performance and immersive multimedia entertainment with 4K visuals thanks to the 10th Generation Intel Core i7-10700 processor (4) (5).',
+                    'ELEVATED GAMING – The all-new NVIDIA Turing architecture with breakthrough ray tracing technology brings the future of gaming to you. Get all the power you need for incredible realism and next-gen performance with the NVIDIA GeForce RTX 2070 graphics card (6).',
+                    'MEMORY AND STORAGE – Boost your efficiency as you browse, create, and multitask faster than ever with 32 GB of RAM (7). Plus, get up to 15x faster performance than a traditional hard drive with 1 TB PCIe NVMe M.2 Solid State Drive storage (8) (9).',
+                    'PORTS AND CONNECTIVITY – Power up or connect all your external devices with 5 easy to access USB ports (2 SuperSpeed USB Type-A 10Gbps signaling rate, 1 Thunderbolt 3 (10), 1 SuperSpeed USB Type-C (11) 10Gbps signaling rate, and 1 SuperSpeed USB Type-A 5Gbps signaling rate). And with a Wi-Fi 5 (2x2) WLAN adapter and Bluetooth 5.0 combo, all your connections are rock solid (12) (13).',
+                    'WINDOWS 10 AND WARRANTY – Do great things confidently with the familiar feel of Windows 10 Home and enjoy greater peace of mind with a desktop backed by a 1-year limited hardware warranty (14).',
+                    '',
+                    '',
+                    ''
                 ],
                 error: null
             },
             productDetails: {
-                value: {
-                    'Is Discontinued By Manufacturer :': 'No',
-                    'Product Dimensions :':
-                        '2.5 x 1.44 x 6.5 inches; 2.4 Ounces',
-                    'Item model number :': '41167041253',
-                    'Date First Available :': 'August 23, 2016',
-                    'Manufacturer :': 'Chattem Inc.',
-                    'ASIN :': 'B01KVU94VY',
-                    'Domestic Shipping:':
-                        'Currently, item can be shipped only within the U.S. and to APO/FPO addresses. For APO/FPO shipments, please check with the manufacturer regarding warranty and support issues.',
-                    'International Shipping:':
-                        'This item is not eligible for international shipping. Learn More',
-                    'Best Sellers Rank:':
-                        '#12 in Eczema, Psoriasis & Rosacea Care',
-                    'Customer Reviews:': ''
-                },
-                error: null
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=92.0.4515.101)\n  (Driver info: chromedriver=92.0.4515.43 (8c61b7e2989f2990d42f859cac71319137787cce-refs/branch-heads/4515@{#306}),platform=Mac OS X 11.4.0 x86_64)'
             },
             images: {
                 value: [
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41VvInPVRIL._AC_US40_.jpg',
+                            'https://m.media-amazon.com/images/I/41DY9mdDwHL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81cSxO2zkzL._AC_SX425_.jpg'
+                            'https://m.media-amazon.com/images/I/81KZIzIZedL._AC_SX466_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/512BYy8h1aL._AC_US40_.jpg',
+                            'https://m.media-amazon.com/images/I/41T1gm40GfL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/814WOu6ah0L._AC_SX425_.jpg'
+                            'https://m.media-amazon.com/images/I/91cPPmiOlAL._AC_SX466_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/61-CLgYj0UL._AC_US40_.jpg',
+                            'https://m.media-amazon.com/images/I/41-wgiDdGML._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/91cxqo-vw6L._AC_SX425_.jpg'
+                            'https://m.media-amazon.com/images/I/81AF20tzUvL._AC_SX466_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41wYppwR4tL._AC_US40_.jpg',
+                            'https://m.media-amazon.com/images/I/41KoZNALc-L._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81y191r13iL._AC_SX425_.jpg'
+                            'https://m.media-amazon.com/images/I/910P6n9rq5L._AC_SX466_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41pVo%2BHqQ9L._AC_US40_.jpg',
+                            'https://m.media-amazon.com/images/I/41D0ytjN4hL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71enTJ95w6L._AC_SX425_.jpg'
+                            'https://m.media-amazon.com/images/I/81ZEVlr8sqL._AC_SX466_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41MoPN8BMCL._AC_US40_.jpg',
+                            'https://m.media-amazon.com/images/I/41+7X2athCL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81O1dinFL-L._AC_SX425_.jpg'
+                            'https://m.media-amazon.com/images/I/81eK1KQ1Y9L._AC_SX466_.jpg'
                     },
                     {
                         thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/412f4cFu4ZL._AC_US40_.jpg',
+                            'https://m.media-amazon.com/images/I/51XZCXmKckL._AC_US40_.jpg',
                         realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71ZouO2kldL._AC_SX425_.jpg'
+                            'https://m.media-amazon.com/images/I/91ibKGcHQKL._AC_SX466_.jpg'
                     }
                 ],
                 error: null
             },
             priceDetail: {
                 value: {
-                    priceblock_ourprice: '$9.33',
-                    ounce: '($2.33 / Ounce)',
-                    price_block_savings: '$6.66 (42%)'
+                    priceblock_ourprice: '$2,649.99',
+                    ounce: '& FREE Returns'
                 },
                 error: null
             },
             ratings: {
                 value: {
-                    rateStar: 'a-icon a-icon-star a-star-4-5',
-                    acrCustomerReviewText: '3,346 ratings'
-                },
-                error: null
-            }
-        }
-    },
-    {
-        url: 'https://www.amazon.com/gp/product/B00MMKAM5E?th=1&psc=1',
-        data: {
-            productTitle: {
-                value: 'Gold Bond Rough & Bumpy Daily Skin Therapy, 8 Ounce',
-                error: null
-            },
-            ASIN: {
-                value: 'B00MMKAM5E',
-                error: null
-            },
-            basePrice: {
-                value: {
-                    symbol: '$',
-                    currency: 'USD',
-                    amount: 9.48
-                },
-                error: null
-            },
-            mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/71kxToKRjSL._SY355_.jpg',
-                error: null
-            },
-            sizeName: {
-                value: '8 Ounce',
-                error: null
-            },
-            styleName: {
-                value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
-            },
-            productDescription: {
-                value:
-                    'Gold Bond Ultimate Rough and Bumpy Skin Cream, Contains a gentle yet effective combination of AHA, BHA, and PHA plus 8 intensive moisturizers. Help to exfoliate and condition even the roughest, bumpy dry skin. Fragrance free, Sens skin safe. Triple Action AHA BHA LHA helps bumy skin and scaly skin conditions.',
-                error: null
-            },
-            productOverview: {
-                value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
-            },
-            productAbout: {
-                value: [
-                    'Helps to improve hydration, miniaturization and dryness.',
-                    'Daily therapy cream.',
-                    'Fragrance free, Non greasy, Non Irritating.'
-                ],
-                error: null
-            },
-            productDetails: {
-                value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
-            },
-            images: {
-                value: [
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41r0pcDP7xL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71kxToKRjSL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51YkAA43XaL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81ozETgEmzL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51GDRspjBIL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/91hCFSrHNpL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41FX5K%2Bfb2L._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/7162ZwDs6WL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51SvB4lQ3dL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81YP03p77nL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41vlquRsGwL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71QQM4IGcCL._SY355_.jpg'
-                    }
-                ],
-                error: null
-            },
-            priceDetail: {
-                value: {
-                    priceblock_ourprice: '$9.48',
-                    ounce: '($1.19 / Ounce)'
-                },
-                error: null
-            },
-            ratings: {
-                value: {
-                    rateStar: 'a-icon a-icon-star a-star-4-5',
-                    acrCustomerReviewText: '7,555 ratings'
-                },
-                error: null
-            }
-        }
-    },
-    {
-        url: 'https://www.amazon.com/gp/product/B08W5GNXBG?th=1&psc=1',
-        data: {
-            productTitle: {
-                value:
-                    "Gold Bond Men's Essentials Talc-Free Body Powder 10 oz, Refresh 360 Scent, Wetness Protection",
-                error: null
-            },
-            ASIN: {
-                value: 'B08W5GNXBG',
-                error: null
-            },
-            basePrice: {
-                value: {
-                    symbol: '$',
-                    currency: 'USD',
-                    amount: 9.29
-                },
-                error: null
-            },
-            mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/61Vk1YOgrzL._AC_SY741_.jpg',
-                error: null
-            },
-            sizeName: {
-                value: 'Refresh 360°',
-                error: null
-            },
-            styleName: {
-                value: 'Talc-Free',
-                error: null
-            },
-            productDescription: {
-                value:
-                    "Take control of wetness and odor caused by everyday activities. Try Gold Bond Men's Essentials Talc-Free Body Powder in Refresh 360 Scent. This body powder for men has a unique triple action formula that absorbs moisture, cools skin, and refreshes. Best of all, Gold Bond Men's Essentials Body Powder provides all over odor* and wetness control. You won't be the only one who likes the crisp, irresistible scent. Feel confident using this men's body powder before exercising or heading out for the night. For best results, apply just after showering once skin is dry. Stock up on 10-oz. bottles of Gold Bond Men's Essentials Body Powder in Refresh 360 Scent so you always have that fresh and cool feeling on hand when you need it most. Now talc-free and formulated without parabens and preservatives. *absorbs odor-causing sweat DIRECTIONS FOR USE: Apply liberally on body, feet, or undergarments after shower or bath, or as often as needed to help you feel dry, fresh, and comfortable all day.",
-                error: null
-            },
-            productOverview: {
-                value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
-            },
-            productAbout: {
-                value: [
-                    "Contains: One (1) 10-oz. bottle of Gold Bond Men's Essentials Body Powder, Refresh 360 Scent",
-                    "Moisture Control: Gold Bond Men's Essentials Body Powder protects against moisture to keep you feeling fresh",
-                    "Odor Protection: Gold Bond's Men's Body Powder absorbs odor-causing sweat",
-                    'Stay Fresh: Keeps you cool, dry, and comfortable',
-                    'When to Use: Use this body powder before exercising or heading into work, or just after showering to stay cool, dry, and comfortable'
-                ],
-                error: null
-            },
-            productDetails: {
-                value: {
-                    'Package Dimensions :':
-                        '7.76 x 2.87 x 2.05 inches; 10 Ounces',
-                    'Date First Available :': 'March 1, 2021',
-                    'Manufacturer :': 'Gold Bond',
-                    'ASIN :': 'B08W5GNXBG',
-                    'Best Sellers Rank:': '#5 in Feminine Powders',
-                    'Customer Reviews:': ''
-                },
-                error: null
-            },
-            images: {
-                value: [
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/31TaTcFRIfL._AC_US40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/61Vk1YOgrzL._AC_SY741_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51TCb44T6dL._AC_US40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/91t3GJWljBL._AC_SX425_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51GMGkzWzHL._AC_US40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/91g70g%2B8pyL._AC_SX425_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/61%2BU7TiiLgL._AC_US40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/A1GysGGts-L._AC_SX425_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51IRD7Bbt1L._AC_US40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/91XzpzskxhL._AC_SX425_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51MdFrX26UL._AC_US40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/7139bZSGOnL._AC_SX425_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/415Gm677M6L._AC_US40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81KPyGEs%2BZL._AC_SX425_.jpg'
-                    }
-                ],
-                error: null
-            },
-            priceDetail: {
-                value: {
-                    priceblock_ourprice: '$9.29',
-                    ounce: '($9.29 / Count)'
-                },
-                error: null
-            },
-            ratings: {
-                value: {
-                    rateStar: 'a-icon a-icon-star a-star-5',
-                    acrCustomerReviewText: '2 ratings'
-                },
-                error: null
-            }
-        }
-    },
-    {
-        url: 'https://www.amazon.com/gp/product/B00126LXNO?th=1&psc=1',
-        data: {
-            productTitle: {
-                value: 'Gold Bond CORNST Plus Baby PWD Size: 4 OZ',
-                error: null
-            },
-            ASIN: {
-                value: 'B00126LXNO',
-                error: null
-            },
-            basePrice: {
-                value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="priceblock_ourprice"]"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
-            },
-            mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/716tiYgsa9L._AC_SX425_.jpg',
-                error: null
-            },
-            sizeName: {
-                value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
-            },
-            styleName: {
-                value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
-            },
-            productDescription: {
-                value:
-                    "How do you make baby the freshest on the block? By keeping them dry and comfortable! Gold Bond Medicated Cornstarch Plus Baby Powder provides the same moisture control you trust for the older kids and adults in your family, but in a special formula for baby's skin. This baby powder with cornstarch helps treat and prevent diaper rash by protecting against wetness. Gold Bond Baby Powder also helps protect and soothe minor skin irritations associated with diaper rash. Although the bottle says baby powder, adults can also use this body powder to protect against wetness and temporarily protects chafed skin and helps relieve minor skin irritations. DIRECTIONS FOR USE: Children under 2 years: Change wet and soiled diapers promptly, cleansing the diaper area and allowing it to dry. Apply the baby powder liberally as often as necessary, with each diaper change, and especially at bedtime, or anytime when exposure to wet diapers may be prolonged. Apply the baby powder close to the body and away from child’s face. Carefully shake the powder into the diaper or into the hand and apply to the diaper area. Adults and children 2 years and older: Apply freely up to 3 or 4 times daily. Dry skin thoroughly before applying for best results.",
-                error: null
-            },
-            productOverview: {
-                value: {
-                    Ingredients: 'See package for ingredients',
-                    Brand: 'Gold Bond',
-                    'Skin Type': 'Dry',
-                    'Item Weight': '0.33 Pounds',
-                    'Item Form': 'Powder'
-                },
-                error: null
-            },
-            productAbout: {
-                value: [
-                    'CONTAINS: One (1) 4-oz. bottle of Gold Bond Medicated Baby Powder, Cornstarch Plus',
-                    'TREATS DIAPER RASH: Gold Bond Baby Powder helps treat and prevent diaper rash',
-                    'PROTECTS CHAFED SKIN: This baby powder formula helps temporarily protect chafed skin and relieves minor skin irritations due to diaper rash',
-                    'KEEPS BABY DRY: Gold Bond Medicated Baby Powder protects against wetness, so baby is dry and happy',
-                    'FOR MOM & DAD TOO: This body powder is also suitable for adults to temporarily protect chafed skin and help relieve minor skin irritation'
-                ],
-                error: null
-            },
-            productDetails: {
-                value: {
-                    'Is Discontinued By Manufacturer :': 'No',
-                    'Product Dimensions :':
-                        '2.88 x 1.75 x 5.13 inches; 5.2 Ounces',
-                    'Item model number :': '41167023044',
-                    'Date First Available :': 'November 22, 2004',
-                    'Manufacturer :': 'Gold Bond',
-                    'ASIN :': 'B00126LXNO',
-                    'Best Sellers Rank:': '#53 in Baby Powders',
-                    'Customer Reviews:': ''
-                },
-                error: null
-            },
-            images: {
-                value: [
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41Rw15OKpYL._AC_US40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/716tiYgsa9L._AC_SX425_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/61moSKorBcL._AC_US40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/A1SmGWr5XkL._AC_SX425_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51Y%2BlIZnxCL._AC_US40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/91j66G8NneL._AC_SX425_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41%2BA5oxSGqL._AC_US40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71QZ4T%2B5OPL._AC_SX425_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/519NIpigE2L._AC_US40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81oFzEk7-oL._AC_SX425_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51hVhPRy5IL._AC_US40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/814fQvRVs0L._AC_SX425_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/417zPtvw32L._AC_US40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81HwgYheRoL._AC_SX425_.jpg'
-                    }
-                ],
-                error: null
-            },
-            priceDetail: {
-                value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="price"]"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
-            },
-            ratings: {
-                value: {
-                    rateStar: 'a-icon a-icon-star a-star-4-5',
-                    acrCustomerReviewText: '3,468 ratings'
-                },
-                error: null
-            }
-        }
-    },
-    {
-        url: 'https://www.amazon.com/gp/product/B08W5F5X6Z?th=1&psc=1',
-        data: {
-            productTitle: {
-                value:
-                    'Gold Bond Medicated Talc-Free Extra Strength Body Powder 10 oz, Cooling, Absorbing & Itch Relief',
-                error: null
-            },
-            ASIN: {
-                value: 'B08W5F5X6Z',
-                error: null
-            },
-            basePrice: {
-                value: {
-                    symbol: '$',
-                    currency: 'USD',
-                    amount: 11.29
-                },
-                error: null
-            },
-            mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/81ewbskMKSL._SY355_.jpg',
-                error: null
-            },
-            sizeName: {
-                value: '10 Ounce',
-                error: null
-            },
-            styleName: {
-                value: 'Talc-Free',
-                error: null
-            },
-            productDescription: {
-                value:
-                    "Skin that's sweaty and itchy deserves extra-strength relief. Gold Bond Extra Strength Medicated Talc-Free Body Powder's unique triple action formula not only controls odor* and absorbs moisture with a cooling sensation, but it also has 5X the concentration of menthol compared to Gold Bond Original Strength Body Powder. Best of all, this extra-strength cooling and itch relieving powder is gentle enough to use daily when used as directed. Stock up on 10-oz. bottles of Extra Strength Gold Bond Medicated Body Powder and experience dependable itch relief when you need it most. Now talc-free and formulated without parabens and preservatives. Your skin is a champion. One that never settles for silver. Gold Bond is high performance skin care for real life so you can be your best while keeping your skin at its best. *Absorbs odor-causing sweat",
-                error: null
-            },
-            productOverview: {
-                value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
-            },
-            productAbout: {
-                value: [
-                    'Contains: One (1) 10-oz. bottle of Extra Strength Gold Bond Medicated Body Powder for Cooling, Absorbing & Itch Relief',
-                    'Unique Triple Action Relief: This Gold Bond Medicated Body Powder cools, absorbs moisture and relieves itch',
-                    'Extra Strength: Gold Bond Medicated Body Powder provides 5X the concentration of menthol compared to Original Strength',
-                    'When to Apply: Apply after showering or exercising to keep you cool, dry, and comfortable',
-                    'Cooling Menthol: Contains 0.8% menthol to cool and temporarily relieve itch'
-                ],
-                error: null
-            },
-            productDetails: {
-                value: {
-                    'Package Dimensions :':
-                        '7.24 x 4.02 x 2.4 inches; 13.12 Ounces',
-                    'Manufacturer :': 'Gold Bond',
-                    'ASIN :': 'B08W5F5X6Z',
-                    'Best Sellers Rank:':
-                        '#18 in Eczema, Psoriasis & Rosacea Care',
-                    'Customer Reviews:': ''
-                },
-                error: null
-            },
-            images: {
-                value: [
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41jNhlG-2YL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81ewbskMKSL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51qM4138uyL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/817yWdb4OeL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51cGaLzAo-L._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/91PCWA5QtNL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51OG8nN6m1L._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81W25Nc3xFL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/516e9usNVJL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/91OpCtSCabL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51MdFrX26UL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/7139bZSGOnL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41mcnh9UXmL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81NmMf33NxL._SY355_.jpg'
-                    }
-                ],
-                error: null
-            },
-            priceDetail: {
-                value: {
-                    priceblock_ourprice: '$11.29',
-                    ounce: '($11.29 / Count)'
-                },
-                error: null
-            },
-            ratings: {
-                value: {
-                    rateStar: 'a-icon a-icon-star a-star-4-5',
-                    acrCustomerReviewText: '9 ratings'
-                },
-                error: null
-            }
-        }
-    },
-    {
-        url: 'https://www.amazon.com/gp/product/B08W5DTJQR?th=1&psc=1',
-        data: {
-            productTitle: {
-                value:
-                    'Gold Bond Medicated Talc-Free Original Strength Body Powder, 1-Ounce',
-                error: null
-            },
-            ASIN: {
-                value: 'B08W5DTJQR',
-                error: null
-            },
-            basePrice: {
-                value: {
-                    symbol: '$',
-                    currency: 'USD',
-                    amount: 1.29
-                },
-                error: null
-            },
-            mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/71a0VEFEXrL._AC_SX425_.jpg',
-                error: null
-            },
-            sizeName: {
-                value: '1 Ounce (Pack of 1)',
-                error: null
-            },
-            styleName: {
-                value: 'Talc-Free',
-                error: null
-            },
-            productDescription: {
-                value:
-                    "Skin that's sweaty and itchy deserves cooling relief. Gold Bond Medicated Talc-Free Body Powder's unique triple action formula absorbs moisture, controls odor* and is formulated with 0.15% menthol to help relieve itch. This original-strength body powder provides cooling relief and is ideal for itch associated with minor skin irritations, including sunburn, insect bites, scrapes, and minor cuts and burns. Best of all, this Gold Bond(R) Powder is gentle enough to use daily when used as directed. Stock up on 1-oz. bottles of Gold Bond Original Strength Medicated Body Powder and experience dependable itch relief when you need it most. Now talc-free and formulated without parabens and preservatives. Your skin is a champion. One that never settles for silver. Gold Bond is high performance skin care for real life so you can be your best while keeping your skin at its best. *Absorbs odor-causing sweat",
-                error: null
-            },
-            productOverview: {
-                value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
-            },
-            productAbout: {
-                value: [
-                    'Contains: One (1) 1-oz. bottle of Gold Bond Medicated Body Powder Original Strength',
-                    'Unique Triple Action Relief: This Gold Bond Medicated Body Powder cools, absorbs moisture and relieves itch',
-                    'Relieves Itch: This body powder temporarily relieves pain and itching associated with minor cuts and burns, scrapes, insect bites and more',
-                    'Itch Relieving Menthol: Contains 0.15% menthol to temporarily relieve itch',
-                    'When to Apply: Apply after showering or exercising to keep you cool, dry, and comfortable'
-                ],
-                error: null
-            },
-            productDetails: {
-                value: {
-                    'Package Dimensions :': '7 x 4 x 2 inches; 8.01 Ounces',
-                    'Date First Available :': 'March 1, 2021',
-                    'Manufacturer :': 'Gold Bond',
-                    'ASIN :': 'B08W5DTJQR',
-                    'Best Sellers Rank:': '#420 in Health Care Products',
-                    'Customer Reviews:': ''
-                },
-                error: null
-            },
-            images: {
-                value: [
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41SBODhfdVL._AC_US40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71a0VEFEXrL._AC_SX425_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51qM4138uyL._AC_US40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/817yWdb4OeL._AC_SX425_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51lFd1viJ9L._AC_US40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/91u5WVsaNyL._AC_SX425_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51Cpjnz33aL._AC_US40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81sdUfloZeL._AC_SX425_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51rKtIK6fYL._AC_US40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81ESqpgKD6L._AC_SX425_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51MdFrX26UL._AC_US40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/7139bZSGOnL._AC_SX425_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41w9Dz8vODL._AC_US40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81z3HvuVfdL._AC_SX425_.jpg'
-                    }
-                ],
-                error: null
-            },
-            priceDetail: {
-                value: {
-                    priceblock_ourprice: '$1.29',
-                    ounce: '($1.29 / Count)'
-                },
-                error: null
-            },
-            ratings: {
-                value: {
-                    rateStar: 'a-icon a-icon-star a-star-5',
-                    acrCustomerReviewText: '2 ratings'
-                },
-                error: null
-            }
-        }
-    },
-    {
-        url: 'https://www.amazon.com/gp/product/B08W5DK88Y?th=1&psc=1',
-        data: {
-            productTitle: {
-                value:
-                    'Gold Bond Medicated Talc-Free Original Strength Body Powder',
-                error: null
-            },
-            ASIN: {
-                value: 'B08W5DK88Y',
-                error: null
-            },
-            basePrice: {
-                value: {
-                    symbol: '$',
-                    currency: 'USD',
-                    amount: 9.29
-                },
-                error: null
-            },
-            mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/812Wcq9OpPL._AC_SX425_.jpg',
-                error: null
-            },
-            sizeName: {
-                value: '10 Ounce (Pack of 1)',
-                error: null
-            },
-            styleName: {
-                value: 'Talc-Free',
-                error: null
-            },
-            productDescription: {
-                value:
-                    "Skin that's sweaty and itchy deserves cooling relief. Gold Bond Medicated Talc-Free Body Powder unique triple action formula absorbs moisture, controls odor* and is formulated with 0.15% menthol to relieve itch. This original-strength body powder provides cooling relief and is ideal for itch associated with minor skin irritations, including sunburn, insect bites, scrapes, and minor cuts and burns. Best of all, this Gold Bond(R) Powder is gentle enough to use daily when used as directed. Stock up on 10-oz. bottles of Gold Bond Original Strength Medicated Body Powder and experience dependable itch relief when you need it most. Now talc-free and formulated without parabens and preservatives. Your skin is a champion. One that never settles for silver. Gold Bond is high performance skin care for real life so you can be your best while keeping your skin at its best. *Absorbs odor-causing sweat",
-                error: null
-            },
-            productOverview: {
-                value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
-            },
-            productAbout: {
-                value: [
-                    'Contains: One (1) 10-oz. bottle of Gold Bond Medicated Body Powder Original Strength',
-                    'Unique Triple Action Relief: This Gold Bond Medicated Body Powder cools, absorbs moisture and relieves itch',
-                    'Relieves Itch: This body powder temporarily relieves pain and itching associated with minor cuts and burns, scrapes, insect bites and more',
-                    'Itch Relieving Menthol: Contains 0.15% menthol to temporarily relieve itch',
-                    'When to Apply: Apply after showering or exercising to keep you cool, dry, and comfortable'
-                ],
-                error: null
-            },
-            productDetails: {
-                value: {
-                    'Package Dimensions :':
-                        '7.17 x 3.98 x 2.2 inches; 11.99 Ounces',
-                    'Date First Available :': 'March 1, 2021',
-                    'Manufacturer :': 'Gold Bond',
-                    'ASIN :': 'B08W5DK88Y',
-                    'Best Sellers Rank:': '#420 in Health Care Products',
-                    'Customer Reviews:': ''
-                },
-                error: null
-            },
-            images: {
-                value: [
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41VMCwaQMAL._AC_US40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/812Wcq9OpPL._AC_SX425_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51waQjXScWL._AC_US40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/810ywfBGtpL._AC_SX425_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51lFd1viJ9L._AC_US40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/91u5WVsaNyL._AC_SX425_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51Cpjnz33aL._AC_US40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81sdUfloZeL._AC_SX425_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51DAtpbwXtL._AC_US40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81pBF7vewKL._AC_SX425_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51MdFrX26UL._AC_US40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/7139bZSGOnL._AC_SX425_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51YiCEbvxoL._AC_US40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81uVtZn7d8L._AC_SX425_.jpg'
-                    }
-                ],
-                error: null
-            },
-            priceDetail: {
-                value: {
-                    priceblock_ourprice: '$9.29',
-                    ounce: '($9.29 / Count)'
-                },
-                error: null
-            },
-            ratings: {
-                value: {
-                    rateStar: 'a-icon a-icon-star a-star-5',
-                    acrCustomerReviewText: '10 ratings'
-                },
-                error: null
-            }
-        }
-    },
-    {
-        url: 'https://www.amazon.com/gp/product/B012FUZ8NG?th=1&psc=1',
-        data: {
-            productTitle: {
-                value:
-                    'Gold Bond Ultimate Comfort Body Powder Aloe, White Fresh, 10 Ounce',
-                error: null
-            },
-            ASIN: {
-                value: 'B012FUZ8NG',
-                error: null
-            },
-            basePrice: {
-                value: {
-                    symbol: '$',
-                    currency: 'USD',
-                    amount: 4.79
-                },
-                error: null
-            },
-            mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/71n42lxVqWL._AC_SY879_.jpg',
-                error: null
-            },
-            sizeName: {
-                value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
-            },
-            styleName: {
-                value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
-            },
-            productDescription: {
-                value:
-                    'Gold Bond Ultimate Comfort Body Powder, Charmomile, Specially formulated to provide the ultimate in freshness, odor protection and moisture control. Gold Bond Ultimate Comfort Body Powder is a light, talc-free powder that works to help keep you dry to protect against chafing while it leaves your skin feeling fresh and silky-soft all day. In fact, Gold Bond Ultimate goes beyond ordinary body powders because it is enriched with Aloe and skin-nurturing vitamins A, C and E. It also contains natural botanicals like Chamomile and Lavender to help soothe and comfort. 100% Talc-free formula is safe and effective for the entire family. Provides total body freshness and comfort: torso, back, arms, legs, feet. All day odor and moisture protection. Enhances sleeping comfort. Fresh clean scent.',
-                error: null
-            },
-            productOverview: {
-                value: {
-                    Ingredients:
-                        'Corn Starch, Sodium Bicarbonate, Sil… See more',
-                    Scent: 'Fresh, Clean',
-                    'Item Form': 'Powder',
-                    Brand: 'Gold Bond',
-                    'Skin Type': 'All'
-                },
-                error: null
-            },
-            productAbout: {
-                value: [
-                    'Provides total body freshness.',
-                    'long lasting comfort to torso, back, arms, legs, feet.',
-                    'Odor protection and moisture control.'
-                ],
-                error: null
-            },
-            productDetails: {
-                value: {
-                    'Package Dimensions :':
-                        '8.15 x 3.74 x 2.13 inches; 10 Ounces',
-                    'Item model number :': 'AXCH06800-7-848911(1)',
-                    'Date First Available :': 'July 24, 2015',
-                    'Manufacturer :': 'Chattem Inc.',
-                    'ASIN :': 'B012FUZ8NG',
-                    'Best Sellers Rank:': '#29 in Body Lotions',
-                    'Customer Reviews:': ''
-                },
-                error: null
-            },
-            images: {
-                value: [
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41Kti2NVCQL._AC_US40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71n42lxVqWL._AC_SY879_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/31Enu9tZAVL._AC_US40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/31Enu9tZAVL._AC_.jpg'
-                    }
-                ],
-                error: null
-            },
-            priceDetail: {
-                value: {
-                    priceblock_ourprice: '$4.79',
-                    ounce: '($0.48 / Ounce)',
-                    price_block_savings: '$2.51 (34%)'
-                },
-                error: null
-            },
-            ratings: {
-                value: {
-                    rateStar: 'a-icon a-icon-star a-star-4-5',
-                    acrCustomerReviewText: '8,704 ratings'
-                },
-                error: null
-            }
-        }
-    },
-    {
-        url: 'https://www.amazon.com/gp/product/B08W5FMHGG?th=1&psc=1',
-        data: {
-            productTitle: {
-                value:
-                    "Gold Bond Men's Essentials Talc-Free Body Powder Spray 7 oz Nightfall Scent Wetness Protection",
-                error: null
-            },
-            ASIN: {
-                value: 'B08W5FMHGG',
-                error: null
-            },
-            basePrice: {
-                value: {
-                    symbol: '$',
-                    currency: 'USD',
-                    amount: 9.29
-                },
-                error: null
-            },
-            mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/71bQUPb%2BQwL._AC_SX425_.jpg',
-                error: null
-            },
-            sizeName: {
-                value: 'Nightfall',
-                error: null
-            },
-            styleName: {
-                value: 'Talc-Free',
-                error: null
-            },
-            productDescription: {
-                value:
-                    "Meet irresistible-smelling odor* and wetness control in a convenient, no-mess spray bottle. Gold Bond Men's Essentials Talc-Free Body Powder Spray's unique triple action formula keeps things feeling fresh while protecting against wetness. Simply point and spray wherever you need to feel refreshed. No loose powder, no mess. Best of all, this body powder for men provides a cooling sensation when you apply it. Gold Bond Body Powder Spray for Men comes in two irresistible scents: Recharge and Nightfall. Try them both to stay fresh and keep things interesting. Stock up on 7-oz. spray bottles of Gold Bond Men's Essentials Body Powder Spray so you always have that cool, fresh feeling on hand for whenever you need it. Pack one in your gym bag and keep a bottle in your bathroom to use after showering. Now talc-free and formulated without parabens and preservatives. *absorbs odor-causing sweat DIRECTIONS FOR USE: Shake well before each use. Hold can approximately 6”-8” from skin and spray evenly for 2-3 seconds. Do not spray directly on clothes.",
-                error: null
-            },
-            productOverview: {
-                value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
-            },
-            productAbout: {
-                value: [
-                    "Contains: One (1) 7-oz. spray bottle of Gold Bond Men's Essentials Body Powder Spray, Nightfall Scent",
-                    "Moisture Control: Gold Bond Men's Body Powder Spray absorbs moisture to keep you feeling fresh and cool",
-                    'No Mess Spray: This body powder for men comes in a convenient spray bottle for easy, no-mess application',
-                    'Odor Protection: The spray comes in refreshing Recharge scent and absorbs odor-causing sweat',
-                    'When to Use: Use this body powder before exercising or heading into work, or just after showering to stay cool, dry, and comfortable'
-                ],
-                error: null
-            },
-            productDetails: {
-                value: {
-                    'Package Dimensions :':
-                        '7.5 x 2.13 x 1 inches; 8.78 Ounces',
-                    'Date First Available :': 'March 1, 2021',
-                    'Manufacturer :': 'Gold Bond',
-                    'ASIN :': 'B08W5FMHGG',
-                    'Best Sellers Rank:': '#904 in Bath & Bathing Accessories',
-                    'Customer Reviews:': ''
-                },
-                error: null
-            },
-            images: {
-                value: [
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/412CBbRpRCL._AC_US40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71bQUPb%2BQwL._AC_SX425_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51TCb44T6dL._AC_US40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/91t3GJWljBL._AC_SX425_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51GMGkzWzHL._AC_US40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/91g70g%2B8pyL._AC_SX425_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/61%2BU7TiiLgL._AC_US40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/A1GysGGts-L._AC_SX425_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51lwZZZJvFL._AC_US40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/91ejHECn49L._AC_SX425_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51MdFrX26UL._AC_US40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/7139bZSGOnL._AC_SX425_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41dDhMtK4ML._AC_US40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81GRg3BhdVL._AC_SX425_.jpg'
-                    }
-                ],
-                error: null
-            },
-            priceDetail: {
-                value: {
-                    priceblock_ourprice: '$9.29',
-                    ounce: '($9.29 / Count)'
-                },
-                error: null
-            },
-            ratings: {
-                value: {
-                    rateStar: 'a-icon a-icon-star a-star-5',
-                    acrCustomerReviewText: '2 ratings'
-                },
-                error: null
-            }
-        }
-    },
-    {
-        url: 'https://www.amazon.com/gp/product/B08W5F2H15?th=1&psc=1',
-        data: {
-            productTitle: {
-                value:
-                    'Gold Bond No Mess Talc-Free Body Powder Spray 7 oz, Fresh Scent',
-                error: null
-            },
-            ASIN: {
-                value: 'B08W5F2H15',
-                error: null
-            },
-            basePrice: {
-                value: {
-                    symbol: '$',
-                    currency: 'USD',
-                    amount: 9.29
-                },
-                error: null
-            },
-            mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/71K2wHyOhdL._SY355_.jpg',
-                error: null
-            },
-            sizeName: {
-                value: '7 Ounce (Pack of 1)',
-                error: null
-            },
-            styleName: {
-                value: 'Fresh with Aloe (Talc-Free)',
-                error: null
-            },
-            productDescription: {
-                value:
-                    'Experience a blast of full-body coolness at the touch of a button. Gold Bond No Mess Talc-Free Body Powder Spray with fresh scent has a unique triple action formula for your whole body and targeted hot spots: It cools on contact, absorbs moisture and controls odor*. The 360-degree valve allows you to spray at any angle, even upside down. Best of all, Gold Bond Powder Spray keeps hands clean. Use Gold Bond No Mess Spray right before a workout or right after showering to keep cool, dry and comfortable. Stock up on an on-demand cooling sensation. Gold Bond No Mess Powder Spray also comes in Classic Scent. Now talc-free and formulated without parabens and preservatives. Your skin is a champion. One that never settles for silver. Gold Bond is high performance skin care for real life so you can be your best while keeping your skin at its best. *absorbs odor-causing sweat',
-                error: null
-            },
-            productOverview: {
-                value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
-            },
-            productAbout: {
-                value: [
-                    'Contains: One (1) 7-oz. spray can of Gold Bond No Mess Body Powder Spray, Fresh Scent With aloe',
-                    'No Mess Spray: Experience a blast of full-body coolness with the touch of a button',
-                    'Unique Triple Action Formula: This Gold Bond Body Spray cools on contact, absorbs moisture and refreshes',
-                    '360-Degree Valve: Spray Gold Bond No Mess Powder sprays in any direction, even upside down',
-                    'Fresh Scent: Stay cool, dry, and comfortable anytime, anywhere with odor* and wetness protection and a fresh scent'
-                ],
-                error: null
-            },
-            productDetails: {
-                value: {
-                    'Package Dimensions :':
-                        '7.5 x 2.13 x 1 inches; 9.14 Ounces',
-                    'Manufacturer :': 'Gold Bond',
-                    'ASIN :': 'B08W5F2H15',
-                    'Best Sellers Rank:': '#1 in Foot Odor Control Powders',
-                    'Customer Reviews:': ''
-                },
-                error: null
-            },
-            images: {
-                value: [
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/417Aw4unFaL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71K2wHyOhdL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41%2Bqs2UDYyL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81eprYnkPSL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51JGB0gJnBL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81srBgMadDL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51KKWARsJOL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/817CabhQ4eL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51LLpM2vwDL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81E-dODwn5L._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51MdFrX26UL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/7139bZSGOnL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41-gmAy%2BUOL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81OeitJlNAL._SY355_.jpg'
-                    }
-                ],
-                error: null
-            },
-            priceDetail: {
-                value: {
-                    priceblock_ourprice: '$9.29',
-                    ounce: '($9.29 / Count)'
-                },
-                error: null
-            },
-            ratings: {
-                value: {
-                    rateStar: 'a-icon a-icon-star a-star-4-5',
-                    acrCustomerReviewText: '11 ratings'
-                },
-                error: null
-            }
-        }
-    },
-    {
-        url: 'https://www.amazon.com/gp/product/B08W5FL1BT?th=1&psc=1',
-        data: {
-            productTitle: {
-                value:
-                    'Gold Bond No Mess Talc-Free Body Powder Spray, 7 oz, Classic Scent',
-                error: null
-            },
-            ASIN: {
-                value: 'B08W5FL1BT',
-                error: null
-            },
-            basePrice: {
-                value: {
-                    symbol: '$',
-                    currency: 'USD',
-                    amount: 6.97
-                },
-                error: null
-            },
-            mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/71elmdZOGoL._SY355_.jpg',
-                error: null
-            },
-            sizeName: {
-                value: '7 Ounce (Pack of 1)',
-                error: null
-            },
-            styleName: {
-                value: 'Classic (Talc-Free)',
-                error: null
-            },
-            productDescription: {
-                value:
-                    'Experience a blast of full-body coolness at the touch of a button. Gold Bond No Mess Talc-Free Body Powder Spray with classic scent has a unique triple action formula for your whole body and targeted hot spots: It cools on contact, absorbs moisture and controls odor*. The 360-degree valve allows you to spray at any angle, even upside down. Best of all, Gold Bond Powder Spray keeps hands clean. Use Gold Bond No Mess Spray right before a workout or right after showering to keep cool, dry and comfortable. Stock up on an on-demand cooling sensation. Gold Bond No Mess Powder Spray also comes in Fresh Scent. Now talc-free and formulated without parabens and preservatives. Your skin is a champion. One that never settles for silver. Gold Bond is high performance skin care for real life so you can be your best while keeping your skin at its best. *absorbs odor-causing sweat',
-                error: null
-            },
-            productOverview: {
-                value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
-            },
-            productAbout: {
-                value: [
-                    'Contains: One (1) 7-oz. spray can of Gold Bond No Mess Body Powder Spray, Classic Scent With menthol',
-                    'No Mess Spray: Experience a blast of full-body coolness with the touch of a button',
-                    'Unique Triple Action Formula: This Gold Bond Body Spray cools on contact, absorbs moisture and refreshes',
-                    '360-Degree Valve: Spray Gold Bond No Mess Powder sprays in any direction, even upside down',
-                    'Classic Scent: Stay cool, dry, and comfortable anytime, anywhere with odor* and wetness protection and a classic scent'
-                ],
-                error: null
-            },
-            productDetails: {
-                value: {
-                    'Package Dimensions :':
-                        '7.32 x 2.05 x 2.01 inches; 8.78 Ounces',
-                    'Manufacturer :': 'Gold Bond',
-                    'ASIN :': 'B08W5FL1BT',
-                    'Best Sellers Rank:': '#1 in Foot Odor Control Powders',
-                    'Customer Reviews:': ''
-                },
-                error: null
-            },
-            images: {
-                value: [
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41uuAC8aGhL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71elmdZOGoL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41%2Bqs2UDYyL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81eprYnkPSL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51Ddf%2BvZb4L._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81KIPz0ORcL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51KKWARsJOL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/817CabhQ4eL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51jSAz7bCML._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81kSWPf0vlL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51MdFrX26UL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/7139bZSGOnL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41XAv5vKmjL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81pKH-u0TAL._SY355_.jpg'
-                    }
-                ],
-                error: null
-            },
-            priceDetail: {
-                value: {
-                    priceblock_ourprice: '$6.97',
-                    ounce: '($6.97 / Count)'
-                },
-                error: null
-            },
-            ratings: {
-                value: {
-                    rateStar: 'a-icon a-icon-star a-star-4-5',
-                    acrCustomerReviewText: '11 ratings'
-                },
-                error: null
-            }
-        }
-    },
-    {
-        url: 'https://www.amazon.com/gp/product/B08R5K6P28?th=1&psc=1',
-        data: {
-            productTitle: {
-                value:
-                    'Gold Bond No Mess Invisible Clear Body Powder Spray, 7 Ounce, 7 ounces',
-                error: null
-            },
-            ASIN: {
-                value: 'B08R5K6P28',
-                error: null
-            },
-            basePrice: {
-                value: {
-                    symbol: '$',
-                    currency: 'USD',
-                    amount: 16.38
-                },
-                error: null
-            },
-            mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/81uX7%2BYMHiL._SY355_.jpg',
-                error: null
-            },
-            sizeName: {
-                value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
-            },
-            styleName: {
-                value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
-            },
-            productDescription: {
-                value:
-                    'Gold Bond Clear Body Invisible Spray it delivers the odor and wetness protection of Gold Bond Powder in a convenient spray. Application is quick and easy. The continuous, focused Spray delivers powder right where you want it and the 360 Degree valve lets you spray It any direction - even upside down. Use the spray before work, physical activity or after showering to keep you cool, dry and comfortable.',
-                error: null
-            },
-            productOverview: {
-                value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
-            },
-            productAbout: {
-                value: [
-                    'Invisible application - no white markings',
-                    'Invisible application/ Sprays on clear.',
-                    'Keeps your body dry and comfortable ',
-                    'Triple Action Relief: Cooling, Absorbing and Odor-Controlling'
-                ],
-                error: null
-            },
-            productDetails: {
-                value: {
-                    'Product Dimensions :':
-                        '2.13 x 2.13 x 7.5 inches; 8.99 Ounces',
-                    'UPC :': '041167019153',
-                    'Manufacturer :': 'AmazonUs/CHMZ7',
-                    'ASIN :': 'B08R5K6P28',
-                    'Best Sellers Rank:': '#277 in Antiperspirants'
-                },
-                error: null
-            },
-            images: {
-                value: [
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41C1ebEWbuL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81uX7%2BYMHiL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51-EpFLaXwL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/817xelE8w7L._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/416QAOte3KL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81jK%2BEzcFoL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41rerzOfTZL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71i8aZmu0CL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/61ByaNfZv%2BL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/91b3rmkxKZL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/515cY9qykLL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71hHvPNul0L._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41C0IZp6ZBL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81vKYLX-rHL._SY355_.jpg'
-                    }
-                ],
-                error: null
-            },
-            priceDetail: {
-                value: {
-                    priceblock_ourprice: '$16.38',
-                    ounce: '($2.34 / Ounce)'
-                },
-                error: null
-            },
-            ratings: {
-                value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="averageCustomerReviews"]"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
-            }
-        }
-    },
-    {
-        url: 'https://www.amazon.com/gp/product/B08W5DQXW9?th=1&psc=1',
-        data: {
-            productTitle: {
-                value:
-                    'Gold Bond Medicated Talc-Free Foot Powder 10 oz, Maximum Strength Odor Control & Itch Relief',
-                error: null
-            },
-            ASIN: {
-                value: 'B08W5DQXW9',
-                error: null
-            },
-            basePrice: {
-                value: {
-                    symbol: '$',
-                    currency: 'USD',
-                    amount: 5.94
-                },
-                error: null
-            },
-            mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/81XqQOtlNCL._SY355_.jpg',
-                error: null
-            },
-            sizeName: {
-                value: '10 Ounce',
-                error: null
-            },
-            styleName: {
-                value: 'Talc-Free',
-                error: null
-            },
-            productDescription: {
-                value:
-                    "Get relief with Gold Bond Medicated Talc-Free Foot Powder's unique triple action formula. This maximum-strength medicated powder absorbs moisture, relieves itch, and provides a cooling sensation to help keep feet feeling dry and comfortable. This foot powder also helps control foot odor* to help keep feet smelling happy. You can't argue with happy feet! Use Gold Bond Medicated Foot Powder after showering, before exercising or any time you're putting on shoes. Stock up on 10-ounce bottles of Gold Bond Foot Powder so you always have cooling relief on hand. Now talc-free and formulated without parabens and preservatives. Your skin is a champion. One that never settles for silver. Gold Bond is high performance skin care for real life so you can be your best while keeping your skin at its best. *Absorbs odor-causing sweat",
-                error: null
-            },
-            productOverview: {
-                value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
-            },
-            productAbout: {
-                value: [
-                    'Contains: One (1) 10-oz. bottle Maximum Strength Gold Bond Medicated Foot Powder for Odor Control & Itch Relief',
-                    'Maximum Strength Itch Relief: Gold Bond Maximum Strength Foot Powder stops itching in its tracks',
-                    'Odor* and Wetness Protection: This foot powder controls odor* and wetness to give you happy feet',
-                    'Keeps Feet Dry: Gold Bond Medicated Foot Powder absorbs moisture to keep feet dry and comfortable',
-                    'Controls Foot Odor*: Stinky feet have met their match with a shake of Gold Bond Foot Powder'
-                ],
-                error: null
-            },
-            productDetails: {
-                value: {
-                    'Package Dimensions :':
-                        '7.2 x 3.98 x 2.2 inches; 13.12 Ounces',
-                    'Manufacturer :': 'Gold Bond',
-                    'ASIN :': 'B08W5DQXW9',
-                    'Best Sellers Rank:': '#3 in Foot Odor Control Powders',
-                    'Customer Reviews:': ''
-                },
-                error: null
-            },
-            images: {
-                value: [
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41dd2gBXU0L._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81XqQOtlNCL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51qM4138uyL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/817yWdb4OeL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41ioXz--aLL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81RPgMFrlcL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51AlsWmz3KL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81G3fp36DJL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51pqW5g17IL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81NRdI32qaL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51MdFrX26UL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/7139bZSGOnL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/411gYOPx6ZL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81sy3JeVUmL._SY355_.jpg'
-                    }
-                ],
-                error: null
-            },
-            priceDetail: {
-                value: {
-                    priceblock_ourprice: '$5.94',
-                    ounce: '($5.94 / Count)',
-                    price_block_savings: '$6.35 (52%)'
-                },
-                error: null
-            },
-            ratings: {
-                value: {
-                    rateStar: 'a-icon a-icon-star a-star-4-5',
-                    acrCustomerReviewText: '11 ratings'
-                },
-                error: null
-            }
-        }
-    },
-    {
-        url: 'https://www.amazon.com/gp/product/B08W5GLXWT?th=1&psc=1',
-        data: {
-            productTitle: {
-                value:
-                    'Gold Bond Medicated Talc-Free Foot Powder 4 oz, Maximum Strength Odor Control & Itch Relief',
-                error: null
-            },
-            ASIN: {
-                value: 'B08W5GLXWT',
-                error: null
-            },
-            basePrice: {
-                value: {
-                    symbol: '$',
-                    currency: 'USD',
-                    amount: 5.59
-                },
-                error: null
-            },
-            mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/81L-0zMrHlL._SY355_.jpg',
-                error: null
-            },
-            sizeName: {
-                value: '4 Ounce',
-                error: null
-            },
-            styleName: {
-                value: 'Talc-Free',
-                error: null
-            },
-            productDescription: {
-                value:
-                    "Get relief with Gold Bond Medicated Talc-Free Foot Powder's unique triple action formula. This maximum-strength medicated powder absorbs moisture, relieves itch, and provides a cooling sensation to help keep feet feeling dry and comfortable. This foot powder also helps control foot odor* to help keep feet smelling happy. You can't argue with happy feet! Use Gold Bond Medicated Foot Powder after showering, before exercising or any time you're putting on shoes. Stock up on 4-ounce bottles of Gold Bond Foot Powder so you always have cooling relief on hand. Now talc-free and formulated without parabens and preservatives. Your skin is a champion. One that never settles for silver. Gold Bond is high performance skin care for real life so you can be your best while keeping your skin at its best. *Absorbs odor-causing sweat",
-                error: null
-            },
-            productOverview: {
-                value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
-            },
-            productAbout: {
-                value: [
-                    'Contains: One (1) 4-oz. bottle Maximum Strength Gold Bond Medicated Foot Powder for Odor Control & Itch Relief',
-                    'Maximum Strength Itch Relief: Gold Bond Maximum Strength Foot Powder stops itching in its tracks',
-                    'Odor* and Wetness Protection: This foot powder controls odor* and wetness to give you happy feet',
-                    'Keeps Feet Dry: Gold Bond Medicated Foot Powder absorbs moisture to keep feet dry and comfortable',
-                    'Controls Foot Odor*: Stinky feet have met their match with a shake of Gold Bond Foot Powder'
-                ],
-                error: null
-            },
-            productDetails: {
-                value: {
-                    'Package Dimensions :':
-                        '5.08 x 2.68 x 1.61 inches; 4.97 Ounces',
-                    'Manufacturer :': 'Gold Bond',
-                    'ASIN :': 'B08W5GLXWT',
-                    'Best Sellers Rank:': '#3 in Foot Odor Control Powders',
-                    'Customer Reviews:': ''
-                },
-                error: null
-            },
-            images: {
-                value: [
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41dP0YZaEBL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81L-0zMrHlL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51qM4138uyL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/817yWdb4OeL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41ioXz--aLL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81RPgMFrlcL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51AlsWmz3KL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81G3fp36DJL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51liJ8sJ6TL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81AxSAxz8hL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51MdFrX26UL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/7139bZSGOnL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41FnxQc5IcL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81zdtCU72nL._SY355_.jpg'
-                    }
-                ],
-                error: null
-            },
-            priceDetail: {
-                value: {
-                    priceblock_ourprice: '$5.59',
-                    ounce: '($5.59 / Count)'
-                },
-                error: null
-            },
-            ratings: {
-                value: {
-                    rateStar: 'a-icon a-icon-star a-star-4-5',
-                    acrCustomerReviewText: '11 ratings'
-                },
-                error: null
-            }
-        }
-    },
-    {
-        url: 'https://www.amazon.com/gp/product/B08W69NCD7?th=1&psc=1',
-        data: {
-            productTitle: {
-                value:
-                    'Gold Bond No Mess Talc-Free Foot Powder Spray 7 oz, Fresh Scent',
-                error: null
-            },
-            ASIN: {
-                value: 'B08W69NCD7',
-                error: null
-            },
-            basePrice: {
-                value: {
-                    symbol: '$',
-                    currency: 'USD',
-                    amount: 12.29
-                },
-                error: null
-            },
-            mainImage: {
-                value:
-                    'https://images-na.ssl-images-amazon.com/images/I/71DZmaMkSwL._SY355_.jpg',
-                error: null
-            },
-            sizeName: {
-                value: '7 Ounce (Pack of 1)',
-                error: null
-            },
-            styleName: {
-                value: 'Fresh (Talc-Free)',
-                error: null
-            },
-            productDescription: {
-                value:
-                    'Give your feet a blast of coolness with the touch of a button. Gold Bond No Mess Foot Talc-Free Powder Spray with Fresh Scent absorbs moisture and cools on contact for no-mess relief from sweaty and stinky feet. This foot spray comes in a fresh scent to help control odor. Best of all, this Gold Bond Foot Spray has a 360-degree valve so you can spray in any direction, even upside down. Stay cool and keep hands clean with Gold Bond Foot Spray. Stock up on 7-oz. bottles of Gold Bond Foot Powder Spray so you always have cooling relief on hand. Now talc-free and formulated without parabens and preservatives. Your skin is a champion. One that never settles for silver. Gold Bond is high performance skin care for real life so you can be your best while keeping your skin at its best. *absorbs odor-causing sweat',
-                error: null
-            },
-            productOverview: {
-                value: null,
-                error:
-                    'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=90.0.4430.40)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Mac OS X 11.2.3 x86_64)'
-            },
-            productAbout: {
-                value: [
-                    'Contains: One (1) 7-oz. spray can of Gold Bond No Mess Foot Powder Spray Fresh Scent',
-                    'No Mess Spray: Experience a blast of coolness on your feet with the touch of a button',
-                    'Unique Triple Action Formula: This Gold Bond No Mess Foot Spray cools on contact, absorbs moisture and controls odor*',
-                    '360-Degree Valve: Spray Gold Bond No Mess Powder sprays in any direction, even upside down',
-                    'Fresh Scent: Stay cool, dry, and comfortable anytime, anywhere with odor* and wetness protection and a fresh scent'
-                ],
-                error: null
-            },
-            productDetails: {
-                value: {
-                    'Package Dimensions :':
-                        '7.5 x 2.13 x 1 inches; 9.14 Ounces',
-                    'Manufacturer :': 'Gold Bond',
-                    'ASIN :': 'B08W69NCD7',
-                    'Best Sellers Rank:': '#1 in Foot Odor Control Powders',
-                    'Customer Reviews:': ''
-                },
-                error: null
-            },
-            images: {
-                value: [
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41p-fCAwfrL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/71DZmaMkSwL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41%2Bqs2UDYyL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81eprYnkPSL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51W%2BXfImX3L._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81D3EmHbSBL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51pu7HJ0osL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81PwXlobbLL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/519I91jx0GL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/81q4b2AIoLL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/51MdFrX26UL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/7139bZSGOnL._SY355_.jpg'
-                    },
-                    {
-                        thumbnailSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/41Ob3HX6wXL._SS40_.jpg',
-                        realImageSrc:
-                            'https://images-na.ssl-images-amazon.com/images/I/813VwFot6LL._SY355_.jpg'
-                    }
-                ],
-                error: null
-            },
-            priceDetail: {
-                value: {
-                    priceblock_ourprice: '$12.29',
-                    ounce: '($12.29 / Count)'
-                },
-                error: null
-            },
-            ratings: {
-                value: {
-                    rateStar: 'a-icon a-icon-star a-star-4-5',
-                    acrCustomerReviewText: '11 ratings'
+                    rateStar: 'a-icon a-icon-star a-star-4',
+                    acrCustomerReviewText: '6 ratings'
                 },
                 error: null
             }
@@ -7544,6 +4785,7 @@ const products = [
     }
 ];
 
-
-export const defaultAsins = products.slice(0, 8).map(obj => obj.data.ASIN.value);
+export const defaultAsins = products
+    .slice(0, 3)
+    .map((obj) => obj.data.ASIN.value);
 export default products;

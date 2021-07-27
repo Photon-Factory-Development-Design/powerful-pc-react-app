@@ -2,6 +2,7 @@ const styles = () => ({
     iconContainer: {
         width: 120,
         height: 120,
+        cursor: 'pointer',
         position: 'relative',
         borderRadius: '10px',
         border: '1px solid #999',

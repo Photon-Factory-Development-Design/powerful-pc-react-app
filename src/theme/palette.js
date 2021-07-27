@@ -12,7 +12,8 @@ const palette = {
         secondary: '#2B2B2B',
         darkBlue: '#003D54',
         black: '#000',
-        white: '#FFFFFF'
+        white: '#FFFFFF',
+        gray: '#707070'
     },
 
     background: {
@@ -20,7 +21,9 @@ const palette = {
         littleDark: '#E7E0E0',
         secondary: '#fff',
         lightDark: '#F3EDEC',
-        blue: '##00ABEC'
+        blue: '#00ABEC',
+        gray: '#707070',
+        lightGray: '#EEEEEE'
     }
 };
 
