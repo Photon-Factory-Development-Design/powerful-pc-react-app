@@ -8,14 +8,12 @@ import {
 } from '@material-ui/core';
 
 const useStyles = makeStyles({
-    root: {
-        backgroundColor: '#F3EDEC'
-    },
+    root: {},
     iconContainer: {
         transform: 'scale(1)'
     },
     labelContainer: {
-        color: '#003D54 !important'
+        color: 'rgb(0, 171, 236) !important'
     }
 });
 
@@ -23,7 +21,11 @@ const Stepper = ({ steps, activeStep, onUpdateIndex }) => {
     const classes = useStyles();
 
     return (
-        <MuiStepper alternativeLabel nonLinear activeStep={activeStep} classes={{ root: classes.root }}>
+        <MuiStepper
+            alternativeLabel
+            nonLinear
+            activeStep={activeStep}
+            classes={{ root: classes.root }}>
             {steps.map((label, index) => {
                 const stepProps = {};
                 const buttonProps = {};

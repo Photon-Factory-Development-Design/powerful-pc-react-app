@@ -11,7 +11,6 @@ const QuizContainer = React.forwardRef((props, ref) => {
     const [asins, setAsins] = React.useState(DefaultAsins);
 
     React.useEffect(() => {
-        console.log('questionPath=', questionPath);
         if (questionPath && questionPath.length === 2) {
             setAsins(getAsins(questionPath));
         }
@@ -25,10 +24,15 @@ const QuizContainer = React.forwardRef((props, ref) => {
                 className="adt-results"
                 bgcolor="background.lightGray"
                 mt={2}
+                mb={9}
                 pb={6}
                 pt={5}>
                 <Box mt={5} py={2}>
-                    <Typography variant="h3" color="darkBlue">
+                    <Typography
+                        variant="h3"
+                        color="gray"
+                        fontSize="22px"
+                        lineHeight="24px">
                         RECOMMENDED FOR YOU
                     </Typography>
                 </Box>
@@ -46,9 +50,14 @@ const QuizContainer = React.forwardRef((props, ref) => {
                 className="adt-results"
                 bgcolor="background.lightGray"
                 pb={6}
-                pt={5}>
+                pt={5}
+                mt={9}>
                 <Box mt={5} py={2}>
-                    <Typography variant="h3" color="darkBlue">
+                    <Typography
+                        variant="h3"
+                        color="gray"
+                        fontSize="22px"
+                        lineHeight="25px">
                         RECOMMENDED ACCESSORIES FOR YOUR PC
                     </Typography>
                 </Box>

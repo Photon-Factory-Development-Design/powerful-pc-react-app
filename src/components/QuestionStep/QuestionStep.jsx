@@ -19,31 +19,18 @@ const QuestionStep = ({ questions, step, label, onChange }) => {
 
     return (
         <Container>
-            <Box display="flex" flexDirection="column" alignItems="center" py={5}>
-                <Box
-                    width={60}
-                    height={60}
-                    borderRadius="50%"
-                    display="flex"
-                    alignItems="center"
-                    justifyContent="center"
-                    bgcolor="background.blue"
-                    my={2}>
-                    <Typography
-                        variant="h1"
-                        color="white"
-                        align="center"
-                        fontSize="30px"
-                        lineHeight="32px">
-                        {step}
-                    </Typography>
-                </Box>
+            <Box
+                display="flex"
+                flexDirection="column"
+                alignItems="center"
+                py={5}>
                 <Typography
                     variant="h3"
                     color="black"
                     align="center"
-                    fontSize="45px"
-                    lineHeight="48px">
+                    fontSize="25px"
+                    lineHeight="28px"
+                    fontWeight={300}>
                     {label}
                 </Typography>
                 <Box

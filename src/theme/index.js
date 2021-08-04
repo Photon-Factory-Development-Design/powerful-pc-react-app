@@ -18,7 +18,7 @@ const Theme = createMuiTheme({
             root: {
                 left: 'calc(-50% + 40px) !important',
                 right: 'calc(50% + 40px) !important',
-                top: '30px !important'
+                top: '25px !important'
             }
         },
         MuiStepLabel: {
@@ -26,17 +26,20 @@ const Theme = createMuiTheme({
                 textTransform: 'uppercase'
             },
             active: {
-                color: '#003D54 !important'
+                color: 'rgb(0, 171, 236) !important'
             }
         },
         MuiStepIcon: {
             active: {
-                color: '#003D54 !important'
+                color: 'rgb(0, 171, 236) !important'
             }
         },
         MuiSvgIcon: {
             root: {
-                fontSize: '60px !important'
+                fontSize: '50px !important',
+                '& text': {
+                    fontSize: '0.5rem'
+                }
             }
         },
         MuiTypography: {

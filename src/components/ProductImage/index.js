@@ -28,6 +28,10 @@ const ProductImage = ({ img }) => {
             dimension.height = 500;
             dimension.width = ratio * dimension.height;
         }
+        if (image.width > 400) {
+            dimension.width = 400;
+            dimension.height = dimension.width / ratio;
+        }
         setDimension(dimension);
     }, []);
 

@@ -10,6 +10,7 @@ const styles = () => ({
         alignItems: 'center',
         justifyContent: 'center',
         backgroundColor: '#FBF5F5',
+        // backgroundImage: 'linear-gradient(to top right, #00A8E8, #3CC0F3)',
         overflow: 'hidden',
         '& .triangle': {
             display: 'none',
@@ -20,13 +21,13 @@ const styles = () => ({
             bottom: 0
         },
         '&.active': {
-            backgroundColor: '#3CC0F3',
+            backgroundImage: 'linear-gradient(to top, #00A4EA, #18B8F1 40%)',
             '& .triangle': {
                 display: 'block'
             }
         },
         '&:hover': {
-            backgroundColor: '#3CC0F3',
+            backgroundImage: 'linear-gradient(to top, #00A4EA, #18B8F1 40%)',
             '& .triangle': {
                 display: 'block'
             }

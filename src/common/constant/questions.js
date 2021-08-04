@@ -59,6 +59,7 @@ const questions = {
 };
 
 export const getAsins = (path) => {
+    console.log(path);
     return questions[path[0]][path[1]].products;
 };
 export default questions;

@@ -19,7 +19,6 @@ const Button = ({ selected, onSelect, icon, classes, label }) => {
                     selected ? 'active' : ''
                 }`}>
                 {icon && <img src={icon} alt="icon" />}
-                <Box className="triangle"></Box>
             </Box>
             <Box p={1}>
                 <Typography

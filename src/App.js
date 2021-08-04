@@ -75,9 +75,9 @@ function App() {
     return (
         <React.Fragment>
             <ThemeProvider theme={theme}>
-                <Box>
+                {/* <Box>
                     <Header onClickQuiz={onClickQuiz} />
-                </Box>
+                </Box> */}
                 <QuizContainer
                     ref={quizRef}
                     setDetailProduct={setDetailProduct}
@@ -89,7 +89,7 @@ function App() {
                     product={product}
                 />
 
-                <Hero />
+                {/* <Hero /> */}
             </ThemeProvider>
         </React.Fragment>
     );
