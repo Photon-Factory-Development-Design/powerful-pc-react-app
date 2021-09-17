@@ -8,12 +8,17 @@ import {
 } from '@material-ui/core';
 
 const useStyles = makeStyles({
-    root: {},
+    root: {
+        justifyContent: 'center'
+    },
     iconContainer: {
         transform: 'scale(1)'
     },
     labelContainer: {
         color: 'rgb(0, 171, 236) !important'
+    },
+    stepRoot: {
+        maxWidth: 200
     }
 });
 
@@ -30,7 +35,7 @@ const Stepper = ({ steps, activeStep, onUpdateIndex }) => {
                 const stepProps = {};
                 const buttonProps = {};
                 return (
-                    <Step key={label} {...stepProps}>
+                    <Step key={label} {...stepProps} classes={{ root: classes.stepRoot }}>
                         <StepButton
                             onClick={() => onUpdateIndex(index)}
                             {...buttonProps}>

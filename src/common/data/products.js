@@ -4782,6 +4782,3238 @@ const products = [
                 error: null
             }
         }
+    },
+    {
+        url: 'https://www.amazon.com/gp/product/B08VJDGK2H?th=1&psc=1',
+        data: {
+            productTitle: {
+                value: 'HP X500 Wired Mouse (Black, E5E76AA)',
+                error: null
+            },
+            ASIN: {
+                value: 'B08VJDGK2H',
+                error: null
+            },
+            basePrice: {
+                value: {
+                    symbol: '$',
+                    currency: 'USD',
+                    amount: 10.99
+                },
+                error: null
+            },
+            mainImage: {
+                value: 'https://m.media-amazon.com/images/I/31J6O75mp9L._AC_SY355_.jpg',
+                error: null
+            },
+            sizeName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            styleName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            productDescription: {
+                value: 'Stylish enhancement to a classic. Enjoy the comfortable HP Wired Mouse X500 with simple USB connection. The optical tracking provides smooth tracking and programmable 3 button controls can work with either hand.',
+                error: null
+            },
+            productOverview: {
+                value: {
+                    'Connectivity Technology': 'USB',
+                    Brand: 'HP',
+                    'Compatible Devices': 'Available USB port required',
+                    Series: 'HP X500 Wired Mouse',
+                    'Movement Detection Technology': 'Optical'
+                },
+                error: null
+            },
+            productAbout: {
+                value: [
+                    '',
+                    'Designed with your comfort in mind, the elongated arch and contoured shape provides relaxed control for either right or left-hand users.',
+                    'Navigate windows easily with 3 button control and scroll wheel.',
+                    'Simply insert the USB cord to power your mouse and avoid ever replacing batteries. No software or downloads required.',
+                    'The optical tracking technology provides ideal tracking on most surfaces for accurate and smooth control.'
+                ],
+                error: null
+            },
+            productDetails: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            images: {
+                value: [
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/31J6O75mp9L._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/31J6O75mp9L._AC_SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/31MmcGXa-uL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/31MmcGXa-uL._AC_SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/31C2DqP343L._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/31C2DqP343L._AC_SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/317AE9A-4LL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/317AE9A-4LL._AC_SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/31sFW2cbpwL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/31sFW2cbpwL._AC_SY355_.jpg'
+                    }
+                ],
+                error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$10.99',
+                    ounce: 'Get Fast, Free Shipping with Amazon Prime & FREE Returns'
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-5',
+                    acrCustomerReviewText: '21 ratings'
+                },
+                error: null
+            }
+        }
+    },
+    {
+        url: 'https://www.amazon.com/gp/product/B08VJDGK2H?th=1&psc=1',
+        data: {
+            productTitle: {
+                value: 'HP X500 Wired Mouse (Black, E5E76AA)',
+                error: null
+            },
+            ASIN: {
+                value: 'B08VJDGK2H',
+                error: null
+            },
+            basePrice: {
+                value: {
+                    symbol: '$',
+                    currency: 'USD',
+                    amount: 10.99
+                },
+                error: null
+            },
+            mainImage: {
+                value: 'https://m.media-amazon.com/images/I/31J6O75mp9L._AC_SY355_.jpg',
+                error: null
+            },
+            sizeName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            styleName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            productDescription: {
+                value: 'Stylish enhancement to a classic. Enjoy the comfortable HP Wired Mouse X500 with simple USB connection. The optical tracking provides smooth tracking and programmable 3 button controls can work with either hand.',
+                error: null
+            },
+            productOverview: {
+                value: {
+                    'Connectivity Technology': 'USB',
+                    Brand: 'HP',
+                    'Compatible Devices': 'Available USB port required',
+                    Series: 'HP X500 Wired Mouse',
+                    'Movement Detection Technology': 'Optical'
+                },
+                error: null
+            },
+            productAbout: {
+                value: [
+                    '',
+                    'Designed with your comfort in mind, the elongated arch and contoured shape provides relaxed control for either right or left-hand users.',
+                    'Navigate windows easily with 3 button control and scroll wheel.',
+                    'Simply insert the USB cord to power your mouse and avoid ever replacing batteries. No software or downloads required.',
+                    'The optical tracking technology provides ideal tracking on most surfaces for accurate and smooth control.'
+                ],
+                error: null
+            },
+            productDetails: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            images: {
+                value: [
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/31J6O75mp9L._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/31J6O75mp9L._AC_SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/31MmcGXa-uL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/31MmcGXa-uL._AC_SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/31C2DqP343L._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/31C2DqP343L._AC_SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/317AE9A-4LL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/317AE9A-4LL._AC_SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/31sFW2cbpwL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/31sFW2cbpwL._AC_SY355_.jpg'
+                    }
+                ],
+                error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$10.99',
+                    ounce: 'Get Fast, Free Shipping with Amazon Prime & FREE Returns'
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-5',
+                    acrCustomerReviewText: '21 ratings'
+                },
+                error: null
+            }
+        }
+    },
+    {
+        url: 'https://www.amazon.com/gp/product/B07QHV16PM?th=1&psc=1',
+        data: {
+            productTitle: {
+                value: 'HP Pavilion Gaming Wired Mechanical Keyboard 800 with 4-Zone Backlit LED, Anti-Ghosting N-Key Rollover, Audio Control, and Red Mechanical Switches, (5JS06AA)',
+                error: null
+            },
+            ASIN: {
+                value: 'B07QHV16PM',
+                error: null
+            },
+            basePrice: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="priceblock_ourprice"]"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            mainImage: {
+                value: 'https://m.media-amazon.com/images/I/71CLbIVnscL._AC_SX450_.jpg',
+                error: null
+            },
+            sizeName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            styleName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            productDescription: {
+                value: 'The HP Pavilion Gaming Keyboard 800 combines lightning-fast n-key rollover with 100% anti-ghosting to bring you smooth and precise gameplay. 4-zone LED backlighting with personalized settings allow you to play in dark rooms without sacrificing accuracy. A soft and detachable wrist support gives you optimum comfort for prolonged sessions, while featured a Windows lock function key prevents accidental interruptions while gaming.',
+                error: null
+            },
+            productOverview: {
+                value: {
+                    'Keyboard Description': 'Gaming',
+                    'Connectivity Technology': 'Wired',
+                    'Special Feature': 'Lighting',
+                    Brand: 'HP',
+                    Series: 'HP Pavilion Gaming Keyboard 800',
+                    '': ''
+                },
+                error: null
+            },
+            productAbout: {
+                value: [
+                    '',
+                    'SILENT KEYSTROKES - Red mechanical key switches allow for rapid key action while minimizing noise and resistance',
+                    'LED BACKLIT - Customize colorful LED backlighting by altering the light speed, direction, and more — all without software',
+                    'ANTI-GHOSTING - 100% anti-ghosting with n-key rollover ensures that no matter how fast you make your next move, every keypress is detected',
+                    'WRIST SUPPORT - A detachable wrist rest provides ergonomic comfort and alleviates pressure for prolonged gaming sessions',
+                    'EASILY CHANGE MEDIA SETTINGS - Conveniently placed media keys allow for quick audio adjustments and microphone muting',
+                    'HEADPHONE PORT - Hook your headphones right into the keyboard with a built-in 3.5mm analog headset port',
+                    'ADJUSTABLE ANGLE - 2-way adjustable legs and rubber grips keep the keyboard in place',
+                    '',
+                    '',
+                    ''
+                ],
+                error: null
+            },
+            productDetails: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            images: {
+                value: [
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41a6-qPL8+L._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/71CLbIVnscL._AC_SX450_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/4157NsngyVL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/71+CVg6tDUL._AC_SX450_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/31zfHXPWPFL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/61z3GYgVEsL._AC_SX450_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41nUF+5TY0L._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/61PWjs4xMeL._AC_SX450_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/31S+CAv+myL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/61sZF-8OjTL._AC_SX450_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/51dBxtzZK7L._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/7197AQuid1L._AC_SX450_.jpg'
+                    }
+                ],
+                error: null
+            },
+            priceDetail: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="price"]"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-4',
+                    acrCustomerReviewText: '83 ratings'
+                },
+                error: null
+            }
+        },
+        error: 'Reference.set failed: First argument  contains an invalid key () in property \'labvGn2UNma4bJnkLKmhTpjuyzT2.B07QHV16PM.data.productOverview.value\'.  Keys must be non-empty strings and can\'t contain ".", "#", "$", "/", "[", or "]"'
+    },
+    {
+        url: 'https://www.amazon.com/gp/product/B08N5L99FW?th=1&psc=1',
+        data: {
+            productTitle: {
+                value: 'HP X1000 Wireless Gaming Headset with USB Connection, 7.1 Surround Sound, Earcup Storage, Comfortable, for Windows/PC and Sony PS4 (7HC42AA) Black',
+                error: null
+            },
+            ASIN: {
+                value: 'B08N5L99FW',
+                error: null
+            },
+            basePrice: {
+                value: {
+                    symbol: '$',
+                    currency: 'USD',
+                    amount: 96.02
+                },
+                error: null
+            },
+            mainImage: {
+                value: 'https://m.media-amazon.com/images/I/71ZBNHj008L._AC_SX355_.jpg',
+                error: null
+            },
+            sizeName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            styleName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            productDescription: {
+                value: 'Hear it all, win it all — The HP X1000 Wireless Gaming Headset is fully equipped to immerse you in 7.1 Surround Sound and keep you aware of your enemy whereabouts with precision, depth, and clarity. You have the freedom to game wirelessly with USB connection and a dongle that conveniently stores in your headphone ear cup for safekeeping. Finetune your equalizer settings to your preferences and save presets through the OMEN Command Center, as well as quickly adjust volume and mute settings located on your right ear cup. HP designed the X1000 with thick, padded ear pads and an adjustable suspension headband when you’re in it to win it for the long run. Game more precisely and in comfort with HP.',
+                error: null
+            },
+            productOverview: {
+                value: {
+                    Brand: 'HP',
+                    Color: 'Black',
+                    'Connectivity Technology': 'Wireless',
+                    'Model Name': 'HP X1000 Wireless Gaming Headset',
+                    'Form Factor': 'Over Ear'
+                },
+                error: null
+            },
+            productAbout: {
+                value: [
+                    '',
+                    'FREE FROM WIRES — Using a wireless connection via a USB dongle, stay connected with up to 20 hours of battery life (for Windows PC and Sony PS4 only)',
+                    'LONG BATTERY LIFE — Rechargeable 20-hour battery life so you can stay connected and play for longer',
+                    'CUSTOM EQ SETTINGS — Set the equalizer settings to your preference and user presets in OMEN Command Center to achieve the perfect in-game sound',
+                    'SURROUND SOUND — 7.1 virtual surround sound that provides precision, depth, and clarity for the ultimate gaming experience',
+                    'LONG-TERM COMFORT — Thick, padded ear pads and an adjustable suspension headband give you constant comfort for long sessions',
+                    'USB STORAGE — Designated USB dongle storage compartment in the earcup of your headphones',
+                    'FLEXIBLE BOOM — Adjust the position of your boom mic that features a red LED mute indicator',
+                    '',
+                    '',
+                    ''
+                ],
+                error: null
+            },
+            productDetails: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            images: {
+                value: [
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/31C7ocad7xL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/71ZBNHj008L._AC_SX355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41qnfAyx3GL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/71IqVMM40VL._AC_SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41K+GeDdi7L._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/71CkMvJLgML._AC_SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41cEKbafpML._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/71aG0sxh4mL._AC_SY355_.jpg'
+                    }
+                ],
+                error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$96.02',
+                    ounce: '& FREE Returns'
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-4-5',
+                    acrCustomerReviewText: '4 ratings'
+                },
+                error: null
+            }
+        }
+    },
+    {
+        url: 'https://www.amazon.com/gp/product/B08XYRDKDV?th=1&psc=1',
+        data: {
+            productTitle: {
+                value: 'HP ENVY 6455e Wireless Color All-in-One Printer with bonus 6 free months Instant Ink with HP+ (223R1A)',
+                error: null
+            },
+            ASIN: {
+                value: 'B08XYRDKDV',
+                error: null
+            },
+            basePrice: {
+                value: {
+                    symbol: '$',
+                    currency: 'USD',
+                    amount: 159.99
+                },
+                error: null
+            },
+            mainImage: {
+                value: 'https://m.media-amazon.com/images/I/71FTmq1cJzL._AC_SY355_.jpg',
+                error: null
+            },
+            sizeName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            styleName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            productDescription: {
+                value: 'The HP ENVY 6455e makes it easy to print, scan and copy creative projects, borderless photos and homework with automatic 2-sided printing and mobile fax. It includes the optional HP+ Smart Printing System that keeps itself up to date and ready to print from virtually anywhere at any time—at no additional cost.',
+                error: null
+            },
+            productOverview: {
+                value: {
+                    'Printing Technology': 'Thermal',
+                    'Special Feature':
+                        'Auto-Duplex, Network-Ready, Energy Star Certified, Decal-Printing, Cloud Print Enabled',
+                    Brand: 'HP',
+                    'Connectivity Technology': 'Bluetooth, Wi-Fi, USB',
+                    'Model Name': 'HP ENVY 6455e'
+                },
+                error: null
+            },
+            productAbout: {
+                value: [
+                    '',
+                    'BEST FOR BUSY FAMILIES – Print documents, borderless photos, homework and creative projects',
+                    'KEY FEATURES – Print, copy and scan in color, automatic 2-sided printing, auto document feeder, borderless photos, mobile and wireless printing',
+                    "HP+ SMART PRINTING SYSTEM – The optional HP+ system enables your printer to think ahead so it's more secure, more productive and ready when you are. Requires an HP account, internet connection and use of only Original HP Ink for the life of the printer.",
+                    '6 FREE MONTHS OF INSTANT INK & AN EXTRA YEAR OF HP WARRANTY – when you activate optional HP+ and Instant Ink when setting up your printer. Only with HP+.',
+                    'EASY SETUP – Get started fast on any device with the HP Smart app that guides you step by step',
+                    'CONNECT THE WHOLE FAMILY – Easily connect everyone from virtually any device. Self-healing Wi-FiTM helps keep you connected and reduces interruptions.',
+                    'HP SMART APP – Print, scan and copy from your phone—whenever, wherever. Get advanced features for 24 months with HP+.',
+                    '',
+                    ''
+                ],
+                error: null
+            },
+            productDetails: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            images: {
+                value: [
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/31IcA73+RaL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/71FTmq1cJzL._AC_SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/51Ibd9UKOKL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/815BTtwj2nL._AC_SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/51O9i3wAyfL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/81kZ3oeueiL._AC_SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/51jVLlUMUgL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/81Dr1e7JgjL._AC_SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/51ihrsuMMAL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/71E5pgT0uDL._AC_SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/51K5Uz3iDtL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/81SHLEOZfKL._AC_SY355_.jpg'
+                    }
+                ],
+                error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$159.99',
+                    ounce: '& FREE Returns'
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-4',
+                    acrCustomerReviewText: '612 ratings'
+                },
+                error: null
+            }
+        }
+    },
+    {
+        url: 'https://www.amazon.com/gp/product/B08ML8RTC8?th=1&psc=1',
+        data: {
+            productTitle: {
+                value: 'HP Wireless Mouse Z3700 (26V63AA#ABL, Black)',
+                error: null
+            },
+            ASIN: {
+                value: 'B08ML8RTC8',
+                error: null
+            },
+            basePrice: {
+                value: {
+                    symbol: '$',
+                    currency: 'USD',
+                    amount: 20.63
+                },
+                error: null
+            },
+            mainImage: {
+                value: 'https://m.media-amazon.com/images/I/61FukdEzRML._AC_SX450_.jpg',
+                error: null
+            },
+            sizeName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            styleName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            productDescription: {
+                value: 'The mouse that makes a statement. It’s time your accessories matched your individuality. Meet your new wireless mouse, carefully crafted to bring its unique slim style to your work. It’s functional. It’s portable. It’s fashionable. It’s yours.',
+                error: null
+            },
+            productOverview: {
+                value: {
+                    'Connectivity Technology': 'USB',
+                    Brand: 'HP',
+                    Series: 'Z3700',
+                    'Movement Detection Technology': 'Optical',
+                    Color: 'Black'
+                },
+                error: null
+            },
+            productAbout: {
+                value: [
+                    '',
+                    'Designed with flair: The sleek design complements your favorite HP devices, and fits comfortably anywhere',
+                    'Wireless convenience: The 2.4 GHz wireless connection reliably keeps you hooked up',
+                    'Battery life that lasts: With up to 16 months of life on a single AA battery, this mouse was designed to push the limits',
+                    'Ready for anything: Blue LED technology lets your mouse function on a wide range of surfaces, so you can work from almost anywhere',
+                    'Highly accurate: 1200 DPI optical sensor gives you exceptional accuracy and incredible speed'
+                ],
+                error: null
+            },
+            productDetails: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            images: {
+                value: [
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/31AP8mIx-ML._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/61FukdEzRML._AC_SX450_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/31thjVdgWiL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/71PJk06mk0L._AC_SX450_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/31n2y8Hl2LL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/71HWOw6XQlL._AC_SX450_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/31HbzsTlTVL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/71A-RZjPR4L._AC_SX450_.jpg'
+                    }
+                ],
+                error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$20.63',
+                    ounce: 'Get Fast, Free Shipping with Amazon Prime & FREE Returns',
+                    price_block_savings: '$1.36 (6%)'
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-4-5',
+                    acrCustomerReviewText: '26 ratings'
+                },
+                error: null
+            }
+        }
+    },
+    {
+        url: 'https://www.amazon.com/gp/product/B00501T8XY?th=1&psc=1',
+        data: {
+            productTitle: {
+                value: 'HP Wireless Classic Desktop Keyboard and Mouse (LV290AA#ABA),Black',
+                error: null
+            },
+            ASIN: {
+                value: 'B00501T8XY',
+                error: null
+            },
+            basePrice: {
+                value: {
+                    symbol: '$',
+                    currency: 'USD',
+                    amount: 29.99
+                },
+                error: null
+            },
+            mainImage: {
+                value: 'https://m.media-amazon.com/images/I/41RazKHhiIL._AC_SX355_.jpg',
+                error: null
+            },
+            sizeName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            styleName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            productDescription: {
+                value: 'A classic-style advanced 2.4 GHz wireless keyboard and mouse that excels when it comes to simplicity and comfort.',
+                error: null
+            },
+            productOverview: {
+                value: {
+                    Color: 'Black',
+                    Brand: 'HP',
+                    'Connectivity Technology': 'Wireless',
+                    'Operating System': 'Windows XP/Vista/7/8'
+                },
+                error: null
+            },
+            productAbout: {
+                value: [
+                    '',
+                    'Cut. Paste. Copy. Each function has its own hot key',
+                    'Windows 8 hot keys get you to the action fast',
+                    'Wireless micro receiver with 2.4 GHz wireless connection',
+                    'Mouse rubber sides feel great in your hand. 5 multimedia controls and 3 buttons for easy volume control',
+                    '2.4 GHz USB wireless nano receiver. Wireless 3 button, 1,600 dpi optical mouse',
+                    'Adjustable keyboard height with 2 different positions and 10 hot keys. Spill Resistant',
+                    'Available USB port',
+                    '',
+                    ''
+                ],
+                error: null
+            },
+            productDetails: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            images: {
+                value: [
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41RazKHhiIL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/41RazKHhiIL._AC_SX355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/3141nzCDO6L._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/7117uGCw5zL._AC_SX355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41m15S2t5eL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/81ueV1YMRQL._AC_SX355_.jpg'
+                    }
+                ],
+                error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$29.99',
+                    ounce: ''
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-4-5',
+                    acrCustomerReviewText: '1,721 ratings'
+                },
+                error: null
+            }
+        }
+    },
+    {
+        url: 'https://www.amazon.com/gp/product/B08WC7YQM3?th=1&psc=1',
+        data: {
+            productTitle: {
+                value: 'HP OfficeJet Pro 8035e All-in-One Wireless Color Printer (Basalt) for home office, with 12 months Instant Ink with HP+ (1L0H6A)',
+                error: null
+            },
+            ASIN: {
+                value: 'B08WC7YQM3',
+                error: null
+            },
+            basePrice: {
+                value: {
+                    symbol: '$',
+                    currency: 'USD',
+                    amount: 219.99
+                },
+                error: null
+            },
+            mainImage: {
+                value: 'https://m.media-amazon.com/images/I/71W77omnzNL._AC_SY355_.jpg',
+                error: null
+            },
+            sizeName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            styleName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            productDescription: {
+                value: "The HP OfficeJet Pro 8035e delivers increased productivity with fast speeds, custom mobile shortcuts and offers HP+: HP's smart printing system that comes with up to 12 months of Instant Ink and a 2 year extended HP warranty.",
+                error: null
+            },
+            productOverview: {
+                value: {
+                    'Printing Technology': 'Inkjet',
+                    'Special Feature': 'Auto-Duplex, Network-Ready',
+                    Brand: 'HP',
+                    'Connectivity Technology': 'Wi-Fi, USB, Ethernet',
+                    'Model Name': 'HP OfficeJet Pro 8035e'
+                },
+                error: null
+            },
+            productAbout: {
+                value: [
+                    '',
+                    'BEST FOR SMALL BUSINESSES AND HOME OFFICES – Print professional-quality color documents like forms, reports, brochures and presentations',
+                    'KEY FEATURES – Fast color print, copy, scan and fax, plus 2-sided printing, mobile and wireless printing, and an auto document feeder',
+                    'ONE ADDITIONAL YEAR WARRANTY COVERAGE WITH HP+ ENROLLMENT – Just signup and activate HP+ to receive 1 additional year of HP warranty coverage on your HP Printer, 2 Years Total!',
+                    'UP TO 12 MONTHS OF INK – Activate HP+ and redeem your 6 free months of Instant Ink and your $30 bonus credit. Credit card required; change or cancel anytime.',
+                    'ACTIVATE HP+ AND INSTANT INK AT PRINTER SETUP – Once HP+ is activated, your printer must be connected to the internet and requires Original HP Ink Cartridges to operate for the life of the printer.',
+                    'HP SMART APP – Print, scan and copy from your phone—from anywhere',
+                    'SCAN TO CLOUD – Scan documents from your phone straight to Dropbox, Google Drive and more',
+                    '',
+                    '',
+                    ''
+                ],
+                error: null
+            },
+            productDetails: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            images: {
+                value: [
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/413-TEuRNDL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/71W77omnzNL._AC_SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41PzgNNK3dS._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/718GLLS4lbS._AC_SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41pbplqsCDS._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/81uxmSVVWES._AC_SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/510KsqcmYzS._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/71bazF9q+-S._AC_SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/51dEn7VeMuL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/71SuH9LkjNL._AC_SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/51CK5BQ6fCL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/819JkCcFEUL._AC_SY355_.jpg'
+                    }
+                ],
+                error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$219.99',
+                    ounce: '& FREE Returns'
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-4-5',
+                    acrCustomerReviewText: '1,451 ratings'
+                },
+                error: null
+            }
+        }
+    },
+    {
+        url: 'https://www.amazon.com/gp/product/B07F3N8GS7?th=1&psc=1',
+        data: {
+            productTitle: {
+                value: 'HP Spectre Rechargeable Mouse 700 (Dark Ash, 3NZ70AA)',
+                error: null
+            },
+            ASIN: {
+                value: 'B07F3N8GS7',
+                error: null
+            },
+            basePrice: {
+                value: {
+                    symbol: '$',
+                    currency: 'USD',
+                    amount: 44.2
+                },
+                error: null
+            },
+            mainImage: {
+                value: 'https://m.media-amazon.com/images/I/91qY+oZAB5L._AC_SY679_.jpg',
+                error: null
+            },
+            sizeName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            styleName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            productDescription: {
+                value: 'Recharge the way you work and play. This wireless, rechargeable mouse is packed with technology that helps you be more productive. Plus, its exquisite design makes it the perfect match to your HP Spectre laptop.',
+                error: null
+            },
+            productOverview: {
+                value: {
+                    'Connectivity Technology': 'Bluetooth, USB',
+                    Brand: 'HP',
+                    'Compatible Devices':
+                        'Available USB port or Bluetooth capability required',
+                    Series: 'HP Spectre Rechargeable Mouse 700',
+                    'Movement Detection Technology': 'Laser'
+                },
+                error: null
+            },
+            productAbout: {
+                value: [
+                    '',
+                    'Rechargeable power: Stay productive with a battery that lasts up to 11 weeks on a single charge.',
+                    'Pair up to 3 Bluetooth and 1 USB device: Ingenious easy-switch technology lets you pair your mouse with up to 3 Bluetooth and 1 USB device—easily switch between them.',
+                    'Exceptional accuracy and responsiveness: With 1,200 dpi, the laser sensor provides superb accuracy and precision—on almost every surface.',
+                    'ngenious 4-way scrolling: Lets you scroll not just up and down, but from side to side for more efficient scrolling and lightning-fast navigation.',
+                    'Sophisticated design to match your Spectre laptop: Exquisitely crafted, this sleek, sophisticated mouse is the prefect match for your Spectre laptop.'
+                ],
+                error: null
+            },
+            productDetails: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            images: {
+                value: [
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/31zbgjj0iSL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/91qY+oZAB5L._AC_SY679_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/31dp2R3XVJS._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/91qUHwaHftS._AC_SX450_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/31ca0Qg1HCL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/81gK1aQTzqL._AC_SY679_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/21qNIb2XkVS._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/81AJ8ZGUXcS._AC_SX450_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/31W-EU7uQ5S._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/81FTMjy1kAS._AC_SX450_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/51fG-dxkTsS._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/81TSfO8+9gS._AC_SX450_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/31WAR3HivlL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/71tJ1f8UiZL._AC_SX450_.jpg'
+                    }
+                ],
+                error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$44.20',
+                    ounce: '& FREE Returns',
+                    price_block_savings: '$20.79 (32%)'
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-4-5',
+                    acrCustomerReviewText: '447 ratings'
+                },
+                error: null
+            }
+        }
+    },
+    {
+        url: 'https://www.amazon.com/gp/product/B07FRCL9PD?th=1&psc=1',
+        data: {
+            productTitle: {
+                value: 'HP 4Ce98Aa#Abl Pavilion Wireless Keyboard 600',
+                error: null
+            },
+            ASIN: {
+                value: 'B07FRCL9PD',
+                error: null
+            },
+            basePrice: {
+                value: {
+                    symbol: '$',
+                    currency: 'USD',
+                    amount: 65
+                },
+                error: null
+            },
+            mainImage: {
+                value: 'https://m.media-amazon.com/images/I/7113sYwaTLL._AC_SX450_.jpg',
+                error: null
+            },
+            sizeName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            styleName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            productDescription: {
+                value: 'Eye-catching design is as close as your fingertips with a slim wireless keyboard that fits seamlessly into your fast-paced lifestyle.',
+                error: null
+            },
+            productOverview: {
+                value: {
+                    'Keyboard Description': 'AWERTY',
+                    'Connectivity Technology': 'Wireless',
+                    'Special Feature': 'Wireless',
+                    Brand: 'HP',
+                    Series: '4CE98AA#ABL',
+                    Color: 'Black',
+                    '': ''
+                },
+                error: null
+            },
+            productAbout: {
+                value: [
+                    '',
+                    'Brand new and authentic HP products ship from and are sold by Amazon.Com (check above)',
+                    'Three zones. All efficient. Boost efficiency and productivity with an incredible three-zone keyboard with full-size arrow keys and a number pad',
+                    'Slim. Stylish. Wireless. With a slim, appealing design, this wireless keyboard blends seamlessly into your home',
+                    'Designed for comfort: Natural contours and shape allow the keyboard to sit in a comfortable position for your wrist and hands'
+                ],
+                error: null
+            },
+            productDetails: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            images: {
+                value: [
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41MQiqPzBZL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/7113sYwaTLL._AC_SX450_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41wrE3x0epL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/81w9CTYNwrL._AC_SX450_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/21RTwXUTp7L._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/71c-RSNSqmL._AC_SX450_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41fHm0I0fiL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/71oexI04FcL._AC_SX450_.jpg'
+                    }
+                ],
+                error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$65.00',
+                    ounce: ''
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-4-5',
+                    acrCustomerReviewText: '561 ratings'
+                },
+                error: null
+            }
+        },
+        error: 'Reference.set failed: First argument  contains an invalid key () in property \'labvGn2UNma4bJnkLKmhTpjuyzT2.B07FRCL9PD.data.productOverview.value\'.  Keys must be non-empty strings and can\'t contain ".", "#", "$", "/", "[", or "]"'
+    },
+    {
+        url: 'https://www.amazon.com/gp/product/B078436MT1?th=1&psc=1',
+        data: {
+            productTitle: {
+                value: 'HP Wireless Mouse 200 (Black/Silver, 2HU84AA)',
+                error: null
+            },
+            ASIN: {
+                value: 'B078436MT1',
+                error: null
+            },
+            basePrice: {
+                value: {
+                    symbol: '$',
+                    currency: 'USD',
+                    amount: 15.55
+                },
+                error: null
+            },
+            mainImage: {
+                value: 'https://m.media-amazon.com/images/I/71fJFgisO3L._AC_SY355_.jpg',
+                error: null
+            },
+            sizeName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            styleName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            productDescription: {
+                value: 'Lose the wire. Love the price. This affordable wireless mouse offers you more than a low price. It gives you the freedom to create without wires to tie you down. And our wireless mouse is contoured for either hand, so increasing your productivity is more effortless. It’s never been easier to go wireless for less.',
+                error: null
+            },
+            productOverview: {
+                value: {
+                    'Connectivity Technology': 'USB',
+                    Brand: 'HP',
+                    'Compatible Devices': 'Available USB port required',
+                    Series: 'HP Wireless Mouse 200',
+                    'Movement Detection Technology': 'Optical'
+                },
+                error: null
+            },
+            productAbout: {
+                value: [
+                    '',
+                    'Wireless convenience: No more wires with the reliable 2.4 GHz wireless connection.',
+                    'Built to last: Strict HP standards and guidelines ensure long-lasting quality.',
+                    'Contoured comfort: A contoured shape designed for all-day comfort in either hand.',
+                    'Good to go: With 2 AAA batteries included and no software to install you’re good to go.',
+                    'Reliability you can count on: Red LED technology and a 1,000 dpi optical sensor give you exceptional accuracy and speed across a wide range of surfaces.'
+                ],
+                error: null
+            },
+            productDetails: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            images: {
+                value: [
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/314xsL3H9lL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/71fJFgisO3L._AC_SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/31SAs6qhJ2L._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/71CoA-3nBiL._AC_SX355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/31FnBlGig1L._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/71Id0LZyvpL._AC_SX355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/412lP2Krl2L._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/71XTsEJp6OL._AC_SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41nf5czb3LL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/71Mcd27YC9L._AC_SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41itFOA8GTL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/711EPfKn-yL._AC_SY355_.jpg'
+                    }
+                ],
+                error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$15.55',
+                    ounce: 'Get Fast, Free Shipping with Amazon Prime & FREE Returns'
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-4-5',
+                    acrCustomerReviewText: '211 ratings'
+                },
+                error: null
+            }
+        }
+    },
+    {
+        url: 'https://www.amazon.com/gp/product/B08WC8VD8G?th=1&psc=1',
+        data: {
+            productTitle: {
+                value: 'HP OfficeJet Pro 9025e Wireless Color All-in-One Printer with bonus 6 free months Instant Ink with HP+ (1G5M0A)',
+                error: null
+            },
+            ASIN: {
+                value: 'B08WC8VD8G',
+                error: null
+            },
+            basePrice: {
+                value: {
+                    symbol: '$',
+                    currency: 'USD',
+                    amount: 349.89
+                },
+                error: null
+            },
+            mainImage: {
+                value: 'https://m.media-amazon.com/images/I/71Hmm9UHi3L._AC_SY355_.jpg',
+                error: null
+            },
+            sizeName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            styleName: {
+                value: '9025e - Advanced',
+                error: null
+            },
+            productDescription: {
+                value: "The HP OfficeJet Pro 9025e delivers the fastest speeds, 500-sheet paper capacity, up to 2x faster scan speeds, and offers HP+: HP's smart printing system that comes with 6 months of free Instant Ink and a 2 year extended HP warranty.",
+                error: null
+            },
+            productOverview: {
+                value: {
+                    'Printing Technology': 'Inkjet',
+                    'Special Feature':
+                        'Auto-Duplex, 6 Months of Free Ink with HP+ Enrollment, Network-Ready, Cloud Print Enabled',
+                    Brand: 'HP',
+                    'Connectivity Technology': 'Wi-Fi, USB, Ethernet',
+                    'Model Name': 'HP OfficeJet Pro 9025e'
+                },
+                error: null
+            },
+            productAbout: {
+                value: [
+                    '',
+                    'BEST FOR SMALL BUSINESSES AND HOME OFFICES – Print professional-quality color documents like presentations, brochures and flyers',
+                    'UPGRADED FEATURES – Fastest color printing, up to 2x faster scan speeds, copy, fax, auto 2-sided printing and scanning, mobile and wireless printing, auto document feeder, and print from USB',
+                    "HP+ SMART PRINTING SYSTEM – The optional HP+ system enables your printer to think ahead so it's more secure, more productive and ready when you are. Requires an HP account, internet connection and use of only Original HP Ink for the life of the printer",
+                    '6 FREE MONTHS OF INSTANT INK & AN EXTRA YEAR OF HP WARRANTY – when you activate optional HP+ and Instant Ink when setting up your printer. Only with HP+',
+                    'FAST PRINT SPEEDS – Print up to 24 pages per minute in black and 20 pages per minute in color',
+                    'DUAL BAND WI-FI – Self-healing Wi-FiTM automatically detects and resolves connection issues',
+                    'HP SMART APP – Print, scan and copy from your phone—from anywhere. Get advanced features for 24 months with HP+',
+                    '',
+                    ''
+                ],
+                error: null
+            },
+            productDetails: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            images: {
+                value: [
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41O5Wr0rlVL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/71Hmm9UHi3L._AC_SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/51D-CB0gWwL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/71+bpe8vzeL._AC_SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/51Bv3CeB3ZL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/81rkn9BtDuL._AC_SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/510XJCHI-hS._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/710HjzOfsrS._AC_SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/51ihrsuMMAL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/71E5pgT0uDL._AC_SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/51ab8jNU8hL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/81rnWxsfDjL._AC_SY355_.jpg'
+                    }
+                ],
+                error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$349.89',
+                    ounce: '& FREE Returns'
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-4-5',
+                    acrCustomerReviewText: '1,965 ratings'
+                },
+                error: null
+            }
+        }
+    },
+    {
+        url: 'https://www.amazon.com/gp/product/B08HJS5VX8?th=1&psc=1',
+        data: {
+            productTitle: {
+                value: 'HP Color LaserJet Enterprise M554dn Duplex Printer (7ZU81A)',
+                error: null
+            },
+            ASIN: {
+                value: 'B08HJS5VX8',
+                error: null
+            },
+            basePrice: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="priceblock_ourprice"]"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            mainImage: {
+                value: 'https://m.media-amazon.com/images/I/61nJNpzNcVL._AC_SY355_.jpg',
+                error: null
+            },
+            sizeName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            styleName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            productDescription: {
+                value: "Expect strong security, fast performance, and energy efficiency with the HP Color LaserJet Enterprise M554dn printer. With the world's most secure printing, this color duplex laser printer features security solutions that help detect and stop attacks while protecting your sensitive business data. Centralize control of your printing environment with HP Web JetAdmin, and help build business efficiency. Get high-speed performance with 25 ppm print speeds, duplex printing, 650-sheet input capacity, all while using exceptionally low amounts of energy with Auto-On/Auto-Off technology. Extend printing reach with optional Wi-Fi® Direct and dual-band Wi-Fi® with Bluetooth® Low Energy. And, help protect your printer and produce sharp blacks, vivid colors, and crisp graphics with Original HP Toner cartridges with JetIntelligence.",
+                error: null
+            },
+            productOverview: {
+                value: {
+                    'Printing Technology': 'Laser',
+                    'Special Feature': 'Auto-Duplex',
+                    Brand: 'HP',
+                    'Connectivity Technology': 'USB, Ethernet',
+                    'Model Name': 'M554dn Duplex Printer'
+                },
+                error: null
+            },
+            productAbout: {
+                value: [
+                    '',
+                    'The office printers professionals prefer: Print consistently high-quality, 2-sided color documents with the HP Color LaserJet Enterprise M554dn, a color duplex laser printer that combines strong security, high-speed performance, and smart sustainability',
+                    "World’s most secure printing: This color laser printer has the industry's strongest security with embedded features that provide multilayered protection for sensitive data, thwart malware, and continually detect and stop attacks",
+                    'Centralize printing control: Help build business efficiency and centralize your printing environment with HP Web Admin by easily adding new devices and third-party solutions, updating features, and applying corporate policies',
+                    "Complete high-volume jobs at fast speeds: Step up your producitvity with the color printer's 650-sheet input capacity, automatic 2-sided printing, and print speeds of up to 35 ppm",
+                    'Energy-efficient: This color laserjet helps save energy with HP Auto-On/Auto-Off Technology— intelligence that can turn your printer on when you need it and off when you don’t',
+                    'Easy to use, simple to manage: Expect consistent, high-quality results with the HP printer\'s intuitive 2.7" color touchscreen with tablet-like icons and features that automatically adjust paper settings to paper type',
+                    'Performance and protection you can count on: Produce sharp blacks, vivid colors, and crisp graphics with Original HP 212A series toner cartridges with JetIntelligence, designed to help protect your printer with anti-fraud and cartridge authentication technology',
+                    'One-year limited hardware warranty: Get help with 24-hour, 7 days a week FREE Web support'
+                ],
+                error: null
+            },
+            productDetails: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            images: {
+                value: [
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/31Xq4bV78SL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/61nJNpzNcVL._AC_SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/412Dsj1PvbL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/71T6HutOINL._AC_SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41urnh2MLvL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/71UDnf1JHbL._AC_SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/51IDd9DSLtL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/81naAgSyDNL._AC_SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41nuZMqPoDL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/71VEkXF-A-L._AC_SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41dwDrcDIqL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/71Z8h6NMLmL._AC_SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/510poAUcddL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/81NiMPZGFWL._AC_SY355_.jpg'
+                    }
+                ],
+                error: null
+            },
+            priceDetail: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="price"]"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-5',
+                    acrCustomerReviewText: '4 ratings'
+                },
+                error: null
+            }
+        }
+    },
+    {
+        url: 'https://www.amazon.com/gp/product/B08MTP3236?th=1&psc=1',
+        data: {
+            productTitle: {
+                value: 'HP Dual Mode Mouse 300 (Black, 6CR71AA)',
+                error: null
+            },
+            ASIN: {
+                value: 'B08MTP3236',
+                error: null
+            },
+            basePrice: {
+                value: {
+                    symbol: '$',
+                    currency: 'USD',
+                    amount: 27.99
+                },
+                error: null
+            },
+            mainImage: {
+                value: 'https://m.media-amazon.com/images/I/81h9xUNMJ3L._AC_SX466_.jpg',
+                error: null
+            },
+            sizeName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            styleName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            productDescription: {
+                value: 'Control in the palm of your hand. With this dual mode wireless mouse, you can easily connect to two separate PCs via Bluetooth® or 2.4 GHz wireless. Easily switch between modes with the click of a button, letting you control a second device with one mouse.',
+                error: null
+            },
+            productOverview: {
+                value: {
+                    'Connectivity Technology': 'Bluetooth, USB',
+                    Brand: 'HP',
+                    'Compatible Devices': 'Available USB port required',
+                    Series: 'HP Dual Mode Mouse 300',
+                    'Movement Detection Technology': 'Optical'
+                },
+                error: null
+            },
+            productAbout: {
+                value: [
+                    '',
+                    'Dual Mode flexibility: Move between two PCs using both Bluetooth and a 2.4 GHz wireless connections.',
+                    'Dependable power: Efficient battery life delivers up to 15 months of everyday use.',
+                    'Toggle with ease: Get convenient control with 2 thumb buttons pre-programmed to go forwards and backwards.',
+                    'Customizable speed: Customize your tracking speed to your desired sensitivity with adjustable DPI between 1200, 1600, 2400, and 3600',
+                    'Encrypted for data security: Encryption technology protects your communication by encrypting your mouse.'
+                ],
+                error: null
+            },
+            productDetails: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            images: {
+                value: [
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/31hMD6fmakL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/81h9xUNMJ3L._AC_SX466_.jpg'
+                    }
+                ],
+                error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$27.99',
+                    ounce: '& FREE Returns',
+                    price_block_savings: '$7.00 (20%)'
+                },
+                error: null
+            },
+            ratings: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="averageCustomerReviews"]"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            }
+        }
+    },
+    {
+        url: 'https://www.amazon.com/gp/product/B07XLGBG1K?th=1&psc=1',
+        data: {
+            productTitle: {
+                value: 'HP OMEN Encoder Customizable Mechanical Gaming Keyboard with Cherry MX Brown keys, Full N-Key Rollover, LED Backlit, USB (6YW75AA) (6YW75AA#ABA)',
+                error: null
+            },
+            ASIN: {
+                value: 'B07XLGBG1K',
+                error: null
+            },
+            basePrice: {
+                value: {
+                    symbol: '$',
+                    currency: 'USD',
+                    amount: 89.99
+                },
+                error: null
+            },
+            mainImage: {
+                value: 'https://m.media-amazon.com/images/I/81Udu0mUYlL._AC_SX450_.jpg',
+                error: null
+            },
+            sizeName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            styleName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            productDescription: {
+                value: 'Command a flawless symphony of keystrokes with the OMEN encoder keyboard designed with accurate 100% anti-ghosting n-key rollover. Cherry MX Brown and Cherry MX Red mechanical key switches give you the agility you need to maneuver ahead of the competition. To help you perform with more accuracy, Each key is LED-backlit with a deep red so that you never miss your shot at success. Omen Command center allows you to easily control lighting effects, brightness, single key on/off, media keys, macros with on-the-fly settings.',
+                error: null
+            },
+            productOverview: {
+                value: {
+                    'Keyboard Description': 'Gaming',
+                    'Connectivity Technology': 'Default_no_selection_value',
+                    'Special Feature': 'Lighting',
+                    Brand: 'OMEN',
+                    Series: 'Encoder keyboard',
+                    Color: 'Brown'
+                },
+                error: null
+            },
+            productAbout: {
+                value: [
+                    '',
+                    'STRIKE FASTER AND QUIETER - Cherry MX Brown and Cherry MX Red mechanical key switches allow rapid key action while minimizing noise and resistance',
+                    'COMPLETE CUSTOMIZATION - Easily control lighting effects, brightness, single key on/off, media keys, macros with on-the-fly settings and OMEN Command Center',
+                    'LED BACKLIT - Play with accuracy knowing you will hit the right key every time with deep red LED backlighting to every key',
+                    '100% ANTI-GHOSTING - Full N-key rollover ensures that every keypress is detected no matter how fast you make your next move',
+                    'CABLE MANAGEMENT - Braided sheathing around the cable enhances USB cord durability and minimizes kinking',
+                    'ADJUSTABLE ANGLE - 2-way adjustable legs and rubber grips give you a comfortable wrist angle and prevent cramps',
+                    'QUALITY TESTED - Endures a 50 million-click lifetime for long-lasting durability',
+                    '',
+                    ''
+                ],
+                error: null
+            },
+            productDetails: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            images: {
+                value: [
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41s1BclZajL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/81Udu0mUYlL._AC_SX450_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41oHCTMK-uL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/71JKeH0U-2L._AC_SY450_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41CyASwDKvL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/71CheMYvgVL._AC_SY450_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41pQw5nRYBL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/71l6gCDbOBL._AC_SY450_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/51J2JiJXLAL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/71I9p5eAiSL._AC_SY450_.jpg'
+                    }
+                ],
+                error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$89.99',
+                    ounce: ''
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-4-5',
+                    acrCustomerReviewText: '30 ratings'
+                },
+                error: null
+            }
+        }
+    },
+    {
+        url: 'https://www.amazon.com/gp/product/B08HZG45BR?th=1&psc=1',
+        data: {
+            productTitle: {
+                value: 'OMEN Frequency Wireless Headset | Gaming Headset with Microphone, Warp Wireless Technology, and 7.1 Surround Sound | Multi-Compatible Xbox One, PS4, and PC Headset | USB Headset | (9FL60AA)',
+                error: null
+            },
+            ASIN: {
+                value: 'B08HZG45BR',
+                error: null
+            },
+            basePrice: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="priceblock_ourprice"]"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            mainImage: {
+                value: 'https://m.media-amazon.com/images/I/81s4yX9TQXL._AC_SX355_.jpg',
+                error: null
+            },
+            sizeName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            styleName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            productDescription: {
+                value: 'Don the crown of sound with the OMEN Frequency Wireless Headset. Take control of your realm with 7.1 Surround Sound, an impressive up to 30 hours of battery life, and an environmental noise-canceling mic. Enjoy the many perks of Warp Wireless Technology from 2.4GHz connection, proactive scouring, low audio latency (60-80ms), and 10 meters of wireless range. This USB headset is true unrelenting power as you create custom audio profiles in the OMEN Command Center and utilize easy-touch adjust controls, all while you snuggle into the padded ear cups. This wireless headset is born to rule as you go wireless on PC, PS4, and Nintendo Switch, or with a 3.5mm jack on Xbox; its compatibility all across the land!* Settle into your throne with your purchase backed up by HP standard 1-year limited warranty. *Requirements for full wireless functionality are Windows 10 and higher, OMEN Command Center (Voice, Audio, OMEN Command Center). Limited wireless functionality (no OMEN Command Center) PS4, Mac iOS, Chrome OS (Voice, Audio). Limited wired functionality (no OMEN Command Center) - Mac iOS, Chrome, PS4, Xbox One (Voice, Audio), Nintendo Switch (Audio Only).',
+                error: null
+            },
+            productOverview: {
+                value: {
+                    Brand: 'HP',
+                    Color: 'Black',
+                    'Connectivity Technology': 'Wireless',
+                    'Model Name': 'OMEN Frequency Wireless',
+                    'Form Factor': 'Over Ear'
+                },
+                error: null
+            },
+            productAbout: {
+                value: [
+                    '',
+                    'UNTETHERED FROM LAG - Stay lag-free at the highest fidelity as Warp Wireless Technology proactively scours for the finest frequency',
+                    'SUPERIOR AUDIO - Take control of any game with 360° of spatially aware 7.1 Surround Sound made possible with the C-Media Xear chip',
+                    'AN IMMORTAL BATTERY - Play long and prosper without interruption with an impressive up to 30 hours of battery life and USB-Cⓒ charging',
+                    'PEAK NOISE CANCELLATION - Isolate your voice and eliminate unwanted background audio with the flip-to-mute Environmental Noise Canceling mic',
+                    'CUSTOMIZABLE EQ - Create custom audio profiles for all your games and choose your headset lighting in the OMEN Command Center',
+                    'CROSS-PLATFORM COMPATIBILITY - One headset to rule them all as you go wireless on PC, PS4, and Nintendo Switch, or a 3.5mm jack on Xbox',
+                    'TOUCH CONTROLS - No buttons to mash, just easy-touch adjust for volume, lights, and power',
+                    '',
+                    ''
+                ],
+                error: null
+            },
+            productDetails: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            images: {
+                value: [
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41HSYzqcKlL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/81s4yX9TQXL._AC_SX355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41pF3W0pwbL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/71fK6SxHa9L._AC_SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41BeanMlNsL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/71lh9wY8RBL._AC_SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/513eKOCA92L._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/817u0DsmsgL._AC_SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41crI+QFXFL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/71T-EzK9+gL._AC_SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41mJGU4CFwL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/71iUz+r6pfL._AC_SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41d3-GGpTuL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/7177nY7jh5L._AC_SY355_.jpg'
+                    }
+                ],
+                error: null
+            },
+            priceDetail: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="price"]"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            ratings: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="averageCustomerReviews"]"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            }
+        }
+    },
+    {
+        url: 'https://www.amazon.com/gp/product/B01B1JFSK0?th=1&psc=1',
+        data: {
+            productTitle: {
+                value: 'HP PageWide Pro 577dw Color Multifunction Business Printer with Wireless & Duplex Printing (D3Q21A)',
+                error: null
+            },
+            ASIN: {
+                value: 'B01B1JFSK0',
+                error: null
+            },
+            basePrice: {
+                value: {
+                    symbol: '$',
+                    currency: 'USD',
+                    amount: 899.89
+                },
+                error: null
+            },
+            mainImage: {
+                value: 'https://m.media-amazon.com/images/I/71BUEfLJ28L._AC_SY355_.jpg',
+                error: null
+            },
+            sizeName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            styleName: {
+                value: 'Printer',
+                error: null
+            },
+            productDescription: {
+                value: 'Get ultimate value and speed with the HP PageWide Pro 577dw Multifunction Printer. This color printer is designed to deliver low color costs and fast speeds, with features like 2-sided scanning and easy mobile printing. Energy-efficient HP PageWide Technology delivers the reliable performance that businesses demand, and drives office productivity with impressive, professional-quality color documents. Rely on best-in-class security and management features like PIN printing, and help keep your printer secure with secure boot and secure code integrity validation.',
+                error: null
+            },
+            productOverview: {
+                value: {
+                    'Printing Technology': 'Inkjet',
+                    'Special Feature': 'Auto-Document Feeder',
+                    Brand: 'HP',
+                    'Connectivity Technology': 'USB',
+                    'Model Name': 'HP'
+                },
+                error: null
+            },
+            productAbout: {
+                value: [
+                    '',
+                    'Low color cost: Print, copy, scan, and fax professional documents and vivid graphics with the HP PageWide Pro 577dw Multifunction Printer, for low color cost per page',
+                    'Easy mobile printing: Use built-in Wi-Fi Direct or NFC touch-to-print technology to connect your smartphone directly to your printer for easy mobile printing, even without a local network connection',
+                    'Fast print speeds: Drive productivity forward with print speeds up to 70 ppm and the fastest first-page printing in its class',
+                    'Manage tasks quickly and easily: Manage tasks from a 4.3" touchscreen, and scan digital files directly to email, network folders, and the cloud',
+                    'Unparalleled security and management: Help secure your confidential information with built-in security essentials like PIN printing and secure code integrity validation, and help reduce printing costs with HP Color Access Control',
+                    "A new level of wireless connectivity you can count on: Get a stable, reliable wireless connection with this multifunction printer's built-in dual band Wi-Fi, and print without a network using Wireless Direct",
+                    'Print cartridges you can trust: Avoid reprints, wasted supplies, and service calls by using Original HP 972A/972X cartridges designed for your printer',
+                    'One-year, onsite warranty: Get help with 24-hour, 7 days a week FREE HP Web support. See specification sheet for terms and conditions'
+                ],
+                error: null
+            },
+            productDetails: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            images: {
+                value: [
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41GwZ5nd3ZL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/71BUEfLJ28L._AC_SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/51ofLK+revL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/71ODDplNTfL._AC_SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/51ukg5dO8mL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/81ERniJwJrL._AC_SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41tai4+F8AL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/71boFYFpp4L._AC_SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/51kbqgen29L._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/81678DOmgBL._AC_SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/51eDzcyg0EL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/81cRJL1GoOL._AC_SY355_.jpg'
+                    }
+                ],
+                error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$899.89',
+                    ounce: ''
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-4-5',
+                    acrCustomerReviewText: '168 ratings'
+                },
+                error: null
+            }
+        }
+    },
+    {
+        url: 'https://www.amazon.com/gp/product/B08TM7PJ55?th=1&psc=1',
+        data: {
+            productTitle: {
+                value: 'HP OfficeJet Pro 8035e Wireless Color All-in-One Printer (Oasis) with up to 12 months Instant Ink with HP+ (1L0H7A)',
+                error: null
+            },
+            ASIN: {
+                value: 'B08TM7PJ55',
+                error: null
+            },
+            basePrice: {
+                value: {
+                    symbol: '$',
+                    currency: 'USD',
+                    amount: 219.99
+                },
+                error: null
+            },
+            mainImage: {
+                value: 'https://m.media-amazon.com/images/I/71NRewcigeL._AC_SY355_.jpg',
+                error: null
+            },
+            sizeName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            styleName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            productDescription: {
+                value: "The HP OfficeJet Pro 8035e delivers increased productivity with fast speeds, custom mobile shortcuts and offers HP+: HP's smart printing system that comes with up to 12 months of Instant Ink and a 2 year extended HP warranty.",
+                error: null
+            },
+            productOverview: {
+                value: {
+                    'Printing Technology': 'Inkjet',
+                    'Special Feature': 'Auto-Duplex, Network-Ready',
+                    Brand: 'HP',
+                    'Connectivity Technology': 'Wi-Fi, USB, Ethernet',
+                    'Model Name': 'HP OfficeJet Pro 8035e'
+                },
+                error: null
+            },
+            productAbout: {
+                value: [
+                    '',
+                    'BEST FOR SMALL BUSINESSES AND HOME OFFICES – Print professional-quality color documents like forms, reports, brochures and presentations',
+                    'KEY FEATURES – Fast color print, copy, scan and fax, plus 2-sided printing, mobile and wireless printing, an auto document feeder, and print from USB',
+                    "HP+ SMART PRINTING SYSTEM – The optional HP+ system enables your printer to think ahead so it's more secure, more productive and ready when you are. Requires an HP account, internet connection and use of only Original HP Ink for the life of the printer",
+                    'UP TO 12 MONTHS OF INSTANT INK & AN EXTRA YEAR OF HP WARRANTY – when you activate optional HP+ and Instant Ink when setting up your printer. Only with HP+',
+                    'FAST PRINT SPEEDS – Print up to 20 pages per minute in black and 10 pages per minute in color',
+                    'DUAL BAND WI-FI – Self-healing Wi-FiTM automatically detects and resolves connection issues',
+                    'HP SMART APP – Print, scan and copy from your phone—from anywhere. Get advanced features for 24 months with HP+',
+                    '',
+                    ''
+                ],
+                error: null
+            },
+            productDetails: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            images: {
+                value: [
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41KjQXaQHgL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/71NRewcigeL._AC_SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41RoqOToIgS._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/718DdUhu1RS._AC_SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/51XG580xELS._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/81P51e2uVTS._AC_SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/51vHfjcGhbS._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/71WjMjWmwUS._AC_SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/51dEn7VeMuL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/71SuH9LkjNL._AC_SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/51ZCjSQ2N4L._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/81LgifUlczL._AC_SY355_.jpg'
+                    }
+                ],
+                error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$219.99',
+                    ounce: ''
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-4-5',
+                    acrCustomerReviewText: '1,451 ratings'
+                },
+                error: null
+            }
+        }
+    },
+    {
+        url: 'https://www.amazon.com/gp/product/B08YP5L1TC?th=1&psc=1',
+        data: {
+            productTitle: {
+                value: 'HP 930 Creator Wireless Mouse - Bluetooth or Wired Compatible with USB-A Dongle - 7 Programmable Buttons - Ergonomic Grip - Silent Click & Scroll - Up to 12 Week Battery Life - Track-on-Glass Sensor',
+                error: null
+            },
+            ASIN: {
+                value: 'B08YP5L1TC',
+                error: null
+            },
+            basePrice: {
+                value: {
+                    symbol: '$',
+                    currency: 'USD',
+                    amount: 89.99
+                },
+                error: null
+            },
+            mainImage: {
+                value: 'https://m.media-amazon.com/images/I/719JilDmgdL._AC_SX466_.jpg',
+                error: null
+            },
+            sizeName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            styleName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            productDescription: {
+                value: 'Experience seamless and uninterrupted creativity with a wireless mouse that is crafted to create. Be at your creative best as you replace complex keystrokes and utilize shortcuts with the 7 programmable buttons and a powerful scroll wheel (1). Your Bluetooth mouse lets you flex your skills across 3 devices that can be connected wirelessly or through a USB-A nano-dongle. This computer mouse doesn’t just connect to multiple devices, but can connect across devices and even different operating systems, allowing you to drag and drop content between all synced platforms. The ergonomic design and long-lasting battery life let you work on projects as long or as late as you want (3). Plus, your HP mouse works smoothly on any surface thanks to the track-on-glass sensor (4). (1) Enabled through HP AC Software (2) List of apps: SolidWorks, Windows Office, Sketchup, Adobe, AutoCAD (or find list of applications here) (3) Actual battery life will vary with use and environmental conditions, and will naturally decrease with time and usage. (4) Tested on the glass less than 4mm thickness',
+                error: null
+            },
+            productOverview: {
+                value: {
+                    'Connectivity Technology': 'Bluetooth, USB',
+                    Brand: 'HP',
+                    Series: 'HP 930 Creator Mouse',
+                    'Movement Detection Technology': 'PixArt PAW3805EK Sensor',
+                    Color: 'Silver'
+                },
+                error: null
+            },
+            productAbout: {
+                value: [
+                    '',
+                    'MADE FOR CUSTOMIZATION – Customize commands and shortcuts on several apps with 7 programmable buttons and with the hyper-fast scroll wheel (1) (2).',
+                    'CONNECT TO MULTIPLE DEVICES – Enjoy the freedom and flexibility to create on up to 3 devices, using either a USB-A nano-dongle or through Bluetooth.',
+                    'WORK ACROSS DEVICES – Control your content by dragging and dropping across devices, even connecting between Windows and macOS operating systems.',
+                    '● CREATE COMFORTABLY – Maximize your creativity with an ergonomically designed mouse, complete with a comfortable grip, silent clicks, and thoughtfully designed buttons and scroll wheel.',
+                    '● 12 WEEKS OF BATTERY LIFE – Experience uninterrupted creativity, with USB-C rechargeable battery life that lasts up to 12 weeks (3). Plus get up to 3 hours of battery life with a quick 1-minute charge for uninterrupted creativity.',
+                    '● DITCH THE MOUSE PAD – Work anywhere with a mouse that tracks on any surface – including glass (4).'
+                ],
+                error: null
+            },
+            productDetails: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            images: {
+                value: [
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/31ArwTwhCVL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/719JilDmgdL._AC_SX466_.jpg'
+                    }
+                ],
+                error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$89.99',
+                    ounce: '& FREE Returns'
+                },
+                error: null
+            },
+            ratings: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="averageCustomerReviews"]"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            }
+        }
+    },
+    {
+        url: 'https://www.amazon.com/gp/product/B07XGNLFJC?th=1&psc=1',
+        data: {
+            productTitle: {
+                value: 'HP Smart Tank Plus 651 Wireless All-in-One Ink Tank Printer, up to 2 Years of Ink in Bottles, Auto Document Feeder, Mobile Print, Scan, Copy, Works with Alexa (7XV38A)',
+                error: null
+            },
+            ASIN: {
+                value: 'B07XGNLFJC',
+                error: null
+            },
+            basePrice: {
+                value: {
+                    symbol: '$',
+                    currency: 'USD',
+                    amount: 449.89
+                },
+                error: null
+            },
+            mainImage: {
+                value: 'https://m.media-amazon.com/images/I/71Gt9IcE1mL._AC_SY355_.jpg',
+                error: null
+            },
+            sizeName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            styleName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            productDescription: {
+                value: "This HP Smart Tank Plus 651 Wireless All-in-One Ink Tank Printer delivers best-in-class print quality, easy mobile printing, and up to 2 years of ink in bottles––up to 8,000 color pages or 6,000 black pages. Get easy versatility with print, copy, scan, and fax functions, and produce vibrant text and high-quality graphics for all your prints. Print and scan documents and images from your smartphone with HP Smart, HP's best-in- class mobile app. Plus, stay connected with faster, more reliable connections using dual- band Wi-Fi.",
+                error: null
+            },
+            productOverview: {
+                value: {
+                    'Printing Technology': 'Thermal',
+                    'Special Feature':
+                        'Wireless, Touchscreen, Flatbed scanner, Voice-activated printing, Spill-free refill bottles, ENERGY STAR certified See more',
+                    Brand: 'HP',
+                    'Connectivity Technology': 'Bluetooth, Wi-Fi, USB',
+                    'Model Name': '7XV38A'
+                },
+                error: null
+            },
+            productAbout: {
+                value: [
+                    '',
+                    'Best ink tank print quality in class with great savings: Count on this affordable ink tank printer for home to print, scan, copy, and fax with ease, and consistently deliver dark, crisp text and vibrant color graphics for all your prints',
+                    'Easy mobile printing: Easily set up your all-in-one printer and manage print and scan projects on the go with your smartphone or tablet using the HP Smart app',
+                    '2 years of ink in bottles included: The HP Smart Tank Plus is perfect for low-cost, high-volume printing; get up to 8,000 color pages or 6,000 black pages with up to 2 years of ink in bottles included in the box',
+                    "Simple, spill-free refill: With this all-in-one printer's integrated ink tank design and automatic ink sensor, you get a compact, spill-free refill system with convenient, resealable bottles that make it easy to manage ink",
+                    'Reliable connectivity with dual-band Wi-Fi: Whether connecting your ink tank printer to your network or your mobile device to your printer, get faster, more reliable connections with dual-band Wi-Fi',
+                    'Speed through tasks with the 35-page auto-feeder: Work fast with print speeds up to 11ppm and fast first page printing; plus eliminate hassle with the hands-free 35-page automatic document feeder',
+                    'Wide range of paper size support: This HP printer works with letter, legal, 3 x 5 in, 4 x 6 in, 5 x 7 in, 8 x 10 in, and No. 10 envelopes',
+                    'One-year limited hardware warranty: Get a one-year commercial hardware warranty, plus 24-hour, 7 days a week Web support; see specification sheet for terms and conditions'
+                ],
+                error: null
+            },
+            productDetails: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            images: {
+                value: [
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41JkbkqWPFL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/71Gt9IcE1mL._AC_SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/51-GE9pRlEL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/81WmFmQlOCL._AC_SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/51EEkABO-oL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/81Wd++lsX4L._AC_SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/51OIgLqDh7L._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/715szV5Ch6L._AC_SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41qORcWAa4L._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/71e6VyBeK3L._AC_SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/51eVN4xaqwL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/81IvYsIQLkL._AC_SY355_.jpg'
+                    }
+                ],
+                error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$449.89',
+                    ounce: '& FREE Returns'
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-4-5',
+                    acrCustomerReviewText: '746 ratings'
+                },
+                error: null
+            }
+        }
+    },
+    {
+        url: 'https://www.amazon.com/gp/product/B08N6Y1NBQ?th=1&psc=1',
+        data: {
+            productTitle: {
+                value: 'OMEN Vector Essential Gaming Mouse with Lightweight Ergonomic Design and RGB Lighting | OMEN Command Center Software (8BC52AA#ABL)',
+                error: null
+            },
+            ASIN: {
+                value: 'B08N6Y1NBQ',
+                error: null
+            },
+            basePrice: {
+                value: {
+                    symbol: '$',
+                    currency: 'USD',
+                    amount: 22.04
+                },
+                error: null
+            },
+            mainImage: {
+                value: 'https://m.media-amazon.com/images/I/71CDKgrjGvL._AC_SX450_.jpg',
+                error: null
+            },
+            sizeName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            styleName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            productDescription: {
+                value: 'Basic is better with the OMEN Vector Essential Gaming Mouse for gamers’ looking for a tool they can succeed with. Make every move count with the OMEN Radar 1 gaming sensor support up to 7,000dpi. Be ready to react with extremely responsive switches that last 20 million lifetime clicks. Play your way with OMEN Command Center options ranging from 6 programmable buttons, saving your preferred settings, and unlimited profiles. As well as customize your mouse with the choice of RGB lighting in 8 colors and 2 effects. This ergonomic lightweight design of 88 grams makes it easy to quickly move the cursor including rubber grips that won’t tire you out during long gaming sessions.',
+                error: null
+            },
+            productOverview: {
+                value: {
+                    'Connectivity Technology': 'USB',
+                    Brand: 'HP',
+                    'Compatible Devices': 'Laptop, PC, Desktop',
+                    Series: 'Vector',
+                    'Movement Detection Technology': 'OMEN Radar 1 Sensor'
+                },
+                error: null
+            },
+            productAbout: {
+                value: [
+                    '',
+                    'PRECISION MOVEMENTS — Make every move count with the OMEN Radar 1 gaming sensor supporting up to 7,000dpi',
+                    'SPEED RELIABILITY — Be ready to react with extremely responsive switches that last 20 million clicks',
+                    'POWERFUL SOFTWARE — Have total control by customizing 6 programmable buttons, 16.8 colors, and more in OMEN Command Center',
+                    'ERGONOMIC DESIGN — Lightweight design of 88 grams is perfected with rubber grips for added control and comfort',
+                    'ON-BOARD MEMORY — Never miss a click with OMEN Command Center by saving your preferred settings and unlimited profiles',
+                    'WARRANTY — Rest peacefully knowing that your purchase is backed up by HP standard 1-year limited warranty'
+                ],
+                error: null
+            },
+            productDetails: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            images: {
+                value: [
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/319T23CEghL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/71CDKgrjGvL._AC_SX450_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41RRIVz93BL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/71fzCv4rxoL._AC_SY450_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41wuW1rTULL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/71iNajVoD5L._AC_SY450_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41wJq4IE5tL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/81S+SUgihzL._AC_SY450_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41EBrNh3CCL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/71enoZSIjxL._AC_SY450_.jpg'
+                    }
+                ],
+                error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$22.04',
+                    ounce: '',
+                    price_block_savings: '$7.95 (27%)'
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-4-5',
+                    acrCustomerReviewText: '25 ratings'
+                },
+                error: null
+            }
+        }
+    },
+    {
+        url: 'https://www.amazon.com/gp/product/B07T435VJW?th=1&psc=1',
+        data: {
+            productTitle: {
+                value: 'HP Pavilion Gaming Backpack 400 for Laptops up to 15-inch Diagonal (Black/Acid Green, 6EU57AA)',
+                error: null
+            },
+            ASIN: {
+                value: 'B07T435VJW',
+                error: null
+            },
+            basePrice: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="priceblock_ourprice"]"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            mainImage: {
+                value: 'https://m.media-amazon.com/images/I/91i6ZEbY5CL._AC_SX466_.jpg',
+                error: null
+            },
+            sizeName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            styleName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            productDescription: {
+                value: 'Access your gear. Anywhere. Designed for those who game anywhere and everywhere, the HP Pavilion Gaming Backpack 400 features a water-resistant exterior, comfortable fit, and spacious compartments for all your gaming gear, including laptops up to 15-inch diagonal.',
+                error: null
+            },
+            productOverview: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            productAbout: {
+                value: [
+                    '',
+                    'Ultimate organization: Store more with icon labeled slots for 15-inch diagonal laptop, tablet, phone, mouse, and writing utensils.',
+                    'Holds your headset and more: Features a strap to securely hold your headset in place and a zippered pocket for other accessories.',
+                    'Keep your essentials close: Front zipper pocket makes it quick and easy to access essentials like your phone, keys, and wallet.',
+                    'H2O on the go: Mesh pockets on each side for a water bottle or umbrella.',
+                    'Keep your devices dry: Protect your gear from the elements with a rugged, water-resistant exterior.',
+                    'Carry in comfort: Carry it all comfortably with a padded, mesh back panel for air flow and ergonomic shoulder straps.',
+                    'Tailored for travel: Designed to conveniently stack on top of luggage with its trolley handle pass-through.',
+                    'Seen for safety: Stay safe and be seen at night with reflective trim and accents.'
+                ],
+                error: null
+            },
+            productDetails: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            images: {
+                value: [
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/31KfWSF6cQL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/91i6ZEbY5CL._AC_SX466_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/419vJZxeCwL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/91Zj8iW8gNL._AC_SX466_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41RAn+rIpXL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/913mw1T+JmL._AC_SX466_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41bWeE58cnL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/91HnDtOBWfL._AC_SX466_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/510r5-4M8EL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/A1t2igqRySL._AC_SX450_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41kGh16LwKL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/91uRQFAaAmL._AC_SX450_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41wonrQ4g1L._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/91KTpkvVKEL._AC_SX466_.jpg'
+                    }
+                ],
+                error: null
+            },
+            priceDetail: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="price"]"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-4-5',
+                    acrCustomerReviewText: '89 ratings'
+                },
+                error: null
+            }
+        }
+    },
+    {
+        url: 'https://www.amazon.com/gp/product/B08HW556WR?th=1&psc=1',
+        data: {
+            productTitle: {
+                value: 'OMEN Vector Wireless Mouse | Gaming Mouse with Warp Wireless Technology and Ultra-Fast USB-C Charging | Mouse with Esports Grade Sensor and Ergonomic Design | DPI Range 100-16,000 | (2B349AA)',
+                error: null
+            },
+            ASIN: {
+                value: 'B08HW556WR',
+                error: null
+            },
+            basePrice: {
+                value: {
+                    symbol: '$',
+                    currency: 'USD',
+                    amount: 85.17
+                },
+                error: null
+            },
+            mainImage: {
+                value: 'https://m.media-amazon.com/images/I/71BCz70UOKL._AC_SX450_.jpg',
+                error: null
+            },
+            sizeName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            styleName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            productDescription: {
+                value: 'Let loose the lightning-quick OMEN Vector Wireless Mouse. With a near-eternal battery life, insanely fast USB-CⓇ charging, and e-sports grade 1ms polling rate plus a DPI range of 100-16,000, you might be in disbelief that this is a wireless gaming mouse; but it is… there is no wire in sight! Forget about replacements when you have 50 million clicks to burn through, so take your time customizing this beast of a mouse in the OMEN Command Center (colors, buttons, DPI, you name it). Ergonomic grip, super-secret USB receiver, and a braided cable? Seriously, we swear this is a gaming mouse wireless.',
+                error: null
+            },
+            productOverview: {
+                value: {
+                    'Connectivity Technology': 'Bluetooth, USB',
+                    Brand: 'HP',
+                    Series: 'OMEN Vector Wireless Mouse',
+                    Color: 'Black',
+                    'Item Dimensions LxWxH': '5.05 x 2.94 x 1.65 inches'
+                },
+                error: null
+            },
+            productAbout: {
+                value: [
+                    '',
+                    'UNTETHERED GREATNESS - Lose the lag and the wire without losing any of the performance with Warp Wireless Technology’s pro-grade 1ms polling rate',
+                    'ULTRA FAST CHARGING - Never worry about forgetting to charge your mouse when only 30 seconds of USB-CⓇ charging yields a full hour of battery life',
+                    'OUTSTANDING BATTERY LIFE - Out-play every hour in a week, with 180 hours of battery life',
+                    'ESPORTS GRADE SENSOR - Dial-up your accuracy with the esports-grade PixArt PAW3335 wireless sensor that supports up to 16,000 DPI, 99% accuracy tracking, 40g acceleration, and 400IPS tracking speed',
+                    'HIGH RESPONSE TIMES - Hone your response times for as long as you want with the extremely reliable Omron switches and a 50 million click lifespan'
+                ],
+                error: null
+            },
+            productDetails: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            images: {
+                value: [
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/31-N9k+z58L._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/71BCz70UOKL._AC_SX450_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/51y9PfQIr5L._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/71A8nQ06xbL._AC_SY450_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41UuMUJFFaL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/71B-Mo3KYSL._AC_SY450_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41HTS2dOkiL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/71d2EVvzGYL._AC_SY450_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41I5op-uCzL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/71MvE0D+WPL._AC_SY450_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41MSSmp+i+L._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/71E6sj3E7CL._AC_SY450_.jpg'
+                    }
+                ],
+                error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$85.17',
+                    ounce: '& FREE Returns',
+                    price_block_savings: '$14.82 (15%)'
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-4-5',
+                    acrCustomerReviewText: '50 ratings'
+                },
+                error: null
+            }
+        }
+    },
+    {
+        url: 'https://www.amazon.com/gp/product/B08V94GWXQ?th=1&psc=1',
+        data: {
+            productTitle: {
+                value: 'OMEN by HP Transceptor 15.6-inch Rolltop Backpack (7MT83AA, Black)',
+                error: null
+            },
+            ASIN: {
+                value: 'B08V94GWXQ',
+                error: null
+            },
+            basePrice: {
+                value: {
+                    symbol: '$',
+                    currency: 'USD',
+                    amount: 79.99
+                },
+                error: null
+            },
+            mainImage: {
+                value: 'https://m.media-amazon.com/images/I/81WWi1D+OzL._AC_SY606_.jpg',
+                error: null
+            },
+            sizeName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            styleName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            productDescription: {
+                value: 'Stylish design. Gamer equipped. This sleek backpack is designed for gamers. Making sure your gear is organized and protected while on-the-go.',
+                error: null
+            },
+            productOverview: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#productOverview_feature_div table"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            productAbout: {
+                value: [
+                    '',
+                    'Protect what’s important: A padded compartment with a hook and loop strap keeps your laptop safe and secure',
+                    'Look good on-the-go: With a premium minimalist style and far from minimalist functionality, this backpack gives you what you need to look good on the move',
+                    'Easy access, RFID protected: Zippered, easy-access pocket for essential items with RFID-blocking theft prevention',
+                    'Water-resistant protection: Protect your gear from the elements with water-resistant fabric',
+                    'Stay connected: Stay connected with the built-in USB plug to charge your phone on the go'
+                ],
+                error: null
+            },
+            productDetails: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=94.0.4606.30)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            images: {
+                value: [
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/31lZOVsf3-L._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/81WWi1D+OzL._AC_SY606_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41bI1KRRtyL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/919AlwXvDfL._AC_SX466_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41-TraqL5qL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/81YTl-Y3UbL._AC_SY679_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/414TCWJTJeL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/819G+mjbB8L._AC_SX466_.jpg'
+                    }
+                ],
+                error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$79.99',
+                    ounce: '& FREE Returns'
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-5',
+                    acrCustomerReviewText: '1 rating'
+                },
+                error: null
+            }
+        }
+    },
+    {
+        url: 'https://www.amazon.com/gp/product/B08VJDGK2H?th=1&psc=1',
+        data: {
+            productTitle: {
+                value: 'HP X500 Wired Mouse (Black, E5E76AA)',
+                error: null
+            },
+            ASIN: {
+                value: 'B08VJDGK2H',
+                error: null
+            },
+            basePrice: {
+                value: {
+                    symbol: '$',
+                    currency: 'USD',
+                    amount: 10.74
+                },
+                error: null
+            },
+            mainImage: {
+                value: 'https://m.media-amazon.com/images/I/31J6O75mp9L._AC_SY355_.jpg',
+                error: null
+            },
+            sizeName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=94.0.4606.51)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            styleName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=94.0.4606.51)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            productDescription: {
+                value: 'Stylish enhancement to a classic. Enjoy the comfortable HP Wired Mouse X500 with simple USB connection. The optical tracking provides smooth tracking and programmable 3 button controls can work with either hand.',
+                error: null
+            },
+            productOverview: {
+                value: {
+                    'Connectivity Technology': 'USB',
+                    Brand: 'HP',
+                    'Compatible Devices': 'Available USB port required',
+                    Series: 'HP X500 Wired Mouse',
+                    'Movement Detection Technology': 'Optical'
+                },
+                error: null
+            },
+            productAbout: {
+                value: [
+                    '',
+                    'Designed with your comfort in mind, the elongated arch and contoured shape provides relaxed control for either right or left-hand users.',
+                    'Navigate windows easily with 3 button control and scroll wheel.',
+                    'Simply insert the USB cord to power your mouse and avoid ever replacing batteries. No software or downloads required.',
+                    'The optical tracking technology provides ideal tracking on most surfaces for accurate and smooth control.'
+                ],
+                error: null
+            },
+            productDetails: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=94.0.4606.51)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            images: {
+                value: [
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/31J6O75mp9L._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/31J6O75mp9L._AC_SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/31MmcGXa-uL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/31MmcGXa-uL._AC_SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/31C2DqP343L._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/31C2DqP343L._AC_SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/317AE9A-4LL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/317AE9A-4LL._AC_SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/31sFW2cbpwL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/31sFW2cbpwL._AC_SY355_.jpg'
+                    }
+                ],
+                error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$10.74',
+                    ounce: 'Get Fast, Free Shipping with Amazon Prime & FREE Returns'
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-5',
+                    acrCustomerReviewText: '26 ratings'
+                },
+                error: null
+            }
+        }
+    },
+    {
+        url: 'https://www.amazon.com/gp/product/B091BDVS8B?th=1&psc=1',
+        data: {
+            productTitle: {
+                value: 'HP Pavilion Wired Keyboard and Mouse 200 (Black, 9DF28AA)',
+                error: null
+            },
+            ASIN: {
+                value: 'B091BDVS8B',
+                error: null
+            },
+            basePrice: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="priceblock_ourprice"]"}\n  (Session info: headless chrome=94.0.4606.51)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            mainImage: {
+                value: 'https://m.media-amazon.com/images/I/71asDODEXtL._AC_SX450_.jpg',
+                error: null
+            },
+            sizeName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=94.0.4606.51)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            styleName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=94.0.4606.51)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            productDescription: {
+                value: 'A combo delivering consistent, convenient control. Experience the most dependable mouse and keyboard combination you’ve ever seen. Now you can enjoy 12 updated media key shortcuts for a productive workflow.',
+                error: null
+            },
+            productOverview: {
+                value: {
+                    Color: 'Black',
+                    Brand: 'HP',
+                    'Connectivity Technology': 'USB-A, USB-C',
+                    'Operating System': 'Windows 8, Windows 10',
+                    'Number of Keys': '109'
+                },
+                error: null
+            },
+            productAbout: {
+                value: [
+                    '',
+                    'Simple shortcuts for better work: Enjoy using updated shortcuts at your fingertips for a more productive workflow, including: Task View, File Manager, Office Hotkeys, and Media Controls.',
+                    'Type in total comfort: Experience the chiclet keyboard designed for fast, comfortable, and accurate typing and the built-in palm rest for added comfort.',
+                    'Compact, clean design: Simple is beautiful; enjoy using a clean, compact keyboard paired with an elegant, glossy mouse.',
+                    'Agile and accurate: Offering up to 1600dpi, this wired mouse is as agile as you are and highly efficient.',
+                    'Indicators for your keys: 3 LED green light indicators for your most important keys, caps lock, num locks, and scroll keys.'
+                ],
+                error: null
+            },
+            productDetails: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=94.0.4606.51)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            images: {
+                value: [
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41xTVplmjkL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/71asDODEXtL._AC_SX450_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41F826j3R1L._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/81YjsAgRunL._AC_SY450_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41Qp00b5ZYL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/81GfEIH761L._AC_SY450_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41T8RFi45lL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/719ad1yEgDL._AC_SY450_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41yoiURLJQL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/81mF+N4pBLL._AC_SY450_.jpg'
+                    }
+                ],
+                error: null
+            },
+            priceDetail: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="price"]"}\n  (Session info: headless chrome=94.0.4606.51)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-4-5',
+                    acrCustomerReviewText: '14 ratings'
+                },
+                error: null
+            }
+        }
+    },
+    {
+        url: 'https://www.amazon.com/gp/product/B08HZGWRB1?th=1&psc=1',
+        data: {
+            productTitle: {
+                value: 'OMEN Blast Headset | Gaming Headset with Retractable, Noise Canceling Microphone and 7.1 Surround Sound | Multi-Compatible Xbox One, PS4, and PC Headset | USB Headset | (1A858AA)',
+                error: null
+            },
+            ASIN: {
+                value: 'B08HZGWRB1',
+                error: null
+            },
+            basePrice: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="priceblock_ourprice"]"}\n  (Session info: headless chrome=94.0.4606.51)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            mainImage: {
+                value: 'https://m.media-amazon.com/images/I/812s-XPp3YL._AC_SX355_.jpg',
+                error: null
+            },
+            sizeName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=94.0.4606.51)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            styleName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=94.0.4606.51)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            productDescription: {
+                value: "Get your head in every game with the OMEN Blast Headset. This is truly the headset to rule them all with 7.1 Surround Sound, 24-bit USB DAC, and a retractable noise-canceling mic. Complete with every bell and whistle from isolating your voice, creating unique audio profiles, and the customization of the OMEN Command Center, you’ll never need to take this headset off. Play everything by ear as you connect to PC, Xbox, Nintendo Switch, and PS4 via the 3.5mm analog input.* With your purchase backed by HP standard 1-year limited warranty, it's time to throw all your old headsets in the trash; make way for the new crown in town!\n\n*Requirements for full wired functionality are Windows 10 and higher, USB (DAC), OMEN Command Center, (Voice, Audio, OMEN Command Center). Limited wired functionality (no OMEN Command Center) - Mac iOS, Chrome OS, PS4, Xbox One (Voice, Audio), Nintendo Switch (Audio Only).",
+                error: null
+            },
+            productOverview: {
+                value: {
+                    Brand: 'HP',
+                    Color: 'Black',
+                    'Connectivity Technology': 'Wired',
+                    'Model Name': 'OMEN Blast',
+                    'Form Factor': 'Over Ear'
+                },
+                error: null
+            },
+            productAbout: {
+                value: [
+                    '',
+                    'INCREDIBLE CLARITY - Pick up every in-game sound with the precise power of the 53mm neodymium drivers piped through 24-bit USB DAC*',
+                    'SURROUND SOUND - Close your eyes and hear the enemy, with 360° of spatial awareness powered by 7.1 Surround Sound',
+                    'OMEN COMMAND CENTER - Use our elite audio equalizer to create and manage unique audio profiles for all your games in OMEN Command Center',
+                    'NOISE CANCELLATION - Isolate your voice and be heard clearly with the retractable uni-directional passive noise-canceling mic',
+                    'MULTI-PLATFORM COMPATIBILITY - Throw out all your odd headsets for the one to rule them all, reigning across the PC, PS4, Xbox, and Nintendo Switch kingdoms*',
+                    'CABLE CONTROLS - Keep your eyes on the game with no-look volume and mute controls right on the cable',
+                    'COMFORTABLE PADDING - Ergonomic padding and suspension headband may lead you to forget you’re wearing a headset',
+                    'WARRANTY - Wield with confidence knowing that your purchase is backed up by HP standard 1-year limited warranty'
+                ],
+                error: null
+            },
+            productDetails: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=94.0.4606.51)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            images: {
+                value: [
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/31XFcnWyl+L._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/812s-XPp3YL._AC_SX355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41jiIKxtZrL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/71g3Rjm07ML._AC_SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/414qhZ8CSKL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/71v-uckhkLL._AC_SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41KHrQNPeGL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/71P4ZCXuRmL._AC_SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/519rMybr-kL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/811UjT+NfgL._AC_SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41stJepMtYL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/71y7a8ts9KL._AC_SY355_.jpg'
+                    }
+                ],
+                error: null
+            },
+            priceDetail: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="price"]"}\n  (Session info: headless chrome=94.0.4606.51)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-4-5',
+                    acrCustomerReviewText: '15 ratings'
+                },
+                error: null
+            }
+        }
+    },
+    {
+        url: 'https://www.amazon.com/gp/product/B08XYRDSL7?th=1&psc=1',
+        data: {
+            productTitle: {
+                value: 'HP DeskJet 4155e All-in-One Wireless Color Printer, with bonus 6 months free Instant Ink with HP+ (26Q90A)',
+                error: null
+            },
+            ASIN: {
+                value: 'B08XYRDSL7',
+                error: null
+            },
+            basePrice: {
+                value: {
+                    symbol: '$',
+                    currency: 'USD',
+                    amount: 109.99
+                },
+                error: null
+            },
+            mainImage: {
+                value: 'https://m.media-amazon.com/images/I/612G5AUOZWL._AC_SY355_.jpg',
+                error: null
+            },
+            sizeName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=94.0.4606.51)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            styleName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=94.0.4606.51)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            productDescription: {
+                value: "The HP DeskJet 4155e gives you all the essential features you need—easily print, scan, copy and mobile fax, and activate HP+: HP's smart printing system that comes with 6 months of free Instant Ink and a 2 year extended HP warranty.",
+                error: null
+            },
+            productOverview: {
+                value: {
+                    'Printing Technology': 'Thermal',
+                    'Special Feature':
+                        'Network-Ready, Energy Star Certified, Decal-Printing, Cloud Print Enabled',
+                    Brand: 'HP',
+                    'Connectivity Technology': 'Bluetooth, Wi-Fi, USB',
+                    'Model Name': 'HP DeskJet 4155e'
+                },
+                error: null
+            },
+            productAbout: {
+                value: [
+                    '',
+                    'BEST FOR BASIC PRINTING – Print basic color documents like recipes, forms and travel documents',
+                    'KEY FEATURES – Print, copy and scan in color, auto document feeder, mobile fax, mobile and wireless printing',
+                    "HP+ SMART PRINTING SYSTEM – The optional HP+ system enables your printer to think ahead so it's more secure, more productive and ready when you are. Requires an HP account, internet connection and use of only Original HP Ink for the life of the printer.",
+                    '6 FREE MONTHS OF INSTANT INK & AN EXTRA YEAR OF HP WARRANTY – when you activate optional HP+ and Instant Ink when setting up your printer. Only with HP+.',
+                    'EASY SETUP – Get started fast on any device with the HP Smart app that guides you step by step.',
+                    'HP SMART APP – Print, scan and copy from your phone—whenever, wherever. Get advanced features for 24 months with HP+.',
+                    'WORRY-FREE WIRELESS – Get better range and more reliable connections using dual-band Wi-Fi with self-reset.',
+                    'INK DELIVERED BEFORE YOU RUN OUT – Never run out of ink with an optional Instant Ink subscription. Try free for 6 months with HP+. Credit card required; change or cancel anytime.'
+                ],
+                error: null
+            },
+            productDetails: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=94.0.4606.51)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            images: {
+                value: [
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/31igWfQ637L._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/612G5AUOZWL._AC_SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/51O7hTAI5RL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/71KDgz-VVRL._AC_SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/51XGaoYyXWL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/817zJ4DBzQL._AC_SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/514iRIMMaML._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/81TtO2Aa8xL._AC_SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/51ihrsuMMAL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/71E5pgT0uDL._AC_SY355_.jpg'
+                    },
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/51KxxO+9rPL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/81lxhT2tC7L._AC_SY355_.jpg'
+                    }
+                ],
+                error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$109.99',
+                    ounce: '& FREE Returns'
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-4',
+                    acrCustomerReviewText: '1,738 ratings'
+                },
+                error: null
+            }
+        }
+    },
+    {
+        url: 'https://www.amazon.com/gp/product/B08NM2GF2V?th=1&psc=1',
+        data: {
+            productTitle: {
+                value: 'HP Wireless Mouse X3000 G2 (28Y30AA, Black)',
+                error: null
+            },
+            ASIN: {
+                value: 'B08NM2GF2V',
+                error: null
+            },
+            basePrice: {
+                value: {
+                    symbol: '$',
+                    currency: 'USD',
+                    amount: 14.87
+                },
+                error: null
+            },
+            mainImage: {
+                value: 'https://m.media-amazon.com/images/I/61hOgYUbUyL._AC_SX355_.jpg',
+                error: null
+            },
+            sizeName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_size_name .selection"}\n  (Session info: headless chrome=94.0.4606.51)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            styleName: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"#variation_style_name .selection"}\n  (Session info: headless chrome=94.0.4606.51)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            productDescription: {
+                value: 'An ambidextrous travel-sized wireless mouse with long battery life. Improve the way you connect and communicate, work and play. Built with strict HP standards and guidelines, this world-class HP Wireless Mouse 220 effortlessly blends sleek, modern design with life-enhancing, advanced features.',
+                error: null
+            },
+            productOverview: {
+                value: {
+                    'Connectivity Technology': 'Wi-Fi, USB',
+                    Brand: 'HP',
+                    Series: 'X3000 G2',
+                    'Movement Detection Technology': 'Optical',
+                    Color: 'Black'
+                },
+                error: null
+            },
+            productAbout: {
+                value: [
+                    '',
+                    'Wireless convenience: No more wires with the reliable 2.4 GHz wireless connection',
+                    'Dependable power: Efficient battery life delivers up to 15 months of everyday use',
+                    'Contoured comfort: A contoured shape designed for all-day comfort in either hand',
+                    'Easy storage: The nano receiver conveniently stores inside the mouse for easy portability',
+                    '3-button navigation: 3 button solution and a built-in scroll wheel for optimized productivity'
+                ],
+                error: null
+            },
+            productDetails: {
+                value: null,
+                error: 'no such element: Unable to locate element: {"method":"css selector","selector":"*[id="detailBullets_feature_div"]"}\n  (Session info: headless chrome=94.0.4606.51)\n  (Driver info: chromedriver=93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}),platform=Mac OS X 11.5.2 x86_64)'
+            },
+            images: {
+                value: [
+                    {
+                        thumbnailSrc:
+                            'https://m.media-amazon.com/images/I/41I1MLNOfpL._AC_US40_.jpg',
+                        realImageSrc:
+                            'https://m.media-amazon.com/images/I/61hOgYUbUyL._AC_SX355_.jpg'
+                    }
+                ],
+                error: null
+            },
+            priceDetail: {
+                value: {
+                    priceblock_ourprice: '$14.87',
+                    ounce: 'Get Fast, Free Shipping with Amazon Prime & FREE Returns'
+                },
+                error: null
+            },
+            ratings: {
+                value: {
+                    rateStar: 'a-icon a-icon-star a-star-4-5',
+                    acrCustomerReviewText: '1,598 ratings'
+                },
+                error: null
+            }
+        }
     }
 ];
 

@@ -37,6 +37,8 @@ const QuestionStep = ({ questions, step, label, onChange }) => {
                     display="flex"
                     flexDirection="row"
                     alignItems="center"
+                    flexWrap="wrap"
+                    maxWidth="100%"
                     justifyContent="center">
                     {questions.map((_question, idx) => (
                         <Button
