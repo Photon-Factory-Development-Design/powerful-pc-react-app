@@ -6,7 +6,9 @@ const styles = () => ({
         }
     },
     accessoryContainer: {
-        maxWidth: '1500px'
+        maxWidth: '1500px',
+        paddingLeft: '0px !important',
+        paddingRight: '0px !important'
     }
 });
 
